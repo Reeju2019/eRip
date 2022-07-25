@@ -329,3 +329,35 @@ hr {
 .caro-3{
     margin-top: 5%;
 }
+
+
+
+
+/* Footer section  */
+.footer-container{
+    height: 50%;
+    background-color: #24252a;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    color: #cbcbcb;
+}
+.first-footer{
+    margin-left: 15%;
+}
+.first-footer i{
+    color: #cbcbcb; 
+    padding-left: 3%;
+    
+}
+.second-footer{
+    margin-left: 5%;
+}
+.second-footer li{
+    color: white;
+    list-style: none;
+    padding: .7% 0;
+    font-size: .9rem;
+}
