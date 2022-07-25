@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar-container section  */
+
+.fa-map-marker-alt {
+    margin-right: 9%;
+}
+
+.fa-regular {
+    margin-right: 9%;
+    margin-top: 8%;
+}
+
+.fa-solid {
+    margin-left: 2%;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: white;
+    border-radius: 0%;
+    width: 100%;
+    border: 1px solid #8080808a;
+}
+
+#search-border:focus {
+    outline: none !important;
+}
+
+.Navbar {
+    margin: 0 12%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(23 104 205);
+}
+
+.Logo {
+    /* border: 2px solid red; */
+    height: 8%;
+    width: 8%;
+}
+
+.modal-btn {
+    border: 1px solid #8080808a;
+    width: 30%;
+}
