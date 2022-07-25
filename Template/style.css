@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar-container section  */
+
+.fa-map-marker-alt {
+    margin-right: 9%;
+}
+
+.fa-regular {
+    margin-right: 9%;
+    margin-top: 8%;
+}
+
+.fa-solid {
+    margin-left: 2%;
+}
+
+.input-group {
+    width: 100%;
+}
+
+.input-group-text {
+    background-color: white;
+    border-radius: 0%;
+    width: 100%;
+    border: 1px solid #8080808a;
+}
+
+#search-border:focus {
+    outline: none !important;
+}
+
+.Navbar {
+    margin: 0 12%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(23 104 205);
+}
+
+.Logo {
+    /* border: 2px solid red; */
+    height: 8%;
+    width: 8%;
+}
+
+.modal-btn {
+    border: 1px solid #8080808a;
+    width: 30%;
+}
+
+/* carousel-container-1 section  */
+
+.carousel-container-1 {
+    background: url(./carousel-bg-1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-content {
+    margin: 0 12%;
+}
+
+.caro-inner {
+    display: flex;
+}
+
+.txt {
+    margin-top: 11%;
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Get Your Fix Section */
+.center-title {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.fix-text {
+    color: #a1a1a1;
+}
+
+.service {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.service li {
+    /* border: 2px solid red; */
+    background-color: #fafafa;
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 1% 0%;
+    width: 12%;
+
+}
+
+.service li:hover {
+    box-shadow: 0 0 20px 0.2rem rgb(0 123 255 / 25%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.middle-all {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.small-font {
+    font-size: .7rem;
+}
+
+.Fix-img {
+    height: 50px;
+    width: auto !important;
+    max-width: 100%;
+}
+
+.service-1 {
+    display: flex;
+    justify-content: center;
+    margin-left: 2%;
+}
+
+.service-1 li {
+    /* border: 2px solid red; */
+    background-color: #fafafa;
+    list-style: none;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding: 1% 0%;
+    width: 12%;
+}
+
+.service-1 li:hover {
+    box-shadow: 0 0 20px 0.2rem rgb(0 123 255 / 25%);
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.Fix-img1 {
+    height: 50px;
+    width: auto !important;
+    max-width: 100%;
+}
+
+.csoon {
+    background-color: red;
+    padding: 1% 2%;
+    color: white;
+    border-radius: 10%;
+}
+
+/* Offer Carousel section */
+.Offer-Carousel {
+    background-color: #a1a1a1;
+}
+
+.carousel-content-1 {
+    margin: 0 12%;
+}
+
+/* vaccinated Section */
+.vaccinated {
+    background: url(./bg-fleet.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+}
+
+.vaccinated-img {
+    width: 276px;
+}
+
+.caro-2 {
+    margin: 0 8%;
+}
+
+.text-vaccinated {
+    margin-top: 3%;
+}
+
+.vaccinated-para {
+    font-size: 1.4rem;
+}
+
+.vaccinated-heading {
+    font-size: 3rem;
+    color: #6dbc88;
+}
+
+/* How it works section */
+
+.side-gap {
+    margin: 0 10%;
+}
+
+.work-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 13%;
+}
+
+.first-work {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 3%;
+}
+
+.second-work {
+    margin-top: 4%;
+    margin-bottom: 4%;
+    padding-left: 3%;
+}
+
+.works-img-pick {
+    width: 13%;
+    height: 0%;
+    margin-right: 2%;
+}
+
+.works-img-service {
+    width: 13%;
+    height: 0%;
+    margin-right: 2%;
+}
+
+.work-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.work-para {
+    color: #646464;
+    font-size: 0.8125rem;
+}
+
+.middle-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+hr {
+    margin-bottom: 1rem;
+}
+
+.hr-mid-blue {
+    border: 2px solid #2c80ff;
+    width: 50%;
+    margin-top: 7%;
+    opacity: 1;
+}
+
+/* Device section */
+.greybg {
+    background-color: #f5f6fa;
+}
+
+.device-box {
+    width: 30%;
+}
+
+/* Why Us section */
+
+.row-1-img {
+    width: 10%;
+    height: 45%;
+    margin-right: 3%;
+}
+.row-2-img{
+    width: 13%;
+    height: 45%;
+    margin-right: 3%;
+}
+.group-img{
+    width: 15%;
+    height: 45%;
+    margin-right: 3%;
+}
+.row-3-img{
+    width: 10%;
+    height: 45%;
+    margin-right: 3%;
+}
+.side-gap-1{
+    margin: 0 18%;
+}
+.why-us-row{
+    margin-top: 5%;
+}
+
+/* Offers section */
+.offer-container{
+    background-color: #6746ee;
+    margin-top: 5%;
+    
+}
+.offer-2{
+    margin: 0 8%;
+}
+.offer-text{
+    font-size: 3rem;
+    color: white;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+.offer-img{
+    margin-top: 2%;
+}
+
+/* card carousel section */
+.caro-3{
+    margin-top: 5%;
+}
+
+
+
+
+/* Footer section  */
+.footer-container{
+    height: 50%;
+    background-color: #24252a;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text{
+    color: #cbcbcb;
+}
+.first-footer{
+    margin-left: 15%;
+}
+.first-footer i{
+    color: #cbcbcb; 
+    padding-left: 3%;
+    
+}
+.second-footer{
+    margin-left: 5%;
+}
+.second-footer li{
+    color: white;
+    list-style: none;
+    padding: .7% 0;
+    font-size: .9rem;
+}
