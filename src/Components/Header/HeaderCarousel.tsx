@@ -1,12 +1,8 @@
-import * as React from 'react';
 import { Carousel, Container, Image } from 'react-bootstrap';
 import './Header.css';
+import HeaderData from "../../Data/Header.mock.json"
 
-interface IHeaderCarouselProps {}
-
-const HeaderCarousel: React.FunctionComponent<IHeaderCarouselProps> = (
-    props
-) => {
+const HeaderCarousel: React.FunctionComponent = () => {
     return (
         <>
             <Container fluid className="carousel-container-1 mt-2">
@@ -21,8 +17,9 @@ const HeaderCarousel: React.FunctionComponent<IHeaderCarouselProps> = (
                                 <div className="d-flex flex-row">
                                     <div className="w-100 d-flex justify-content-center align-item-center align-self-center">
                                         <h2 className="txt col-8 justify-content-start text-white fs-2">
-                                            Repair & Maintainence <br />
-                                            Instant Doorstep Services On Demand
+                                            {HeaderData.header_caro_1_1}
+                                            <br />
+                                            {HeaderData.header_caro_1_2}
                                         </h2>
                                     </div>
                                     <Image
@@ -36,13 +33,13 @@ const HeaderCarousel: React.FunctionComponent<IHeaderCarouselProps> = (
                                 <div className="d-flex flex-row">
                                     <div className="w-100 d-flex justify-content-center align-item-center align-self-center">
                                         <h2 className="txt col-8 justify-content-start text-white fs-2">
-                                            Top Trained Experts <br/> at Your Doorstep
-                                    Right Away!
+                                            {HeaderData.header_caro_2_1} <br />{' '}
+                                            {HeaderData.header_caro_2_2}
                                         </h2>
                                     </div>
                                     <Image
                                         className="d-flex caro-img justify-content-center"
-                                        src="/static/image/carousel-img-1.png"
+                                        src="/static/image/carousel-img-2.png"
                                         alt="First slide"
                                     />
                                 </div>
@@ -51,12 +48,13 @@ const HeaderCarousel: React.FunctionComponent<IHeaderCarouselProps> = (
                                 <div className="d-flex flex-row">
                                     <div className="w-100 d-flex justify-content-center align-item-center align-self-center">
                                         <h2 className="txt col-8 justify-content-start text-white fs-2">
-                                            Easy Fix <br/> Superior Service Quality Parts
+                                            {HeaderData.header_caro_3_1} <br />{' '}
+                                            {HeaderData.header_caro_3_2}
                                         </h2>
                                     </div>
                                     <Image
                                         className="d-flex caro-img justify-content-center"
-                                        src="/static/image/carousel-img-1.png"
+                                        src="/static/image/carousel-img-3.png"
                                         alt="First slide"
                                     />
                                 </div>

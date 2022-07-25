@@ -1,14 +1,13 @@
-import * as React from 'react';
 import Header from '../Header/Header';
+import HeaderCarousel from '../Header/HeaderCarousel';
 
-interface IHomeProps {
-}
-const Home: React.FunctionComponent<IHomeProps> = (props) => {
-  return (
-    <>  
-      <Header/>
-    </>
-  );
+const Home: React.FunctionComponent = () => {
+    return (
+        <>
+            <Header />
+            <HeaderCarousel />
+        </>
+    );
 };
 
 export default Home;
