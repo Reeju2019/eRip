@@ -3,7 +3,6 @@ import Header from '../Header/Header';
 
 interface IHomeProps {
 }
-
 const Home: React.FunctionComponent<IHomeProps> = (props) => {
   return (
     <>  
