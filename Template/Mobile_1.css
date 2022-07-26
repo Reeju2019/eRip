@@ -134,9 +134,10 @@
     display: flex;
     position: relative;
     left: 3.5%;
-    
+
 }
-.last-row{
+
+.last-row {
     margin-left: 11%;
 }
 
@@ -147,39 +148,41 @@
     text-align: center;
 }
 
-.brand-width:hover{
+.brand-width:hover {
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     transform: scale(1) translateY(-10px);
     cursor: pointer;
 }
-.brand-width-last:hover{
+
+.brand-width-last:hover {
     box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     transform: scale(1) translateY(-10px);
     cursor: pointer;
 }
-.poco{
-    margin-left: 10%;
+
+.poco {
+    margin-left: 10.5%;
 }
 
 /* Offer section  */
-.offer{
+.offer {
     margin-top: 7%;
     display: flex;
     justify-content: center;
 }
 
-.offer-img{
+.offer-img {
     padding: 1%;
 }
 
 /* vaccinated Section */
-.vaccinated {
+.vaccinated-bg {
     background: url(./Mobile_Services/images/bg-fleet.png);
     background-size: cover;
     background-position: center;
-    margin-top: 5%;
+
 }
 
 .vaccinated-img {
@@ -205,19 +208,61 @@
 }
 
 /* How it works section */
-.first-row{
+.work-row {
+    margin: 3% 11%;
+}
+
+.first-row {
     display: flex;
 }
-.work1{
+
+.work1 {
     width: 13%;
-    height: 30%;
     margin-right: 2%;
+    padding-bottom: 5%;
 }
-.second-row{
+
+hr {
+    margin-bottom: 1rem;
+}
+
+.hr-mid-blue {
+    border: 2px solid #2c80ff;
+    width: 100%;
+    margin-left: 49%;
+    margin-top: 7%;
+    opacity: 1;
+}
+
+.work2 {
+    width: 10%;
+    margin-left: 20%;
+    margin-right: 2%;
+    padding-bottom: 2%;
+}
+
+.works-heading {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.works-para {
+    font-size: .8rem;
+}
+
+.second-row {
     display: flex;
 }
-.work2{
-    width: 13%;
-    /* height: 0%; */
+
+.work3 {
+    width: 12%;
     margin-right: 2%;
+    padding-bottom: 7%;
+}
+
+.work4 {
+    width: 13%;
+    margin-left: 18%;
+    margin-right: 2%;
+    padding-bottom: 5%;
 }
