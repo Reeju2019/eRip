@@ -36,6 +36,8 @@
 
 .Navbar {
     margin: 0 12%;
+    margin-top: .5%;
+    display: flex;
 }
 
 .nav-link {
@@ -46,13 +48,176 @@
     color: rgb(23 104 205);
 }
 
+.nav-option {
+    margin-left: 4%;
+}
+
 .Logo {
     /* border: 2px solid red; */
-    height: 8%;
+    height: 9%;
     width: 8%;
+    margin-top: .7%;
+}
+
+.modal-navbar {
+    margin-left: 2%;
 }
 
 .modal-btn {
     border: 1px solid #8080808a;
     width: 30%;
+}
+
+/* Repair-Service section */
+
+.Repair-container {
+    background-image: url(./Mobile_Services/images/bg-brand.png);
+    background-repeat: no-repeat;
+
+}
+
+.Repair-heading {
+    margin-top: 9%;
+    margin-left: 23%;
+    color: white;
+    font-size: 2.6rem;
+}
+
+.Repair-img {
+    width: 20%;
+    margin-left: 12%;
+}
+
+/* search-box section */
+.input-width {
+    width: 40%;
+
+}
+
+.input-position {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -27px;
+}
+
+/* choose a brand section */
+.bg-grey {
+    background-color: #f5f6fa;
+}
+
+.center-title {
+    display: flex;
+    justify-content: center;
+}
+
+.middle-content {
+    display: flex;
+    justify-content: center;
+
+}
+
+.brand-width {
+    background-color: white;
+    margin-left: 2%;
+    width: 8%;
+    text-align: center;
+}
+
+.brand-img {
+    text-align: center;
+    width: 100%;
+    padding: 10%;
+}
+
+.last-row {
+    display: flex;
+    position: relative;
+    left: 3.5%;
+    
+}
+.last-row{
+    margin-left: 11%;
+}
+
+.brand-width-last {
+    background-color: white;
+    margin-left: 2.5%;
+    width: 11%;
+    text-align: center;
+}
+
+.brand-width:hover{
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    transform: scale(1) translateY(-10px);
+    cursor: pointer;
+}
+.brand-width-last:hover{
+    box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    transform: scale(1) translateY(-10px);
+    cursor: pointer;
+}
+.poco{
+    margin-left: 10%;
+}
+
+/* Offer section  */
+.offer{
+    margin-top: 7%;
+    display: flex;
+    justify-content: center;
+}
+
+.offer-img{
+    padding: 1%;
+}
+
+/* vaccinated Section */
+.vaccinated {
+    background: url(./Mobile_Services/images/bg-fleet.png);
+    background-size: cover;
+    background-position: center;
+    margin-top: 5%;
+}
+
+.vaccinated-img {
+    width: 276px;
+    margin-left: 16%;
+}
+
+
+
+.text-vaccinated {
+    margin-top: 3%;
+}
+
+.vaccinated-para {
+    font-size: 1.4rem;
+    margin-left: 21%;
+}
+
+.vaccinated-heading {
+    font-size: 3rem;
+    color: #6dbc88;
+    margin-left: 21%;
+}
+
+/* How it works section */
+.first-row{
+    display: flex;
+}
+.work1{
+    width: 13%;
+    height: 30%;
+    margin-right: 2%;
+}
+.second-row{
+    display: flex;
+}
+.work2{
+    width: 13%;
+    /* height: 0%; */
+    margin-right: 2%;
 }
