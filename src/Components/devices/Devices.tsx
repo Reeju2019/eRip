@@ -13,7 +13,7 @@ const Devices = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 4,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
     prevArrow: <BsArrowLeftShort />,
     nextArrow: <BsArrowRightShort />,
     initialSlide: 0,
