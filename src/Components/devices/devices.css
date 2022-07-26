@@ -1,0 +1,46 @@
+.slick-arrow{
+    color: rgb(13, 13, 202) !important;
+    background-color: rgb(255, 255, 255) !important;
+    border-radius: 50% !important;
+    height: 35px;
+    width: 35px;
+    padding: 5px;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+    position: absolute;
+    top: 40%;
+}
+
+#device_section{
+    background-color: #f5f6fa;
+    padding: 50px 50px 60px;
+}
+
+.card{
+    border: none !important;
+    max-width: 85% !important;
+    
+   
+}
+.card_image{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#banner{
+    position: absolute;
+    margin-top: -40px;
+    color: #f5f6fa;
+    background-color: red;
+    padding: 5px;
+    align-items: center;
+    margin-left: 14%;
+
+}
+
+.card-body{
+    background-color: #f5f6fa !important;
+}
+
+.slick-slider{
+    margin-top: 50px;
+}

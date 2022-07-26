@@ -1,10 +1,12 @@
 import './App.css';
-import Router from './Components/Router/Router';
+import Home from './components/home/Home';
+import Router from './components/Router/Router';
 
 function App() {
   return (
     <div className="App">
       <Router/>
+      {/* <Home/> */}
     </div>
   );
 }
