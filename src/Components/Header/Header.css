@@ -1,65 +1,70 @@
-
 .fa-map-marker-alt {
-    margin-right: 9%;
+  margin-right: 9%;
 }
 
 .fa-regular {
-    margin-right: 9%;
-    margin-top: 8%;
+  margin-right: 9%;
+  margin-top: 8%;
 }
 
 .fa-solid {
-    margin-left: 2%;
+  margin-left: 2%;
 }
 
 .input-group {
-    width: 100%;
+  width: 100%;
 }
 .input-group-text {
-    background-color: white;
-    border-radius: 0%;
-    width: 100%;
-    border: 1px solid #8080808a;
+  background-color: white;
+  border-radius: 0%;
+  width: 100%;
+  border: 1px solid #8080808a;
 }
 
 #search-border:focus {
-    outline: none !important;
+  outline: none !important;
 }
 
 .Navbar {
-    margin: 0 12%;
+  margin: 0 12%;
 }
 
 .nav-link {
-    color: black;
+  color: black;
 }
 
 .nav-link:hover {
-    color: rgb(23 104 205);
+  color: rgb(23 104 205);
 }
 
 .Logo {
-    /* border: 2px solid red; */
-    height: 30px;
-    width: 80px!important;
+  /* border: 2px solid red; */
+  height: 30px;
+  width: 80px !important;
 }
 
 .modal-btn {
-    border: 1px solid #8080808a!important;
-    width: 40%;
+  border: 1px solid #8080808a !important;
+  width: 40%;
 }
-.search_btn{
-  border: 1px solid #8080808a!important;
-  border-left: 0!important;
+.search_btn {
+  border: 1px solid #8080808a !important;
+  /* border-left: 0!important; */
 }
 
-.caro-img{
+.btn-close {
+  width: 5px !important;
+}
+.caro-img {
   width: 25vw;
-  
 }
 
+.gps {
+  cursor: pointer;
+  flex-direction: row;
+}
 .carousel-container-1 {
-    background: url(../../../public/static/image/carousel-bg-1.png);
-    background-size: cover;
-    background-position: center;
+  background: url(../../../public/static/image/carousel-bg-1.png);
+  background-size: cover;
+  background-position: center;
 }

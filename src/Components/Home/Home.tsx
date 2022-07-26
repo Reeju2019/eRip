@@ -1,13 +1,13 @@
-import Header from '../Header/Header';
-import HeaderCarousel from '../Header/HeaderCarousel';
+import Header from '../Header/Header'
+import HeaderCarousel from '../Header/HeaderCarousel'
 
 const Home: React.FunctionComponent = () => {
-    return (
-        <>
-            <Header />
-            <HeaderCarousel />
-        </>
-    );
-};
+  return (
+    <>
+      <Header />
+      <HeaderCarousel />
+    </>
+  )
+}
 
-export default Home;
+export default Home
