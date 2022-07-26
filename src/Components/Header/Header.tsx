@@ -84,9 +84,9 @@ const Header: React.FunctionComponent = () => {
               </Button>
               <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true}>
                 <Modal.Header className='d-flex m-1'>
-                  <div className='col-5'>Current Location</div>
+                  <div className='col-5'>{HeaderConstant.location}</div>
                   <div className='col-7 d-flex justify-content-end gps' onClick={getLocation}>
-                    Detect using GPS
+                    {HeaderConstant.gps}
                     <i className='fa-solid fa-angle-right align-self-center' />
                   </div>
                 </Modal.Header>
