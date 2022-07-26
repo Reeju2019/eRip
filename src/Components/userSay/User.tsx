@@ -1,14 +1,12 @@
-import * as React from "react";
+import React from "react";
+import { Container } from "react-bootstrap";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./devices.css";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
-import { Data } from "./data";
-import { Container } from "react-bootstrap";
-import { Banner } from "./Banner";
+import { userData } from "./userData";
 
-const Devices = () => {
+const User = () => {
   const settings = {
     dots: true,
     infinite: true,
@@ -45,33 +43,50 @@ const Devices = () => {
       },
     ],
   };
-
   return (
     <div id="device_section">
       <Container>
         <div>
-          <h4 style={{ color: "#333946", fontWeight: "bold" }}> Devices </h4>
-          <p style={{ color: "#a1a1a1" }}>
-            Servicing, Hardware & Software Repair
-          </p>
+          <h4 style={{ color: "#333946", fontWeight: "bold" }}>
+            {" "}
+            What Our Users Say{" "}
+          </h4>
           <Slider {...settings}>
-            {Data.map((e: any) => {
+            {userData.map((e: any) => {
               return (
                 <div className="card">
-                  <div className="img_card">
+                  <div className="img_card" style={{padding: "20px" }}>
                     <img
-                      src={e.device_image}
+                      style={{ height: "15px", width: "20px"}}
+                      src={e.image}
                       className="card-img-top"
                       alt="..."
                     />
-                    {e.is_comingsoon === 1 ? (
-                      <Banner/>
-                    ) : (
-                      ""
-                    )}
-                  </div>
-                  <div className="card-body">
-                    <p className="card-text">{e.device_name}</p>
+
+                    <p
+                      style={{
+                        fontSize: "13px",
+                        textAlign: "left",
+                        paddingBottom: "40px",
+                        paddingTop:"20px"
+                      }}
+                    >
+                      {e.text}
+                    </p>
+
+                    <div className="d-flex">
+                      <img
+                        src={e.user}
+                        alt=""
+                        style={{ height: "20px", width: "20px" }}
+                      />
+                      <div>
+                        <p className="card-text">{e.username}</p>
+                        <p>
+                          <i>-{e.company}</i>
+                        </p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               );
@@ -83,4 +98,4 @@ const Devices = () => {
   );
 };
 
-export default Devices;
+export default User;
