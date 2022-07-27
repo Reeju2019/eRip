@@ -1,0 +1,8 @@
+.user_card {
+    border: none !important;
+    max-width: 90% !important;
+    margin-bottom: 30px;
+  }
+.user_text{
+    margin-bottom: 0px !important;
+}

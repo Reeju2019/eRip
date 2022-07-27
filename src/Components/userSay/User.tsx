@@ -5,6 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import { userData } from "./userData";
+import "./user.css"
 
 const User = () => {
   const settings = {
@@ -54,7 +55,7 @@ const User = () => {
           <Slider {...settings}>
             {userData.map((e: any) => {
               return (
-                <div className="card">
+                <div className="card user_card">
                   <div className="img_card" style={{padding: "20px" }}>
                     <img
                       style={{ height: "15px", width: "20px"}}
@@ -78,11 +79,11 @@ const User = () => {
                       <img
                         src={e.user}
                         alt=""
-                        style={{ height: "20px", width: "20px" }}
+                        style={{ height: "50px", width: "50px", borderRadius:"50%", marginRight:"15px"}}
                       />
-                      <div>
-                        <p className="card-text">{e.username}</p>
-                        <p>
+                      <div style={{textAlign:"left"}}>
+                        <p className="card-text user_text" style={{fontSize:"13px", color:"#0e62cb", fontWeight:"600"}}>{e.username}</p>
+                        <p style={{fontSize:"13px", color:"#646464"}}>
                           <i>-{e.company}</i>
                         </p>
                       </div>

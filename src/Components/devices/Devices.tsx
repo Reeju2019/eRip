@@ -10,7 +10,7 @@ import { Banner } from "./Banner";
 
 const Devices = () => {
   const settings = {
-    dots: true,
+    // dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 4,
@@ -57,7 +57,7 @@ const Devices = () => {
           <Slider {...settings}>
             {Data.map((e: any) => {
               return (
-                <div className="card">
+                <div className="card device_card">
                   <div className="img_card">
                     <img
                       src={e.device_image}
@@ -70,8 +70,8 @@ const Devices = () => {
                       ""
                     )}
                   </div>
-                  <div className="card-body">
-                    <p className="card-text">{e.device_name}</p>
+                  <div className="card-body device_card_body">
+                    <p className="card-text" style={{fontSize:"20px", fontWeight:"400", paddingBottom:"17px", textAlign:"center" }}>{e.device_name}</p>
                   </div>
                 </div>
               );
