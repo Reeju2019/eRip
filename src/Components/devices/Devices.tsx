@@ -47,7 +47,7 @@ const Devices = () => {
   };
 
   return (
-    <div id="device_section">
+    <div className="device_section">
       <Container>
         <div>
           <h4 style={{ color: "#333946", fontWeight: "bold" }}> Devices </h4>

@@ -45,7 +45,7 @@ const User = () => {
     ],
   };
   return (
-    <div id="device_section">
+    <div className="user_section">
       <Container>
         <div>
           <h4 style={{ color: "#333946", fontWeight: "bold" }}>

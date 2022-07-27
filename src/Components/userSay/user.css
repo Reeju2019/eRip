@@ -6,3 +6,18 @@
 .user_text{
     margin-bottom: 0px !important;
 }
+.user_section .slick-arrow {
+  color: rgb(13, 13, 202) !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50% !important;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  position: absolute;
+  top: 45%;
+}
+.user_section {
+  background-color: #f5f6fa;
+  padding: 50px 50px 60px;
+}
