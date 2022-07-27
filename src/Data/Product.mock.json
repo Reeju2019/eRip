@@ -1,0 +1,22 @@
+{
+  "mobile": {
+    "brand": [
+      {
+        "brand_name": "apple",
+        "model": [
+          {
+            "model_name": "iPhone 13 Pro Max",
+            "image": "https://erip.in/erip_api/upload/img/20220112104704.jpg"
+          },
+          {
+            "model_name": "iPhone 13 Pro",
+            "image": "https://erip.in/erip_api/upload/img/20220112111331.jpg"
+          },
+          { "model_name": "iPhone 13 Mini" }
+        ]
+      },
+      { "brand_name": "onePlus" },
+      { "brand_name": "samsung" }
+    ]
+  }
+}

@@ -1,9 +1,9 @@
 import { Button, Container, Image, Modal, Row, InputGroup, Form, Nav } from 'react-bootstrap'
 import { useState } from 'react'
 import './Header.css'
-import HeaderConstant from '../../Data/HeaderConstant.mock.json'
+import HeaderConstant from '../../../Data/HeaderConstant.mock.json'
 import Geocode from 'react-geocode'
-import Key from '../../key.json'
+import Key from '../../../key.json'
 
 const Header: React.FunctionComponent = () => {
   const [city, setCity] = useState('Bengaluru')
@@ -60,7 +60,7 @@ const Header: React.FunctionComponent = () => {
   const handleShow = () => setShow(true)
   return (
     <>
-      <Container className='mt-2'>
+      <Container className='mt-2 header-comp'>
         <Container fluid>
           <Row className='Navbar'>
             <Image
