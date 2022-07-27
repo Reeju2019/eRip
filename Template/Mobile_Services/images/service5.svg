@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18.28" height="31.034" viewBox="0 0 18.28 31.034">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_885" data-name="Path 885" d="M40.28,30.176H58.56V54.92H40.28Z" transform="translate(-21.332 -15.776)" fill="#bedcfe"/>
+    </clipPath>
+  </defs>
+  <g id="Group_2101" data-name="Group 2101" transform="translate(-19 -12)">
+    <g id="Group_2097" data-name="Group 2097" transform="translate(-0.107 -0.798)">
+      <g id="Group_2096" data-name="Group 2096" transform="translate(-1393.893 -484.356)">
+        <g id="smartphone_2_" data-name="smartphone (2)" transform="translate(1413 497.155)">
+          <path id="Path_886" data-name="Path 886" d="M340.328,0H338.5l-.075,31.034h1.828a1.833,1.833,0,0,0,1.828-1.828l.075-27.378A1.833,1.833,0,0,0,340.328,0Z" transform="translate(-323.876)" fill="#0e62cb"/>
+          <path id="Path_887" data-name="Path 887" d="M113.124,0h-12.8A1.857,1.857,0,0,0,98.5,1.873V29.161a1.857,1.857,0,0,0,1.828,1.873h12.8a1.857,1.857,0,0,0,1.828-1.873V1.873A1.857,1.857,0,0,0,113.124,0Z" transform="translate(-98.5)" fill="#2d8bfc"/>
+          <circle id="Ellipse_138" data-name="Ellipse 138" cx="2.671" cy="2.671" r="2.671" transform="translate(6.469 2.054)" fill="#82bbfd"/>
+          <circle id="Ellipse_139" data-name="Ellipse 139" cx="1.068" cy="1.068" r="1.068" transform="translate(8.072 3.657)" fill="#0e62cb"/>
+          <path id="Path_888" data-name="Path 888" d="M1.371,0A1.371,1.371,0,1,1,0,1.371,1.371,1.371,0,0,1,1.371,0Z" transform="translate(7.769 9.14)" fill="#fed953"/>
+        </g>
+      </g>
+      <g id="Group_68" data-name="Group 68" transform="translate(0.159 0.729)" clip-path="url(#clip-path)">
+        <path id="Path_884" data-name="Path 884" d="M133.192,102.2l-4.331-2.023-.848-2.539a.585.585,0,0,0-.406-.38l-2.964-.779,1-2.414,5.3-1.107a.585.585,0,0,0,.411-.327l1.686-3.648a.584.584,0,0,0,.054-.245V84.05h-1.17v4.558l-1.508,3.264-5.313,1.11a.585.585,0,0,0-.421.348L122.3,99.079l-3.455.863-1.861-2.33a.586.586,0,0,0-.506-.218l-3.212.27-1.473-4.431a.585.585,0,0,0-1.11.369L112.3,98.47a.585.585,0,0,0,.6.4l3.359-.283,1.332,1.667-1.121.28a.585.585,0,0,0-.414.386l-1.036,3.181-3.345,1.223a.585.585,0,0,0-.376.452l-.642,3.822a.587.587,0,0,0-.007.1h1.177l.57-3.39,3.293-1.2a.584.584,0,0,0,.355-.368l1.024-3.144,5.8-1.447a.585.585,0,0,0,.4-.343l.925-2.231,2.813.739.827,2.478a.585.585,0,0,0,.307.345l4.559,2.129a.585.585,0,0,0,.495-1.06Z" transform="translate(-94.71 -70.328)" fill="#bedcfe"/>
+      </g>
+    </g>
+  </g>
+</svg>
