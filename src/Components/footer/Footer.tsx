@@ -1,14 +1,13 @@
 import React from "react";
 import "./footer.css";
 import { footerData } from "./footerData";
-import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 
 
 const Footer = () => {
   return (
     <>
-      <section className="footer" style={{ textAlign: "left" }}>
+      <section className="footer">
         {footerData.map((e: any) => {
           return (
             <div
@@ -33,15 +32,6 @@ const Footer = () => {
                 <i className="youtube fab fa-youtube"></i>
                 <i className="Linkdin fab fa-linkdin"></i>
                 <i className="printerest fab fa-pinterest-p"></i> 
-                {/* <div className="d-flex">
-                  <Link to={""}>
-                    <img
-                      style={{ height: "20px", width: "20px" }}
-                      src={e.icon}
-                      alt=""
-                    />
-                  </Link>
-                </div> */}
               </div>
 
               <div className="col-6">

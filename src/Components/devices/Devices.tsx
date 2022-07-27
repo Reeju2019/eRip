@@ -50,10 +50,8 @@ const Devices = () => {
     <div className="device_section">
       <Container>
         <div>
-          <h4 style={{ color: "#333946", fontWeight: "bold" }}> Devices </h4>
-          <p style={{ color: "#a1a1a1" }}>
-            Servicing, Hardware & Software Repair
-          </p>
+          <h4> Devices </h4>
+          <p>Servicing, Hardware & Software Repair</p>
           <Slider {...settings}>
             {Data.map((e: any) => {
               return (
@@ -64,14 +62,10 @@ const Devices = () => {
                       className="card-img-top"
                       alt="..."
                     />
-                    {e.is_comingsoon === 1 ? (
-                      <Banner/>
-                    ) : (
-                      ""
-                    )}
+                    {e.is_comingsoon === 1 ? <Banner /> : ""}
                   </div>
                   <div className="card-body device_card_body">
-                    <p className="card-text" style={{fontSize:"20px", fontWeight:"400", paddingBottom:"17px", textAlign:"center" }}>{e.device_name}</p>
+                    <p className="card-text device_text">{e.device_name}</p>
                   </div>
                 </div>
               );

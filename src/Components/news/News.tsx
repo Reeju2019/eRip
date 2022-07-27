@@ -2,10 +2,10 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import { newsData } from "./newsData";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
+import "./news.css";
 
 const News = () => {
   const settings = {
@@ -14,8 +14,6 @@ const News = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    // prevArrow: <BsArrowLeftShort />,
-    // nextArrow: <BsArrowRightShort />,
     responsive: [
       {
         breakpoint: 1024,
@@ -45,12 +43,10 @@ const News = () => {
   };
   return (
     <>
-      <section className="news-update" style={{paddingTop:"70px", paddingBottom:"80px"}}>
+      <section className="news-update">
         <Container>
           <div>
-            <h4 style={{ color: "#333946", fontWeight: "bold"}}>
-              News & Updates
-            </h4>
+            <h4 className="news_heading">News & Updates</h4>
             <Slider {...settings}>
               {newsData.map((e: any) => {
                 return (
@@ -62,32 +58,9 @@ const News = () => {
                         alt="..."
                       />
                     </div>
-                    <div
-                      className="card-body"
-                      style={{
-                        paddingLeft: 0,
-                        paddingRight: 0,
-                        textAlign: "left",
-                        fontWeight: "600",
-                      }}
-                    >
-                      <h4
-                        className="card-title"
-                        style={{
-                          fontSize: "16px",
-                          paddingBottom: "17px",
-                        }}
-                      >
-                        {e.des}
-                      </h4>
-                      <Link
-                        to={""}
-                        style={{
-                          textDecoration: "none",
-                          color: "#0056b3",
-                          fontSize: "13px",
-                        }}
-                      >
+                    <div className="card-body news_card_body">
+                      <h4 className="card-title news_title">{e.des}</h4>
+                      <Link to={""} className="news_more">
                         Know More
                       </Link>
                     </div>

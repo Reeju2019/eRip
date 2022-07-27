@@ -7,7 +7,7 @@ const WhyUs = () => {
   return (
     <div>
       <Container>
-        <section className="why-us" style={{padding:"50px"}}>
+        <section className="why-us">
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
@@ -23,10 +23,7 @@ const WhyUs = () => {
               </div>
             </div>
 
-            <div
-              className="row side-gap-1 why-us-row"
-              style={{ textAlign: "left" }}
-            >
+            <div className="row side-gap-1 why-us-row">
               {WhyusData.map((e: any) => {
                 return (
                   <div className="whyus-work d-flex col-6 col-sm-6 g-0">

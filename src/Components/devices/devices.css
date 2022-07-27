@@ -14,6 +14,13 @@
   background-color: #f5f6fa;
   padding: 50px 50px 60px;
 }
+.device_section h4{
+  color: #333946;
+  font-weight: bold;
+}
+.device_section p{
+  color: #a1a1a1;
+}
 
 .device_card {
   border: none !important;
@@ -40,4 +47,11 @@
 
 .slick-slider {
   margin-top: 50px;
+}
+.device_text{
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 17px;
+  text-align: center;
+  color: #212529 !important;
 }

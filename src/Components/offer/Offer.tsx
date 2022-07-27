@@ -5,7 +5,7 @@ import img from "./img-offers.png"
 const Offer = () => {
   return (
     <div>
-      <section className="offers" style={{ textAlign: "left" }}>
+      <section className="offers">
         <div className="container-fluid offer-container">
           <div className="row offer-2">
             <div className=" col-7 col-sm-8">

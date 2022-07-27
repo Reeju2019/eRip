@@ -1,31 +1,32 @@
-
 .row-1-img {
-    width: 10%;
-    height: 45%;
-    margin-right: 3%;
+  width: 10%;
+  height: 45%;
+  margin-right: 3%;
 }
 
-.side-gap-1{
-    margin: 0 18%;
+.side-gap-1 {
+  margin: 0 18%;
 }
-.why-us-row{
-    margin-top: 5%;
-    padding-top: 2rem;
-
+.why-us-row {
+  margin-top: 5%;
+  padding-top: 2rem;
+  text-align: left;
 }
-.work-para{
-    font-size: 13px;
+.why-us{
+    padding: 50px;
 }
-.work-heading{
-    font-size: 18px;
-    font-weight: 600;
+.work-para {
+  font-size: 13px;
 }
-.whyus-work{
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
-    margin-bottom: 3rem !important;
+.work-heading {
+  font-size: 18px;
+  font-weight: 600;
 }
-.center-title{
-    margin: 2rem;
+.whyus-work {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  margin-bottom: 3rem !important;
 }
-
+.center-title {
+  margin: 2rem;
+}
