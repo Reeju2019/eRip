@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import Home from '../home/Home';
-import Header from '../home/Header/Header';
+import Home from '../Home/Home';
+import Header from '../Home/Header/Header';
 
 const Router: React.FunctionComponent = () => {
   return (

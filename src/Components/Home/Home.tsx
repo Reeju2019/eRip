@@ -1,7 +1,7 @@
 import * as React from "react";
 import Devices from "../devices/Devices";
 import Footer from "../footer/Footer";
-import Header from "../home/Header/Header";
+import Header from "./Header/Header";
 import News from "../news/News";
 import Offer from "../offer/Offer";
 import User from "../userSay/User";

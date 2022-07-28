@@ -113,8 +113,8 @@ const Header: React.FunctionComponent = () => {
               </InputGroup>
             </div>
             <Nav className='modal-search d-flex col-4 justify-content-end align-self-center'>
-              <Nav.Link href='home' className='text-muted fw-bold'>
-                {HeaderConstant.home}
+              <Nav.Link href='Home' className='text-muted fw-bold'>
+                {HeaderConstant.Home}
               </Nav.Link>
               <Nav.Link href='contact' className='text-muted fw-bold'>
                 {HeaderConstant.contact_us}
