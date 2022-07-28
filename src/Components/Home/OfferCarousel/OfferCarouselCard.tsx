@@ -1,10 +1,14 @@
 import { Image } from 'react-bootstrap'
 
-const OfferCarouselCard: React.FunctionComponent = () => {
+interface Item {
+  data: string
+}
+
+const OfferCarouselCard: React.FunctionComponent<Item> = (data) => {
   return (
     <>
-      <div className='carousel-item'>
-        <Image src='static/Offer_carousel/Offer9.png' className='d-block h-100 w-auto' alt='...' />
+      <div>
+        <Image src={data.data} className='d-block h-100 w-auto' alt={data.data} />
       </div>
     </>
   )

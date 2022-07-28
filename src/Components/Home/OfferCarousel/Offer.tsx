@@ -6,6 +6,8 @@ import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
 import { Container, Image, Row } from 'react-bootstrap'
 import OfferData from '../../../Data/OfferData.mock.json'
 import WeCare from '../WeCare/WeCare'
+import OfferCarouselCard from './OfferCarouselCard'
+import { OfferCarouselData } from '../../../Data/OfferCarouselCardData'
 
 const Offer: React.FunctionComponent = () => {
   const settings = {
@@ -50,74 +52,13 @@ const Offer: React.FunctionComponent = () => {
         <div className='container'>
           <div className='row carousel-content-1'>
             <Slider {...settings}>
-              <div className='carousel-item active justify-content-center'>
-                <Image
-                  src='static/Offer_carousel/Offer1.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer2.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer3.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer4.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer5.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer6.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer7.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer8.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer9.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
+              {OfferCarouselData.map((item, index) => {
+                return (
+                  <div key={index} className='carousel-item'>
+                    <OfferCarouselCard data={item.image} />
+                  </div>
+                )
+              })}
             </Slider>
           </div>
         </div>
