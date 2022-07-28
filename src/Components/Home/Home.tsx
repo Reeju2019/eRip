@@ -1,6 +1,7 @@
 import * as React from "react";
 import Devices from "../devices/Devices";
 import Footer from "../footer/Footer";
+import Header from "../header/Header";
 import News from "../news/News";
 import Offer from "../offer/Offer";
 import User from "../userSay/User";
@@ -10,6 +11,7 @@ import WhyUs from "../whyUs/WhyUs";
 const Home = () => {
   return (
     <>
+    <Header/>
       <Devices />
       <WhyUs />
       <Offer />
