@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="18.105" height="31.082" viewBox="0 0 18.105 31.082">
+  <g id="Group_2094" data-name="Group 2094" transform="translate(-19 -12)">
+    <g id="Group_2089" data-name="Group 2089" transform="translate(5 2)">
+      <g id="Component_1_12" data-name="Component 1 – 12" transform="translate(14 10)">
+        <g id="_040-smartphone" data-name="040-smartphone">
+          <g id="Component_33_1" data-name="Component 33 – 1">
+            <rect id="Rectangle_598" data-name="Rectangle 598" width="18.105" height="31.082" rx="2" fill="#2d8bfc"/>
+          </g>
+          <g id="Component_32_1" data-name="Component 32 – 1">
+            <rect id="Rectangle_598-2" data-name="Rectangle 598" width="18.105" height="31.082" rx="2" fill="#2d8bfc"/>
+          </g>
+          <path id="Path_689" data-name="Path 689" d="M40.28,30.176h18.1V54.682H40.28Z" transform="translate(-40.28 -27.776)" fill="#bedcfe"/>
+          <path id="Path_690" data-name="Path 690" d="M62.434,96.125a.984.984,0,1,0,.966.983A.975.975,0,0,0,62.434,96.125Z" transform="translate(-53.381 -68.102)" fill="#fed953"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_2093" data-name="Group 2093" transform="translate(1)">
+      <path id="Path" d="M16.1,26.51c-3.606-.077-10.164-.835-13.489-2.232A1,1,0,0,1,2,23.359V1A1,1,0,0,1,3.358.066C6.432,1.282,12.7,1.937,16,2Z" transform="translate(17.451 12.412)" fill="#82bbfd" fill-rule="evenodd" opacity="0.94"/>
+      <g id="Group_2090" data-name="Group 2090" transform="translate(14.459 4.458)">
+        <path id="Path-2" data-name="Path" d="M8.308,12.238a.307.307,0,0,1-.217-.525l.615-.615a.307.307,0,0,1,.435.435l-.615.615a.307.307,0,0,1-.217.09Z" fill="#fff" fill-rule="evenodd"/>
+        <path id="Path-3" data-name="Path" d="M8.308,14.083a.307.307,0,0,1-.217-.525L10.55,11.1a.307.307,0,0,1,.435.435L8.525,13.993a.307.307,0,0,1-.217.09Z" fill="#fff" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+</svg>

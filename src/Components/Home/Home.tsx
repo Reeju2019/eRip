@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import * as React from "react";
 import Devices from "../devices/Devices";
 import Footer from "../footer/Footer";
@@ -19,8 +20,20 @@ const Home = () => {
       <Vaccinatated />
       <News />
       <Footer />
-    </>
-  );
-};
+=======
+import Getfix from './Get-fix/Get-fix'
+import HeaderCarousel from './Header/HeaderCarousel'
+import Offer from './OfferCarousel/Offer'
 
-export default Home;
+const Home: React.FunctionComponent = () => {
+  return (
+    <>
+      <HeaderCarousel />
+      <Getfix />
+      <Offer />
+>>>>>>> 66a5ca7bfd3568e5ecc59b9a30b614cb91cb651d
+    </>
+  )
+}
+
+export default Home
