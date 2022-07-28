@@ -6,8 +6,8 @@ import Geocode from 'react-geocode'
 import Key from '../../../key.json'
 
 const Header: React.FunctionComponent = () => {
-  const [city, setCity] = useState('Bengaluru');
-   const [error, setError] = useState()
+  const [city, setCity] = useState('Bengaluru')
+  const [error, setError] = useState()
   // GPS
   const geoApi: string = Key.GOOGLE_MAP_API_KEY
   Geocode.setApiKey(geoApi)
@@ -91,9 +91,7 @@ const Header: React.FunctionComponent = () => {
                     />
                   </InputGroup>
                 </Modal.Body>
-                <Modal.Footer>
-                  {error}
-                </Modal.Footer>
+                <Modal.Footer>{error}</Modal.Footer>
               </Modal>
 
               {/* <!--End of Modal -->  */}
@@ -113,10 +111,10 @@ const Header: React.FunctionComponent = () => {
               </InputGroup>
             </div>
             <Nav className='modal-search d-flex col-4 justify-content-end align-self-center'>
-              <Nav.Link href='home' className='text-muted fw-bold'>
+              <Nav.Link href='/' className='text-muted fw-bold'>
                 {HeaderConstant.home}
               </Nav.Link>
-              <Nav.Link href='contact' className='text-muted fw-bold'>
+              <Nav.Link href='/contact' className='text-muted fw-bold'>
                 {HeaderConstant.contact_us}
               </Nav.Link>
               <Nav.Link href='/login' className='d-flex flex-row text-muted fw-bold'>
