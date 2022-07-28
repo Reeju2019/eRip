@@ -5,6 +5,9 @@ import 'slick-carousel/slick/slick-theme.css'
 import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
 import { Container, Image, Row } from 'react-bootstrap'
 import OfferData from '../../../Data/OfferData.mock.json'
+import WeCare from '../WeCare/WeCare'
+import OfferCarouselCard from './OfferCarouselCard'
+import { OfferCarouselData } from '../../../Data/OfferCarouselCardData'
 
 const Offer: React.FunctionComponent = () => {
   const settings = {
@@ -49,107 +52,18 @@ const Offer: React.FunctionComponent = () => {
         <div className='container'>
           <div className='row carousel-content-1'>
             <Slider {...settings}>
-              <div className='carousel-item active justify-content-center'>
-                <Image
-                  src='static/Offer_carousel/Offer1.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer2.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer3.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer4.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer5.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer6.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer7.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer8.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
-
-              <div className='carousel-item'>
-                <Image
-                  src='static/Offer_carousel/Offer9.png'
-                  className='d-block h-100 w-auto'
-                  alt='...'
-                />
-              </div>
+              {OfferCarouselData.map((item, index) => {
+                return (
+                  <div key={index} className='carousel-item'>
+                    <OfferCarouselCard data={item.image} />
+                  </div>
+                )
+              })}
             </Slider>
           </div>
         </div>
       </section>
-      <section className='vaccinated'>
-        <Container>
-          <Row>
-            <div className='caro-2 d-flex'>
-              <div className='text-vaccinated d-flex justify-content-start col-8'>
-                <div className='d-flex flex-column'>
-                  <p className='vaccinated-para d-flex justify-content-start m-0'>
-                    {OfferData.vaccinPara}
-                  </p>
-                  <h1 className='vaccinated-heading '>
-                    <strong className='d-flex justify-content-start'>
-                      {OfferData.vaccinText1}
-                    </strong>
-                    <strong className='d-flex justify-content-start'>
-                      {OfferData.vaccinText2}
-                    </strong>
-                  </h1>
-                </div>
-              </div>
-
-              <Image
-                src='static/Offer_carousel/img-fleet.png'
-                className='d-flex justify-content-end col-4 vaccinated-img'
-                alt=''
-              />
-            </div>
-          </Row>
-        </Container>
-      </section>
+      <WeCare />
       <section className='works'>
         <Container>
           <Row>

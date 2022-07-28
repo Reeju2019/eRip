@@ -7,7 +7,7 @@ const Home: React.FunctionComponent = () => {
     <>
       <HeaderCarousel />
       <Getfix />
-      <Offer/>
+      <Offer />
     </>
   )
 }

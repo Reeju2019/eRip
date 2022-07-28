@@ -22,7 +22,15 @@
   "rules": {
     "react/react-in-jsx-scope": "off",
     "camelcase": "error",
-    "no-duplicate-imports": "error"
+    "no-duplicate-imports": "error",
+    "no-console": 1,
+    "no-unused-vars": [
+      "error",
+      { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
+    ],
+    "no-empty-function": ["error", { "allow": ["functions"] }],
+    "no-extra-semi": "error",
+    "no-extra-label": "error"
   },
   "settings": {
     "import/resolver": {
