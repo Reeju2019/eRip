@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { useLocation } from 'react-router-dom'
+import BrandHeader from './BrandHeader/BrandHeader'
 
 // interface IBrandProps {}
 interface LocationState {
@@ -11,11 +12,11 @@ interface LocationState {
 
 const Brand: React.FunctionComponent = () => {
   const { state } = useLocation() as LocationState
-  console.log(state)
 
   return (
     <>
       <h3>Brand of {state.product}</h3>
+      <BrandHeader />
     </>
   )
 }

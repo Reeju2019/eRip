@@ -6,7 +6,8 @@ import Geocode from 'react-geocode'
 import Key from '../../../key.json'
 
 const Header: React.FunctionComponent = () => {
-  const [city, setCity] = useState('Bengaluru')
+  const [city, setCity] = useState('Bengaluru');
+   const [error, setError] = useState()
   // GPS
   const geoApi: string = Key.GOOGLE_MAP_API_KEY
   Geocode.setApiKey(geoApi)
@@ -19,21 +20,8 @@ const Header: React.FunctionComponent = () => {
     navigator.geolocation.getCurrentPosition(function (pos) {
       const lat = pos.coords.latitude.toString()
       const long = pos.coords.longitude.toString()
-      console.log(lat, long)
-      // console.log(geoApi);
-
-      // Geocode.fromLatLng(lat, long).then(
-      //     (response) => {
-      //         const address = response.results[0].formatted_address;
-      //         console.log(address);
-      //     },
-      //     (error) => {
-      //         console.error(error);
-      //     }
-      // );
       Geocode.fromLatLng(lat, long).then(
         (response) => {
-          const address = response.results[0].formatted_address
           for (let i = 0; i < response.results[0].address_components.length; i++) {
             for (let j = 0; j < response.results[0].address_components[i].types.length; j++) {
               if (
@@ -44,11 +32,9 @@ const Header: React.FunctionComponent = () => {
               }
             }
           }
-          console.log(city)
-          console.log(address)
         },
         (error) => {
-          console.error('gps', error)
+          setError(error.message)
         },
       )
     })
@@ -105,6 +91,9 @@ const Header: React.FunctionComponent = () => {
                     />
                   </InputGroup>
                 </Modal.Body>
+                <Modal.Footer>
+                  {error}
+                </Modal.Footer>
               </Modal>
 
               {/* <!--End of Modal -->  */}
