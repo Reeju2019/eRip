@@ -1,6 +1,6 @@
 import { Carousel, Container, Image } from 'react-bootstrap'
 import './Header.css'
-import HeaderData from '../../Data/Header.mock.json'
+import HeaderData from '../../../Data/Header.mock.json'
 
 const HeaderCarousel: React.FunctionComponent = () => {
   return (

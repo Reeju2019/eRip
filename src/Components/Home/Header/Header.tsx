@@ -1,9 +1,9 @@
 import { Button, Container, Image, Modal, Row, InputGroup, Form, Nav } from 'react-bootstrap'
 import { useState } from 'react'
 import './Header.css'
-import HeaderConstant from '../../Data/HeaderConstant.mock.json'
+import HeaderConstant from '../../../Data/HeaderConstant.mock.json'
 import Geocode from 'react-geocode'
-import Key from '../../key.json'
+import Key from '../../../key.json'
 
 const Header: React.FunctionComponent = () => {
   const [city, setCity] = useState('Bengaluru')
@@ -60,7 +60,7 @@ const Header: React.FunctionComponent = () => {
   const handleShow = () => setShow(true)
   return (
     <>
-      <Container className='mt-2'>
+      <Container className='mt-2 header-comp'>
         <Container fluid>
           <Row className='Navbar'>
             <Image
@@ -84,9 +84,9 @@ const Header: React.FunctionComponent = () => {
               </Button>
               <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true}>
                 <Modal.Header className='d-flex m-1'>
-                  <div className='col-5'>Current Location</div>
+                  <div className='col-5'>{HeaderConstant.location}</div>
                   <div className='col-7 d-flex justify-content-end gps' onClick={getLocation}>
-                    Detect using GPS
+                    {HeaderConstant.gps}
                     <i className='fa-solid fa-angle-right align-self-center' />
                   </div>
                 </Modal.Header>

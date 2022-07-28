@@ -1,3 +1,7 @@
+.header-comp{
+  position: relative;
+}
+
 .fa-map-marker-alt {
   margin-right: 9%;
 }
@@ -64,7 +68,7 @@
   flex-direction: row;
 }
 .carousel-container-1 {
-  background: url(../../../public/static/image/carousel-bg-1.png);
+  background: url(../../../../public/static/image/carousel-bg-1.png);
   background-size: cover;
   background-position: center;
 }

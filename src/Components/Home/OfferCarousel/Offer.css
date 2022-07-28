@@ -1,0 +1,103 @@
+.Offer-Carousel {
+  background-color: #ffffff;
+}
+.slick-arrow {
+  color: blue !important;
+}
+
+.carousel-content-1 {
+  margin: 0 12%;
+}
+
+/* vaccinated Section */
+.vaccinated {
+  background: url(../../../../public/static/image/bg-fleet.png);
+  background-size: cover;
+  background-position: center;
+  margin-top: 5%;
+}
+
+.vaccinated-img {
+  width: 300px !important;
+}
+
+/* .caro-2 {
+    margin: 0 6%;
+} */
+
+.text-vaccinated {
+  margin-top: 4%;
+}
+
+.vaccinated-para {
+  font-size: 1.4rem;
+}
+
+.vaccinated-heading {
+  font-size: 3rem;
+  color: #6dbc88;
+}
+
+/* How it works section */
+
+.side-gap {
+  margin: 0 10%;
+}
+
+.work-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 13%;
+}
+
+.first-work {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 3%;
+}
+
+.second-work {
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 3%;
+}
+
+.works-img-pick {
+  width: 13%;
+  height: 0%;
+  margin-right: 2%;
+}
+
+.works-img-service {
+  width: 13%;
+  height: 0%;
+  margin-right: 2%;
+}
+
+.work-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.work-para {
+  color: #646464;
+  font-size: 0.8125rem;
+}
+
+.middle-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin-bottom: 1rem;
+}
+
+.hr-mid-blue {
+  border: 2px solid #2c80ff;
+  width: 50%;
+  margin-top: 7%;
+  opacity: 1;
+}
