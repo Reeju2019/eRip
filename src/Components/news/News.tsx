@@ -2,7 +2,8 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { newsData } from "./newsData";
+import newsData from "../../Data/News.data.json";
+import data from "../../Data/const.data.json";
 import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./news.css";
@@ -45,30 +46,34 @@ const News = () => {
     <>
       <section className="news-update">
         <Container>
-          <div>
-            <h4 className="news_heading">News & Updates</h4>
-            <Slider {...settings}>
-              {newsData.map((e: any) => {
-                return (
-                  <div className="card device_card">
-                    <div className="img_card">
-                      <img
-                        src={e.news_image}
-                        className="card-img-top"
-                        alt="..."
-                      />
-                    </div>
-                    <div className="card-body news_card_body">
-                      <h4 className="card-title news_title">{e.des}</h4>
-                      <Link to={""} className="news_more">
-                        Know More
-                      </Link>
-                    </div>
-                  </div>
-                );
-              })}
-            </Slider>
-          </div>
+          {data.news.map((c: any) => {
+            return (
+              <div>
+                <h4 className="news_heading">{c.heading}</h4>
+                <Slider {...settings}>
+                  {newsData.news.map((e: any) => {
+                    return (
+                      <div className="card device_card">
+                        <div className="img_card">
+                          <img
+                            src={e.news_image}
+                            className="card-img-top"
+                            alt="..."
+                          />
+                        </div>
+                        <div className="card-body news_card_body">
+                          <h4 className="card-title news_title">{e.des}</h4>
+                          <Link to={""} className="news_more">
+                            {c.button}
+                          </Link>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </Slider>
+              </div>
+            );
+          })}
         </Container>
       </section>
     </>

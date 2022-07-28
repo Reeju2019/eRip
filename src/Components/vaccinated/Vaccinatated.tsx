@@ -1,5 +1,5 @@
 import React from "react";
-import vaccineimg from "./img-fleet.png";
+import data from "../../Data/const.data.json";
 import "./vaccine.css";
 
 const Vaccinatated = () => {
@@ -8,23 +8,26 @@ const Vaccinatated = () => {
       <section className="vaccinated">
         <div className="container">
           <div className="row">
-            <div className="caro-2 d-flex">
-              <div className="text-vaccinated justify-content-start col-8">
-                <h4 className="vaccinated-para">#WeCare</h4>
-                <h1 className="vaccinated-heading">
-                  <strong>
-                    Our Fleet is <br />
-                    Fully Vaccinated!
-                  </strong>
-                </h1>
-              </div>
-
-              <img
-                src={vaccineimg}
-                className="justify-content-end col-4 vaccinated-img"
-                alt=""
-              />
-            </div>
+            {data.vaccinated.map((c: any) => {
+              return (
+                <div className="caro-2 d-flex">
+                  <div className="text-vaccinated justify-content-start col-8">
+                    <h4 className="vaccinated-para">{c.para}</h4>
+                    <h1 className="vaccinated-heading">
+                      <strong>
+                        {c.text1} <br />
+                        {c.text2}
+                      </strong>
+                    </h1>
+                  </div>
+                  <img
+                    src={c.img}
+                    className="justify-content-end col-4 vaccinated-img"
+                    alt=""
+                  />
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>

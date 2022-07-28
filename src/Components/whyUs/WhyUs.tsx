@@ -1,7 +1,8 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import "./whyus.css";
-import { WhyusData } from "./whyus_data";
+import whyusData from "../../Data/whyus.data.json";
+import data from "../../Data/const.data.json"
 
 const WhyUs = () => {
   return (
@@ -11,20 +12,20 @@ const WhyUs = () => {
           <div className="container-fluid">
             <div className="row">
               <div className="col-12">
-                <div className="center-title">
-                  <h4
-                    style={{
-                      color: "#333946",
-                    }}
-                  >
-                    <strong>Why Us</strong>
-                  </h4>
-                </div>
+                {data.whyus.map((e : any) => {
+                  return (
+                    <div className="center-title">
+                      <h4>
+                        <strong>{e.heading}</strong>
+                      </h4>
+                    </div>
+                  );
+                })}
               </div>
             </div>
 
             <div className="row side-gap-1 why-us-row">
-              {WhyusData.map((e: any) => {
+              {whyusData.whyus.map((e: any) => {
                 return (
                   <div className="whyus-work d-flex col-6 col-sm-6 g-0">
                     <img src={e.image} className="row-1-img" alt="" />

@@ -4,8 +4,9 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
-import { userData } from "./userData";
 import "./user.css";
+import data from "../../Data/const.data.json";
+import userData from "../../Data/User.data.json";
 
 const User = () => {
   const settings = {
@@ -47,30 +48,38 @@ const User = () => {
   return (
     <div className="user_section">
       <Container>
-        <div>
-          <h4 className="user_heading">What Our Users Say</h4>
-          <Slider {...settings}>
-            {userData.map((e: any) => {
-              return (
-                <div className="card user_card">
-                  <div className="img_card user_img">
-                    <img src={e.image} className="card-img-top" alt="..." />
-                    <p className="user_card_text">{e.text}</p>
-                    <div className="d-flex">
-                      <img className="user_dp" src={e.user} alt="" />
-                      <div className="user_id">
-                        <p className="card-text user_text">{e.username}</p>
-                        <p className="user_company">
-                          <i>-{e.company}</i>
-                        </p>
+        {data.usersay.map((c: any) => {
+          return (
+            <div>
+              <h4 className="user_heading">{c.heading}</h4>
+              <Slider {...settings}>
+                {userData.user.map((e: any) => {
+                  return (
+                    <div className="card user_card">
+                      <div className="img_card user_img">
+                        <img
+                          src={c.quotation}
+                          className="card-img-top"
+                          alt="..."
+                        />
+                        <p className="user_card_text">{e.text}</p>
+                        <div className="d-flex">
+                          <img className="user_dp" src={e.user} alt="" />
+                          <div className="user_id">
+                            <p className="card-text user_text">{e.username}</p>
+                            <p className="user_company">
+                              <i>-{e.company}</i>
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              );
-            })}
-          </Slider>
-        </div>
+                  );
+                })}
+              </Slider>
+            </div>
+          );
+        })}
       </Container>
     </div>
   );

@@ -4,9 +4,10 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./devices.css";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
-import { Data } from "./data";
 import { Container } from "react-bootstrap";
 import { Banner } from "./Banner";
+import device from "../../Data/Device.data.json";
+import data from "../../Data/const.data.json";
 
 const Devices = () => {
   const settings = {
@@ -50,10 +51,17 @@ const Devices = () => {
     <div className="device_section">
       <Container>
         <div>
-          <h4> Devices </h4>
-          <p>Servicing, Hardware & Software Repair</p>
+          {data.device.map((c: any) => {
+            return (
+              <div>
+                <h4> {c.heading} </h4>
+                <p>{c.subhead}</p>
+              </div>
+            );
+          })}
+
           <Slider {...settings}>
-            {Data.map((e: any) => {
+            {device.device.map((e: any) => {
               return (
                 <div className="card device_card">
                   <div className="img_card">

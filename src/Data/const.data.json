@@ -1,0 +1,53 @@
+{
+  "device": [
+    {
+      "heading": "Devices",
+      "subhead": "Servicing, Hardware & Software Repair"
+    }
+  ],
+  "whyus": [
+    {
+      "heading": "Why Us"
+    }
+  ],
+  "offer": [
+    {
+      "heading1": "Browse All",
+      "heading2": "Available Offers",
+      "img": "assets/img-offers.png"
+    }
+  ],
+  "usersay": [
+    {
+      "heading": "What Our Users Say",
+      "quotation": "assets/user/asset1.png"
+    }
+  ],
+  "vaccinated": [
+    {
+      "para": "#WeCare",
+      "text1": "Our Fleet is",
+      "text2": "Fully Vaccinated!",
+      "img": "assets/img-fleet.png"
+    }
+  ],
+  "news": [
+    {
+      "heading": "News & Updates",
+      "button": "Know More"
+    }
+  ],
+  "footer": [
+    {
+      "logo": "assets/erip-logo-white.png",
+      "erip": "© Erip 2021 - 2021, All Rights Reserved",
+      "footer_list": [
+        "About Us",
+        "Contact Us",
+        "Terms of use",
+        "Customers Support",
+        "Privacy Policy"
+      ]
+    }
+  ]
+}
