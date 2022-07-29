@@ -1,0 +1,16 @@
+export const MobileBrand = [
+  { brandName: 'apple', image: 'static/Mobile_Services/Apple.png' },
+  { brandName: 'onePlus', image: 'static/Mobile_Services/One-plus.png' },
+  { brandName: 'samsung', image: 'static/Mobile_Services/Samsung.png' },
+  { brandName: 'mi', image: 'static/Mobile_Services/MI.png' },
+  { brandName: 'vivo', image: 'static/Mobile_Services/Vivo.png' },
+  { brandName: 'oppo', image: 'static/Mobile_Services/Oppo.png' },
+  { brandName: 'realme', image: 'static/Mobile_Services/Realme.png' },
+  { brandName: 'nokia', image: 'static/Mobile_Services/Nokia.png' },
+  { brandName: 'motorola', image: 'static/Mobile_Services/MOtorola.png' },
+  { brandName: 'google', image: 'static/Mobile_Services/google.png' },
+  { brandName: 'honor', image: 'static/Mobile_Services/honor.png' },
+  { brandName: 'huawei', image: 'static/Mobile_Services/Huawei.png' },
+  { brandName: 'poco', image: 'static/Mobile_Services/Poco.png' },
+  { brandName: 'others', image: 'static/Mobile_Services/others.png' },
+]

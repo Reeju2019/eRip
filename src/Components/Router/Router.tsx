@@ -4,6 +4,7 @@ import ContactUs from '../ContactUs/ContactUS'
 import Brand from '../Brand/Brand'
 import Header from '../Home/Header/Header'
 import Home from '../Home/Home'
+import SingleBrand from '../SingleBrand/SingleBrand'
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -11,8 +12,9 @@ const Router: React.FunctionComponent = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/brand' element={<Brand />} />
+        <Route path='/:deviceId' element={<Brand />} />
         <Route path='/contact' element={<ContactUs />} />
+        <Route path='/:deviceId/:brandId' element={<SingleBrand />} />
       </Routes>
     </>
   )
