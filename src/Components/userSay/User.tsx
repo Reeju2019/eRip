@@ -48,14 +48,14 @@ const User = () => {
   return (
     <div className="user_section">
       <Container>
-        {data.usersay.map((c: any) => {
+        {data.usersay.map((c, index) => {
           return (
-            <div>
+            <div key={index}>
               <h4 className="user_heading">{c.heading}</h4>
               <Slider {...settings}>
-                {userData.user.map((e: any) => {
+                {userData.user.map((e, index) => {
                   return (
-                    <div className="card user_card">
+                    <div key={index} className="card user_card">
                       <div className="img_card user_img">
                         <img
                           src={c.quotation}

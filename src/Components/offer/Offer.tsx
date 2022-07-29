@@ -7,9 +7,9 @@ const Offer = () => {
     <div>
       <section className="offers">
         <div className="container-fluid offer-container">
-          {data.offer.map((e: any) => {
+          {data.offer.map((e, index) => {
             return (
-              <div className="row offer-2">
+              <div key={index} className="row offer-2">
                 <div className=" col-7 col-sm-8">
                   <h1 className="offer-text">
                     <strong>
