@@ -1,0 +1,26 @@
+.footer{
+    text-align: left;
+}
+
+.footer-text{
+    color: #cbcbcb;
+}
+.first-footer{
+    margin-left: 15%;
+}
+.first-footer i{
+    color: #cbcbcb; 
+    padding-left: 3%;
+    
+}
+.second-footer{
+    margin-left: 5%;
+    
+}
+.second-footer li{
+    color: white;
+    list-style: none;
+    padding: .7% 0;
+    font-size: .9rem;
+    display: block !important;
+}

@@ -1,0 +1,57 @@
+.device_section .slick-arrow {
+  color: rgb(13, 13, 202) !important;
+  background-color: rgb(255, 255, 255) !important;
+  border-radius: 50% !important;
+  height: 35px;
+  width: 35px;
+  padding: 5px;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+  position: absolute;
+  top: 40%;
+}
+
+.device_section {
+  background-color: #f5f6fa;
+  padding: 50px 50px 60px;
+}
+.device_section h4{
+  color: #333946;
+  font-weight: bold;
+}
+.device_section p{
+  color: #a1a1a1;
+}
+
+.device_card {
+  border: none !important;
+  max-width: 85% !important;
+}
+.card_image {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#banner {
+  position: absolute;
+  margin-top: -40px;
+  color: #f5f6fa;
+  background-color: red;
+  padding: 5px;
+  align-items: center;
+  margin-left: 14%;
+}
+
+.device_card_body {
+  background-color: #f5f6fa !important;
+}
+
+.slick-slider {
+  margin-top: 50px;
+}
+.device_text{
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 17px;
+  text-align: center;
+  color: #212529 !important;
+}

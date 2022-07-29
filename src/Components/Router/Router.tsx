@@ -8,7 +8,7 @@ import Home from '../Home/Home'
 const Router: React.FunctionComponent = () => {
   return (
     <>
-      <Header />
+      <Header/>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/brand' element={<Brand />} />
