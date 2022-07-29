@@ -1,5 +1,5 @@
 import React from "react";
-import data from "../../Data/const.data.json";
+import data from "../../../Data/const.data.json";
 import "./vaccine.css";
 
 const Vaccinatated = () => {

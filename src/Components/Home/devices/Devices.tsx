@@ -6,8 +6,8 @@ import "./devices.css";
 import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
 import { Container } from "react-bootstrap";
 import { Banner } from "./Banner";
-import device from "../../Data/Device.data.json";
-import data from "../../Data/const.data.json";
+import device from "../../../Data/Device.data.json";
+import data from "../../../Data/const.data.json";
 
 const Devices = () => {
   const settings = {

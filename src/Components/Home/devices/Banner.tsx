@@ -1,4 +1,6 @@
-export const Banner = () => {
+import { FunctionComponent } from "react";
+
+export const Banner: FunctionComponent = () => {
   return (
     <div
       style={{
