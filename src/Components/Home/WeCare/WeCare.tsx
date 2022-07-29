@@ -5,7 +5,7 @@ import '../OfferCarousel/Offer.css'
 const WeCare: React.FunctionComponent = () => {
   return (
     <>
-      <section className='vaccinated'>
+      <section className='vaccinated' style={{ backgroundImage: 'url(static/image/bg-fleet.png)' }}>
         <Container>
           <Row>
             <div className='caro-2 d-flex'>
