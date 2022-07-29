@@ -1,0 +1,31 @@
+.contact {
+  background-color: #f5f6fa;
+  padding: 50px;
+}
+
+.contact-no {
+  color: #194abb;
+  font-weight: bolder;
+}
+
+.contact-time {
+  color: gray;
+  font-size: 10px;
+}
+
+.address {
+  font-size: 13px !important;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-footer {
+  color: #0e62cb;
+  font-size: 10px;
+  margin-top: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
