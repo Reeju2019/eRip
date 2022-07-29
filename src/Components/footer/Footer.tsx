@@ -1,34 +1,35 @@
-import "./footer.css";
-import data from "../../Data/const.data.json";
+import './footer.css'
+import data from '../../Data/const.data.json'
 
 const Footer = () => {
   return (
     <>
-      <section className="footer">
-        {data.footer.map((c: any) => {
+      <section className='footer'>
+        {data.footer.map((c, index) => {
           return (
             <div
-              className="container-fluid g-0 footer-container"
+              key={index}
+              className='container-fluid g-0 footer-container'
               style={{
-                paddingTop: "50px",
-                paddingBottom: "50px",
-                display: "flex",
-                backgroundColor: "#24252a",
+                paddingTop: '50px',
+                paddingBottom: '50px',
+                display: 'flex',
+                backgroundColor: '#24252a',
               }}
             >
-              <div className="first-footer ">
-                <img src={c.logo} alt="white-logo" className="erip-logo" />
-                <p className="footer-text">{c.erip}</p>
-                <i className="fa-brands fa-twitter"></i>
-                <i className="facebook fab fa-facebook-square"></i>
-                <i className="Instagram fab fa-instagram"></i>
-                <i className="youtube fab fa-youtube"></i>
-                <i className="Linkdin fab fa-linkdin"></i>
-                <i className="printerest fab fa-pinterest-p"></i>
+              <div className='first-footer '>
+                <img src={c.logo} alt='white-logo' className='erip-logo' />
+                <p className='footer-text'>{c.erip}</p>
+                <i className='fa-brands fa-twitter'></i>
+                <i className='facebook fab fa-facebook-square'></i>
+                <i className='Instagram fab fa-instagram'></i>
+                <i className='youtube fab fa-youtube'></i>
+                <i className='Linkdin fab fa-linkdin'></i>
+                <i className='printerest fab fa-pinterest-p'></i>
               </div>
 
-              <div className="col-6">
-                <ul className="second-footer">
+              <div className='col-6'>
+                <ul className='second-footer'>
                   {/* <li>{c.footer_list}</li> */}
                   <li>About Us</li>
                   <li>Contact Us</li>
@@ -38,11 +39,11 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-          );
+          )
         })}
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

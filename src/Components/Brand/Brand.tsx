@@ -1,6 +1,6 @@
-import * as React from 'react'
 import { useLocation } from 'react-router-dom'
 import BrandHeader from './BrandHeader/BrandHeader'
+import ChooseBrand from './BrandHeader/ChooseBrand/ChooseBrand'
 
 // interface IBrandProps {}
 interface LocationState {
@@ -12,11 +12,12 @@ interface LocationState {
 
 const Brand: React.FunctionComponent = () => {
   const { state } = useLocation() as LocationState
+  localStorage.setItem('deviceId', JSON.stringify(state.product))
 
   return (
     <>
-      <h3>Brand of {state.product}</h3>
       <BrandHeader />
+      <ChooseBrand />
     </>
   )
 }

@@ -6,15 +6,17 @@ import { useNavigate } from 'react-router-dom'
 const Getfix: React.FunctionComponent = () => {
   const nevigate = useNavigate()
   const handleRepair = (product: string) => {
-    nevigate('/brand', { state: { id: 1, product: product } })
+    localStorage.setItem('deviceId', JSON.stringify(product))
+    nevigate(`/${product}`, { state: { id: 1, product: product } })
   }
+
   return (
     <>
       <Container fluid className='Get-fix'>
         <Container>
           <Row>
             <div className='col-12'>
-              <div className='center-title'>
+              <div className='center-title d-flex flex-column'>
                 <h4>
                   <strong>{GetFixData.title}</strong>
                 </h4>

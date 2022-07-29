@@ -5,7 +5,11 @@ import HeaderData from '../../../Data/Header.mock.json'
 const HeaderCarousel: React.FunctionComponent = () => {
   return (
     <>
-      <Container fluid className='carousel-container-1 mt-2'>
+      <Container
+        fluid
+        className='carousel-container-1 mt-2'
+        style={{ backgroundImage: 'url(static/image/carousel-bg-1.png)' }}
+      >
         <div className='row carousel-content mx-4'>
           <div id='carouselExampleIndicators' className='carousel slide' data-bs-ride='true'>
             <Carousel>
