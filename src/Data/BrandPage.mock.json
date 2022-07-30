@@ -1,0 +1,16 @@
+{
+  "brandServiceIssue": [
+    { "problem": "Body Housing", "image": "static/Mobile_Services/service1.svg" },
+    { "problem": "Diagnosis", "image": "static/Mobile_Services/service2.svg" },
+    { "problem": "Other issues", "image": "static/Mobile_Services/service2.svg" },
+    { "problem": "Touch & Glass", "image": "static/Mobile_Services/service1.svg" },
+    { "problem": "OEM Screen", "image": "static/Mobile_Services/service3.svg" },
+    { "problem": "Compatible Screen", "image": "static/Mobile_Services/service3.svg" },
+    { "problem": "Battery", "image": "static/Mobile_Services/service4.svg" },
+    { "problem": "Back Glass", "image": "static/Mobile_Services/service5.svg" },
+    { "problem": "Charging", "image": "static/Mobile_Services/service6.svg" },
+    { "problem": "Mic", "image": "static/Mobile_Services/service7.svg" },
+    { "problem": "Ear Speaker", "image": "static/Mobile_Services/service8.svg" },
+    { "problem": "Back Camera", "image": "static/Mobile_Services/service9.svg" }
+  ]
+}

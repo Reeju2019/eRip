@@ -1,39 +1,39 @@
 {
-   "device":[
+  "device": [
     {
-        "device_name": "AC",
-        "device_image": "assets/device/AC.png",
-        "is_comingsoon": 0
-      },
-      {
-        "device_name": "Chimney",
-        "device_image": "assets/device/Chimney.png",
-        "is_comingsoon": 0
-      },
-      {
-        "device_name": "Laptop",
-        "device_image": "assets/device/Laptop.png",
-        "is_comingsoon": 0
-      },
-      {
-        "device_name": "Mobile",
-        "device_image": "assets/device/Mobile.png",
-        "is_comingsoon": 1
-      },
-      {
-        "device_name": "Tablet",
-        "device_image": "assets/device/Tablet.png",
-        "is_comingsoon": 0
-      },
-      {
-        "device_name": "Geyser",
-        "device_image": "assets/device/geyser.png",
-        "is_comingsoon": 0
-      },
-      {
-        "device_name": "AC",
-        "device_image": "assets/device/AC.png",
-        "is_comingsoon": 1
-      }
-   ]
+      "device_name": "AC",
+      "device_image": "assets/device/AC.png",
+      "is_comingsoon": 0
+    },
+    {
+      "device_name": "Chimney",
+      "device_image": "assets/device/Chimney.png",
+      "is_comingsoon": 0
+    },
+    {
+      "device_name": "Laptop",
+      "device_image": "assets/device/Laptop.png",
+      "is_comingsoon": 0
+    },
+    {
+      "device_name": "Mobile",
+      "device_image": "assets/device/Mobile.png",
+      "is_comingsoon": 1
+    },
+    {
+      "device_name": "Tablet",
+      "device_image": "assets/device/Tablet.png",
+      "is_comingsoon": 0
+    },
+    {
+      "device_name": "Geyser",
+      "device_image": "assets/device/geyser.png",
+      "is_comingsoon": 0
+    },
+    {
+      "device_name": "AC",
+      "device_image": "assets/device/AC.png",
+      "is_comingsoon": 1
+    }
+  ]
 }

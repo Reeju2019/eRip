@@ -2,8 +2,8 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import newsData from '../../Data/News.data.json'
-import data from '../../Data/const.data.json'
+import newsData from '../../../Data/News.data.json'
+import data from '../../../Data/const.data.json'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import './news.css'
@@ -49,7 +49,7 @@ const News = () => {
           {data.news.map((c, index) => {
             return (
               <div key={index}>
-                <h4 className='news_heading'>{c.heading}</h4>
+                <h4 className='news_heading d-flex justify-content-center'>{c.heading}</h4>
                 <Slider {...settings}>
                   {newsData.news.map((e, index) => {
                     return (
