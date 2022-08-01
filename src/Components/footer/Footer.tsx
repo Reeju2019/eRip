@@ -20,12 +20,12 @@ const Footer = () => {
               <div className='first-footer '>
                 <img src={c.logo} alt='white-logo' className='erip-logo' />
                 <p className='footer-text'>{c.erip}</p>
-                <i className='fa-brands fa-twitter'></i>
-                <i className='facebook fab fa-facebook-square'></i>
-                <i className='Instagram fab fa-instagram'></i>
-                <i className='youtube fab fa-youtube'></i>
-                <i className='Linkdin fab fa-linkdin'></i>
-                <i className='printerest fab fa-pinterest-p'></i>
+                <i className='fa-brands fa-twitter' />
+                <i className='facebook fab fa-facebook-square' />
+                <i className='Instagram fab fa-instagram' />
+                <i className='youtube fab fa-youtube' />
+                <i className='fa-brands fa-linkedin' />
+                <i className='printerest fab fa-pinterest-p' />
               </div>
 
               <div className='col-6'>

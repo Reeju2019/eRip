@@ -1,0 +1,21 @@
+.vaccinated {
+  background-image: url(/public/assets/bg-fleet.png);
+}
+.text-vaccinated {
+  text-align: left;
+  padding-top: 3rem;
+}
+.vaccinated-para {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 400;
+}
+.vaccinated-heading {
+  color: #6dbc88;
+  font-size: 50;
+  font-weight: 700;
+}
+.vaccinated-img {
+  width: 276px !important;
+  margin-left: 4rem;
+}

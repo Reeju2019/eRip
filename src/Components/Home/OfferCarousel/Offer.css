@@ -9,34 +9,6 @@
   margin: 0 12%;
 }
 
-/* vaccinated Section */
-.vaccinated {
-  background-size: cover;
-  background-position: center;
-  margin-top: 5%;
-}
-
-.vaccinated-img {
-  width: 300px !important;
-}
-
-/* .caro-2 {
-    margin: 0 6%;
-} */
-
-.text-vaccinated {
-  margin-top: 4%;
-}
-
-.vaccinated-para {
-  font-size: 1.4rem;
-}
-
-.vaccinated-heading {
-  font-size: 3rem;
-  color: #6dbc88;
-}
-
 /* How it works section */
 
 .side-gap {

@@ -1,6 +1,6 @@
 import { Container, Image, Row } from 'react-bootstrap'
 import OfferData from '../../../Data/OfferData.mock.json'
-import '../OfferCarousel/Offer.css'
+import './WeCare.css'
 
 const WeCare: React.FunctionComponent = () => {
   return (
@@ -28,7 +28,7 @@ const WeCare: React.FunctionComponent = () => {
               <Image
                 src='static/Offer_carousel/img-fleet.png'
                 className='d-flex justify-content-end col-4 vaccinated-img'
-                alt=''
+                alt='vaccine img'
               />
             </div>
           </Row>

@@ -1,0 +1,34 @@
+{
+  "faQ": [
+    {
+      "question": "Do you offer onsite repair?",
+      "answer": "Yes. We do. Our onsite technicians will come to your doorstep and repair your mobile phone within 30 minutes. This service is offered for issues with screen, battery, mic/speaker charging, camera, and the like.",
+      "line": true
+    },
+    {
+      "question": "How does your pickup and delivery service work?",
+      "answer": "Our device pickup and delivery service is centred on issues that need more than 30 minutes of reparation. Issues like glass replacement, damage due to water or complex software issues require pickup and delivery services. Additionally, the timely pickup and delivery service is free of cost.",
+      "line": true
+    },
+    {
+      "question": "What is the average repair service cost?",
+      "answer": "The price of our repair services varies as per different brands, the models, nature of the issue and spare parts used. We will share the approx price with you once you confirmed the issue.",
+      "line": true
+    },
+    {
+      "question": "What is the mode of payment used on this platform?",
+      "answer": "We accept payments via card, cash, or UPI transfers.",
+      "line": true
+    },
+    {
+      "question": "Is there a warranty period for mobile repair service in Bengalore?",
+      "answer": "We offer up to 18 months warranty for all the mobile services that you choose.",
+      "line": true
+    },
+    {
+      "question": "What kind of spare parts does ERIP use?",
+      "answer": "ERIP has adopted a strict policy by which we use 100% genuine ERIP-certified spare parts for our mobile repair services. Most of our spare parts are imported to increase the effectiveness of our services and the functioning of the devices.",
+      "line": false
+    }
+  ]
+}

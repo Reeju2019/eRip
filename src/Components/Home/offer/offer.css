@@ -1,0 +1,25 @@
+.offer-container {
+  background-color: #6746ee;
+  margin: 5%;
+}
+.offer-2 {
+  margin: 0 10%;
+}
+.offer-text {
+  font-size: 4vw;
+  color: white;
+  margin-top: 7%;
+  margin-left: 10%;
+  margin-bottom: 8%;
+}
+.offer-img {
+  margin-top: 2%;
+  margin-right: 5%;
+}
+.offers {
+  text-align: left;
+}
+.image {
+  width: 60%;
+  height: 100%;
+}

@@ -1,0 +1,17 @@
+.service-img {
+  max-width: 2vw;
+}
+
+.images {
+  width: 8vmax;
+  height: 8vmax;
+}
+
+.service-para {
+  font-size: 1vmax;
+  display: flex;
+  justify-content: center;
+}
+.caro {
+  background-color: #f5f6fa;
+}

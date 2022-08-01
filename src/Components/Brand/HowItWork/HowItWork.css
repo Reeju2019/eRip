@@ -1,0 +1,45 @@
+.work-row {
+  margin: 3% 11%;
+}
+
+.work1 {
+  width: 10%;
+  margin: 3px;
+}
+
+hr {
+  margin-bottom: 1rem;
+}
+
+.hr-mid-blue {
+  border: 1.5px solid #2c80ff;
+  width: 100%;
+  opacity: 1;
+}
+.work-middle-border {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.work2 {
+  width: 8%;
+  margin: 1.5px;
+}
+.work3 {
+  width: 9%;
+}
+
+.work4 {
+  width: 10%;
+}
+
+.works-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.works-para {
+  font-size: 0.8rem;
+}
