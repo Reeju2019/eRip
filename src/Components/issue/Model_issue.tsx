@@ -23,37 +23,40 @@ const Model_issue = () => {
   ]
 
   const [serviceItem, setServiceItem] = useState<number>()
-  
-//   const details:any =() = issueData.services.find((data :any) => data.id === details.id);
-//   let obj = {};
-//   let t = details.id;
+  const [serviceId, setServiceId] = useState<number>()
+  const [serviceName, setServiceName] = useState("")
+  const [price, setPrice] = useState()
+
+  //   const details:any =() = issueData.services.find((data :any) => data.id === details.id);
+  //   let obj = {};
+  //   let t = details.id;
 
   const onAdd = (service: any) => {
     if (serviceItem === undefined) {
-        setServiceItem(parseInt(service))
+      setServiceItem(service)
+    
     } else {
-        setServiceItem(service + serviceItem)
+      setServiceItem(service + serviceItem)
     }
-    
-    
-
   }
-  console.log(serviceItem);
-  
-//   const add = () => {
-//     {
-//       window.localStorage.setServiceItem(
-//         t,
-//         JSON.stringify({
-//           ...obj,
-//           t,
-//         }),
-//       )
-//     }
+  console.log(serviceItem)
 
-   
-//     setServiceItem('remove')
-//   }
+  const onRemove = (service: any) => {
+    if (serviceItem !== undefined) {
+      setServiceItem(parseInt(service) - serviceItem)
+      setServiceId(undefined)
+    }
+  }
+
+const AddId = (id: any) => {
+    // if (serviceId === undefined) {
+        setServiceId(id)
+    
+    // } else {
+    //     setServiceId(id , serviceId)
+    // }
+  }
+  console.log(serviceId)
 
   return (
     <div>
@@ -79,7 +82,17 @@ const Model_issue = () => {
                     <h6>{e.charge}</h6>
                     <p>{e.des}</p>
                   </div>
-                  <button key={e.id} onClick={()=>onAdd(parseInt(e.charge))}>Add+</button>
+                  {serviceId === e.id ? (
+                    <button key={e.id} onClick={() => onRemove(e.charge)}>
+                      Remove-
+                    </button>
+                    
+                  ) : (
+                    <button key={e.id} onClick={() => {onAdd(parseInt(e.charge))
+                                                        AddId(e.id)}}>
+                      Add+
+                    </button>
+                  )}
                 </div>
               )
             })}
