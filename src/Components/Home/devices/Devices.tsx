@@ -51,7 +51,7 @@ const Devices = () => {
     <div className="device_section">
       <Container>
         <div>
-          {data.device.map((c: any) => {
+          {data.device.map((c: any, key) => {
             return (
               <div>
                 <h4> {c.heading} </h4>
@@ -61,7 +61,7 @@ const Devices = () => {
           })}
 
           <Slider {...settings}>
-            {device.device.map((e: any) => {
+            {device.device.map((e: any, key) => {
               return (
                 <div className="card device_card">
                   <div className="img_card">

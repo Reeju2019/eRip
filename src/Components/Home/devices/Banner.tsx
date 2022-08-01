@@ -1,4 +1,5 @@
-import { FunctionComponent } from "react";
+import React, { FunctionComponent } from "react";
+
 
 export const Banner: FunctionComponent = () => {
   return (
