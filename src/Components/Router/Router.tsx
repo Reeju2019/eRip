@@ -4,6 +4,7 @@ import Login from '../auth/Login'
 import Header from '../Home/Header/Header'
 import Home from '../Home/Home'
 import Profile from '../auth/Profile'
+import Model_issue from '../issue/Model_issue'
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -13,6 +14,7 @@ const Router: React.FunctionComponent = () => {
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
         <Route path='/profile' element={<Profile />} />
+        <Route path='/issue' element={<Model_issue />} />
       </Routes>
     </>
   )
