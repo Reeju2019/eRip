@@ -1,4 +1,4 @@
-import BrandPageData from "../../../Data/BrandPage.mock.json"
+import BrandPageData from '../../../Data/BrandPage.mock.json'
 const NewsAndUpdatesCard: React.FunctionComponent = () => {
   return (
     <>

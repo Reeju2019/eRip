@@ -1,5 +1,5 @@
 import * as React from 'react'
-import "./ServiceIssue.css"
+import './ServiceIssue.css'
 
 interface IBrandServiceIssueCardProps {
   data: {
@@ -9,7 +9,6 @@ interface IBrandServiceIssueCardProps {
 }
 
 const BrandServiceIssueCard: React.FunctionComponent<IBrandServiceIssueCardProps> = ({ data }) => {
-
   return (
     <>
       <div className='d-flex flex-column m-2'>

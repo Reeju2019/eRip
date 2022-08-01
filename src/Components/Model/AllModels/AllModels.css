@@ -1,22 +1,22 @@
-.allmodels{
+.allmodels {
   background-color: #f5f6fa;
 }
 
-.modelCard{
+.modelCard {
   background-color: white;
   width: 11vmax;
   padding: 1.5vmax;
   cursor: pointer;
 }
 
-.modelImg{
+.modelImg {
   width: 7vmax;
   height: 7vmax;
   display: flex;
   margin: auto;
 }
 
-.modelName{
+.modelName {
   font-size: 1.2vmax;
   font-weight: bold;
   display: flex;

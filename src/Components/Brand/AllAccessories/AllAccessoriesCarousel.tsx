@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { Carousel, Container, Image } from 'react-bootstrap'
-import BrandPageData from "../../../Data/BrandPage.mock.json"
+import BrandPageData from '../../../Data/BrandPage.mock.json'
 
 const AllAccessories: React.FunctionComponent = () => {
   return (

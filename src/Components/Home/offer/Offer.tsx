@@ -9,7 +9,7 @@ const Offer = () => {
         <div className='container-fluid offer-container'>
           {data.offer.map((e, index) => {
             return (
-              <div key={index} className='row offer-2 d-flex justify-content-between' >
+              <div key={index} className='row offer-2 d-flex justify-content-between'>
                 <div className='col-7 col-sm-7'>
                   <h1 className='offer-text'>
                     <strong>

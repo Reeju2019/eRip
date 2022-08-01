@@ -35,8 +35,8 @@ const Brand: React.FunctionComponent = () => {
       <UserSay />
       <FAQ />
       <ChooseBrandCarousel />
-      <NewsAndUpdates/>
-      <Footer/>
+      <NewsAndUpdates />
+      <Footer />
     </>
   )
 }

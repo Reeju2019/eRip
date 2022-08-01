@@ -11,11 +11,11 @@
 .form-control {
   height: auto;
 }
-.link-btn{
+.link-btn {
   color: gray;
   text-decoration: none;
   padding: 5px;
 }
-.active-link{
+.active-link {
   color: blue;
 }

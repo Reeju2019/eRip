@@ -2,7 +2,7 @@ import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
 import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
-import BrandPageData from "../../../Data/BrandPage.mock.json"
+import BrandPageData from '../../../Data/BrandPage.mock.json'
 import BrandServiceIssueCard from './BrandServiceIssueCard'
 import './ServiceIssue.css'
 
