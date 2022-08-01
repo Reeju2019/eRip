@@ -22,14 +22,24 @@ const Model_issue = () => {
     },
   ]
 
-  const [serviceItem, setServiceItem] = useState([{}])
+  const [serviceItem, setServiceItem] = useState<number>()
+  
 //   const details:any =() = issueData.services.find((data :any) => data.id === details.id);
 //   let obj = {};
 //   let t = details.id;
 
   const onAdd = (service: any) => {
-    setServiceItem([...service, { ...service, qty: 1 }])
+    if (serviceItem === undefined) {
+        setServiceItem(parseInt(service))
+    } else {
+        setServiceItem(service + serviceItem)
+    }
+    
+    
+
   }
+  console.log(serviceItem);
+  
 //   const add = () => {
 //     {
 //       window.localStorage.setServiceItem(
@@ -69,7 +79,7 @@ const Model_issue = () => {
                     <h6>{e.charge}</h6>
                     <p>{e.des}</p>
                   </div>
-                  <button onCanPlay={onAdd}>Add+</button>
+                  <button key={e.id} onClick={()=>onAdd(parseInt(e.charge))}>Add+</button>
                 </div>
               )
             })}
@@ -79,7 +89,7 @@ const Model_issue = () => {
           <h5>Card Preview</h5>
           <hr />
           <h6>You Saved</h6>
-          <h6>Total Amount {serviceItem.length}</h6>
+          <h6>Total Amount {serviceItem} </h6>
         </div>
       </div>
     </div>
