@@ -6,6 +6,7 @@ import { MobileBrand } from '../../../Data/MobileBrand'
 import BrandCarouselCard from './BrandCarouselCard'
 import './ChooseBrandCarousel.css'
 import { Col, Container, Row } from 'react-bootstrap'
+import BrandPageData from './../../../Data/BrandPage.mock.json'
 
 const ChooseBrandCarousel: React.FunctionComponent = () => {
   const settings = {
@@ -52,7 +53,7 @@ const ChooseBrandCarousel: React.FunctionComponent = () => {
             <div className='col-12'>
               <div className='center-title mb-0'>
                 <h3>
-                  <strong>Choose A Brand</strong>
+                  <strong>{BrandPageData.constData.chooseBrandCarousel.title}</strong>
                 </h3>
               </div>
             </div>
@@ -75,21 +76,12 @@ const ChooseBrandCarousel: React.FunctionComponent = () => {
         <Container className='pb-5'>
           <Row className='m-3'>
             <p className='d-flex justify-content-center fs-6'>
-              Get your Tablet Fixed by ERIP Experts in Bangalore
+              {BrandPageData.constData.chooseBrandCarousel.subtitle}
             </p>
           </Row>
           <Row>
             <Col className='col-11 caro-div'>
-              <p className='caro-para'>
-                ERIP is a reputed service repair brand in Bangalore. We house a team of technicians
-                who have undergone training for years in technical repair skills.ERIP ensures that
-                your Tablet is fixed with 100% genuine spare parts and provides a QR code for
-                customers to scan and view its authenticity along with up to 6 months warranty on
-                the spare parts.Experience superior navigation and seamless booking on our website,
-                where it takes less than two minutes to book an appointment.With our unwavering
-                commitment to repair your Tablet issues,we have surpassed our competitors in the
-                Tablet repair service industry in Bangalore.
-              </p>
+              <p className='caro-para'>{BrandPageData.constData.chooseBrandCarousel.paragraph}</p>
             </Col>
           </Row>
         </Container>

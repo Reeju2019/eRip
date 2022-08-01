@@ -1,18 +1,17 @@
 import { Col, Container, Row } from 'react-bootstrap'
-import './FAQ.css'
-import BrandData from '../../../Data/BrandFAQ.mock.json'
-import FAQCard from './FAQCard'
+import FAQCard from '../../Brand/FAQ/FAQCard'
+import AllModelsData from '../../../Data/AllModels.mock.json'
 
-const FAQ: React.FunctionComponent = () => {
+const ModelFaq: React.FunctionComponent = () => {
   return (
     <>
-      <Container fluid className='bg-grey'>
+      <Container fluid className='bg-grey pb-5'>
         <Row>
           <h3 className='d-flex justify-content-center p-5 text-muted'>F.A.Qs</h3>
         </Row>
         <Row>
           <Col className='col-10 m-auto bg-white p-4'>
-            {BrandData.faQ.map((item, index) => {
+            {AllModelsData.faq.map((item, index) => {
               return (
                 <div key={index}>
                   <FAQCard faq={item} />
@@ -26,4 +25,4 @@ const FAQ: React.FunctionComponent = () => {
   )
 }
 
-export default FAQ
+export default ModelFaq

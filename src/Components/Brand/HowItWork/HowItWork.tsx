@@ -1,5 +1,7 @@
 import { Container } from 'react-bootstrap'
 import './HowItWork.css'
+import BrandPageData from '../../../Data/BrandPage.mock.json'
+
 const HowItWorks: React.FunctionComponent = () => {
   return (
     <>
@@ -9,7 +11,7 @@ const HowItWorks: React.FunctionComponent = () => {
             <div className='col-12'>
               <div className='center-title'>
                 <h4>
-                  <strong>How it works</strong>
+                  <strong>{BrandPageData.constData.howItWorks.heading}</strong>
                 </h4>
               </div>
             </div>
@@ -19,10 +21,8 @@ const HowItWorks: React.FunctionComponent = () => {
             <div className='first col-5 g-0  d-flex justify-content-first'>
               <img src='static/Mobile_Services/work1.svg' alt='work1' className='work1' />
               <div className='first-row-text'>
-                <h4 className='works-heading '>Choose your brand</h4>
-                <p className='works-para'>
-                  Select your brand from our variegated line-up of mobile phones.
-                </p>
+                <h4 className='works-heading '>{BrandPageData.constData.howItWorks.title1}</h4>
+                <p className='works-para'>{BrandPageData.constData.howItWorks.text1}</p>
               </div>
             </div>
 
@@ -33,10 +33,8 @@ const HowItWorks: React.FunctionComponent = () => {
             <div className='last col-5 g-0 d-flex justify-content-first'>
               <img src='static/Mobile_Services/work2.svg' alt='work2' className='work2' />
               <div className='first-row-text'>
-                <h4 className='works-heading'>Receive the exact quote</h4>
-                <p className='works-para '>
-                  Once you select the issue, we’ll send you the apt quote for its service.
-                </p>
+                <h4 className='works-heading'>{BrandPageData.constData.howItWorks.title2}</h4>
+                <p className='works-para '>{BrandPageData.constData.howItWorks.text2}</p>
               </div>
             </div>
           </div>
@@ -45,11 +43,10 @@ const HowItWorks: React.FunctionComponent = () => {
             <div className='first col-5 g-0 d-flex justify-content-first'>
               <img src='static/Mobile_Services/work3.svg' alt='work3' className='work3' />
               <div className='second-row-text  m-3'>
-                <h4 className='works-heading d-flex justify-content-start'>Book a technician</h4>
-                <p className='works-para text-muted'>
-                  Post the quotation shared, you can easily book a technician at your selected time
-                  and place of convenience
-                </p>
+                <h4 className='works-heading d-flex justify-content-start'>
+                  {BrandPageData.constData.howItWorks.title3}
+                </h4>
+                <p className='works-para text-muted'>{BrandPageData.constData.howItWorks.text3}</p>
               </div>
             </div>
 
@@ -60,11 +57,8 @@ const HowItWorks: React.FunctionComponent = () => {
             <div className='last col-5 g-0 d-flex justify-content-first'>
               <img src='static/Mobile_Services/work4.svg' alt='work4' className='work4' />
               <div className='second-row-text'>
-                <h4 className='works-heading'>Get back your phone as good as new</h4>
-                <p className='works-para'>
-                  Our verified technicians work around the issue as soon as the request is received
-                  to deliver you your device as good as new. We never compromise on quality.
-                </p>
+                <h4 className='works-heading'>{BrandPageData.constData.howItWorks.title4}</h4>
+                <p className='works-para'>{BrandPageData.constData.howItWorks.text4}</p>
               </div>
             </div>
           </div>

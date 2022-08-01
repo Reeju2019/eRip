@@ -1,4 +1,28 @@
 {
+  "constData": {
+    "allAccessories": "All Original Accessories",
+    "chooseBrandCarousel": {
+      "title": "Choose A Brand",
+      "subtitle": "Get your Tablet Fixed by ERIP Experts in Bangalore",
+      "paragraph": "ERIP is a reputed service repair brand in Bangalore. We house a team of technicians who have undergone training for years in technical repair skills.ERIP ensures that your Tablet is fixed with 100% genuine spare parts and provides a QR code for  customers to scan and view its authenticity along with up to 6 months warranty on the spare parts.Experience superior navigation and seamless booking on our website, where it takes less than two minutes to book an appointment.With our unwavering commitment to repair your Tablet issues,we have surpassed our competitors in the  Tablet repair service industry in Bangalore."
+    },
+    "newsAndUpdate": {
+      "title": "Quick & Eficent",
+      "text": "Lorem ipsum dolor sitali aliouiopsioi conseciu tetur uiyio adipiscing elitisyio sediuys dosuius eiusmod tempouisakiop siosuipil sincididuntis ut labore etios dio doloresio magna aliqua. Ut enim ad minim veniam, quis nostrud",
+      "knowMore": "Know More"
+    },
+    "howItWorks": {
+      "heading": "How it works",
+      "title1": "Choose your brand",
+      "text1": "Select your brand from our variegated line-up of mobile phones.",
+      "title2": "Receive the exact quote",
+      "text2": "Once you select the issue, we’ll send you the apt quote for its service.",
+      "title3": "Book a technician",
+      "text3": "Post the quotation shared, you can easily book a technician at your selected time and place of convenience",
+      "title4": "Get back your phone as good as new",
+      "text4": " Our verified technicians work around the issue as soon as the request is received to deliver you your device as good as new. We never compromise on quality."
+    }
+  },
   "brandServiceIssue": [
     { "problem": "Body Housing", "image": "static/Mobile_Services/service1.svg" },
     { "problem": "Diagnosis", "image": "static/Mobile_Services/service2.svg" },

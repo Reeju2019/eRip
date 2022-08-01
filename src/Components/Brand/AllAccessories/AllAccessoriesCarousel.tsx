@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Carousel, Container, Image } from 'react-bootstrap'
+import BrandPageData from "../../../Data/BrandPage.mock.json"
 
 const AllAccessories: React.FunctionComponent = () => {
   return (
@@ -12,7 +13,7 @@ const AllAccessories: React.FunctionComponent = () => {
                 <div className='d-flex flex-row'>
                   <div className='w-100 d-flex justify-content-center align-item-center align-self-center'>
                     <h1 className='txt col-8 justify-content-start text-white fs-1'>
-                      All Original Accessories
+                      {BrandPageData.constData.allAccessories}
                     </h1>
                   </div>
                   <Image
@@ -27,7 +28,7 @@ const AllAccessories: React.FunctionComponent = () => {
                 <div className='d-flex flex-row'>
                   <div className='w-100 d-flex justify-content-center align-item-center align-self-center'>
                     <h1 className='txt col-8 justify-content-start text-white fs-1'>
-                      All Original Accessories
+                      {BrandPageData.constData.allAccessories}
                     </h1>
                   </div>
                   <Image
@@ -42,7 +43,7 @@ const AllAccessories: React.FunctionComponent = () => {
                 <div className='d-flex flex-row'>
                   <div className='w-100 d-flex justify-content-center align-item-center align-self-center'>
                     <h1 className='txt col-8 justify-content-start text-white fs-1'>
-                      All Original Accessories
+                      {BrandPageData.constData.allAccessories}
                     </h1>
                   </div>
                   <Image
