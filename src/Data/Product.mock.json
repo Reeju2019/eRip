@@ -1,22 +1,90 @@
 {
-  "mobile": {
-    "brand": [
-      {
-        "brand_name": "apple",
-        "model": [
-          {
-            "model_name": "iPhone 13 Pro Max",
-            "image": "https://erip.in/erip_api/upload/img/20220112104704.jpg"
-          },
-          {
-            "model_name": "iPhone 13 Pro",
-            "image": "https://erip.in/erip_api/upload/img/20220112111331.jpg"
-          },
-          { "model_name": "iPhone 13 Mini" }
-        ]
-      },
-      { "brand_name": "onePlus" },
-      { "brand_name": "samsung" }
-    ]
-  }
+  "device": [
+    {
+      "device_name": "mobile",
+      "brand": [
+        {
+          "brand_name": "apple",
+          "brand_image": "static/Mobile_Services/Apple.png",
+          "model": [
+            { "model_name": "iPhone 13 Pro", "image": "/static/iphoneBrand/iphone13Pro.jpg" },
+            {
+              "model_name": "iPhone 13 Pro Max",
+              "image": "/static/iphoneBrand/iphone13ProMax.jpg"
+            },
+            { "model_name": "iPhone 13 Mini", "image": "/static/iphoneBrand/iphone13Mini.jpg" },
+            { "model_name": "iPhone 13", "image": "/static/iphoneBrand/iphone13.jpg" },
+            {
+              "model_name": "iPhone 12 Pro Max",
+              "image": "/static/iphoneBrand/iphone12ProMax.jpg"
+            },
+            { "model_name": "iPhone 12 Pro", "image": "/static/iphoneBrand/iphone12Pro.jpg" },
+            { "model_name": "iPhone 12 Mini", "image": "/static/iphoneBrand/iphone12Mini.jpg" },
+            { "model_name": "iPhone 12", "image": "/static/iphoneBrand/iphone12.jpg" },
+            {
+              "model_name": "iPhone 11 Pro Max",
+              "image": "/static/iphoneBrand/iphone11ProMax.jpg"
+            },
+            { "model_name": "iPhone 11 Pro", "image": "/static/iphoneBrand/iphone11Pro.jpg" },
+            { "model_name": "iPhone 11", "image": "/static/iphoneBrand/iphone11.jpg" },
+            { "model_name": "iPhone X", "image": "/static/iphoneBrand/iphoneX.png" },
+            { "model_name": "iPhone XR", "image": "/static/iphoneBrand/iphoneXR.png" },
+            { "model_name": "iPhone XS", "image": "/static/iphoneBrand/iphoneXS.png" },
+            { "model_name": "iPhone XS Max", "image": "/static/iphoneBrand/iphoneXSMax.png" },
+            { "model_name": "iPhone SE 2020", "image": "/static/iphoneBrand/iphoneSE2020.jpg" },
+            { "model_name": "iPhone 8 Plus", "image": "/static/iphoneBrand/iphone8Plus.png" },
+            { "model_name": "iPhone 8", "image": "/static/iphoneBrand/iphone8.png" },
+            { "model_name": "iPhone 7", "image": "/static/iphoneBrand/iphone7.png" },
+            { "model_name": "iPhone 7 Plus", "image": "/static/iphoneBrand/iphone7Plus.png" },
+            { "model_name": "iPhone 6s Plus", "image": "/static/iphoneBrand/iphone6sPlus.png" },
+            { "model_name": "iPhone 6s", "image": "/static/iphoneBrand/iphone6s.png" },
+            { "model_name": "iPhone 6 Plus", "image": "/static/iphoneBrand/iphone6Plus.png" },
+            { "model_name": "iPhone 6", "image": "/static/iphoneBrand/iphone6.png" },
+            { "model_name": "iPhone SE", "image": "/static/iphoneBrand/iphoneSE.png" },
+            { "model_name": "iPhone 5s", "image": "/static/iphoneBrand/iphone5s.png" },
+            { "model_name": "Others", "image": "/static/iphoneBrand/others.png" }
+          ]
+        },
+        {
+          "brand_name": "onePlus",
+          "brand_image": "static/Mobile_Services/One-plus.png",
+          "model": [
+            { "model_name": "Oneplus 3", "image": "/static/onePlusBrand/onePlus3.png" },
+            { "model_name": "Oneplus 3T", "image": "/static/onePlusBrand/onePlus3t.jpg" },
+            { "model_name": "Oneplus 5", "image": "/static/onePlusBrand/onePlus5.png" },
+            { "model_name": "Oneplus 5T", "image": "/static/onePlusBrand/onePlus5t.png" }
+          ]
+        }
+      ]
+    },
+    {
+      "device_name": "tablet",
+      "brand": [
+        {
+          "brand_name": "apple",
+          "image": "static/Mobile_Services/Apple.png",
+          "model": [
+            { "model_name": "iPad 8th Generation", "image": "/static/iphoneBrand/ipad8thGen.png" },
+            { "model_name": "iPad Air 3", "image": "/static/iphoneBrand/ipadAir3.png" },
+            { "model_name": "iPad Mini 5", "image": "/static/iphoneBrand/ipadMini5.png" }
+          ]
+        },
+        {
+          "brand_name": "samsung",
+          "image": "static/Mobile_Services/Samsung.png",
+          "model": [
+            {
+              "model_name": "Galaxy Tab S Series",
+              "image": "/static/samsungBrand/galaxyTabSSeries.png"
+            },
+            {
+              "model_name": "Galaxy Tab A Series",
+              "image": "/static/samsungBrand/galaxyTabASeries.png"
+            },
+            { "model_name": "Other Service", "image": "/static/samsungBrand/otherSeries.png" }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,4 +1,4 @@
-import { useLocation } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import Footer from '../footer/Footer'
 import UserSay from '../Home/userSay/User'
 import WeCare from '../Home/WeCare/WeCare'
@@ -12,16 +12,9 @@ import HowItWorks from './HowItWork/HowItWork'
 import NewsAndUpdates from './NewsAndUpdates/NewsAndUpdates'
 import ServiceIssue from './ServiceIssue/ServiceIssue'
 
-interface LocationState {
-  state: {
-    id: number
-    product: string
-  }
-}
-
 const Brand: React.FunctionComponent = () => {
-  const { state } = useLocation() as LocationState
-  localStorage.setItem('deviceId', JSON.stringify(state.product))
+  const paramData = useParams()
+  localStorage.setItem('deviceId', JSON.stringify(paramData.deviceId))
 
   return (
     <>

@@ -49,7 +49,7 @@ const Getfix: React.FunctionComponent = () => {
                   </p>
                 </li>
 
-                <li className='middle-all'>
+                <li className='middle-all' onClick={() => handleRepair('watch')}>
                   <img
                     src='/static/get-fix/smart-watch.png'
                     alt='Smart Watch'

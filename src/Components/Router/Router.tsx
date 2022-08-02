@@ -14,11 +14,10 @@ const Router: React.FunctionComponent = () => {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
-        <Route path='/:deviceId' element={<Brand />} />
         <Route path='/contact' element={<ContactUs />} />
-        <Route path='/:deviceId/:brandId' element={<Model />} />
-        {/* <Route path='/model' element={<Model />} /> */}
         <Route path='/my_profile' element={<MyProfile />} />
+        <Route path='/:deviceId' element={<Brand />} />
+        <Route path='/:deviceId/:brandId' element={<Model />} />
       </Routes>
     </>
   )
