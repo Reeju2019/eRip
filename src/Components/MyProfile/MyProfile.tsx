@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import './MyProfile.css'
 import MyProfileData from '../../Data/MyProfile.mock.json'
 import OrderCard from './OrderCard'
+import Footer from '../footer/Footer'
 
 const MyProfile: React.FunctionComponent = () => {
   const [show, setShow] = useState(true)
@@ -81,6 +82,7 @@ const MyProfile: React.FunctionComponent = () => {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   )
 }
