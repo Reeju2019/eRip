@@ -26,7 +26,7 @@ const Model_issue = () => {
 
   const [serviceItem, setServiceItem] = useState<number>()
   const [serviceId, setServiceId] = useState<number>()
-  const [serviceName, setServiceName] = useState("")
+  const [serviceName, setServiceName] = useState('')
   const [price, setPrice] = useState()
 
   //   const details:any =() = issueData.services.find((data :any) => data.id === details.id);
@@ -36,7 +36,6 @@ const Model_issue = () => {
   const onAdd = (service: any) => {
     if (serviceItem === undefined) {
       setServiceItem(service)
-    
     } else {
       setServiceItem(service + serviceItem)
     }
@@ -50,10 +49,10 @@ const Model_issue = () => {
     }
   }
 
-const AddId = (id: any) => {
+  const AddId = (id: any) => {
     // if (serviceId === undefined) {
-        setServiceId(id)
-    
+    setServiceId(id)
+
     // } else {
     //     setServiceId(id , serviceId)
     // }
@@ -63,7 +62,7 @@ const AddId = (id: any) => {
   return (
     <div>
       <h3>Device Repair Details</h3>
-     <BreadCrumb data={breadCrumbData}/>
+      <BreadCrumb data={breadCrumbData} />
 
       <div className='row'>
         <div className='col-lg-7 col-sm-12 mob-p-0'>
@@ -89,10 +88,14 @@ const AddId = (id: any) => {
                     <button key={e.id} onClick={() => onRemove(e.charge)}>
                       Remove-
                     </button>
-                    
                   ) : (
-                    <button key={e.id} onClick={() => {onAdd(parseInt(e.charge))
-                                                        AddId(e.id)}}>
+                    <button
+                      key={e.id}
+                      onClick={() => {
+                        onAdd(parseInt(e.charge))
+                        AddId(e.id)
+                      }}
+                    >
                       Add+
                     </button>
                   )}
