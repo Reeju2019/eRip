@@ -21,14 +21,14 @@ const MyProfile: React.FunctionComponent = () => {
                 className={'leftButton ' + (show ? 'active' : '')}
                 onClick={showClicked}
               >
-                Ongoing
+                {MyProfileData.constData.ongoing}
               </button>
               <button
                 disabled={!show}
                 className={'rightButton ' + (show ? '' : 'active')}
                 onClick={showClicked}
               >
-                Compleated
+                {MyProfileData.constData.compleated}
               </button>
             </div>
             <div className='m-1 cardContainer'>
@@ -57,27 +57,27 @@ const MyProfile: React.FunctionComponent = () => {
               <div className='profileImg align-self-center m-4'>
                 <img src='/static/my_profile/user_prof.png' className='w-100' alt='user' />
               </div>
-              <h4 className='d-flex justify-content-center'>Name</h4>
+              <h4 className='d-flex justify-content-center'>{MyProfileData.name}</h4>
               <div className='d-flex flex-row justify-content-center contactNumber'>
                 +91
-                <span className='mx-1'>9876543210</span>
+                <span className='mx-1'>{MyProfileData.phoneNumber}</span>
                 <i className='fa-solid fa-pencil' />
               </div>
             </div>
             <div className='m-2'>
               <div className='d-flex justify-content-between'>
-                <div>Saved Address</div>
-                <div className='update'>Update Address</div>
+                <div>{MyProfileData.constData.saved_address}</div>
+                <div className='update'>{MyProfileData.constData.update_address}</div>
               </div>
               <hr className='my-2' />
               <div className='d-flex justify-content-between'>
-                <div>Contact Details</div>
-                <div className='update'>Update</div>
+                <div>{MyProfileData.constData.contact_details}</div>
+                <div className='update'>{MyProfileData.constData.update}</div>
               </div>
               <hr className='my-2' />
-              <div>Refer a Friend</div>
+              <div>{MyProfileData.constData.refer}</div>
               <hr className='my-2' />
-              <div>Get Help</div>
+              <div>{MyProfileData.constData.get_help}</div>
             </div>
           </Col>
         </Row>

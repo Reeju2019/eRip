@@ -39,7 +39,7 @@
   overflow-y: scroll;
 }
 .cardContainer::-webkit-scrollbar {
-    overflow-x: hidden ;
+  overflow-x: hidden;
 }
 
 .active {

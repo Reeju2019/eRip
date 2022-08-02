@@ -1,5 +1,6 @@
 import * as React from 'react'
 import './MyProfile.css'
+import MyProfileData from '../../Data/MyProfile.mock.json'
 
 interface IOrderCardProps {
   item: {
@@ -18,9 +19,10 @@ const OrderCard: React.FunctionComponent<IOrderCardProps> = ({ item }) => {
       <section className='bg-white p-3 orderCard'>
         <div className='d-flex justify-content-between mt-3'>
           <div className='orderId'>
-            Order ID: #<span>{item.order_id}</span>
+            {MyProfileData.constData.order_id}
+            <span>{item.order_id}</span>
           </div>
-          <button className='cancelOrder text-danger'>Cancel Order</button>
+          <button className='cancelOrder text-danger'>{MyProfileData.constData.cancelOrder}</button>
         </div>
         <div className='d-flex justify-content-between m-3'>
           <div className='col-4'>
@@ -43,8 +45,8 @@ const OrderCard: React.FunctionComponent<IOrderCardProps> = ({ item }) => {
         </div>
         <p>{item.order_status}</p>
         <div className='d-flex flex-row justify-content-between'>
-          <button className='callSupport'>Call Support</button>
-          <button className='viewDetails'>View Details</button>
+          <button className='callSupport'>{MyProfileData.constData.callSupport}</button>
+          <button className='viewDetails'>{MyProfileData.constData.viewDetails}</button>
         </div>
       </section>
     </>
