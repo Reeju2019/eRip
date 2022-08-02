@@ -1,0 +1,33 @@
+{
+  "name": "Alexa",
+  "phoneNumber": "9876543210",
+  "address": "",
+  "compleated": [
+    {
+      "order_id": "2865",
+      "time": "06 Jul, 03 pm - 05 pm",
+      "device": "Mobile",
+      "issue": "Screen Replacement",
+      "order_status": "Order Cancelled",
+      "image": "/static/iphoneBrand/iphone13ProMax.jpg"
+    },
+    {
+      "order_id": "2866",
+      "time": "06 Jul, 03 pm - 05 pm",
+      "device": "Mobile",
+      "issue": "Ear Speaker",
+      "order_status": "Order Cancelled",
+      "image": "/static/iphoneBrand/iphone12ProMax.jpg"
+    }
+  ],
+  "ongoing": [
+    {
+      "order_id": "2866",
+      "time": "06 Jul, 03 pm - 05 pm",
+      "device": "Mobile",
+      "issue": "Ear Speaker",
+      "order_status": "Order Cancelled",
+      "image": "/static/iphoneBrand/iphone13ProMax.jpg"
+    }
+  ]
+}

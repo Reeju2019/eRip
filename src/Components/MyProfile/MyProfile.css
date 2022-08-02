@@ -1,0 +1,102 @@
+.orderCard {
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.17);
+}
+
+.firstCol {
+  background-color: #f5f6fa;
+  height: 100vh;
+}
+.secondCol {
+  background-color: #fafbfb;
+  height: 100vh;
+}
+
+.leftButton {
+  padding: 0.7vmax;
+  padding-left: 2vmax;
+  padding-right: 2vmax;
+  border: 1px solid blue;
+  border-right: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 1.3vmax;
+}
+.rightButton {
+  font-size: 1.3vmax;
+  padding: 0.7vmax;
+  padding-right: 2vmax;
+  padding-left: 2vmax;
+  border: 1px solid blue;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.cardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 80vh;
+  overflow-y: scroll;
+}
+.cardContainer::-webkit-scrollbar {
+    overflow-x: hidden ;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+  cursor: pointer;
+}
+
+.profileImg {
+  max-width: 7vmax;
+  border: 3px solid rgba(128, 128, 128, 0.349);
+  border-radius: 50%;
+}
+
+.contactNumber {
+  font-size: 14px;
+}
+
+.update {
+  color: rgb(79, 79, 170);
+  cursor: pointer;
+}
+
+.cancelOrder {
+  border: 1px solid red;
+  padding: 0.9vmax 3vmax;
+  border-radius: 25px;
+  text-align: center;
+  align-self: center;
+  background-color: #fda1aa;
+}
+
+.orderImage {
+  max-width: 7vmax;
+}
+.orderId {
+  font-size: 1.1vmax;
+}
+.callSupport {
+  font-size: 1.2vmax;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0.9vmax 2.7vmax;
+  color: rgb(9, 9, 156);
+  transition: all 1s;
+}
+.viewDetails {
+  font-size: 1.2vmax;
+  border: 1px solid blue;
+  border-radius: 5px;
+  padding: 0.9vmax 2.7vmax;
+  color: rgb(9, 9, 156);
+  transition: all 1s;
+}
+
+.viewDetails:hover,
+.callSupport:hover {
+  color: white;
+  background-color: blue;
+}

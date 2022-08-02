@@ -6,6 +6,7 @@ import Header from '../Home/Header/Header'
 import Home from '../Home/Home'
 import SingleBrand from '../SingleBrand/SingleBrand'
 import Model from '../Model/Model'
+import MyProfile from '../MyProfile/MyProfile'
 
 const Router: React.FunctionComponent = () => {
   return (
@@ -17,6 +18,7 @@ const Router: React.FunctionComponent = () => {
         <Route path='/contact' element={<ContactUs />} />
         <Route path='/:deviceId/:brandId' element={<SingleBrand />} />
         <Route path='/model' element={<Model />} />
+        <Route path='/my_profile' element={<MyProfile />} />
       </Routes>
     </>
   )
