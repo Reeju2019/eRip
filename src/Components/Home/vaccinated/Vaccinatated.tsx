@@ -20,13 +20,9 @@ const Vaccinatated = () => {
                       </strong>
                     </h1>
                   </div>
-                  <img
-                    src={c.img}
-                    className="justify-content-end col-4 vaccinated-img"
-                    alt=""
-                  />
+                  <img src={c.img} className='justify-content-end col-4 vaccinated-img' alt='' />
                 </div>
-              );
+              )
             })}
           </div>
         </div>

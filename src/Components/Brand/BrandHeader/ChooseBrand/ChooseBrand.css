@@ -1,0 +1,73 @@
+/* search-box section */
+.input-width {
+  width: 40% !important;
+}
+
+.input-position {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -27px;
+}
+
+/* choose a brand section */
+.bg-grey {
+  background-color: #f5f6fa;
+}
+
+.center-title {
+  display: flex;
+  justify-content: center;
+}
+.inner {
+  background-color: #f5f6fa;
+}
+
+.middle-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.brand-width {
+  background-color: white;
+  margin: 5%;
+  width: 80%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.brand-width:hover {
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
+  transform: scale(1) translateY(-10px);
+}
+.other-img {
+  width: 150px;
+  text-align: center;
+}
+
+.brand-img {
+  text-align: center;
+  width: 80%;
+  padding: 5%;
+}
+
+.viewAll {
+  width: 20%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: blue;
+  font-weight: bold;
+  font-size: 1.3rem;
+  /* align-self: center; */
+  justify-content: center;
+}
+
+/* Offer section  */
+
+.offer-img {
+  padding: 1%;
+  width: 100px;
+}

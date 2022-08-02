@@ -1,20 +1,18 @@
-import React, { FunctionComponent } from "react";
+import React from "react";
 
-
-export const Banner: FunctionComponent = () => {
+export const Banner = () => {
   return (
     <div
       style={{
-        color: "white",
-        backgroundColor: "red",
-        padding: "5px",
-        marginTop: "-40px",
-        marginLeft: "7.5%",
-        position: "absolute",
-        width:"85%"
+        color: 'white',
+        backgroundColor: 'red',
+        padding: '5px',
+        marginTop: '-40px',
+        marginLeft: '7.5%',
+        position: 'absolute',
+        width: '85%',
       }}
     >
       COMING SOON
-    </div>
   );
 };

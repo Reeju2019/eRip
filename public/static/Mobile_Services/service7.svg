@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="29.07" height="28.436" viewBox="0 0 29.07 28.436">
+  <g id="microphone" transform="matrix(0.695, 0.719, -0.719, 0.695, -3.861, -35.031)">
+    <path id="Path_1172" data-name="Path 1172" d="M57.616,110.91h3.67v3.1h-3.67Z" transform="translate(-11.179 -74.533)" fill="#82bbfd"/>
+    <path id="Path_1177" data-name="Path 1177" d="M45.913,16.149a5.739,5.739,0,0,1-1.622-3.1V11.065a5.752,5.752,0,0,1,11.331,0v1.988A5.737,5.737,0,0,1,54,16.149Z" transform="translate(-1.684 0)" fill="#2d8bfc"/>
+    <path id="Path_1178" data-name="Path 1178" d="M57.588,65.7H52.128l-.958-18.24h7.376Z" transform="translate(-6.586 -29.321)" fill="#2d8bfc"/>
+    <path id="Path_1179" data-name="Path 1179" d="M50.29,42.53l-.355-1.988h8.086l-.355,1.988Z" transform="translate(-5.706 -24.393)" fill="#bedcfe"/>
+    <rect id="Rectangle_645" data-name="Rectangle 645" width="12.69" height="1.988" rx="0.994" transform="translate(41.927 11.065)" fill="#bedcfe"/>
+    <path id="Path_1180" data-name="Path 1180" d="M61.568,61.312a.981.981,0,0,1-.981-.981V58.506a.981.981,0,1,1,1.962,0V60.33A.981.981,0,0,1,61.568,61.312Z" transform="translate(-13.296 -36.494)" fill="#fed953"/>
+  </g>
+</svg>

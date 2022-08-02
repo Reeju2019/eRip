@@ -44,7 +44,6 @@ const Devices = () => {
           slidesToScroll: 1,
         },
       },
-    ],
   };
 
   return (

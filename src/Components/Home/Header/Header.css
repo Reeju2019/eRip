@@ -61,6 +61,7 @@
 }
 .caro-img {
   width: 25vw;
+  margin-right: 6vmax;
 }
 
 .gps {
@@ -68,7 +69,6 @@
   flex-direction: row;
 }
 .carousel-container-1 {
-  background: url(../../../../public/static/image/carousel-bg-1.png);
   background-size: cover;
   background-position: center;
 }

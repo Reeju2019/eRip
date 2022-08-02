@@ -5,7 +5,10 @@ const BrandHeader: React.FunctionComponent = () => {
   return (
     <>
       <Container fluid>
-        <Row className='brand-header mt-2'>
+        <Row
+          className='brand-header mt-2'
+          style={{ backgroundImage: 'url(/static/brandPageImage/bg-brand.png)' }}
+        >
           <Col className='d-flex justify-content-center align-self-center align-item-center'>
             <h1 className='text-white'>
               On-site Mobile Repare <br /> Service in 30 Minutes
