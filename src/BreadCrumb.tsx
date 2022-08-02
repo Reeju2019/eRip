@@ -1,4 +1,4 @@
-import "./BreadCrumb.scss";
+import React from "react";
 import { NavLink } from "react-router-dom";
 function BreadCrumb({ data }: any) {
   return (
@@ -10,7 +10,7 @@ function BreadCrumb({ data }: any) {
               <span key={link?.slug}>
                 <NavLink
                   to={`/${link?.path}`}
-                  className={`text-white ${
+                  className={`text-black ${
                     idx === data.length - 1 && "fw-6 fs-16"
                   }`}
                 >
@@ -21,7 +21,7 @@ function BreadCrumb({ data }: any) {
             );
           })
         ) : (
-          <NavLink to="/" className="text-white">
+          <NavLink to="/" className="text-black">
             Home
           </NavLink>
         )}

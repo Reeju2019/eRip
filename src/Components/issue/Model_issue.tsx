@@ -1,11 +1,13 @@
 import React, { useState } from 'react'
+import { Breadcrumb } from 'react-bootstrap'
+import BreadCrumb from '../../BreadCrumb'
 import issueData from '../../Data/Model_issue.json'
 import './issue.css'
 
 const Model_issue = () => {
   const breadCrumbData = [
     {
-      path: 'home',
+      path: '',
       slug: 'Home',
     },
     {
@@ -61,6 +63,7 @@ const AddId = (id: any) => {
   return (
     <div>
       <h3>Device Repair Details</h3>
+     <BreadCrumb data={breadCrumbData}/>
 
       <div className='row'>
         <div className='col-lg-7 col-sm-12 mob-p-0'>
