@@ -12,8 +12,8 @@
   padding-top: 2rem;
   text-align: left;
 }
-.why-us {
-  padding: 50px;
+.why-us{
+    padding: 50px;
 }
 .work-para {
   font-size: 13px;
@@ -30,6 +30,6 @@
 .center-title {
   margin: 2rem;
 }
-.center-title h4 {
-  color: #333946;
+.center-title h4{
+  color: #333946,
 }

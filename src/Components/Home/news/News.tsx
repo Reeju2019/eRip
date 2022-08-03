@@ -41,39 +41,43 @@ const News = () => {
         },
       },
     ],
-  }
+  };
   return (
     <>
-      <section className='news-update'>
+      <section className="news-update">
         <Container>
-          {data.news.map((c, index) => {
+          {data.news.map((c: any) => {
             return (
-              <div key={index}>
-                <h4 className='news_heading d-flex justify-content-center'>{c.heading}</h4>
+              <div>
+                <h4 className="news_heading">{c.heading}</h4>
                 <Slider {...settings}>
-                  {newsData.news.map((e, index) => {
+                  {newsData.news.map((e: any) => {
                     return (
-                      <div key={index} className='card device_card'>
-                        <div className='img_card'>
-                          <img src={e.news_image} className='card-img-top' alt='...' />
+                      <div className="card device_card">
+                        <div className="img_card">
+                          <img
+                            src={e.news_image}
+                            className="card-img-top"
+                            alt="..."
+                          />
                         </div>
-                        <div className='card-body news_card_body'>
-                          <h4 className='card-title news_title'>{e.des}</h4>
-                          <Link to={''} className='news_more'>
+                        <div className="card-body news_card_body">
+                          <h4 className="card-title news_title">{e.des}</h4>
+                          <Link to={""} className="news_more">
                             {c.button}
                           </Link>
                         </div>
                       </div>
-                    )
+                    );
                   })}
                 </Slider>
               </div>
-            )
+            );
           })}
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default News
+export default News;

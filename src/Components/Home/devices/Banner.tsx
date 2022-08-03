@@ -1,3 +1,5 @@
+import React from "react";
+
 export const Banner = () => {
   return (
     <div
@@ -12,6 +14,5 @@ export const Banner = () => {
       }}
     >
       COMING SOON
-    </div>
-  )
-}
+  );
+};

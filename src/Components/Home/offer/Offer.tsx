@@ -1,6 +1,6 @@
-import React from 'react'
-import './offer.css'
-import data from '../../../Data/const.data.json'
+import React from "react";
+import "./offer.css";
+import data from "../../../Data/const.data.json";
 
 const Offer = () => {
   return (
@@ -26,7 +26,7 @@ const Offer = () => {
         </div>
       </section>
     </div>
-  )
-}
+  );
+};
 
-export default Offer
+export default Offer;
