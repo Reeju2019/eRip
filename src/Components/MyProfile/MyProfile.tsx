@@ -4,6 +4,7 @@ import './MyProfile.css'
 import MyProfileData from '../../Data/MyProfile.mock.json'
 import OrderCard from './OrderCard'
 import Footer from '../footer/Footer'
+import Header from '../Home/Header/Header'
 
 const MyProfile: React.FunctionComponent = () => {
   const [show, setShow] = useState(true)
@@ -12,6 +13,7 @@ const MyProfile: React.FunctionComponent = () => {
   }
   return (
     <>
+      <Header />
       <Container fluid className='mt-2'>
         <Row>
           <Col className='col-9 firstCol'>

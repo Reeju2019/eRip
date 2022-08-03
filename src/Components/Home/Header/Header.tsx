@@ -117,7 +117,7 @@ const Header: React.FunctionComponent = () => {
               <Nav.Link href='/contact' className='text-muted fw-bold'>
                 {HeaderConstant.contact_us}
               </Nav.Link>
-              <Nav.Link href='/login' className='d-flex flex-row text-muted fw-bold'>
+              <Nav.Link className='d-flex flex-row text-muted fw-bold'>
                 <i className='fa-regular fa-user' />
                 {HeaderConstant.login}
               </Nav.Link>
