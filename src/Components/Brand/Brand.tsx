@@ -15,6 +15,7 @@ import ServiceIssue from './ServiceIssue/ServiceIssue'
 import React, { useEffect, useState } from 'react'
 import AllProductData from '../../Data/Product.mock.json'
 import PageNotFound from '../Error/PageNotFound'
+import Loader from '../Error/Loader'
 
 const Brand: React.FunctionComponent = () => {
   const [found, setFound] = useState(false)
@@ -36,7 +37,7 @@ const Brand: React.FunctionComponent = () => {
   return (
     <>
       {loading ? (
-        'Loading...'
+        <Loader />
       ) : (
         <React.Fragment>
           {!found ? (

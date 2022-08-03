@@ -9,6 +9,7 @@ import ModelWhyUs from './ModelWhyUS/ModelWhyUs'
 import ModelData from '../../Data/Product.mock.json'
 import { useParams } from 'react-router-dom'
 import PageNotFound from '../Error/PageNotFound'
+import Loader from '../Error/Loader'
 
 const Model: React.FunctionComponent = () => {
   const [found, setFound] = useState(false)
@@ -33,7 +34,7 @@ const Model: React.FunctionComponent = () => {
   return (
     <>
       {loading ? (
-        'Loading...'
+        <Loader />
       ) : (
         <React.Fragment>
           {!found ? (
