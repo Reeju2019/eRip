@@ -2,6 +2,9 @@
   "device": [
     {
       "device_name": "mobile",
+      "device_top_img": "/static/brandPageImage/Mobile.png",
+      "device_top_text1": "On-site Mobile Repare",
+      "device_top_text2": "Service in 30 Minutes",
       "brand": [
         {
           "brand_name": "apple",
@@ -59,10 +62,13 @@
     },
     {
       "device_name": "tablet",
+      "device_top_img": "/static/brandPageImage/ipadTopImage.png",
+      "device_top_text1": "iPad repair",
+      "device_top_text2": "by trusted experts",
       "brand": [
         {
           "brand_name": "apple",
-          "image": "static/Mobile_Services/Apple.png",
+          "brand_image": "static/Mobile_Services/Apple.png",
           "model": [
             { "model_name": "iPad 8th Generation", "image": "/static/iphoneBrand/ipad8thGen.png" },
             { "model_name": "iPad Air 3", "image": "/static/iphoneBrand/ipadAir3.png" },
@@ -71,7 +77,7 @@
         },
         {
           "brand_name": "samsung",
-          "image": "static/Mobile_Services/Samsung.png",
+          "brand_image": "static/Mobile_Services/Samsung.png",
           "model": [
             {
               "model_name": "Galaxy Tab S Series",
