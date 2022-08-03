@@ -1,6 +1,6 @@
 import * as React from 'react'
-import Devices from './devices/Devices'
 import Footer from '../footer/Footer'
+import Devices from './devices/Devices'
 import News from './news/News'
 import Offer from './offer/Offer'
 import User from './userSay/User'

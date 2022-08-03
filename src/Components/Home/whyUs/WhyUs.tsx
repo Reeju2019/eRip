@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap'
 import './whyus.css'
 import whyusData from '../../../Data/whyus.data.json'
 import data from '../../../Data/const.data.json'
-
 const WhyUs = () => {
   return (
     <div>

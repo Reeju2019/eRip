@@ -72,3 +72,15 @@
   background-size: cover;
   background-position: center;
 }
+#log_modal .modal-header {
+  border: none !important;
+  text-align: center !important;
+}
+#log_modal span {
+  font-weight: normal !important;
+  color: #80808099;
+  font-size: 20px;
+}
+#log_modal .btn-close {
+  float: inline-start !important;
+}

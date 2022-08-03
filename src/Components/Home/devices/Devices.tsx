@@ -51,9 +51,9 @@ const Devices = () => {
     <div className='device_section'>
       <Container>
         <div>
-          {data.device.map((c, index) => {
+          {data.device.map((c, key) => {
             return (
-              <div key={index}>
+              <div key={key}>
                 <h4> {c.heading} </h4>
                 <p>{c.subhead}</p>
               </div>
@@ -61,9 +61,9 @@ const Devices = () => {
           })}
 
           <Slider {...settings}>
-            {device.device.map((e, index) => {
+            {device.device.map((e, key) => {
               return (
-                <div className='card device_card' key={index}>
+                <div className='card device_card' key={key}>
                   <div className='img_card'>
                     <img src={e.device_image} className='card-img-top' alt='...' />
                     {e.is_comingsoon === 1 ? <Banner /> : ''}

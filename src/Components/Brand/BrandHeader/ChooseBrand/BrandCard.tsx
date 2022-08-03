@@ -33,4 +33,3 @@ const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
 }
 
 export default BrandCard
-

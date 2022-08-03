@@ -10,7 +10,7 @@ const Vaccinatated = () => {
           <div className='row'>
             {data.vaccinated.map((c, index) => {
               return (
-                <div key={index} className='caro-2 d-flex'>
+                <div className='caro-2 d-flex' key={index}>
                   <div className='text-vaccinated justify-content-start col-8'>
                     <h4 className='vaccinated-para'>{c.para}</h4>
                     <h1 className='vaccinated-heading'>

@@ -2,7 +2,7 @@ import { Container } from 'react-bootstrap'
 import AllModelsCard from './AllModelsCard'
 import './AllModels.css'
 import ModelData from '../../../Data/Product.mock.json'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 interface Model {
   model_name: string

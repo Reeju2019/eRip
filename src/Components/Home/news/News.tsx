@@ -49,11 +49,11 @@ const News = () => {
           {data.news.map((c, index) => {
             return (
               <div key={index}>
-                <h4 className='news_heading d-flex justify-content-center'>{c.heading}</h4>
+                <h4 className='news_heading'>{c.heading}</h4>
                 <Slider {...settings}>
-                  {newsData.news.map((e, index) => {
+                  {newsData.news.map((e, index1) => {
                     return (
-                      <div key={index} className='card device_card'>
+                      <div className='card device_card' key={index1}>
                         <div className='img_card'>
                           <img src={e.news_image} className='card-img-top' alt='...' />
                         </div>

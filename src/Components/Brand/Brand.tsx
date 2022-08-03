@@ -28,7 +28,7 @@ const Brand: React.FunctionComponent = () => {
         setFound(true)
       }
     })
-    if(!found){
+    if (!found) {
       setLoading(false)
     }
   }, [])
