@@ -1,9 +1,11 @@
 import React from 'react'
+import ReactDOM from 'react-dom'
+import { Modal } from 'react-bootstrap'
 
 const Login = () => {
   return (
     <div>
-      <div className='modal'>
+      <div className='modal' >
         <div className='modal-dialog'>
           <div className='modal-content'>
             <div className='modal-header'>

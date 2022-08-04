@@ -1,12 +1,12 @@
-import React from 'react'
-import { Container } from 'react-bootstrap'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
-import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
-import './user.css'
-import data from '../../../Data/const.data.json'
-import userData from '../../../Data/User.data.json'
+import React from "react";
+import { Container } from "react-bootstrap";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
+import "./user.css";
+import data from "../../../Data/const.data.json";
+import userData from "../../../Data/User.data.json";
 
 const User = () => {
   const settings = {

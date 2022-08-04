@@ -81,6 +81,8 @@ const Header: React.FunctionComponent = () => {
     }
   }, [timer, resend, show2])
 
+  console.log(resend, timer)
+
   const handleChange = (event: any) => {
     if (event.target.name === 'phone') {
       setPhone(event.target.value)
@@ -97,6 +99,19 @@ const Header: React.FunctionComponent = () => {
   const submitHandler = (event: any) => {
     event.preventDefault()
     if (phone) {
+      // axios
+      //   .post("", phone)
+      //   .then((res) => {
+      //     console.log("Axios res: ", res);
+      //     alert(
+      //       ""
+      //     );
+      //     setPhone("")
+      //   })
+      //   .catch((err) => {
+      //     console.log(err);
+      //     alert("wrong information");
+      //   });
       if (validPhone.test(phone)) {
         handleClose1()
         handleShow2()
@@ -114,6 +129,19 @@ const Header: React.FunctionComponent = () => {
   const otpsubmitHandler = (e: any) => {
     e.preventDefault()
     if (otp) {
+      // axios
+      //   .post("", phone)
+      //   .then((res) => {
+      //     console.log("Axios res: ", res);
+      //     alert(
+      //       ""
+      //     );
+      //     setPhone("")
+      //   })
+      //   .catch((err) => {
+      //     console.log(err);
+      //     alert("wrong information");
+      //   });
       handleClose2()
       setOtp('')
 
@@ -200,11 +228,6 @@ const Header: React.FunctionComponent = () => {
               <Nav.Link href='/contact' className='text-muted fw-bold'>
                 {HeaderConstant.contact_us}
               </Nav.Link>
-              {/* <Nav.Link className='d-flex flex-row text-muted fw-bold'>
-                <i className='fa-regular fa-user' />
-                {HeaderConstant.login}
-              </Nav.Link> */}
-
               {window.localStorage.getItem('phone') ? (
                 <Nav.Link className='d-flex flex-row text-muted fw-bold'>
                   <i className='fa-regular fa-user' />

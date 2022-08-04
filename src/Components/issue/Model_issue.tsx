@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
-// import { Breadcrumb } from 'react-bootstrap'
+import { Breadcrumb } from 'react-bootstrap'
 import BreadCrumb from '../../BreadCrumb'
 import issueData from '../../Data/Model_issue.json'
 import './issue.css'
 
-const ModelIssue = () => {
+const Model_issue = () => {
   const breadCrumbData = [
     {
       path: '',
@@ -26,25 +26,25 @@ const ModelIssue = () => {
 
   const [serviceItem, setServiceItem] = useState<number>()
   const [serviceId, setServiceId] = useState<number>()
-  // const [serviceName, setServiceName] = useState('')
-  // const [price, setPrice] = useState()
+  const [serviceName, setServiceName] = useState('')
+  const [price, setPrice] = useState()
 
   //   const details:any =() = issueData.services.find((data :any) => data.id === details.id);
   //   let obj = {};
   //   let t = details.id;
 
-  const onAdd = (service: number) => {
+  const onAdd = (service: any) => {
     if (serviceItem === undefined) {
       setServiceItem(service)
     } else {
       setServiceItem(service + serviceItem)
     }
   }
-  // console.log(serviceItem)
+  console.log(serviceItem)
 
-  const onRemove = (service: number) => {
+  const onRemove = (service: any) => {
     if (serviceItem !== undefined) {
-      setServiceItem(service - serviceItem)
+      setServiceItem(parseInt(service) - serviceItem)
       setServiceId(undefined)
     }
   }
@@ -57,7 +57,7 @@ const ModelIssue = () => {
     //     setServiceId(id , serviceId)
     // }
   }
-  // console.log(serviceId)
+  console.log(serviceId)
 
   return (
     <div>
@@ -74,7 +74,7 @@ const ModelIssue = () => {
           </div>
           <h5>Select your Repair Services</h5> <hr />
           <div className='row side-gap-1 model_issue_row'>
-            {issueData.services.map((e) => {
+            {issueData.services.map((e: any, key: any) => {
               return (
                 <div className='d-flex col-6 col-sm-6 g-0' key={e.id}>
                   <img className='issue_icon' src={issueData.image} alt='' />
@@ -92,7 +92,7 @@ const ModelIssue = () => {
                     <button
                       key={e.id}
                       onClick={() => {
-                        onAdd(e.charge)
+                        onAdd(parseInt(e.charge))
                         AddId(e.id)
                       }}
                     >
@@ -115,4 +115,4 @@ const ModelIssue = () => {
   )
 }
 
-export default ModelIssue
+export default Model_issue
