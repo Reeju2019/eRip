@@ -12,12 +12,12 @@
   text-align: left;
   font-weight: 600;
 }
-.news_title{
-    font-size: 16px;
-    padding-bottom: 17px;
+.news_title {
+  font-size: 16px;
+  padding-bottom: 17px;
 }
-.news_more{
-    text-decoration: none;
-    color: #0056b3;
-    font-size: 13px;
+.news_more {
+  text-decoration: none;
+  color: #0056b3;
+  font-size: 13px;
 }
