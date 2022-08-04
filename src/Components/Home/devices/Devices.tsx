@@ -1,13 +1,13 @@
-import * as React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import "./devices.css";
-import { BsArrowRightShort, BsArrowLeftShort } from "react-icons/bs";
-import { Container } from "react-bootstrap";
-import { Banner } from "./Banner";
-import device from "../../../Data/Device.data.json";
-import data from "../../../Data/const.data.json";
+import * as React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import './devices.css'
+import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
+import { Container } from 'react-bootstrap'
+import { Banner } from './Banner'
+import device from '../../../Data/Device.data.json'
+import data from '../../../Data/const.data.json'
 
 const Devices = () => {
   const settings = {
@@ -44,44 +44,41 @@ const Devices = () => {
           slidesToScroll: 1,
         },
       },
-  };
+    ],
+  }
 
   return (
-    <div className="device_section">
+    <div className='device_section'>
       <Container>
         <div>
-          {data.device.map((c: any, key) => {
+          {data.device.map((c, key) => {
             return (
-              <div>
+              <div key={key}>
                 <h4> {c.heading} </h4>
                 <p>{c.subhead}</p>
               </div>
-            );
+            )
           })}
 
           <Slider {...settings}>
-            {device.device.map((e: any, key) => {
+            {device.device.map((e, key) => {
               return (
-                <div className="card device_card">
-                  <div className="img_card">
-                    <img
-                      src={e.device_image}
-                      className="card-img-top"
-                      alt="..."
-                    />
-                    {e.is_comingsoon === 1 ? <Banner /> : ""}
+                <div className='card device_card' key={key}>
+                  <div className='img_card'>
+                    <img src={e.device_image} className='card-img-top' alt='...' />
+                    {e.is_comingsoon === 1 ? <Banner /> : ''}
                   </div>
-                  <div className="card-body device_card_body">
-                    <p className="card-text device_text">{e.device_name}</p>
+                  <div className='card-body device_card_body'>
+                    <p className='card-text device_text'>{e.device_name}</p>
                   </div>
                 </div>
-              );
+              )
             })}
           </Slider>
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Devices;
+export default Devices

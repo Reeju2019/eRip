@@ -1,0 +1,48 @@
+.prodImg{
+  width: 10vmax;
+  margin: 2vmax;
+}
+
+.servicesImg{
+  width: 90%;
+  display: block;
+  margin: auto;
+}
+
+/* service card */
+.serviceParagraph{
+  font-size: 0.8vmax;
+  font-weight: bold;
+  color: gray;
+  
+}
+
+.lineHeight{
+  line-height: 1;
+}
+.sticThrough{
+  text-decoration: line-through;
+  color: gray;
+  font-size: 1.2vmax;
+}
+.colorGreen{
+  color: green;
+  font-weight: bold;
+  font-size: 1vmax;
+}
+
+.serviceBtn{
+  border: 1px solid blue;
+  padding: 4px;
+  width: 5vmax;
+  font-size: 0.9vmax;
+  border-radius: 5px;
+}
+
+.btnbtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}

@@ -1,7 +1,7 @@
 import * as React from 'react'
 
 interface IAllModelsCardProps {
-  models: { model: string; image: string }
+  models: { model_name: string; image: string }
 }
 
 const AllModelsCard: React.FunctionComponent<IAllModelsCardProps> = (models) => {
@@ -9,10 +9,10 @@ const AllModelsCard: React.FunctionComponent<IAllModelsCardProps> = (models) => 
     <>
       <div className='modelCard'>
         <div>
-          <img src={models.models.image} className='modelImg' alt={models.models.model} />
+          <img src={models.models.image} className='modelImg' alt={models.models.model_name} />
         </div>
       </div>
-      <p className='modelName'>{models.models.model}</p>
+      <p className='modelName'>{models.models.model_name}</p>
     </>
   )
 }

@@ -60,7 +60,7 @@ const Header: React.FunctionComponent = () => {
   const [show2, setShow2] = useState(false)
   const [resend, setresend] = useState(false)
   const [phone, setPhone] = useState<string>('')
-  const [valid, setValid] = useState<any>('')
+  const [valid, setValid] = useState('')
   const [otp, setOtp] = useState('')
 
   const handleClose = () => setShow(false)
@@ -81,37 +81,22 @@ const Header: React.FunctionComponent = () => {
     }
   }, [timer, resend, show2])
 
-  console.log(resend, timer)
-
-  const handleChange = (event: any) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     if (event.target.name === 'phone') {
       setPhone(event.target.value)
     }
   }
 
-  const handleChange1 = (e: any) => {
+  const handleChange1 = (e: React.ChangeEvent<HTMLInputElement>) => {
     // if(e.target.value.length===4){
     //   window.alert("Username shouldn't exceed 4 characters")
     // }
     setOtp(e.target.value)
   }
 
-  const submitHandler = (event: any) => {
+  const submitHandler = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault()
     if (phone) {
-      // axios
-      //   .post("", phone)
-      //   .then((res) => {
-      //     console.log("Axios res: ", res);
-      //     alert(
-      //       ""
-      //     );
-      //     setPhone("")
-      //   })
-      //   .catch((err) => {
-      //     console.log(err);
-      //     alert("wrong information");
-      //   });
       if (validPhone.test(phone)) {
         handleClose1()
         handleShow2()
@@ -126,25 +111,11 @@ const Header: React.FunctionComponent = () => {
     }
   }
 
-  const otpsubmitHandler = (e: any) => {
+  const otpsubmitHandler = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault()
     if (otp) {
-      // axios
-      //   .post("", phone)
-      //   .then((res) => {
-      //     console.log("Axios res: ", res);
-      //     alert(
-      //       ""
-      //     );
-      //     setPhone("")
-      //   })
-      //   .catch((err) => {
-      //     console.log(err);
-      //     alert("wrong information");
-      //   });
       handleClose2()
       setOtp('')
-
       navigate('/profile')
     }
   }
@@ -157,8 +128,8 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <>
-      <Container className='mt-2 header-comp'>
-        <Container fluid>
+      <Container fluid className='py-2 m-0 header-comp'>
+        <Container>
           <Row className='Navbar'>
             <Image
               src='/static/image/logo_erip.png'
@@ -318,7 +289,7 @@ const Header: React.FunctionComponent = () => {
                       value={otp}
                       name='otp'
                       placeholder='Enter Your Mobile Number'
-                      onChange={handleChange1}
+                      onChange={(event) => handleChange1(event)}
                     />
                   </div>
                   <button
