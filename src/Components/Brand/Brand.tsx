@@ -16,6 +16,7 @@ import React, { useEffect, useState } from 'react'
 import AllProductData from '../../Data/Product.mock.json'
 import PageNotFound from '../Error/PageNotFound'
 import Loader from '../Error/Loader'
+import ExtraHeader from '../Extra/ExtraHeader'
 
 const Brand: React.FunctionComponent = () => {
   const [found, setFound] = useState(false)
@@ -45,6 +46,7 @@ const Brand: React.FunctionComponent = () => {
           ) : (
             <React.Fragment>
               <Header />
+              <ExtraHeader/>
               <BrandHeader />
               <ChooseBrand />
               <WeCare />

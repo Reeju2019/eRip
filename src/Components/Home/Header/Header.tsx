@@ -128,8 +128,8 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <>
-      <Container className='mt-2 header-comp'>
-        <Container fluid>
+      <Container fluid className='py-2 m-0 header-comp'>
+        <Container>
           <Row className='Navbar'>
             <Image
               src='/static/image/logo_erip.png'

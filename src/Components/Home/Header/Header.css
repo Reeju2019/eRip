@@ -1,5 +1,10 @@
 .header-comp {
-  position: relative;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100vw !important;
+  z-index: 10;
+  box-shadow: 0px 0px 5px rgb(88, 88, 88);
 }
 
 .fa-map-marker-alt {

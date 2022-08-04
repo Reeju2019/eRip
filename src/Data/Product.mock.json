@@ -10,7 +10,93 @@
           "brand_name": "apple",
           "brand_image": "static/Mobile_Services/Apple.png",
           "model": [
-            { "model_name": "iPhone 13 Pro", "image": "/static/iphoneBrand/iphone13Pro.jpg" },
+            {
+              "model_name": "iPhone 13 Pro",
+              "image": "/static/iphoneBrand/iphone13Pro.jpg",
+              "service": [
+                {
+                  "serviceImage": "static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 29998,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service3.svg",
+                  "service_name": "OEM Screen",
+                  "price": 49499,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "12 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service4.svg",
+                  "service_name": "Battery",
+                  "price": 14999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service5.svg",
+                  "service_name": "Back Glass",
+                  "price": 13498,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service6.svg",
+                  "service_name": "Charging",
+                  "price": 11998,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service8.svg",
+                  "service_name": "Ear Speaker",
+                  "price": 11999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service9.svg",
+                  "service_name": "Back Camera",
+                  "price": 20000,
+                  "off": 25,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service1.svg",
+                  "service_name": "Body Housing",
+                  "price": 19498,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "static/Mobile_Services/service2.svg",
+                  "service_name": "Diagnosis",
+                  "price": 499,
+                  "off": 40,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
             {
               "model_name": "iPhone 13 Pro Max",
               "image": "/static/iphoneBrand/iphone13ProMax.jpg"

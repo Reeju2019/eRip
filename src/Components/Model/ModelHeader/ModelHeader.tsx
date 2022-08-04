@@ -22,10 +22,10 @@ const ModelHeader: React.FunctionComponent = () => {
                     <i className='fa-solid fa-angle-right m-0' />
                   </Link>
                   <Link to={`/${deviceId}`} className='link-btn'>
-                    Brand <i className='fa-solid fa-angle-right m-0' />
+                    Device <i className='fa-solid fa-angle-right m-0' />
                   </Link>
                   <Link to={`/${deviceId}/${brandId}`} className='link-btn active-link'>
-                    Model
+                    Brand
                   </Link>
                 </div>
               </div>
