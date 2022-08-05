@@ -1,48 +1,90 @@
-.prodImg{
+.prodImg {
   width: 10vmax;
   margin: 2vmax;
 }
 
-.servicesImg{
-  width: 90%;
+.servicesImg {
+  width: 100%;
   display: block;
   margin: auto;
 }
 
 /* service card */
-.serviceParagraph{
+.serviceParagraph {
   font-size: 0.8vmax;
   font-weight: bold;
   color: gray;
-  
 }
 
-.lineHeight{
+.lineHeight {
   line-height: 1;
 }
-.sticThrough{
+.sticThrough {
   text-decoration: line-through;
   color: gray;
   font-size: 1.2vmax;
 }
-.colorGreen{
+.colorGreen {
   color: green;
   font-weight: bold;
   font-size: 1vmax;
 }
 
-.serviceBtn{
+.serviceBtn {
   border: 1px solid blue;
   padding: 4px;
-  width: 5vmax;
+  width: 5.5vmax;
   font-size: 0.9vmax;
   border-radius: 5px;
 }
 
-.btnbtn{
+.knowMore {
+  font-size: 1vmax;
+  margin-left: 18%;
+  font-weight: bold;
+  color: blue;
+}
+
+.knowMorePara {
+  cursor: pointer;
+  width: 40vw;
+}
+.btnbtn {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
 
+.removeBtn {
+  background-color: blue;
+  color: white;
+}
+
+.offerBorder {
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.couponText {
+  color: blue;
+  font-size: 15px;
+  margin-left: 3%;
+  margin-top: 2%;
+  line-height: 1;
+}
+
+.fontAwesome {
+  color: blue;
+  align-items: center;
+  align-self: center;
+  margin-right: 3%;
+}
+
+.applyBtn {
+  font-size: 15px;
+  /* min-width: 2vmax; */
 }

@@ -8,7 +8,7 @@ const ContactUs: React.FunctionComponent = () => {
   return (
     <>
       <Header />
-      <ExtraHeader/>
+      <ExtraHeader />
       <Container fluid className='contact mt-2'>
         <Container>
           <Row>

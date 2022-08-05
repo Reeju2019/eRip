@@ -21,11 +21,14 @@ const ModelHeader: React.FunctionComponent = () => {
                     Home
                     <i className='fa-solid fa-angle-right m-0' />
                   </Link>
-                  <Link to={`/${deviceId}`} className='link-btn'>
-                    Device <i className='fa-solid fa-angle-right m-0' />
+                  <Link to={`/${deviceId}`} className='link-btn text-capitalize'>
+                    {deviceId} <i className='fa-solid fa-angle-right m-0' />
                   </Link>
-                  <Link to={`/${deviceId}/${brandId}`} className='link-btn active-link'>
-                    Brand
+                  <Link
+                    to={`/${deviceId}/${brandId}`}
+                    className='link-btn active-link text-capitalize'
+                  >
+                    {brandId}
                   </Link>
                 </div>
               </div>

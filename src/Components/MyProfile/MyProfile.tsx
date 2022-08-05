@@ -15,7 +15,7 @@ const MyProfile: React.FunctionComponent = () => {
   return (
     <>
       <Header />
-      <ExtraHeader/>
+      <ExtraHeader />
       <Container fluid className='mt-2'>
         <Row>
           <Col className='col-9 firstCol'>

@@ -3,19 +3,31 @@ import AllModelsCard from './AllModelsCard'
 import './AllModels.css'
 import ModelData from '../../../Data/Product.mock.json'
 import React, { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
+
+interface Service {
+  serviceImage: string
+  service_name: string
+  price: number
+  off: number
+  repairTime: string
+  warranty: string
+  repairType: string
+}
 
 interface Model {
+  id: string
   model_name: string
   image: string
+  service: Service[]
 }
 
 const AllModels: React.FunctionComponent = () => {
+  const { deviceId, brandId } = useParams()
+
   const [modelData, setModelData] = useState<Model[]>([])
   useEffect(() => {
-    const device: string = localStorage.getItem('deviceId') as string
-    const brand: string = localStorage.getItem('brandId') as string
-    const deviceId = JSON.parse(device)
-    const brandId = JSON.parse(brand)
+    localStorage.setItem('brandId', JSON.stringify(brandId))
     ModelData.device.map((deviceItem) => {
       if (deviceItem.device_name === deviceId) {
         deviceItem.brand.map((brandItem) => {

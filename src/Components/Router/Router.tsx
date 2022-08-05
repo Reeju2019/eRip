@@ -16,7 +16,7 @@ const Router: React.FunctionComponent = () => {
         <Route path='/my_profile' element={<MyProfile />} />
         <Route path='/:deviceId' element={<Brand />} />
         <Route path='/:deviceId/:brandId' element={<Model />} />
-        <Route path='/issue' element={<Issue />} />
+        <Route path='/:deviceId/:brandId/:modelId' element={<Issue />} />
       </Routes>
     </>
   )

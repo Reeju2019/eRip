@@ -16,7 +16,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <ExtraHeader/>
+      <ExtraHeader />
       <HeaderCarousel />
       <Getfix />
       <OfferCaroulsel />

@@ -46,7 +46,7 @@ const Brand: React.FunctionComponent = () => {
           ) : (
             <React.Fragment>
               <Header />
-              <ExtraHeader/>
+              <ExtraHeader />
               <BrandHeader />
               <ChooseBrand />
               <WeCare />

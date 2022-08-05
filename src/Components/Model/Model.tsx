@@ -43,7 +43,7 @@ const Model: React.FunctionComponent = () => {
           ) : (
             <React.Fragment>
               <Header />
-              <ExtraHeader/>
+              <ExtraHeader />
               <ModelHeader />
               <AllModels />
               <ModelWhyUs />
