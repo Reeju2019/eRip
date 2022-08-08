@@ -48,7 +48,7 @@ const Devices = () => {
   };
 
   return (
-    <div className="device_section">
+    <div className='device_section'>
       <Container>
         <div>
           {data.device.map((c: any, index) => {
@@ -57,7 +57,7 @@ const Devices = () => {
                 <h4> {c.heading} </h4>
                 <p>{c.subhead}</p>
               </div>
-            );
+            )
           })}
 
           <Slider {...settings}>
@@ -72,17 +72,17 @@ const Devices = () => {
                     />
                     {e.is_comingsoon === 1 ? <Banner /> : ""}
                   </div>
-                  <div className="card-body device_card_body">
-                    <p className="card-text device_text">{e.device_name}</p>
+                  <div className='card-body device_card_body'>
+                    <p className='card-text device_text'>{e.device_name}</p>
                   </div>
                 </div>
-              );
+              )
             })}
           </Slider>
         </div>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default Devices;
+export default Devices

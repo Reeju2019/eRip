@@ -26,7 +26,7 @@ const Offer = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Offer;
+export default Offer

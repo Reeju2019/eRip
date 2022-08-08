@@ -41,10 +41,10 @@ const News = () => {
         },
       },
     ],
-  };
+  }
   return (
     <>
-      <section className="news-update">
+      <section className='news-update'>
         <Container>
           {data.news.map((c: any, index) => {
             return (
@@ -61,23 +61,23 @@ const News = () => {
                             alt="..."
                           />
                         </div>
-                        <div className="card-body news_card_body">
-                          <h4 className="card-title news_title">{e.des}</h4>
-                          <Link to={""} className="news_more">
+                        <div className='card-body news_card_body'>
+                          <h4 className='card-title news_title'>{e.des}</h4>
+                          <Link to={''} className='news_more'>
                             {c.button}
                           </Link>
                         </div>
                       </div>
-                    );
+                    )
                   })}
                 </Slider>
               </div>
-            );
+            )
           })}
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default News;
+export default News

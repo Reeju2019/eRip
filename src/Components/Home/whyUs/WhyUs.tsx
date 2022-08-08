@@ -1,8 +1,8 @@
-import React from "react";
-import { Container } from "react-bootstrap";
-import "./whyus.css";
-import whyusData from "../../../Data/whyus.data.json";
-import data from "../../../Data/const.data.json"
+import React from 'react'
+import { Container } from 'react-bootstrap'
+import './whyus.css'
+import whyusData from '../../../Data/whyus.data.json'
+import data from '../../../Data/const.data.json'
 const WhyUs = () => {
   return (
     <div>
@@ -18,7 +18,7 @@ const WhyUs = () => {
                         <strong>{e.heading}</strong>
                       </h4>
                     </div>
-                  );
+                  )
                 })}
               </div>
             </div>
@@ -33,14 +33,14 @@ const WhyUs = () => {
                       <p className="work-para">{e.text}</p>
                     </div>
                   </div>
-                );
+                )
               })}
             </div>
           </div>
         </section>
       </Container>
     </div>
-  );
-};
+  )
+}
 
-export default WhyUs;
+export default WhyUs

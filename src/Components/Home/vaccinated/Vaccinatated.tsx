@@ -1,6 +1,6 @@
-import React from "react";
-import data from "../../../Data/const.data.json";
-import "./vaccine.css";
+import React from 'react'
+import data from '../../../Data/const.data.json'
+import './vaccine.css'
 
 const Vaccinatated = () => {
   return (
@@ -28,7 +28,7 @@ const Vaccinatated = () => {
         </div>
       </section>
     </div>
-  );
-};
+  )
+}
 
-export default Vaccinatated;
+export default Vaccinatated

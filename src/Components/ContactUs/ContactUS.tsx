@@ -2,16 +2,20 @@ import React from 'react'
 import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './Contact.css'
 import ContactPageData from '../../Data/ContactPageData.mock.json'
+import Header from '../Home/Header/Header'
 
 const ContactUs: React.FunctionComponent = () => {
   return (
     <>
-      <Container fluid className='contact mt-2'>
+      <Header />
+      <Container fluid className='contact'>
         <Container>
           <Row>
             <Col className='col-12'>
               <div>
-                <h4 className='mb-lg-4 mt-3 mb-3'>{ContactPageData.contact_title}</h4>
+                <h4 className='mb-lg-4 mt-3 mb-3 d-flex justify-content-center'>
+                  {ContactPageData.contact_title}
+                </h4>
               </div>
             </Col>
           </Row>

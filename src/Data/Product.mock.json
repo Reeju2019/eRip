@@ -1,22 +1,780 @@
 {
-  "mobile": {
-    "brand": [
-      {
-        "brand_name": "apple",
-        "model": [
-          {
-            "model_name": "iPhone 13 Pro Max",
-            "image": "https://erip.in/erip_api/upload/img/20220112104704.jpg"
-          },
-          {
-            "model_name": "iPhone 13 Pro",
-            "image": "https://erip.in/erip_api/upload/img/20220112111331.jpg"
-          },
-          { "model_name": "iPhone 13 Mini" }
-        ]
-      },
-      { "brand_name": "onePlus" },
-      { "brand_name": "samsung" }
-    ]
-  }
+  "device": [
+    {
+      "device_name": "mobile",
+      "device_top_img": "/static/brandPageImage/Mobile.png",
+      "device_top_text1": "On-site Mobile Repare",
+      "device_top_text2": "Service in 30 Minutes",
+      "brand": [
+        {
+          "brand_name": "apple",
+          "brand_image": "/static/Mobile_Services/Apple.png",
+          "model": [
+            {
+              "id": "iPhone13ProMax",
+              "model_name": "iPhone 13 Pro Max",
+              "image": "/static/iphoneBrand/iphone13ProMax.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 29998,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service3.svg",
+                  "service_name": "OEM Screen",
+                  "price": 49499,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "12 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service4.svg",
+                  "service_name": "Battery",
+                  "price": 14999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service5.svg",
+                  "service_name": "Back Glass",
+                  "price": 13498,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service6.svg",
+                  "service_name": "Charging",
+                  "price": 11998,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service8.svg",
+                  "service_name": "Ear Speaker",
+                  "price": 11999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service9.svg",
+                  "service_name": "Back Camera",
+                  "price": 20000,
+                  "off": 25,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Body Housing",
+                  "price": 19498,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service2.svg",
+                  "service_name": "Diagnosis",
+                  "price": 499,
+                  "off": 40,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone13Pro",
+              "model_name": "iPhone 13 Pro",
+              "image": "/static/iphoneBrand/iphone13Pro.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service3.svg",
+                  "service_name": "OEM Screen",
+                  "price": 47999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "12 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service4.svg",
+                  "service_name": "Battery",
+                  "price": 19499,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service5.svg",
+                  "service_name": "Back Glass",
+                  "price": 13499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service6.svg",
+                  "service_name": "Charging",
+                  "price": 11999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service8.svg",
+                  "service_name": "Ear Speaker",
+                  "price": 11999,
+                  "off": 33,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service9.svg",
+                  "service_name": "Back Camera",
+                  "price": 20000,
+                  "off": 30,
+                  "repairTime": "30 Minutes",
+                  "warranty": "6 Months",
+                  "repairType": "Doorstep"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Body Housing",
+                  "price": 19499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                },
+                {
+                  "serviceImage": "/static/Mobile_Services/service2.svg",
+                  "service_name": "Diagnosis",
+                  "price": 499,
+                  "off": 40,
+                  "repairTime": "6 to 24 hrs",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone13Mini",
+              "model_name": "iPhone 13 Mini",
+              "image": "/static/iphoneBrand/iphone13Mini.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone13",
+              "model_name": "iPhone 13",
+              "image": "/static/iphoneBrand/iphone13.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone12ProMax",
+              "model_name": "iPhone 12 Pro Max",
+              "image": "/static/iphoneBrand/iphone12ProMax.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone12Pro",
+              "model_name": "iPhone 12 Pro",
+              "image": "/static/iphoneBrand/iphone12Pro.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone12Mini",
+              "model_name": "iPhone 12 Mini",
+              "image": "/static/iphoneBrand/iphone12Mini.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone12",
+              "model_name": "iPhone 12",
+              "image": "/static/iphoneBrand/iphone12.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone11ProMax",
+              "model_name": "iPhone 11 Pro Max",
+              "image": "/static/iphoneBrand/iphone11ProMax.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone11Pro",
+              "model_name": "iPhone 11 Pro",
+              "image": "/static/iphoneBrand/iphone11Pro.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone11",
+              "model_name": "iPhone 11",
+              "image": "/static/iphoneBrand/iphone11.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneX",
+              "model_name": "iPhone X",
+              "image": "/static/iphoneBrand/iphoneX.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneXR",
+              "model_name": "iPhone XR",
+              "image": "/static/iphoneBrand/iphoneXR.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneXS",
+              "model_name": "iPhone XS",
+              "image": "/static/iphoneBrand/iphoneXS.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneXSMax",
+              "model_name": "iPhone XS Max",
+              "image": "/static/iphoneBrand/iphoneXSMax.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneSE2020",
+              "model_name": "iPhone SE 2020",
+              "image": "/static/iphoneBrand/iphoneSE2020.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone8Plus",
+              "model_name": "iPhone 8 Plus",
+              "image": "/static/iphoneBrand/iphone8Plus.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone8",
+              "model_name": "iPhone 8",
+              "image": "/static/iphoneBrand/iphone8.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone7",
+              "model_name": "iPhone 7",
+              "image": "/static/iphoneBrand/iphone7.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone7Plus",
+              "model_name": "iPhone 7 Plus",
+              "image": "/static/iphoneBrand/iphone7Plus.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone6sPlus",
+              "model_name": "iPhone 6s Plus",
+              "image": "/static/iphoneBrand/iphone6sPlus.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone6s",
+              "model_name": "iPhone 6s",
+              "image": "/static/iphoneBrand/iphone6s.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone6Plus",
+              "model_name": "iPhone 6 Plus",
+              "image": "/static/iphoneBrand/iphone6Plus.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone6",
+              "model_name": "iPhone 6",
+              "image": "/static/iphoneBrand/iphone6.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhoneSE",
+              "model_name": "iPhone SE",
+              "image": "/static/iphoneBrand/iphoneSE.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPhone5s",
+              "model_name": "iPhone 5s",
+              "image": "/static/iphoneBrand/iphone5s.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "others",
+              "model_name": "Others",
+              "image": "/static/iphoneBrand/others.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand_name": "onePlus",
+          "brand_image": "/static/Mobile_Services/One-plus.png",
+          "model": [
+            {
+              "id": "onePlus3",
+              "model_name": "Oneplus 3",
+              "image": "/static/onePlusBrand/onePlus3.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "onePlus3t",
+              "model_name": "Oneplus 3T",
+              "image": "/static/onePlusBrand/onePlus3t.jpg",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "onePlus5",
+              "model_name": "Oneplus 5",
+              "image": "/static/onePlusBrand/onePlus5.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "onePlus5t",
+              "model_name": "Oneplus 5T",
+              "image": "/static/onePlusBrand/onePlus5t.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "device_name": "tablet",
+      "device_top_img": "/static/brandPageImage/ipadTopImage.png",
+      "device_top_text1": "iPad repair",
+      "device_top_text2": "by trusted experts",
+      "brand": [
+        {
+          "brand_name": "apple",
+          "brand_image": "/static/Mobile_Services/Apple.png",
+          "model": [
+            {
+              "id": "iPad8thGeneration",
+              "model_name": "iPad 8th Generation",
+              "image": "/static/iphoneBrand/ipad8thGen.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPadAir3",
+              "model_name": "iPad Air 3",
+              "image": "/static/iphoneBrand/ipadAir3.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "iPadAirMini5",
+              "model_name": "iPad Mini 5",
+              "image": "/static/iphoneBrand/ipadMini5.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "brand_name": "samsung",
+          "brand_image": "/static/Mobile_Services/Samsung.png",
+          "model": [
+            {
+              "id": "GalaxyTabSSeries",
+              "model_name": "Galaxy Tab S Series",
+              "image": "/static/samsungBrand/galaxyTabSSeries.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "GalaxyTabASeries",
+              "model_name": "Galaxy Tab A Series",
+              "image": "/static/samsungBrand/galaxyTabASeries.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            },
+            {
+              "id": "otherServices",
+              "model_name": "Other Service",
+              "image": "/static/samsungBrand/otherSeries.png",
+              "service": [
+                {
+                  "serviceImage": "/static/Mobile_Services/service1.svg",
+                  "service_name": "Touch & Glass",
+                  "price": 28499,
+                  "off": 33,
+                  "repairTime": "6 to 24 hrs ",
+                  "warranty": "6 Months",
+                  "repairType": "Pick & Drop"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

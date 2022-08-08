@@ -9,10 +9,12 @@ import WhyUs from './whyUs/WhyUs'
 import Getfix from './Get-fix/Get-fix'
 import HeaderCarousel from './Header/HeaderCarousel'
 import OfferCaroulsel from './OfferCarousel/Offer'
+import Header from './Header/Header'
 
 const Home = () => {
   return (
     <>
+      <Header />
       <HeaderCarousel />
       <Getfix />
       <OfferCaroulsel />

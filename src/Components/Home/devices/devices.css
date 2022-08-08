@@ -14,11 +14,11 @@
   background-color: #f5f6fa;
   padding: 50px 50px 60px;
 }
-.device_section h4{
+.device_section h4 {
   color: #333946;
   font-weight: bold;
 }
-.device_section p{
+.device_section p {
   color: #a1a1a1;
 }
 
@@ -48,7 +48,7 @@
 .slick-slider {
   margin-top: 50px;
 }
-.device_text{
+.device_text {
   font-size: 20px;
   font-weight: 400;
   padding-bottom: 17px;
