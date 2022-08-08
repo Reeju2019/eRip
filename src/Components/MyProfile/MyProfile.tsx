@@ -5,7 +5,6 @@ import MyProfileData from '../../Data/MyProfile.mock.json'
 import OrderCard from './OrderCard'
 import Footer from '../footer/Footer'
 import Header from '../Home/Header/Header'
-import ExtraHeader from '../Extra/ExtraHeader'
 
 const MyProfile: React.FunctionComponent = () => {
   const [show, setShow] = useState(true)
@@ -15,8 +14,7 @@ const MyProfile: React.FunctionComponent = () => {
   return (
     <>
       <Header />
-      <ExtraHeader />
-      <Container fluid className='mt-2'>
+      <Container fluid className=''>
         <Row>
           <Col className='col-9 firstCol'>
             <div className='m-3 d-flex justify-content-center  '>
