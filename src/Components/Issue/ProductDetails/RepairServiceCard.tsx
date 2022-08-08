@@ -1,15 +1,15 @@
 import * as React from 'react'
 import { Col, Row } from 'react-bootstrap'
 
-// interface SingleService {
-//   serviceImage: string
-//   service_name: string
-//   price: number
-//   off: number
-//   repairTime: string
-//   warranty: string
-//   repairType: string
-// }
+interface SingleService {
+  serviceImage: string
+  service_name: string
+  price: number
+  off: number
+  repairTime: string
+  warranty: string
+  repairType: string
+}
 
 interface IRepairServiceCardProps {
   service: {
@@ -21,13 +21,12 @@ interface IRepairServiceCardProps {
     warranty: string
     repairType: string
   }
-  // cart: SingleService[]
-  // cartItem: SingleService[]
-  // setCartItem: React.Dispatch<React.SetStateAction<SingleService[]>>
+  cartItem: SingleService[]
+  setCartItem: React.Dispatch<React.SetStateAction<SingleService[]>>
 }
 
 const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (props) => {
-  const { service } = props
+  const { service, cartItem, setCartItem } = props
   const [add, setAdd] = React.useState(false)
 
   const offPrice = (price: number, off: number) => {
@@ -36,9 +35,15 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
   }
   const btnClickAdd = () => {
     setAdd(!add)
-    // cart.push(service)
+    setCartItem([...cartItem, service])
   }
   const btnClickRemove = () => {
+    const isExist = cartItem.find((i) => i.service_name === service.service_name)
+    let filterArr: SingleService[]
+    if (isExist) {
+      filterArr = cartItem.filter((i) => i.service_name !== service.service_name)
+      setCartItem(filterArr)
+    }
     setAdd(!add)
   }
 
