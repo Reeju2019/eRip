@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, InputGroup } from 'react-bootstrap'
 import BrandCard from './BrandCard'
 import './ChooseBrand.css'

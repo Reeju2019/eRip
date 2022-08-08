@@ -46,14 +46,14 @@ const News = () => {
     <>
       <section className="news-update">
         <Container>
-          {data.news.map((c: any) => {
+          {data.news.map((c: any, index) => {
             return (
-              <div>
+              <div key={index}>
                 <h4 className="news_heading">{c.heading}</h4>
                 <Slider {...settings}>
-                  {newsData.news.map((e: any) => {
+                  {newsData.news.map((e: any, index) => {
                     return (
-                      <div className="card device_card">
+                      <div className="card device_card" key={index}>
                         <div className="img_card">
                           <img
                             src={e.news_image}

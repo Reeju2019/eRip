@@ -1,3 +1,4 @@
+import React from 'react'
 import Footer from '../footer/Footer'
 import AllModels from './AllModels/AllModels'
 import ModelCarousel from './ModelCarousel/ModelCarousel'

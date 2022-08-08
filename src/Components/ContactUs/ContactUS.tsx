@@ -1,3 +1,4 @@
+import React from 'react'
 import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './Contact.css'
 import ContactPageData from '../../Data/ContactPageData.mock.json'

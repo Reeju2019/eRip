@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import "./offer.css";
 import data from "../../../Data/const.data.json";
 

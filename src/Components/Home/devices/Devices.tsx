@@ -1,4 +1,4 @@
-import * as React from "react";
+import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,15 +44,16 @@ const Devices = () => {
           slidesToScroll: 1,
         },
       },
+    ]
   };
 
   return (
     <div className="device_section">
       <Container>
         <div>
-          {data.device.map((c: any, key) => {
+          {data.device.map((c: any, index) => {
             return (
-              <div>
+              <div key={index}>
                 <h4> {c.heading} </h4>
                 <p>{c.subhead}</p>
               </div>
@@ -60,9 +61,9 @@ const Devices = () => {
           })}
 
           <Slider {...settings}>
-            {device.device.map((e: any, key) => {
+            {device.device.map((e: any, index) => {
               return (
-                <div className="card device_card">
+                <div className="card device_card" key={index}>
                   <div className="img_card">
                     <img
                       src={e.device_image}

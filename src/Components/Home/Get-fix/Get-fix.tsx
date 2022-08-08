@@ -1,3 +1,4 @@
+import React from 'react'
 import './Get-fix.css'
 import GetFixData from '../../../Data/Get_fix.mock.json'
 import { Container, Row } from 'react-bootstrap'
