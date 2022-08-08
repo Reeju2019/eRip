@@ -2,14 +2,12 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './Contact.css'
 import ContactPageData from '../../Data/ContactPageData.mock.json'
 import Header from '../Home/Header/Header'
-import ExtraHeader from '../Extra/ExtraHeader'
 
 const ContactUs: React.FunctionComponent = () => {
   return (
     <>
       <Header />
-      <ExtraHeader/>
-      <Container fluid className='contact mt-2'>
+      <Container fluid className='contact'>
         <Container>
           <Row>
             <Col className='col-12'>

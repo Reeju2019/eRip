@@ -128,7 +128,7 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <>
-      <Container fluid className='py-2 m-0 header-comp'>
+      <Container fluid className=' py-2 m-0 header-comp'>
         <Container>
           <Row className='Navbar'>
             <Image

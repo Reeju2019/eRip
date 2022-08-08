@@ -10,13 +10,11 @@ import Getfix from './Get-fix/Get-fix'
 import HeaderCarousel from './Header/HeaderCarousel'
 import OfferCaroulsel from './OfferCarousel/Offer'
 import Header from './Header/Header'
-import ExtraHeader from '../Extra/ExtraHeader'
 
 const Home = () => {
   return (
     <>
       <Header />
-      <ExtraHeader/>
       <HeaderCarousel />
       <Getfix />
       <OfferCaroulsel />

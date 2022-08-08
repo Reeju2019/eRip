@@ -34,7 +34,7 @@ const BrandHeader: React.FunctionComponent = () => {
     <>
       <Container fluid>
         <Row
-          className='brand-header mt-2'
+          className='brand-header'
           style={{ backgroundImage: 'url(/static/brandPageImage/bg-brand.png)' }}
         >
           <Col className='d-flex justify-content-center align-self-center align-item-center'>

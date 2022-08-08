@@ -7,7 +7,7 @@ const HeaderCarousel: React.FunctionComponent = () => {
     <>
       <Container
         fluid
-        className='carousel-container-1 mt-2 g-0'
+        className='carousel-container-1 g-0'
         style={{ backgroundImage: 'url(static/image/carousel-bg-1.png)' }}
       >
         <div className='row carousel-content p-0 m-0 g-0'>
