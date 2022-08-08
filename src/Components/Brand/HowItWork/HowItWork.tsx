@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container } from 'react-bootstrap'
 import './HowItWork.css'
 import BrandPageData from '../../../Data/BrandPage.mock.json'

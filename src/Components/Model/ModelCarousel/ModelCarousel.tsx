@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Row } from 'react-bootstrap'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'

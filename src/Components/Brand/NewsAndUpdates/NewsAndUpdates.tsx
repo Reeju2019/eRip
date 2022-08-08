@@ -1,4 +1,5 @@
 import { Container, Row } from 'react-bootstrap'
+import React from 'react'
 import NewsAndUpdatesCard from './NewsAndUpdatesCard'
 import './NewsAndUpdates.css'
 

@@ -71,11 +71,13 @@ const Header: React.FunctionComponent = () => {
   const handleClose2 = () => setShow2(false)
 
   const [timer, settimer] = useState(20)
+  const [flag, setFlag] = useState(true)
 
   useEffect(() => {
     if (timer > 0 && resend === true && show2 === true) {
       const interval = setInterval(() => {
         settimer(timer - 1)
+        // setFlag(false)
       }, 1000)
       return () => clearInterval(interval)
     }
@@ -150,8 +152,8 @@ const Header: React.FunctionComponent = () => {
                 {city}
                 <i className='fa-solid fa-caret-down' />
               </Button>
-              <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true}>
-                <Modal.Header className='d-flex m-1'>
+              <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true} >
+                <Modal.Header className='d-flex m-1' closeButton>
                   <div className='col-5'>{HeaderConstant.location}</div>
                   <div className='col-7 d-flex justify-content-end gps' onClick={getLocation}>
                     {HeaderConstant.gps}

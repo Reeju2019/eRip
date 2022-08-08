@@ -1,3 +1,4 @@
+import React from 'react'
 import './footer.css'
 import data from '../../Data/const.data.json'
 

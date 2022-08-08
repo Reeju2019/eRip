@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from 'react'
 import { Collapse } from 'react-bootstrap'
 
 interface IFAQCardProps {

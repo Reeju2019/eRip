@@ -1,3 +1,4 @@
+import React from 'react'
 import { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './MyProfile.css'

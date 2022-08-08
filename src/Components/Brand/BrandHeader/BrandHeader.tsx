@@ -1,3 +1,4 @@
+import React from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import './BrandHeader.css'
 import ProductData from '../../../Data/Product.mock.json'

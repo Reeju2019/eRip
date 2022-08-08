@@ -1,3 +1,4 @@
+import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import FAQCard from '../../Brand/FAQ/FAQCard'
 import AllModelsData from '../../../Data/AllModels.mock.json'
