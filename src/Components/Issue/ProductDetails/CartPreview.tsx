@@ -44,9 +44,9 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
 
   return (
     <>
-      <Container fluid>
+      <Container fluid className='w-100 mx-1'>
         <Row>
-          <Col className='bg-white m-1 mt-0 p-5'>
+          <Col className='bg-white mt-0 p-5'>
             <h5>Cart Preview</h5>
             <hr />
             <div>

@@ -71,8 +71,8 @@ const ProductDetails: React.FunctionComponent = () => {
     <>
       <section className='bg-grey pb-5'>
         <Container>
-          <Row>
-            <Col className='col-6 bg-white m-1'>
+          <Row className='d-flex justify-content-between'>
+            <Col className='w-100 bg-white m-1'>
               <Row>
                 <div className='d-flex flex-row'>
                   <div>
@@ -99,7 +99,7 @@ const ProductDetails: React.FunctionComponent = () => {
             </Col>
             <Col className='col-5 m-1'>
               <CartPreview cartItem ={cartItem} />
-              <Row>
+              <Row className='prodRow'>
                 <div className='bg-white mx-3 mt-4 p-5'>
                   <h5>Check Available Offers</h5>
                   <hr />

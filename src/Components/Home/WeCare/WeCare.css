@@ -1,11 +1,17 @@
 .vaccinated {
   background-size: cover;
   background-position: center;
-  margin-top: 5%;
+  padding-bottom: 5%;
+}
+
+.pre_img{
+  width: 22vw;
+  position: relative;
+  top: 10%;
 }
 
 .vaccinated-img {
-  width: 20vw !important;
+  max-width: 100% !important;
 }
 
 /* .caro-2 {
