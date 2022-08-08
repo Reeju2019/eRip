@@ -2,7 +2,7 @@ import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import RepairServiceCard from './RepairServiceCard'
 import './ProductDetails.css'
 import ProductData from '../../../Data/Product.mock.json'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 
 // interface SingleService {
