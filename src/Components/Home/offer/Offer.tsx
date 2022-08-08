@@ -5,23 +5,23 @@ import data from "../../../Data/const.data.json";
 const Offer = () => {
   return (
     <div>
-      <section className="offers">
-        <div className="container-fluid offer-container">
-          {data.offer.map((e: any) => {
+      <section className='offers'>
+        <div className='container-fluid offer-container'>
+          {data.offer.map((e, index) => {
             return (
-              <div className="row offer-2">
-                <div className=" col-7 col-sm-8">
-                  <h1 className="offer-text">
+              <div key={index} className='row offer-2 d-flex justify-content-between'>
+                <div className='col-7 col-sm-7'>
+                  <h1 className='offer-text'>
                     <strong>
                       {e.heading1} <br /> {e.heading2}
                     </strong>
                   </h1>
                 </div>
-                <div className="offer-img col-4 col-sm-4">
-                  <img src={e.img} alt="" />
+                <div className='offer-img col-4 col-sm-4 d-flex justify-content-end'>
+                  <img src={e.img} className='image' alt='' />
                 </div>
               </div>
-            );
+            )
           })}
         </div>
       </section>

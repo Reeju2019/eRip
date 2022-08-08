@@ -1,0 +1,25 @@
+.allmodels {
+  background-color: #f5f6fa;
+}
+
+.modelCard {
+  background-color: white;
+  width: 11vmax;
+  padding: 1.5vmax;
+  cursor: pointer;
+}
+
+.modelImg {
+  width: 7vmax;
+  height: 7vmax;
+  display: flex;
+  margin: auto;
+}
+
+.modelName {
+  font-size: 1.2vmax;
+  font-weight: bold;
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+}

@@ -74,14 +74,14 @@ const Header: React.FunctionComponent = () => {
   const [flag, setFlag] = useState(true)
 
   useEffect(() => {
-    if (timer > 0 && resend === true) {
+    if (timer > 0 && resend === true && show2 === true) {
       const interval = setInterval(() => {
         settimer(timer - 1)
         // setFlag(false)
       }, 1000)
       return () => clearInterval(interval)
     }
-  }, [timer, resend])
+  }, [timer, resend, show2])
 
   console.log(resend, timer)
 
@@ -119,6 +119,7 @@ const Header: React.FunctionComponent = () => {
         handleShow2()
         window.localStorage.setItem('phone', phone)
         setPhone('')
+        settimer(20)
       } else {
         setValid('Enter a valid phone number')
       }
@@ -313,7 +314,6 @@ const Header: React.FunctionComponent = () => {
                 <Modal.Body>
                   <div className='input-group mb-3'>
                     <input
-                      max={4}
                       type='number'
                       className='form-control'
                       id='otp'
@@ -330,9 +330,9 @@ const Header: React.FunctionComponent = () => {
                   >
                     Continue
                   </button>
-                  {resend === true && timer === 0 ? (
+                  {/* {resend === true && timer === 0 ? (
                     <button
-                      onClick={(event) => {
+                      onClick={() => {
                         setresend(!resend)
                       }}
                     >
@@ -340,8 +340,8 @@ const Header: React.FunctionComponent = () => {
                     </button>
                   ) : (
                     <p>Resend OTP after {timer} second</p>
-                  )}
-                  {/* { flag && (<p>Resend OTP after {timer} second</p>)} */}
+                  )} */}
+                  <button>Resend</button>
                 </Modal.Body>
               </Modal>
             </Nav>

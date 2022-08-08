@@ -1,0 +1,21 @@
+.image-containers {
+  background-color: white;
+  max-width: 100%;
+  margin: 5%;
+  height: 10vmax;
+  cursor: pointer;
+}
+
+.image-cbs {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.caro-div {
+  margin: auto;
+  color: #646464;
+}
+
+.caro-para {
+  font-size: 12px;
+}

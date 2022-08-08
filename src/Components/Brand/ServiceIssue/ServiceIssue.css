@@ -1,0 +1,20 @@
+.service-issue {
+  background-color: #f5f6fa;
+  margin: 0 !important;
+}
+
+/* issue card */
+.service-img {
+  max-width: 2vw;
+}
+
+.images {
+  width: 5vmax;
+  height: 6vmax;
+}
+
+.service-para {
+  font-size: 1vmax;
+  display: flex;
+  justify-content: center;
+}

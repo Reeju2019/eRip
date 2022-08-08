@@ -1,0 +1,11 @@
+<svg id="Component_52_1" data-name="Component 52 – 1" xmlns="http://www.w3.org/2000/svg" width="18.105" height="25.801" viewBox="0 0 18.105 25.801">
+  <g id="Group_2122" data-name="Group 2122">
+    <g id="battery">
+      <path id="Path_931" data-name="Path 931" d="M34.942,6.306h8.244V8.375H34.942Z" transform="translate(-29.942 -6.306)" fill="#82bbfd"/>
+      <rect id="Rectangle_642" data-name="Rectangle 642" width="18.105" height="23.732" rx="2" transform="translate(0 2.069)" fill="#2d8bfc"/>
+      <path id="Path_933" data-name="Path 933" d="M41.621,43.616l-18.1,7.339V44l18.1-7.339Z" transform="translate(-23.517 -29.873)" fill="#0e62cb"/>
+      <path id="Path_935" data-name="Path 935" d="M6.691,0A6.691,6.691,0,1,1,0,6.691,6.691,6.691,0,0,1,6.691,0Z" transform="translate(2.361 7.244)" fill="#ffc143"/>
+      <path id="Path_934" data-name="Path 934" d="M57.247,50.62H54.672l1.037-4.325-3.926,5.661h2.575L53.32,56.282Z" transform="translate(-45.463 -37.353)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

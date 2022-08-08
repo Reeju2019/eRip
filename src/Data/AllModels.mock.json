@@ -1,0 +1,93 @@
+{
+  "iPhone": [
+    { "model": "iPhone 13 Pro Max", "image": "/static/iphoneBrand/iphone13ProMax.jpg" },
+    { "model": "iPhone 13 Pro", "image": "/static/iphoneBrand/iphone13Pro.jpg" },
+    { "model": "iPhone 13 Mini", "image": "/static/iphoneBrand/iphone13Mini.jpg" },
+    { "model": "iPhone 13", "image": "/static/iphoneBrand/iphone13.jpg" },
+    { "model": "iPhone 12 Pro Max", "image": "/static/iphoneBrand/iphone12ProMax.jpg" },
+    { "model": "iPhone 12 Pro", "image": "/static/iphoneBrand/iphone12Pro.jpg" },
+    { "model": "iPhone 12 Mini", "image": "/static/iphoneBrand/iphone12Mini.jpg" },
+    { "model": "iPhone 12", "image": "/static/iphoneBrand/iphone12.jpg" },
+    { "model": "iPhone 11 Pro Max", "image": "/static/iphoneBrand/iphone11ProMax.jpg" },
+    { "model": "iPhone 11 Pro", "image": "/static/iphoneBrand/iphone11Pro.jpg" },
+    { "model": "iPhone 11", "image": "/static/iphoneBrand/iphone11.jpg" },
+    { "model": "iPhone X", "image": "/static/iphoneBrand/iphoneX.png" },
+    { "model": "iPhone XR", "image": "/static/iphoneBrand/iphoneXR.png" },
+    { "model": "iPhone XS", "image": "/static/iphoneBrand/iphoneXS.png" },
+    { "model": "iPhone XS Max", "image": "/static/iphoneBrand/iphoneXSMax.png" },
+    { "model": "iPhone SE 2020", "image": "/static/iphoneBrand/iphoneSE2020.jpg" },
+    { "model": "iPhone 8 Plus", "image": "/static/iphoneBrand/iphone8Plus.png" },
+    { "model": "iPhone 8", "image": "/static/iphoneBrand/iphone8.png" },
+    { "model": "iPhone 7", "image": "/static/iphoneBrand/iphone7.png" },
+    { "model": "iPhone 7 Plus", "image": "/static/iphoneBrand/iphone7Plus.png" },
+    { "model": "iPhone 6s Plus", "image": "/static/iphoneBrand/iphone6sPlus.png" },
+    { "model": "iPhone 6s", "image": "/static/iphoneBrand/iphone6s.png" },
+    { "model": "iPhone 6 Plus", "image": "/static/iphoneBrand/iphone6Plus.png" },
+    { "model": "iPhone 6", "image": "/static/iphoneBrand/iphone6.png" },
+    { "model": "iPhone SE", "image": "/static/iphoneBrand/iphoneSE.png" },
+    { "model": "iPhone 5s", "image": "/static/iphoneBrand/iphone5s.png" },
+    { "model": "Others", "image": "/static/iphoneBrand/others.png" }
+  ],
+  "whyUs": {
+    "title": "Why Us",
+    "Data": [
+      {
+        "question": "A Line-Up of Models to Choose From",
+        "answer": "Sit back at home and easily request for a repair. Our solutions are inclusive of almost all models of a brand so you don’t have to scout other websites.",
+        "image": "assets/whyus/row1.png"
+      },
+      {
+        "question": "Trusted Professionals",
+        "answer": "Our verified technicians, trained in handling all high to low-end models will fix and troubleshoot your device in no time ensuring you get back your phone just as new.",
+        "image": "/assets/user/repair-man.svg"
+      },
+      {
+        "question": "On-Demand Doorstep Repair Services",
+        "answer": "Get your mobile fixed on time, any time. We stick to our promise to provide mobile repair services right at your doorstep.",
+        "image": "/assets/user/repair-man.svg"
+      },
+      {
+        "question": "Favourable and Free Pick Up and Delivery Services",
+        "answer": "If your mobile faces complex hardware or software issues, this might take longer to fix. Don’t worry! All we do is pick up your mobile from your doorstep, repair it, and deliver it back to your doorstep within our promised time.",
+        "image": "/assets/user/repair-man.svg"
+      },
+      {
+        "question": "Top-Drawer Spare Part Quality",
+        "answer": "Compromising on spare parts is not in our dictionary. We use industry-grade quality spare parts to fix your mobile damages that come with a further warranty period.",
+        "image": "/assets/user/repair-man.svg"
+      },
+      {
+        "question": "ERIP-certified spare parts",
+        "answer": "When it comes to maintaining the health of your product, there can never be a substitute for genuine parts. ERIP-certified spare parts meet the criteria of the latest quality standards and maintain the stability of your products for the long run.",
+        "image": "/assets/user/repair-man.svg"
+      }
+    ]
+  },
+  "faq": [
+    {
+      "question": "What are the mobile issues that can be covered by your services in under 30 minuites?",
+      "answer": "Our doorstep 30 minutes services include issues with screen, battery, mic/speaker charging, camera, network, and the like.",
+      "line": true
+    },
+    {
+      "question": "How does the pickup and delivery service work?",
+      "answer": "For more complex issues demanding through diagnosis and repair like glass replacement, damage due to water or software issues, we offer free pickup and delivery of the device at your doorstep.",
+      "line": true
+    },
+    {
+      "question": "Will my issue be resolved positively?",
+      "answer": "Our industry-grade technicians work around the clock with great specialization on your mobile issues, so you won’t have to go to a second place for repair service. We not only ensure positive resolution, but also timely delivery.",
+      "line": true
+    },
+    {
+      "question": "What is the mode of payment used on this platform?",
+      "answer": "We accept payments via card, cash, or UPI transfers.",
+      "line": true
+    },
+    {
+      "question": "Is there a warrenty that compliments your services?",
+      "answer": "We offer up to 18 months warranty on mobile phone services post-reparation on all the models. The warranty period varies from the nature of damage to the phone model. You need not worry since you’ll be well-informed about such details prior to the service being undertaken.",
+      "line": false
+    }
+  ]
+}

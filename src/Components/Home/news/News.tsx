@@ -1,12 +1,12 @@
-import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import newsData from "../../../Data/News.data.json";
-import data from "../../../Data/const.data.json";
-import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import "./news.css";
+import React from 'react'
+import Slider from 'react-slick'
+import 'slick-carousel/slick/slick.css'
+import 'slick-carousel/slick/slick-theme.css'
+import newsData from '../../../Data/News.data.json'
+import data from '../../../Data/const.data.json'
+import { Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import './news.css'
 
 const News = () => {
   const settings = {
