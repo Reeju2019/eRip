@@ -86,33 +86,36 @@ const ProductDetails: React.FunctionComponent = () => {
     const days: any = []
     const dateStart = moment()
     const dateEnd = moment().add(7, 'days')
-    // console.log(dateEnd, dateStart, "gggg");
-
-    // const weekDayName = moment(dateStart).format('D')
+    
     while (dateEnd.diff(dateStart, 'days') >= 0) {
-      days.push(dateStart.format('dddd Do [today]'))
+      days.push(dateStart.format('dddd Do') && dateStart.calendar())
       dateStart.add(1, 'days')
     }
     return days
   }
-  // moment().format('[today] Do dddd')
-  const times = () => {
-    const startTime: any = moment('09', 'HH')
 
-    const endTime: any = moment('21', 'HH')
-
-    const allTimes: any = []
-
-    while (endTime - startTime >= 0) {
-      allTimes.push(startTime.format('HH'))
-      startTime.add(2, 'hours')
+  const Week = () => {
+    const weekDays:any =[]
+    const weekStart = moment()
+    const weekEnd = moment().add(7, 'days')
+    
+    while (weekEnd.diff(weekStart, 'days') >= 0) {
+      weekDays.push(weekStart.calendar({
+        sameDay: '[Today]',
+        nextDay: '[Tomorrow]',
+        sameElse: 'dddd'
+    }))
+      weekStart.add(1, 'days')
     }
-    return allTimes
+    return weekDays
   }
-  console.log(times(), 'mmmm')
+  console.log(Week(), "nbnb");
+  
+  
+
 
   const settings = {
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -126,7 +129,7 @@ const ProductDetails: React.FunctionComponent = () => {
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
-          infinite: true,
+          infinite: false,
           dots: true,
         },
       },
@@ -150,9 +153,10 @@ const ProductDetails: React.FunctionComponent = () => {
 
   console.log(moment().format('LT'))
 
-  useEffect(() => {
-    Slot()
-  }, [])
+  // useEffect(() => {
+  //   Slot()
+  // }, [])
+console.log(Slot(),"bb");
 
   // let a = moment().get('hour')
   // console.log(a);
@@ -169,7 +173,13 @@ const ProductDetails: React.FunctionComponent = () => {
  
   }, [])
 
- 
+ const handleSelection =(event:any)=>{
+  if (event?.target.name === 'time') {
+    console.log(event.target.value);
+    
+  }
+  
+ }
 
 
 
@@ -260,7 +270,7 @@ const ProductDetails: React.FunctionComponent = () => {
                         <p>Select Date</p>
                         <Slider {...settings}>
                           {Slot().map((e: any, index: any) => (
-                            <div
+                            <div onClick={handleSelection}
                               className='card date_picker slot_card'
                               style={{ width: '18rem' }}
                               key={index}
@@ -282,17 +292,13 @@ const ProductDetails: React.FunctionComponent = () => {
                       </div>
                       <div className='row'>
                         {filterTime &&  filterTime.map((e: any, id: number) => {
-                          // let start_time_obj = moment
-                          // if ( moment().format('LT') > e.start_time) {
-
-                          // }
-
                           return (
-                            <div className='d-flex col-4 col-sm-4 g-0' key={id}>
-                              <button>
+                            <button className='d-flex col-4 col-sm-4 g-0' key={id} onClick={handleSelection}>
+                              <label>
                                 {e.start_time} - {e.end_time}
-                              </button>
-                            </div>
+                                <input type="radio" value={e.id} name="time" />
+                              </label>
+                            </button>
                           )
                         })}
                       </div>
