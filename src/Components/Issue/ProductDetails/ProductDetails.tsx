@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
 import Slider from 'react-slick'
 import moment from 'moment'
-import timeSlot from '../../../Data/Timeslot.data.json'
+import timeSlotData from '../../../Data/Timeslot.data.json'
 
 // interface SingleService {
 //   serviceImage: string
@@ -49,7 +49,8 @@ const ProductDetails: React.FunctionComponent = () => {
   const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
-  const [active, setActive] = useState(null)
+  // const [active, setActive] = useState(null)
+ const [filterTime, setFilterTime] = useState([])
 
   useEffect(() => {
     localStorage.setItem('modelId', JSON.stringify(modelId))
@@ -68,6 +69,16 @@ const ProductDetails: React.FunctionComponent = () => {
         })
       }
     })
+    
+    // @ filter time slot
+    // const temp:any=timeSlotData.timeSlot.filter(item=>{
+    //   return item.start_time_hour>moment().get('hour')
+    // })
+
+    // setFilterTime(temp)
+
+
+
   }, [])
   // console.log(cart)
 
@@ -75,14 +86,15 @@ const ProductDetails: React.FunctionComponent = () => {
     const days: any = []
     const dateStart = moment()
     const dateEnd = moment().add(7, 'days')
-    const weekDayName = moment(dateStart).format('D')
+    // console.log(dateEnd, dateStart, "gggg");
+
+    // const weekDayName = moment(dateStart).format('D')
     while (dateEnd.diff(dateStart, 'days') >= 0) {
       days.push(dateStart.format('D'))
       dateStart.add(1, 'days')
     }
     return days
   }
-  console.log(Slot(), 'llll')
 
   const times = () => {
     const startTime: any = moment('09', 'HH')
@@ -137,6 +149,31 @@ const ProductDetails: React.FunctionComponent = () => {
   }
 
   console.log(moment().format('LT'))
+
+  useEffect(() => {
+    Slot()
+  }, [])
+
+  // let a = moment().get('hour')
+  // console.log(a);
+
+
+  // console.log(timeSlot.timeSlot[0].id)
+
+  useEffect(() => {
+    const filterTimeSlot:any = timeSlotData.timeSlot.filter(function (item) {
+      return  item?.start_time_hour > moment().get('hour')
+      
+    })
+    setFilterTime(filterTimeSlot)
+ 
+  }, [])
+
+ 
+
+
+
+
 
   return (
     <>
@@ -224,17 +261,17 @@ const ProductDetails: React.FunctionComponent = () => {
                         <Slider {...settings}>
                           {Slot().map((e: any, index: any) => (
                             <div
-                              className='card date_picker'
+                              className='card date_picker slot_card'
                               style={{ width: '18rem' }}
                               key={index}
                             >
-                              <div className='card-body form-check'>
+                              <div className='card-body form-check slot_card_body'>
                                 <label className='form-check-label'>
                                   <input
-                                    className='form-check-input'
+                                    className='form-check-input radio_slot'
                                     type='radio'
                                     name='booking-date'
-                                    id={e.index}
+                                    value={e.index}
                                   />
                                   <span>{e}</span>
                                 </label>
@@ -244,7 +281,7 @@ const ProductDetails: React.FunctionComponent = () => {
                         </Slider>
                       </div>
                       <div className='row'>
-                        {timeSlot.timeSlot.map((e: any, id: number) => {
+                        {filterTime &&  filterTime.map((e: any, id: number) => {
                           // let start_time_obj = moment
                           // if ( moment().format('LT') > e.start_time) {
 

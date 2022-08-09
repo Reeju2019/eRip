@@ -1,5 +1,4 @@
-import React from 'react'
-import { useState } from 'react'
+import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import './MyProfile.css'
 import MyProfileData from '../../Data/MyProfile.mock.json'
