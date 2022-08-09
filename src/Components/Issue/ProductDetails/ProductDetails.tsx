@@ -90,12 +90,12 @@ const ProductDetails: React.FunctionComponent = () => {
 
     // const weekDayName = moment(dateStart).format('D')
     while (dateEnd.diff(dateStart, 'days') >= 0) {
-      days.push(dateStart.format('D'))
+      days.push(dateStart.format('dddd Do [today]'))
       dateStart.add(1, 'days')
     }
     return days
   }
-
+  // moment().format('[today] Do dddd')
   const times = () => {
     const startTime: any = moment('09', 'HH')
 
