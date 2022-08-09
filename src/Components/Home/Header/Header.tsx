@@ -71,7 +71,7 @@ const Header: React.FunctionComponent = () => {
   const handleClose2 = () => setShow2(false)
 
   const [timer, settimer] = useState(20)
-  const [flag, setFlag] = useState(true)
+  // const [flag, setFlag] = useState(true)
 
   useEffect(() => {
     if (timer > 0 && resend === true && show2 === true) {

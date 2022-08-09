@@ -4,6 +4,10 @@ import './ProductDetails.css'
 import ProductData from '../../../Data/Product.mock.json'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
+import Slider from 'react-slick'
+import moment from 'moment'
+import timeSlotData from '../../../Data/Timeslot.data.json'
 
 // interface SingleService {
 //   serviceImage: string
@@ -42,6 +46,11 @@ const ProductDetails: React.FunctionComponent = () => {
   const [show2, setShow2] = useState(false)
   const handleClose2 = () => setShow2(false)
   const handleShow2 = () => setShow2(true)
+  const [show3, setShow3] = useState(false)
+  const handleClose3 = () => setShow3(false)
+  const handleShow3 = () => setShow3(true)
+  // const [active, setActive] = useState(null)
+ const [filterTime, setFilterTime] = useState([])
 
   useEffect(() => {
     localStorage.setItem('modelId', JSON.stringify(modelId))
@@ -60,8 +69,111 @@ const ProductDetails: React.FunctionComponent = () => {
         })
       }
     })
+    
+    // @ filter time slot
+    // const temp:any=timeSlotData.timeSlot.filter(item=>{
+    //   return item.start_time_hour>moment().get('hour')
+    // })
+
+    // setFilterTime(temp)
+
+
+
   }, [])
   // console.log(cart)
+
+  const Slot = () => {
+    const days: any = []
+    const dateStart = moment()
+    const dateEnd = moment().add(7, 'days')
+    // console.log(dateEnd, dateStart, "gggg");
+
+    // const weekDayName = moment(dateStart).format('D')
+    while (dateEnd.diff(dateStart, 'days') >= 0) {
+      days.push(dateStart.format('D'))
+      dateStart.add(1, 'days')
+    }
+    return days
+  }
+
+  const times = () => {
+    const startTime: any = moment('09', 'HH')
+
+    const endTime: any = moment('21', 'HH')
+
+    const allTimes: any = []
+
+    while (endTime - startTime >= 0) {
+      allTimes.push(startTime.format('HH'))
+      startTime.add(2, 'hours')
+    }
+    return allTimes
+  }
+  console.log(times(), 'mmmm')
+
+  const settings = {
+    infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    prevArrow: <BsArrowLeftShort />,
+    nextArrow: <BsArrowRightShort />,
+    initialSlide: 0,
+
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
+  }
+
+  console.log(moment().format('LT'))
+
+  useEffect(() => {
+    Slot()
+  }, [])
+
+  // let a = moment().get('hour')
+  // console.log(a);
+
+
+  // console.log(timeSlot.timeSlot[0].id)
+
+  useEffect(() => {
+    const filterTimeSlot:any = timeSlotData.timeSlot.filter(function (item) {
+      return  item?.start_time_hour > moment().get('hour')
+      
+    })
+    setFilterTime(filterTimeSlot)
+ 
+  }, [])
+
+ 
+
+
+
+
 
   return (
     <>
@@ -133,11 +245,60 @@ const ProductDetails: React.FunctionComponent = () => {
                   </div>
 
                   <Row className='px-2 mt-5'>
-                    <Button>Book Now</Button>
+                    <Button onClick={handleShow3}>Book Now</Button>
                   </Row>
                 </Col>
               </Row>
               <Row>
+                <Modal show={show3} onHide={handleClose3} keyboard={false}>
+                  <Modal.Header>
+                    <Modal.Title>Schedule Appointment</Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <Container>
+                      <div>
+                        <p>Select Date</p>
+                        <Slider {...settings}>
+                          {Slot().map((e: any, index: any) => (
+                            <div
+                              className='card date_picker slot_card'
+                              style={{ width: '18rem' }}
+                              key={index}
+                            >
+                              <div className='card-body form-check slot_card_body'>
+                                <label className='form-check-label'>
+                                  <input
+                                    className='form-check-input radio_slot'
+                                    type='radio'
+                                    name='booking-date'
+                                    value={e.index}
+                                  />
+                                  <span>{e}</span>
+                                </label>
+                              </div>
+                            </div>
+                          ))}
+                        </Slider>
+                      </div>
+                      <div className='row'>
+                        {filterTime &&  filterTime.map((e: any, id: number) => {
+                          // let start_time_obj = moment
+                          // if ( moment().format('LT') > e.start_time) {
+
+                          // }
+
+                          return (
+                            <div className='d-flex col-4 col-sm-4 g-0' key={id}>
+                              <button>
+                                {e.start_time} - {e.end_time}
+                              </button>
+                            </div>
+                          )
+                        })}
+                      </div>
+                    </Container>
+                  </Modal.Body>
+                </Modal>
                 <div className='bg-white mx-3 mt-4 p-5'>
                   <h5>Check Available Offers</h5>
                   <hr />

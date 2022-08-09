@@ -88,3 +88,13 @@
   font-size: 15px;
   /* min-width: 2vmax; */
 }
+
+.slot_card_body{
+  margin: 10px;
+  padding: 20px;
+}
+.radio_slot{
+  height: 80px;
+width: 80px;
+  
+}
