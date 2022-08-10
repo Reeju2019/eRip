@@ -238,8 +238,8 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
 
             <Row className='px-2 mt-5'>
               <Button onClick={handleShow3}>{IssueData.constData.cartPreview.bookNow}</Button>
-              <Modal show={show3} onHide={handleClose3} keyboard={false}>
-                <Modal.Header>
+              <Modal show={show3} onHide={handleClose3} keyboard={true} backdrop='static'>
+                <Modal.Header closeButton>
                   <Modal.Title>Schedule Appointment</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>

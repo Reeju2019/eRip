@@ -102,7 +102,7 @@ const ProductDetails: React.FunctionComponent = () => {
 
             <Col className='col-5 m-1'>
               <CartPreview cartItem={cartItem} />
-              <Row>
+              <Row className='prodRow'>
                 <div className='bg-white mx-3 mt-4 p-5'>
                   <h5>Check Available Offers</h5>
                   <hr />
