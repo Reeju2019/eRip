@@ -20,14 +20,20 @@ interface ICartPreview {
     | undefined
 }
 
+interface FilterTimeSlot {
+  id: number
+  start_time_hour: number
+  start_time: string
+  end_time: string
+}
+
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
   const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
-  const [filterTime, setFilterTime] = useState([])
+  const [filterTime, setFilterTime] = useState<FilterTimeSlot[]>([])
 
-  // console.log(props.cartItem)
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
     allItem.cartItem?.map((item) => {
@@ -38,7 +44,6 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     return Math.ceil(discount)
   }
   const totalAmount = (allItem: ICartPreview) => {
-    // console.log(allItem)
     let total = 0
     allItem.cartItem?.map((item) => {
       total += item.price
@@ -52,12 +57,12 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   }
 
   const Slot = () => {
-    const days: any = []
+    const days = []
     const dateStart = moment()
     const dateEnd = moment().add(7, 'days')
 
     while (dateEnd.diff(dateStart, 'days') >= 0) {
-      days.push(dateStart.format('dddd Do') && dateStart.calendar())
+      days.push(dateStart.format('dddd Do'))
       dateStart.add(1, 'days')
     }
     return days
@@ -82,7 +87,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   //  }
 
   useEffect(() => {
-    const filterTimeSlot: any = timeSlotData.timeSlot.filter(function (item) {
+    const filterTimeSlot: FilterTimeSlot[] = timeSlotData.timeSlot.filter(function (item) {
       return item?.start_time_hour > moment().get('hour')
     })
     setFilterTime(filterTimeSlot)
@@ -242,7 +247,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                     <div>
                       <p>Select Date</p>
                       <Slider {...settings}>
-                        {Slot().map((e: any, index: any) => (
+                        {Slot().map((e: any, index) => (
                           <div
                             onClick={handleSelection}
                             className='card date_picker slot_card'
