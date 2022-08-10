@@ -71,55 +71,47 @@ const Header: React.FunctionComponent = () => {
   const handleClose2 = () => setShow2(false)
 
   const [timer, settimer] = useState(20)
-  // const [flag, setFlag] = useState(true)
 
   useEffect(() => {
     if (timer > 0 && resend === true && show2 === true) {
       const interval = setInterval(() => {
         settimer(timer - 1)
-        // setFlag(false)
       }, 1000)
       return () => clearInterval(interval)
     }
-  }, [timer, resend, show2])
+    // (timer > 0 && resend === true && show2 === true) ? {
+    //   return () => {clearInterval(setInterval(() => {
+    //     settimer(timer - 1)
+    //   }, 1000))};
+    // } : null;
+
+  }, [timer, resend, show2]);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    if (event.target.name === 'phone') {
-      setPhone(event.target.value)
-    }
+    event.target.name === 'phone' && setPhone(event.target.value)
   }
 
   const handleChange1 = (e: React.ChangeEvent<HTMLInputElement>) => {
-    // if(e.target.value.length===4){
-    //   window.alert("Username shouldn't exceed 4 characters")
-    // }
     setOtp(e.target.value)
   }
 
   const submitHandler = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     event.preventDefault()
-    if (phone) {
-      if (validPhone.test(phone)) {
-        handleClose1()
-        handleShow2()
-        window.localStorage.setItem('phone', phone)
-        setPhone('')
-        settimer(20)
-      } else {
-        setValid('Enter a valid phone number')
-      }
-    } else {
-      setValid('Please enter your phone number')
-    }
+
+    phone
+      ? validPhone.test(phone)
+        ? (handleClose1(),
+          handleShow2(),
+          window.localStorage.setItem('phone', phone),
+          setPhone(''),
+          settimer(20))
+        : setValid('Enter a valid phone number')
+      : setValid('Please enter your phone number')
   }
 
   const otpsubmitHandler = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     e.preventDefault()
-    if (otp) {
-      handleClose2()
-      setOtp('')
-      navigate('/profile')
-    }
+    otp && (handleClose2(), setOtp(''), navigate('/profile'))
   }
 
   const Logout = () => {
@@ -152,7 +144,7 @@ const Header: React.FunctionComponent = () => {
                 {city}
                 <i className='fa-solid fa-caret-down' />
               </Button>
-              <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true} >
+              <Modal show={show} onHide={handleClose} backdrop='static' keyboard={true}>
                 <Modal.Header className='d-flex m-1' closeButton>
                   <div className='col-5'>{HeaderConstant.location}</div>
                   <div className='col-7 d-flex justify-content-end gps' onClick={getLocation}>
@@ -324,3 +316,7 @@ const Header: React.FunctionComponent = () => {
 }
 
 export default Header
+// function settimer(arg0: number) {
+//   throw new Error('Function not implemented.')
+// }
+
