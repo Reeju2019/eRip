@@ -14,7 +14,6 @@ export const Banner = () => {
       }}
     >
       COMING SOON
-      </div>
-  );
-};
-
+    </div>
+  )
+}
