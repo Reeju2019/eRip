@@ -22,7 +22,7 @@ interface ICartPreview {
 
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
-  const [show3, setShow3] = useState(false)
+  const [show3, setShow3] = useState(true)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
   const [filterTime, setFilterTime] = useState([])
@@ -50,36 +50,51 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
       console.log(event.target.value)
     }
   }
-
-  const Slot = () => {
-    const days: any = []
-    const dateStart = moment()
-    const dateEnd = moment().add(7, 'days')
-
-    while (dateEnd.diff(dateStart, 'days') >= 0) {
-      days.push(dateStart.format('dddd Do') && dateStart.calendar())
-      dateStart.add(1, 'days')
+  const currentDateString = (i: number, currentDate: number) => {
+    if (currentDate + i === 1 || (i + currentDate > 20 && (i + currentDate) % 10 === 1)) {
+      return String(currentDate + i) + 'st'
+    } else if (currentDate + i === 2 || (i + currentDate > 20 && (i + currentDate) % 10 === 2)) {
+      return String(currentDate + i) + 'nd'
+    } else if (currentDate + i === 3 || (i + currentDate > 20 && (i + currentDate) % 10 === 3)) {
+      return String(currentDate + i) + 'rd'
+    } else {
+      return String(currentDate + i) + 'th'
     }
-    return days
   }
 
-  //  const Week = () => {
-  //    const weekDays: any = []
-  //    const weekStart = moment()
-  //    const weekEnd = moment().add(7, 'days')
-
-  //    while (weekEnd.diff(weekStart, 'days') >= 0) {
-  //      weekDays.push(
-  //        weekStart.calendar({
-  //          sameDay: '[Today]',
-  //          nextDay: '[Tomorrow]',
-  //          sameElse: 'dddd',
-  //        }),
-  //      )
-  //      weekStart.add(1, 'days')
-  //    }
-  //    return weekDays
-  //  }
+  const Slot = () => {
+    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+    const months = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ]
+    const currentTimestamp = new Date()
+    const AvailableSlotList = []
+    for (let i = 0; i < 8; i++) {
+      const currentDay = currentTimestamp.getDay()
+      const currentMonth = currentTimestamp.getMonth()
+      const currentDate = currentTimestamp.getDate()
+      AvailableSlotList.push([
+        currentDay + i > 6 ? days[currentDay + i - 7] : days[currentDay + i],
+        <br />,
+        currentDateString(i, currentDate),
+        <br />,
+        i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
+      ])
+    }
+    console.log(AvailableSlotList)
+    return AvailableSlotList
+  }
 
   useEffect(() => {
     const filterTimeSlot: any = timeSlotData.timeSlot.filter(function (item) {
@@ -233,7 +248,16 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
 
             <Row className='px-2 mt-5'>
               <Button onClick={handleShow3}>{IssueData.constData.cartPreview.bookNow}</Button>
-              <Modal show={show3} onHide={handleClose3} keyboard={false}>
+              <Modal
+                show={show3}
+                onHide={handleClose3}
+                keyboard={false}
+                {...props}
+                size='lg'
+                aria-labelledby='contained-modal-title-vcenter'
+                centered
+                style={{ textAlign:"center" }}
+              >
                 <Modal.Header>
                   <Modal.Title>Schedule Appointment</Modal.Title>
                 </Modal.Header>
@@ -246,18 +270,25 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                           <div
                             onClick={handleSelection}
                             className='card date_picker slot_card'
-                            style={{ width: '18rem' }}
+                            style={{
+                              width: '18rem',
+                              display: 'block',
+                              textAlign: 'center',
+                              padding: '2px',
+                            }}
                             key={index}
                           >
                             <div className='card-body form-check slot_card_body'>
-                              <label className='form-check-label'>
+                              <label className='form-check-label' style={{ width: '100%' }}>
                                 <input
                                   className='form-check-input radio_slot'
                                   type='radio'
                                   name='booking-date'
-                                  value={e.index}
+                                  value={e}
                                 />
-                                <span>{e}</span>
+                                <br />
+                                <h6>{e}</h6>
+                                {/* <p>fgjfj hftsdr ytdeytdety yftyfyu fyfyfg</p> */}
                               </label>
                             </div>
                           </div>
