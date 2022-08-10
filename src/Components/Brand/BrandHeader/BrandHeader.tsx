@@ -1,7 +1,7 @@
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import './BrandHeader.css'
 import ProductData from '../../../Data/Product.mock.json'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 interface Device {
   device_name: string

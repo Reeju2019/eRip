@@ -1,4 +1,4 @@
-import { useParams } from 'react-router-dom'
+import {  useParams } from 'react-router-dom'
 import Footer from '../footer/Footer'
 import Header from '../Home/Header/Header'
 import UserSay from '../Home/userSay/User'

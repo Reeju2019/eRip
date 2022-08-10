@@ -7,13 +7,13 @@ const WhyUs = () => {
   return (
     <div>
       <Container>
-        <section className='why-us'>
-          <div className='container-fluid'>
-            <div className='row'>
-              <div className='col-12'>
-                {data.whyus.map((e, index) => {
+        <section className="why-us">
+          <div className="container-fluid">
+            <div className="row">
+              <div className="col-12">
+                {data.whyus.map((e : any, index) => {
                   return (
-                    <div key={index} className='center-title'>
+                    <div className="center-title" key={index}>
                       <h4>
                         <strong>{e.heading}</strong>
                       </h4>
@@ -23,14 +23,14 @@ const WhyUs = () => {
               </div>
             </div>
 
-            <div className='row side-gap-1 why-us-row'>
-              {whyusData.whyus.map((e, index) => {
+            <div className="row side-gap-1 why-us-row">
+              {whyusData.whyus.map((e: any, index) => {
                 return (
-                  <div key={index} className='whyus-work d-flex col-6 col-sm-6 g-0'>
-                    <img src={e.image} className='row-1-img' alt='' />
-                    <div className='why-text'>
-                      <h4 className='work-heading'>{e.heading}</h4>
-                      <p className='work-para'>{e.text}</p>
+                  <div className="whyus-work d-flex col-6 col-sm-6 g-0" key={index}>
+                    <img src={e.image} className="row-1-img" alt="" />
+                    <div className="why-text">
+                      <h4 className="work-heading">{e.heading}</h4>
+                      <p className="work-para">{e.text}</p>
                     </div>
                   </div>
                 )

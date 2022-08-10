@@ -1,0 +1,40 @@
+{
+  "timeSlot": [
+    {
+      "id": 1,
+      "start_time_hour": 9 ,
+      "start_time": "09 am",
+      "end_time":"11 am"
+    },
+    {
+      "id": 2,
+      "start_time_hour": 11,
+      "start_time": "11 am",
+      "end_time": "01 pm"
+    },
+    {
+      "id": 3,
+      "start_time_hour": 13,
+      "start_time": "01 pm",
+      "end_time":"03 pm"
+    },
+    {
+      "id": 4,
+      "start_time_hour": 15,
+      "start_time": "03 am",
+      "end_time": "05 pm"
+    },
+    {
+      "id": 5,
+      "start_time_hour": 17,
+      "start_time": "05 pm",
+      "end_time": "07 pm"
+    },
+    {
+      "id": 6,
+      "start_time_hour": 19,
+      "start_time": "07 pm",
+      "end_time": "09 pm"
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import React from 'react'
 import './Loader.css'
 const Loader: React.FunctionComponent = () => {
   return (

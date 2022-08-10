@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container, Image, Row } from 'react-bootstrap'
 import OfferData from '../../../Data/OfferData.mock.json'
 import './WeCare.css'

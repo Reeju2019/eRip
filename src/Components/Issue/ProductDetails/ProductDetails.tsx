@@ -2,8 +2,9 @@ import { Button, Col, Container, Modal, Row } from 'react-bootstrap'
 import RepairServiceCard from './RepairServiceCard'
 import './ProductDetails.css'
 import ProductData from '../../../Data/Product.mock.json'
-import { useEffect, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
+
 import CartPreview from './CartPreview'
 
 interface SingleService {
@@ -43,8 +44,6 @@ const ProductDetails: React.FunctionComponent = () => {
   const [show2, setShow2] = useState(false)
   const handleClose2 = () => setShow2(false)
   const handleShow2 = () => setShow2(true)
-  // console.log(cartItem);
-  
 
   useEffect(() => {
     localStorage.setItem('modelId', JSON.stringify(modelId))
@@ -56,8 +55,8 @@ const ProductDetails: React.FunctionComponent = () => {
           if (brandItem.brand_name === brandId) {
             brandItem.model.map((modelItem) => {
               if (modelItem.id === modelId) {
-                setModelData(modelItem);
-                localStorage.setItem("Model", JSON.stringify(modelItem.model_name))
+                setModelData(modelItem)
+                localStorage.setItem('Model', JSON.stringify(modelItem.model_name))
               }
             })
           }
@@ -65,7 +64,6 @@ const ProductDetails: React.FunctionComponent = () => {
       }
     })
   }, [])
-  // console.log(cart)
 
   return (
     <>
@@ -90,16 +88,21 @@ const ProductDetails: React.FunctionComponent = () => {
                     return (
                       <div key={key} className='col-6 mb-2 mt-0'>
                         <hr />
-                        <RepairServiceCard service={item} cartItem={cartItem} setCartItem={setCartItem} />
+                        <RepairServiceCard
+                          service={item}
+                          cartItem={cartItem}
+                          setCartItem={setCartItem}
+                        />
                       </div>
                     )
                   })}
                 </div>
               </Row>
             </Col>
+
             <Col className='col-5 m-1'>
-              <CartPreview cartItem ={cartItem} />
-              <Row className='prodRow'>
+              <CartPreview cartItem={cartItem} />
+              <Row>
                 <div className='bg-white mx-3 mt-4 p-5'>
                   <h5>Check Available Offers</h5>
                   <hr />

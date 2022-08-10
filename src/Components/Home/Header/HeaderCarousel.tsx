@@ -1,3 +1,4 @@
+import React from 'react'
 import { Carousel, Container, Image } from 'react-bootstrap'
 import './Header.css'
 import HeaderData from '../../../Data/Header.mock.json'
