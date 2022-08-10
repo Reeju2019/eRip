@@ -1,5 +1,6 @@
 import { Button, Col, Container, Row } from 'react-bootstrap'
 import CartPreviewCard from './CartPreviewCard'
+import IssueData from '../../../Data/IssuePage.mock.json'
 
 interface ICartPreview {
   cartItem:
@@ -47,7 +48,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
       <Container fluid className='w-100 mx-1'>
         <Row>
           <Col className='bg-white mt-0 p-5'>
-            <h5>Cart Preview</h5>
+            <h5>{IssueData.constData.cartPreview.heading}</h5>
             <hr />
             <div>
               {cartItem &&
@@ -62,7 +63,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             <div>
               <div className='my-3 d-flex flex-row justify-content-between lh-1'>
                 <p className='m-0'>
-                  You saved
+                  {IssueData.constData.cartPreview.youSaved}
                   <span className='text-success'>
                     {' '}
                     (
@@ -78,7 +79,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             </div>
             <div>
               <div className='my-3 d-flex flex-row justify-content-between lh-1'>
-                <p className='m-0'>Total Amount</p>
+                <p className='m-0'>{IssueData.constData.cartPreview.totalAmount}</p>
                 <p className='m-0 text-primary'>
                   ₹ {totalAmount(cartItem) - totalDiscount(cartItem)}
                 </p>
@@ -87,7 +88,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             </div>
 
             <Row className='px-2 mt-5'>
-              <Button>Book Now</Button>
+              <Button>{IssueData.constData.cartPreview.bookNow}</Button>
             </Row>
           </Col>
         </Row>

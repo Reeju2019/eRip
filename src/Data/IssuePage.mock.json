@@ -63,6 +63,18 @@
         "answer": "There is no standard cost of repair. It depends on the brand, model, as well as issue you select. However, services are all economically priced.",
         "line": false
       }
-    ]
+    ],
+    "compleateAcCarousel" : "Complete AC Cleanup",
+    "cartPreview" : {
+      "heading" : "Cart Preview",
+      "youSaved" : "You Saved",
+      "totalAmount" : "Total Amount",
+      "bookNow" : "Book Now"
+    },
+    "rapairServiceCard" : {
+      "repairTime" : "Repair Time: ",
+      "warrenty" : "Warranty: ",
+      "reapairType" : "Repair Type: "
+    }
   }
 }

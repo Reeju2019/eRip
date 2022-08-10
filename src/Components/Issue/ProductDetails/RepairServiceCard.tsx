@@ -1,5 +1,6 @@
 import * as React from 'react'
 import { Col, Row } from 'react-bootstrap'
+import IssueData from '../../../Data/IssuePage.mock.json'
 
 interface SingleService {
   serviceImage: string
@@ -63,9 +64,15 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
           </div>
           <p className='m-0'>₹ {offPrice(service.price, service.off)}</p>
           <div className='serviceParagraph lineHeight'>
-            <p className='m-0'>Repair Time: {service.repairTime}</p>
-            <p className='m-0'>Warranty: {service.warranty}</p>
-            <p className='m-0'>Repair Type: {service.repairType}</p>
+            <p className='m-0'>
+              {IssueData.constData.rapairServiceCard.repairTime} {service.repairTime}
+            </p>
+            <p className='m-0'>
+              {IssueData.constData.rapairServiceCard.warrenty} {service.warranty}
+            </p>
+            <p className='m-0'>
+              {IssueData.constData.rapairServiceCard.reapairType} {service.repairType}
+            </p>
           </div>
         </Col>
         <Col className='col-2 '>

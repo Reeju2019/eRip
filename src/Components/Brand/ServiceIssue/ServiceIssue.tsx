@@ -1,7 +1,6 @@
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
 import BrandPageData from '../../../Data/BrandPage.mock.json'
 import BrandServiceIssueCard from './BrandServiceIssueCard'
 import './ServiceIssue.css'
@@ -13,8 +12,6 @@ const ServiceIssue: React.FunctionComponent = () => {
     speed: 500,
     slidesToShow: 6,
     slidesToScroll: 1,
-    prevArrow: <BsArrowLeftShort />,
-    nextArrow: <BsArrowRightShort />,
     initialSlide: 0,
     responsive: [
       {

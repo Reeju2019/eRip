@@ -3,6 +3,18 @@
   margin: 0 !important;
 }
 
+.fontawesome {
+  color: red;
+  background-color: green;
+}
+
+.slick-prev:before {
+  color: rgb(6, 9, 177);
+}
+.slick-next:before {
+  color: blue;
+}
+
 /* issue card */
 .service-img {
   max-width: 2vw;

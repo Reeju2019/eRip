@@ -3,7 +3,6 @@ import { Container } from 'react-bootstrap'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
 import './user.css'
 import data from '../../../Data/const.data.json'
 import userData from '../../../Data/User.data.json'
@@ -15,8 +14,6 @@ const User = () => {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
-    prevArrow: <BsArrowLeftShort />,
-    nextArrow: <BsArrowRightShort />,
     initialSlide: 0,
     responsive: [
       {

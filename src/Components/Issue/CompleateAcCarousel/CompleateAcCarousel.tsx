@@ -1,5 +1,6 @@
 import { Carousel, Col, Container, Row } from 'react-bootstrap'
 import './CompleateAcCarousel.css'
+import IssueData from '../../../Data/IssuePage.mock.json'
 
 const CompleateAcCarousel: React.FunctionComponent = () => {
   return (
@@ -10,7 +11,9 @@ const CompleateAcCarousel: React.FunctionComponent = () => {
             <Carousel.Item className='caro_item'>
               <Row>
                 <Col className='col-6 d-flex justify-content-center align-self-center'>
-                  <h2 className=' align-self-center fs-1 text-white'>Complete AC Cleanup</h2>
+                  <h2 className=' align-self-center fs-1 text-white'>
+                    {IssueData.constData.compleateAcCarousel}
+                  </h2>
                 </Col>
                 <Col className='col-6 d-flex justify-content-end'>
                   <img src='/static/issuePage/ac.png' alt='' />
@@ -20,7 +23,9 @@ const CompleateAcCarousel: React.FunctionComponent = () => {
             <Carousel.Item className='caro_item'>
               <Row>
                 <Col className='col-6 d-flex justify-content-center'>
-                  <h2 className=' align-self-center fs-1 text-white'>Complete AC Cleanup</h2>
+                  <h2 className=' align-self-center fs-1 text-white'>
+                    {IssueData.constData.compleateAcCarousel}
+                  </h2>
                 </Col>
                 <Col className='col-6 d-flex justify-content-end'>
                   <img src='/static/issuePage/ac.png' alt='' />
@@ -30,7 +35,9 @@ const CompleateAcCarousel: React.FunctionComponent = () => {
             <Carousel.Item className='caro_item'>
               <Row>
                 <Col className='col-6 d-flex justify-content-center'>
-                  <h2 className=' align-self-center fs-1 text-white'>Complete AC Cleanup</h2>
+                  <h2 className=' align-self-center fs-1 text-white'>
+                    {IssueData.constData.compleateAcCarousel}
+                  </h2>
                 </Col>
                 <Col className='col-6 d-flex justify-content-end'>
                   <img src='/static/issuePage/ac.png' alt='' />
