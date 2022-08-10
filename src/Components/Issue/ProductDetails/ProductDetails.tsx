@@ -4,7 +4,6 @@ import './ProductDetails.css'
 import ProductData from '../../../Data/Product.mock.json'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-import { BsArrowLeftShort, BsArrowRightShort } from 'react-icons/bs'
 import Slider from 'react-slick'
 import moment from 'moment'
 import timeSlotData from '../../../Data/Timeslot.data.json'
@@ -115,21 +114,67 @@ const ProductDetails: React.FunctionComponent = () => {
 
 
   const settings = {
+    accessibility: true,
+    adaptiveHeight: false,
+    arrows: true,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    centerMode: false,
+    centerPadding: '50px',
+    cssEase: 'ease',
+    dots: false,
+    dotsClass: 'slick-dots',
+    draggable: true,
+    easing: 'linear',
+    edgeFriction: 0.15,
+    fade: false,
+    focusOnSelect: false,
+    focusOnChange: false,
     infinite: false,
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    prevArrow: <BsArrowLeftShort />,
-    nextArrow: <BsArrowRightShort />,
     initialSlide: 0,
-
+    mobileFirst: false,
+    nextArrow: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        width='16'
+        height='16'
+        fill='currentColor'
+        className='bi bi-arrow-right-short'
+        viewBox='0 0 16 16'
+      >
+        <path
+          fillRule='evenodd'
+          d='M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z'
+        />
+      </svg>
+    ),
+    pauseOnDotsHover: false,
+    pauseOnFocus: true,
+    pauseOnHover: true,
+    prevArrow: (
+      <svg
+        xmlns='http://www.w3.org/2000/svg'
+        width='16'
+        height='16'
+        fill='currentColor'
+        className='bi bi-arrow-left-short'
+        viewBox='0 0 16 16'
+      >
+        <path
+          fillRule='evenodd'
+          d='M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z'
+        />
+      </svg>
+    ),
+    respondTo: 'window',
+    speed: 500,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
           slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: false,
+          slidesToScroll: 3,
+          infinite: true,
           dots: true,
         },
       },
@@ -137,7 +182,7 @@ const ProductDetails: React.FunctionComponent = () => {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToScroll: 2,
           initialSlide: 2,
         },
       },
@@ -149,6 +194,23 @@ const ProductDetails: React.FunctionComponent = () => {
         },
       },
     ],
+    rows: 1,
+    rtl: false,
+    slide: '',
+    slidesPerRow: 1,
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    swipe: true,
+    swipeToSlide: false,
+    touchMove: true,
+    touchThreshold: 5,
+    useCSS: true,
+    useTransform: true,
+    variableWidth: false,
+    vertical: false,
+    verticalSwiping: false,
+    waitForAnimate: true,
+    zIndex: 1000,
   }
 
   console.log(moment().format('LT'))

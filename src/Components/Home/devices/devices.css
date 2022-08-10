@@ -1,6 +1,6 @@
 .device_section .slick-arrow {
-  color: rgb(13, 13, 202) !important;
-  background-color: rgb(255, 255, 255) !important;
+  color: #1539af !important;
+  background-color: #ffffff !important;
   border-radius: 50% !important;
   height: 35px;
   width: 35px;
@@ -9,6 +9,7 @@
   position: absolute;
   top: 40%;
 }
+
 
 .device_section {
   background-color: #f5f6fa;
