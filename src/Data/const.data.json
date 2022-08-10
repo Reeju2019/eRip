@@ -20,7 +20,7 @@
   "usersay": [
     {
       "heading": "What Our Users Say",
-      "quotation": "assets/user/asset1.png"
+      "quotation": "/assets/user/asset1.png"
     }
   ],
   "vaccinated": [
@@ -39,7 +39,7 @@
   ],
   "footer": [
     {
-      "logo": "assets/erip-logo-white.png",
+      "logo": "/assets/erip-logo-white.png",
       "erip": "© Erip 2021 - 2021, All Rights Reserved",
       "footer_list": [
         "About Us",

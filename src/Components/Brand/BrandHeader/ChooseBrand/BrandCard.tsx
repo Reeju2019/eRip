@@ -19,7 +19,6 @@ const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
     localStorage.setItem('brandId', JSON.stringify(brand.brand.brandName))
 
     const deviceId = JSON.parse(device)
-    // console.log(deviceId)
 
     nevigate(`/${deviceId}/${brand.brand.brandName}`)
   }

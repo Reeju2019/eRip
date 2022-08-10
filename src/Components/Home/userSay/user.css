@@ -55,3 +55,10 @@
 .user_company {
   color: #646464;
 }
+
+.slick-prev:before {
+  color: rgb(6, 9, 177);
+}
+.slick-next:before {
+  color: blue;
+}

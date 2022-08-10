@@ -49,7 +49,7 @@ const Offer: React.FunctionComponent = () => {
   }
   return (
     <>
-      <section className='Offer-Carousel mt-5'>
+      <section className='Offer-Carousel m-5'>
         <div className='container'>
           <div className='row carousel-content-1'>
             <Slider {...settings}>

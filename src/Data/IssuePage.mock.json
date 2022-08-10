@@ -1,0 +1,80 @@
+{
+  "constData": {
+    "serviceHilights": [
+      {
+        "title": "Relentless Support",
+        "text": "Our professional service providers work round-the-clock to offer you unmatched repair services.",
+        "image": "/assets/whyus/row1.png"
+      },
+      {
+        "title": "Post-Service Payment",
+        "text": "We allow zero deceptions. Pay for the service after you have received it.",
+        "image": "/assets/whyus/row2.png"
+      },
+      {
+        "title": "Data Privacy",
+        "text": "We offer a seamless repair service with 100% privacy maintenance.",
+        "image": "/assets/whyus/row1.png"
+      },
+      {
+        "title": "Uncompromised Quality",
+        "text": "Experience speedy service with uncompromised quality on repair and spare parts.",
+        "image": "/assets/whyus/row2.png"
+      },
+      {
+        "title": "Single Day Service",
+        "text": "Book a service appointment and receive delivery on the same day.",
+        "image": "/assets/whyus/row1.png"
+      },
+      {
+        "title": "ERIP-certified spare parts",
+        "text": "When it comes to maintaining the health of your product, there can never be a substitute for genuine parts. ERIP-certified spare parts meet the criteria of the latest quality standards and maintain the stability of your products for the long run.",
+        "image": "/assets/whyus/row2.png"
+      }
+    ],
+    "faq": [
+      {
+        "question": "What happens after I choose a brand and service?",
+        "answer": "The process is simple. On selecting the brand and your issue, we send you the quote or quote available on our website. Thereafter, a technician will be allocated to you and will reach your doorstep on time.",
+        "line": true
+      },
+      {
+        "question": "What is the doorstep service?",
+        "answer": "Issues like screen replacement, mic and speaker issues, battery issues, camera issues, and charging malfunctions can be solved within 30 minutes. Our expert will reach your doorstep and do the needful right there in your presence.",
+        "line": true
+      },
+      {
+        "question": "Which issue cover pick-up and delivery service?",
+        "answer": "Services that require more than 30-minute doorstep fixes, that are repaired and delivered within 24 hours include water damage, glass replacements, network issues, body replacements and others. Our technician will collect the device from your doorstep and deliver the same post-restoration.",
+        "line": true
+      },
+      {
+        "question": "How do I claim my warrenty?",
+        "answer": "Write to the support page or go to my booking on ERIP website, including the service details you paid for, as well as the job summary provided to you at the time of service. We will reach your doorstep and repair the damaged part.",
+        "line": true
+      },
+      {
+        "question": "What kinds of spare parts are used for repair?",
+        "answer": "ERIP sources 100% genuine products and to top-up its quality, it is ERIP-Certified. All our parts go through in-house testing before using them to repair your devices.",
+        "line": true
+      },
+      {
+        "question": "What is the cost of reapair for your services?",
+        "answer": "There is no standard cost of repair. It depends on the brand, model, as well as issue you select. However, services are all economically priced.",
+        "line": false
+      }
+    ],
+    "compleateAcCarousel" : "Complete AC Cleanup",
+    "cartPreview" : {
+      "heading" : "Cart Preview",
+      "youSaved" : "You Saved",
+      "totalAmount" : "Total Amount",
+      "bookNow" : "Book Now"
+    },
+    "rapairServiceCard" : {
+      "repairTime" : "Repair Time: ",
+      "warrenty" : "Warranty: ",
+      "reapairType" : "Repair Type: "
+    }
+  }
+}

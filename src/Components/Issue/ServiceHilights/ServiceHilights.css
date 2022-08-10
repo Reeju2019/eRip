@@ -1,0 +1,13 @@
+.divContainer{
+  width: 35vw;
+}
+
+.itemImg{
+  width: 4vmax;
+}
+
+.itemPara{
+  font-size: 12px;
+  color: gray;
+  margin: 0;
+}

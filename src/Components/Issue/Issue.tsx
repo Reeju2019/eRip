@@ -6,6 +6,12 @@ import { useParams } from 'react-router-dom'
 import React, { useEffect, useState } from 'react'
 import ProductData from '../../Data/Product.mock.json'
 import Loader from '../Error/Loader'
+import WeCare from '../Home/WeCare/WeCare'
+import ServiceHilights from './ServiceHilights/ServiceHilights'
+import CompleateAcCarousel from './CompleateAcCarousel/CompleateAcCarousel'
+import UserSay from '../Home/userSay/User'
+import IssueFAQ from './FAQ/IssueFAQ'
+import Footer from '../footer/Footer'
 
 const Issue: React.FunctionComponent = () => {
   const { deviceId, brandId, modelId } = useParams()
@@ -42,6 +48,12 @@ const Issue: React.FunctionComponent = () => {
               <Header />
               <IssueHeader />
               <ProductDetails />
+              <WeCare />
+              <ServiceHilights />
+              <CompleateAcCarousel />
+              <UserSay />
+              <IssueFAQ />
+              <Footer />
             </React.Fragment>
           )}
         </React.Fragment>

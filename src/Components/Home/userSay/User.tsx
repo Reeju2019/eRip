@@ -26,6 +26,9 @@ const User = () => {
     focusOnSelect: false,
     focusOnChange: false,
     infinite: true,
+    speed: 500,
+    slidesToShow: 4,
+    slidesToScroll: 1,
     initialSlide: 0,
     mobileFirst: false,
     nextArrow: (
@@ -62,7 +65,6 @@ const User = () => {
       </svg>
     ),
     respondTo: 'window',
-    speed: 500,
     responsive: [
       {
         breakpoint: 1024,
@@ -93,8 +95,6 @@ const User = () => {
     rtl: false,
     slide: '',
     slidesPerRow: 1,
-    slidesToScroll: 1,
-    slidesToShow: 4,
     swipe: true,
     swipeToSlide: false,
     touchMove: true,
