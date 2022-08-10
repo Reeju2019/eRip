@@ -112,12 +112,12 @@ const News = () => {
     <>
       <section className='news-update'>
         <Container>
-          {data.news.map((c: any, index) => {
+          {data.news.map((c, index) => {
             return (
               <div key={index}>
                 <h4 className='news_heading'>{c.heading}</h4>
                 <Slider {...settings}>
-                  {newsData.news.map((e: any, index) => {
+                  {newsData.news.map((e, index) => {
                     return (
                       <div className='card device_card' key={index}>
                         <div className='img_card'>

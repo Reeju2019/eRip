@@ -9,13 +9,14 @@ import {
   Nav,
   Dropdown,
   DropdownButton,
+  Col,
 } from 'react-bootstrap'
 import React, { useEffect, useState } from 'react'
 import './Header.css'
 import HeaderConstant from '../../../Data/HeaderConstant.mock.json'
 import Geocode from 'react-geocode'
 import Key from '../../../key.json'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 
 const Header: React.FunctionComponent = () => {
   const [city, setCity] = useState('Bengaluru')
@@ -79,13 +80,7 @@ const Header: React.FunctionComponent = () => {
       }, 1000)
       return () => clearInterval(interval)
     }
-    // (timer > 0 && resend === true && show2 === true) ? {
-    //   return () => {clearInterval(setInterval(() => {
-    //     settimer(timer - 1)
-    //   }, 1000))};
-    // } : null;
-
-  }, [timer, resend, show2]);
+  }, [timer, resend, show2])
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     event.target.name === 'phone' && setPhone(event.target.value)
@@ -122,17 +117,20 @@ const Header: React.FunctionComponent = () => {
 
   return (
     <>
-      <Container fluid className=' py-2 m-0 header-comp'>
+      <Container fluid className=' py-1 m-0 header-comp'>
         <Container>
           <Row className='Navbar'>
-            <Image
-              src='/static/image/logo_erip.png'
-              className='col-2 Logo align-self-center'
-              alt='logo'
-            />
+            <Col className='col-1 align-item-center align-self-center'>
+              <Link to='/'>
+                <Image
+                  src='/static/image/logo_erip.png'
+                  className='col-2 Logo align-self-center'
+                  alt='logo'
+                />
+              </Link>
+            </Col>
 
-            <div className='modal-search d-flex col-6'>
-              {/* Modal */}
+            <Col className='modal-search d-flex col-6'>
               <Button
                 type='button'
                 className='btn modal-btn rounded-0 bg-transparent text-muted fw-bold'
@@ -185,115 +183,116 @@ const Header: React.FunctionComponent = () => {
                   aria-describedby='search-addon'
                 />
               </InputGroup>
-            </div>
-            <Nav className='modal-search d-flex col-4 justify-content-end align-self-center'>
-              <Nav.Link href='/' className='text-muted fw-bold'>
-                {HeaderConstant.Home}
-              </Nav.Link>
-              <Nav.Link href='/contact' className='text-muted fw-bold'>
-                {HeaderConstant.contact_us}
-              </Nav.Link>
-              {window.localStorage.getItem('phone') ? (
-                <Nav.Link className='d-flex flex-row text-muted fw-bold'>
-                  <i className='fa-regular fa-user' />
-                  <DropdownButton
-                    title={window.localStorage.getItem('phone')}
-                    align='end'
-                    drop='down'
-                    variant='secondary'
-                    id='dropdownbtn'
-                  >
-                    <Dropdown.Item className='drop' href='/profile'>
-                      Profile
-                    </Dropdown.Item>
-                    <Dropdown.Item className='drop' onClick={Logout}>
-                      Logout
-                    </Dropdown.Item>
-                  </DropdownButton>
+            </Col>
+            <Col className='col-5 align-self-center'>
+              <Nav className='modal-search d-flex justify-content-end align-self-center'>
+                <Nav.Link href='/' className='text-muted fw-bold'>
+                  {HeaderConstant.Home}
                 </Nav.Link>
-              ) : (
-                <Nav.Link onClick={handleShow1} className='d-flex flex-row text-muted fw-bold'>
-                  <i className='fa-regular fa-user' />
-                  {HeaderConstant.login}
+                <Nav.Link href='/contact' className='text-muted fw-bold'>
+                  {HeaderConstant.contact_us}
                 </Nav.Link>
-              )}
+                {window.localStorage.getItem('phone') ? (
+                  <Nav.Link className='d-flex flex-row text-muted fw-bold'>
+                    <i className='fa-regular fa-user' />
+                    <DropdownButton
+                      title={window.localStorage.getItem('phone')}
+                      align='end'
+                      drop='down'
+                      variant='secondary'
+                      id='dropdownbtn'
+                    >
+                      <Dropdown.Item className='drop' href='/profile'>
+                        Profile
+                      </Dropdown.Item>
+                      <Dropdown.Item className='drop' onClick={Logout}>
+                        Logout
+                      </Dropdown.Item>
+                    </DropdownButton>
+                  </Nav.Link>
+                ) : (
+                  <Nav.Link onClick={handleShow1} className='d-flex flex-row text-muted fw-bold'>
+                    <i className='fa-regular fa-user' />
+                    {HeaderConstant.login}
+                  </Nav.Link>
+                )}
 
-              {/* <!--start of phone number Modal -->  */}
-              <Modal
-                className='log_modal'
-                show={show1}
-                onHide={handleClose1}
-                style={{ marginTop: '80px' }}
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title>
-                    Enter Your Mobile Number
-                    <br />
-                    <span>We will send you an OTP on this No.</span>
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <div className='input-group mb-3'>
-                    <div className='input-group-prepend'>
-                      <div className='input-group-text'>+91</div>
+                {/* <!--start of phone number Modal -->  */}
+                <Modal
+                  className='log_modal'
+                  show={show1}
+                  onHide={handleClose1}
+                  style={{ marginTop: '80px' }}
+                >
+                  <Modal.Header closeButton>
+                    <Modal.Title>
+                      Enter Your Mobile Number
+                      <br />
+                      <span>We will send you an OTP on this No.</span>
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <div className='input-group mb-3'>
+                      <div className='input-group-prepend'>
+                        <div className='input-group-text'>+91</div>
+                      </div>
+                      <input
+                        type='number'
+                        className='form-control'
+                        id='inlineFormInputGroupUsername'
+                        placeholder='Enter Your Mobile Number'
+                        name='phone'
+                        value={phone}
+                        onChange={handleChange}
+                      />
+                      <p>{valid}</p>
                     </div>
-                    <input
-                      type='number'
-                      className='form-control'
-                      id='inlineFormInputGroupUsername'
-                      placeholder='Enter Your Mobile Number'
-                      name='phone'
-                      value={phone}
-                      onChange={handleChange}
-                    />
-                    <p>{valid}</p>
-                  </div>
-                  <button
-                    onClick={(event) => {
-                      submitHandler(event)
-                      setresend(!resend)
-                    }}
-                  >
-                    Continue
-                  </button>
-                </Modal.Body>
-              </Modal>
+                    <button
+                      onClick={(event) => {
+                        submitHandler(event)
+                        setresend(!resend)
+                      }}
+                    >
+                      Continue
+                    </button>
+                  </Modal.Body>
+                </Modal>
 
-              {/* <!--start of otp Modal -->  */}
+                {/* <!--start of otp Modal -->  */}
 
-              <Modal
-                className='log_modal'
-                show={show2}
-                onHide={handleClose2}
-                style={{ marginTop: '80px' }}
-              >
-                <Modal.Header closeButton>
-                  <Modal.Title>
-                    Enter OTP
-                    {/* <br /> */}
-                    {/* <span>We've sent an OTP to </span> */}
-                  </Modal.Title>
-                </Modal.Header>
-                <Modal.Body>
-                  <div className='input-group mb-3'>
-                    <input
-                      type='number'
-                      className='form-control'
-                      id='otp'
-                      value={otp}
-                      name='otp'
-                      placeholder='Enter Your Mobile Number'
-                      onChange={(event) => handleChange1(event)}
-                    />
-                  </div>
-                  <button
-                    onClick={(e) => {
-                      otpsubmitHandler(e)
-                    }}
-                  >
-                    Continue
-                  </button>
-                  {/* {resend === true && timer === 0 ? (
+                <Modal
+                  className='log_modal'
+                  show={show2}
+                  onHide={handleClose2}
+                  style={{ marginTop: '80px' }}
+                >
+                  <Modal.Header closeButton>
+                    <Modal.Title>
+                      Enter OTP
+                      {/* <br /> */}
+                      {/* <span>We've sent an OTP to </span> */}
+                    </Modal.Title>
+                  </Modal.Header>
+                  <Modal.Body>
+                    <div className='input-group mb-3'>
+                      <input
+                        type='number'
+                        className='form-control'
+                        id='otp'
+                        value={otp}
+                        name='otp'
+                        placeholder='Enter Your Mobile Number'
+                        onChange={(event) => handleChange1(event)}
+                      />
+                    </div>
+                    <button
+                      onClick={(e) => {
+                        otpsubmitHandler(e)
+                      }}
+                    >
+                      Continue
+                    </button>
+                    {/* {resend === true && timer === 0 ? (
                     <button
                       onClick={() => {
                         setresend(!resend)
@@ -304,10 +303,11 @@ const Header: React.FunctionComponent = () => {
                   ) : (
                     <p>Resend OTP after {timer} second</p>
                   )} */}
-                  <button>Resend</button>
-                </Modal.Body>
-              </Modal>
-            </Nav>
+                    <button>Resend</button>
+                  </Modal.Body>
+                </Modal>
+              </Nav>
+            </Col>
           </Row>
         </Container>
       </Container>
@@ -319,4 +319,3 @@ export default Header
 // function settimer(arg0: number) {
 //   throw new Error('Function not implemented.')
 // }
-
