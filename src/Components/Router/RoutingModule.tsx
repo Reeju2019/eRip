@@ -8,14 +8,6 @@ import MyProfile from '../MyProfile/MyProfile'
 import Issue from '../Issue/Issue'
 
 const ModelRouter: React.FunctionComponent = () => {
-  // const routes = useRoutes([
-  //   { path: '/', element: <Home /> },
-  //   { path: '/contact', element: <ContactUs /> },
-  //   { path: '/my_profile', element: <MyProfile /> },
-  //   { path: '/:deviceId', element: <Brand /> },
-  //   { path: '/:deviceId/:brandId', element: <Model /> },
-  //   { path: '/:deviceId/:brandId/:modelId', element: <Issue /> },
-  // ])
   return (
     <div>
       <Routes>

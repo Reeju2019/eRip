@@ -29,7 +29,7 @@ interface FilterTimeSlot {
 
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
-  const [show3, setShow3] = useState(true)
+  const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
   const [filterTime, setFilterTime] = useState<FilterTimeSlot[]>([])
@@ -96,7 +96,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
         i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
       ])
     }
-    console.log(AvailableSlotList)
+    // console.log(AvailableSlotList)
     return AvailableSlotList
   }
 
@@ -259,8 +259,9 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                 aria-labelledby='contained-modal-title-vcenter'
                 centered
                 style={{ textAlign: 'center' }}
+                backdrop='static'
               >
-                <Modal.Header>
+                <Modal.Header closeButton>
                   <Modal.Title>Schedule Appointment</Modal.Title>
                 </Modal.Header>
                 <Modal.Body>
