@@ -2,9 +2,9 @@
   "timeSlot": [
     {
       "id": 1,
-      "start_time_hour": 9 ,
+      "start_time_hour": 9,
       "start_time": "09 am",
-      "end_time":"11 am"
+      "end_time": "11 am"
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "id": 3,
       "start_time_hour": 13,
       "start_time": "01 pm",
-      "end_time":"03 pm"
+      "end_time": "03 pm"
     },
     {
       "id": 4,

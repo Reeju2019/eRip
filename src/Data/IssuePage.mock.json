@@ -64,17 +64,17 @@
         "line": false
       }
     ],
-    "compleateAcCarousel" : "Complete AC Cleanup",
-    "cartPreview" : {
-      "heading" : "Cart Preview",
-      "youSaved" : "You Saved",
-      "totalAmount" : "Total Amount",
-      "bookNow" : "Book Now"
+    "compleateAcCarousel": "Complete AC Cleanup",
+    "cartPreview": {
+      "heading": "Cart Preview",
+      "youSaved": "You Saved",
+      "totalAmount": "Total Amount",
+      "bookNow": "Book Now"
     },
-    "rapairServiceCard" : {
-      "repairTime" : "Repair Time: ",
-      "warrenty" : "Warranty: ",
-      "reapairType" : "Repair Type: "
+    "rapairServiceCard": {
+      "repairTime": "Repair Time: ",
+      "warrenty": "Warranty: ",
+      "reapairType": "Repair Type: "
     }
   }
 }

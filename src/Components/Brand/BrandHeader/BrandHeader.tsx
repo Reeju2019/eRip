@@ -24,7 +24,7 @@ const BrandHeader: React.FunctionComponent = () => {
     const device: string = localStorage.getItem('deviceId') as string
     const deviceId: string = JSON.parse(device)
     ProductData.device.map((deviceItem) => {
-      deviceItem.device_name === deviceId ? setSelectedDevice(deviceItem) : null;
+      deviceItem.device_name === deviceId ? setSelectedDevice(deviceItem) : null
     })
   }, [])
 

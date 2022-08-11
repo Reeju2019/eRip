@@ -113,7 +113,7 @@ const Devices = () => {
     <div className='device_section'>
       <Container>
         <div>
-          {data.device.map((c: any, index) => {
+          {data.device.map((c, index) => {
             return (
               <div key={index}>
                 <h4> {c.heading} </h4>
@@ -123,7 +123,7 @@ const Devices = () => {
           })}
 
           <Slider {...settings}>
-            {device.device.map((e: any, index) => {
+            {device.device.map((e, index) => {
               return (
                 <div className='card device_card' key={index}>
                   <div className='img_card'>
