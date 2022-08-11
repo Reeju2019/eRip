@@ -299,7 +299,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                     </div>
                     <div className='row'>
                       {filterTime &&
-                        filterTime.map((e: any, id: number) => {
+                        filterTime.map((e, id: number) => {
                           return (
                             <button
                               className='d-flex col-4 col-sm-4 g-0'
@@ -317,6 +317,19 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                   </Container>
                 </Modal.Body>
               </Modal>
+            </Row>
+          </Col>
+        </Row>
+        <Row className='cartFooter'>
+          <Col className='col-1 text-muted m-auto d-flex justify-content-center fs-5 cartFontawesome'>
+            <i className='fa-solid fa-cart-arrow-down' />
+          </Col>
+          <Col className='col-5 text-center text-muted align-self-center d-flex justify-content-center'>
+            Total: ₹ {totalAmount(cartItem) - totalDiscount(cartItem)}
+          </Col>
+          <Col className='col-6 text-center'>
+            <Row className=' p-2'>
+              <Button onClick={handleShow3}>{IssueData.constData.cartPreview.bookNow}</Button>
             </Row>
           </Col>
         </Row>
