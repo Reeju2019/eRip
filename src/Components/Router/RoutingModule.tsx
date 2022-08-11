@@ -7,9 +7,9 @@ import Model from '../Model/Model'
 import MyProfile from '../MyProfile/MyProfile'
 import Issue from '../Issue/Issue'
 
-const Router: React.FunctionComponent = () => {
+const RoutingModule: React.FunctionComponent = () => {
   return (
-    <>
+    <div>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<ContactUs />} />
@@ -18,8 +18,8 @@ const Router: React.FunctionComponent = () => {
         <Route path='/:deviceId/:brandId' element={<Model />} />
         <Route path='/:deviceId/:brandId/:modelId' element={<Issue />} />
       </Routes>
-    </>
+    </div>
   )
 }
 
-export default Router
+export default RoutingModule
