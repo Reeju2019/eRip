@@ -11,7 +11,7 @@ interface IBrandCard {
 const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
   const nevigate = useNavigate()
   let otherCheck = false
-  if (brand.brand.brandName === 'others') {
+  if (brand.brand?.brandName === 'others') {
     otherCheck = true
   }
   const device: string = localStorage.getItem('deviceId') as string
@@ -26,7 +26,7 @@ const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
   return (
     <>
       <div onClick={brandClick} className={'apple brand-width ' + (otherCheck ? 'other-img' : '')}>
-        <img src={brand.brand.image} alt={brand.brand.brandName} className='brand-img' />
+        <img src={brand.brand?.image} alt={brand.brand?.brandName} className='brand-img' />
       </div>
     </>
   )

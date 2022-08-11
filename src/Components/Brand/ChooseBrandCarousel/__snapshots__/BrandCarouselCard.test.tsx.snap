@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<div>
+  <div
+    className="image-containers"
+  >
+    <img
+      className="image-cbs"
+    />
+  </div>
+</div>
+`;
