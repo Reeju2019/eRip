@@ -1,12 +1,15 @@
 import React from 'react'
 import './App.css'
-import Router from './Components/Router/Router'
+import RoutingModule from './Components/Router/RoutingModule'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 function App() {
   return (
-    <div className='App'>
-      <Router />
-    </div>
+    <Router>
+      <div className='App'>
+        <RoutingModule />
+      </div>
+    </Router>
   )
 }
 

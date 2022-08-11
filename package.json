@@ -15,6 +15,7 @@
     "@types/react-slick": "^0.23.10",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
+    "core-js": "^3.18.3",
     "dotenv": "^16.0.1",
     "moment": "^2.29.4",
     "react": "^18.2.0",
@@ -56,6 +57,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
     "@types/react-geocode": "^0.2.1",
     "@typescript-eslint/eslint-plugin": "^5.31.0",
     "@typescript-eslint/parser": "^5.31.0",

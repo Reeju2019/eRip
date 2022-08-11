@@ -28,7 +28,7 @@
       "error",
       { "vars": "all", "args": "after-used", "ignoreRestSiblings": false }
     ],
-    "no-empty-function": ["error", { "allow": ["functions"] }],
+    // "no-empty-function": ["error", { "allow": ["functions"] }],
     "no-extra-semi": "error",
     "no-extra-label": "error"
   },
