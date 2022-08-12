@@ -1,9 +1,17 @@
-import React from 'react'
-import { render, screen } from '@testing-library/react'
 import App from './App'
+import renderer from 'react-test-renderer'
+// import { render } from '@testing-library/react'
+// import ReactDOM from 'react-dom'
 
-test('renders learn react link', () => {
-  render(<App />)
-  const linkElement = screen.getByText(/Bengaluru/i)
-  expect(linkElement).toBeInTheDocument()
+describe('App rendering specification', () => {
+  it('SnapShot testing', () => {
+    const component = renderer.create(<App />)
+    const tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+  })
+  // it('render without crashing', () => {
+  //   const div = document.createElement('div')
+  //   render(<App />, div)
+  //   ReactDOM.unmountComponentAtNode(div)
+  // })
 })

@@ -10,7 +10,7 @@ import OfferCarouselCard from './OfferCarouselCard'
 import { OfferCarouselData } from '../../../Data/OfferCarouselCardData'
 
 const Offer: React.FunctionComponent = () => {
-  const SlickArrowLeft = ({ currentSlide, ...props }:any) => (
+  const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
     <button
       {...props}
       className={'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')}
@@ -21,7 +21,7 @@ const Offer: React.FunctionComponent = () => {
       Previous
     </button>
   )
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }:any) => (
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }: any) => (
     <button
       {...props}
       className={
@@ -55,11 +55,11 @@ const Offer: React.FunctionComponent = () => {
     infinite: false,
     initialSlide: 0,
     mobileFirst: false,
-    nextArrow: <SlickArrowRight/>,
+    nextArrow: <SlickArrowRight />,
     pauseOnDotsHover: false,
     pauseOnFocus: true,
     pauseOnHover: true,
-    prevArrow: <SlickArrowLeft/>,
+    prevArrow: <SlickArrowLeft />,
     respondTo: 'window',
     speed: 500,
     responsive: [

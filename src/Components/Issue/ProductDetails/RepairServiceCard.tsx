@@ -47,6 +47,13 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
     }
     setAdd(!add)
   }
+  React.useEffect(() => {
+    cartItem.map((item) => {
+      if (item.service_name === service.service_name) {
+        setAdd(true)
+      }
+    })
+  })
 
   return (
     <>

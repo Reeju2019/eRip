@@ -93,13 +93,45 @@
   /* min-width: 2vmax; */
 }
 
-.slot_card_body {
-  margin: 10px;
-  padding: 20px;
+.modal-dialog {
+  max-width: 45vw !important;
 }
-.radio_slot {
-  height: 80px;
-  width: 80px;
+.modal-footer {
+  background-color: #f5f6fa !important;
+  border: none !important;
+}
+
+.dateCard {
+  cursor: pointer;
+}
+
+.times {
+  cursor: pointer;
+  background-color: white;
+}
+
+.clicked {
+  background-color: blue !important;
+  color: white !important;
+}
+
+.appoinmentModal {
+  background-color: #f5f6fa;
+}
+
+.appoinmentDate {
+  background-color: red;
+  margin: 1vmax;
+  border-radius: 5px;
+  padding-top: 1vmax;
+  padding-bottom: 1vmax;
+}
+.selectedDate {
+  background-color: blue;
+}
+
+.slick-slider {
+  margin-top: 0;
 }
 
 .cartFooter {
