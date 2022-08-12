@@ -7,7 +7,7 @@ import Model from '../Model/Model'
 import MyProfile from '../MyProfile/MyProfile'
 import Issue from '../Issue/Issue'
 
-const RoutingModule: React.FunctionComponent = () => {
+const ModelRouter: React.FunctionComponent = () => {
   return (
     <div>
       <Routes>
@@ -22,4 +22,4 @@ const RoutingModule: React.FunctionComponent = () => {
   )
 }
 
-export default RoutingModule
+export default ModelRouter

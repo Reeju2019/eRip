@@ -125,7 +125,7 @@ const News = () => {
                         </div>
                         <div className='card-body news_card_body'>
                           <h4 className='card-title news_title'>{e.des}</h4>
-                          <Link to={''} className='news_more'>
+                          <Link to='' className='news_more'>
                             {c.button}
                           </Link>
                         </div>

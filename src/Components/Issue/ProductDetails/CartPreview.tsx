@@ -3,8 +3,11 @@ import CartPreviewCard from './CartPreviewCard'
 import IssueData from '../../../Data/IssuePage.mock.json'
 import { useEffect, useState } from 'react'
 import Slider from 'react-slick'
-import moment from 'moment'
-import timeSlotData from '../../../Data/Timeslot.data.json'
+import TimeCard from './TimeCard'
+import DateCard from './DateCart'
+import { BiArrowBack } from 'react-icons/bi';
+// import moment from 'moment'
+// import timeSlotData from '../../../Data/Timeslot.data.json'
 
 interface ICartPreview {
   cartItem:
@@ -20,19 +23,23 @@ interface ICartPreview {
     | undefined
 }
 
-interface FilterTimeSlot {
-  id: number
-  start_time_hour: number
-  start_time: string
-  end_time: string
-}
+// interface FilterTimeSlot {
+//   id: number
+//   start_time_hour: number
+//   start_time: string
+//   end_time: string
+// }
 
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
-  const [show3, setShow3] = useState(true)
+  const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
-  const [filterTime, setFilterTime] = useState<FilterTimeSlot[]>([])
+  const [slot, setSlot] = useState<string[][]>([])
+  const [slotTime, setSlotTime] = useState<string[]>([])
+  const [activeTime, setActiveTime] = useState('')
+  const [activeDate, setActiveDate] = useState<string[]>([])
+  console.log(activeDate, activeTime)
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
@@ -50,11 +57,6 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     })
     return total
   }
-  const handleSelection = (event: any) => {
-    if (event?.target.name === 'time') {
-      console.log(event.target.value)
-    }
-  }
   const currentDateString = (i: number, currentDate: number) => {
     if (currentDate + i === 1 || (i + currentDate > 20 && (i + currentDate) % 10 === 1)) {
       return String(currentDate + i) + 'st'
@@ -67,48 +69,65 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     }
   }
 
-  const Slot = () => {
-    const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
-    const months = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
-    ]
-    const currentTimestamp = new Date()
-    const AvailableSlotList = []
-    for (let i = 0; i < 8; i++) {
-      const currentDay = currentTimestamp.getDay()
-      const currentMonth = currentTimestamp.getMonth()
-      const currentDate = currentTimestamp.getDate()
-      AvailableSlotList.push([
-        currentDay + i > 6 ? days[currentDay + i - 7] : days[currentDay + i],
-        <br />,
-        currentDateString(i, currentDate),
-        <br />,
-        i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
-      ])
-    }
-    console.log(AvailableSlotList)
-    return AvailableSlotList
-  }
-
   useEffect(() => {
-    const filterTimeSlot: FilterTimeSlot[] = timeSlotData.timeSlot.filter(function (item) {
-      return item?.start_time_hour > moment().get('hour')
-    })
-    setFilterTime(filterTimeSlot)
+    const Slot = () => {
+      const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+      const months = [
+        'January',
+        'February',
+        'March',
+        'April',
+        'May',
+        'June',
+        'July',
+        'August',
+        'September',
+        'October',
+        'November',
+        'December',
+      ]
+      const currentTimestamp = new Date()
+      const AvailableSlotList = []
+      for (let i = 0; i < 8; i++) {
+        const currentDay = currentTimestamp.getDay()
+        const currentMonth = currentTimestamp.getMonth()
+        const currentDate = currentTimestamp.getDate()
+        AvailableSlotList.push([
+          currentDay + i > 6 ? days[currentDay + i - 7] : days[currentDay + i],
+          currentDateString(i, currentDate),
+          i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
+        ])
+      }
+      // console.log(AvailableSlotList)
+      return AvailableSlotList
+    }
+    const time = () => {
+      const times = []
+      const startHours = 9
+      const endHours = 9 + 2
+      for (let i = 0; i < 6; i++) {
+        let sHours = startHours + i * 2
+        let eHours = endHours + i * 2
+        const startAmpm = sHours > 11 ? 'PM' : 'AM'
+        if (sHours > 12) {
+          sHours -= 12
+        }
+        const endAmpm = eHours > 11 ? 'PM' : 'AM'
+        if (eHours > 12) {
+          eHours -= 12
+        }
+        const strTime =
+          sHours.toString() + ' ' + startAmpm + '-' + eHours.toString() + ' ' + endAmpm
+        times.push(strTime)
+      }
+      return times
+    }
+    time()
+    setSlot(Slot())
+    setSlotTime(time())
   }, [])
 
-  const SlickArrowLeft = ({ currentSlide, ...props }:any) => (
+  const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
     <button
       {...props}
       className={'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')}
@@ -119,7 +138,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
       Previous
     </button>
   )
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }:any) => (
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }: any) => (
     <button
       {...props}
       className={
@@ -132,7 +151,6 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
       Next
     </button>
   )
-
   const settings = {
     accessibility: true,
     adaptiveHeight: false,
@@ -153,11 +171,11 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     infinite: false,
     initialSlide: 0,
     mobileFirst: false,
-    nextArrow: <SlickArrowRight/>,
+    nextArrow: <SlickArrowRight />,
     pauseOnDotsHover: false,
     pauseOnFocus: true,
     pauseOnHover: true,
-    prevArrow: <SlickArrowLeft/>,
+    prevArrow: <SlickArrowLeft />,
     respondTo: 'window',
     speed: 500,
     responsive: [
@@ -250,72 +268,66 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             </div>
 
             <Row className='px-2 mt-5'>
-              <Button onClick={handleShow3}>{IssueData.constData.cartPreview.bookNow}</Button>
+              <Button variant='primary' onClick={handleShow3}>
+                {IssueData.constData.cartPreview.bookNow}
+              </Button>
               <Modal
                 show={show3}
                 onHide={handleClose3}
                 keyboard={false}
                 {...props}
-                size='lg'
-                aria-labelledby='contained-modal-title-vcenter'
+                aria-labelledby='example-custom-modal-styling-title'
                 centered
                 style={{ textAlign: 'center' }}
+                backdrop='static'
               >
-                <Modal.Header>
-                  <Modal.Title>Schedule Appointment</Modal.Title>
+                <Modal.Header className='appoinmentModal'>
+                <button className='book_modal_back' onClick={handleClose3}><BiArrowBack className='closeButton'/></button>
+                  <Modal.Title id='example-custom-modal-styling-title'>
+                    Schedule Appointment
+                  </Modal.Title>
                 </Modal.Header>
-                <Modal.Body>
+                <Modal.Body className='appoinmentModal'>
                   <Container>
                     <div>
-                      <p>Select Date</p>
+                      <p className='m-0'>Select Date</p>
                       <Slider {...settings}>
-                        {Slot().map((e: any, index) => (
-                          <div
-                            onClick={handleSelection}
-                            className='card date_picker slot_card'
-                            style={{
-                              width: '18rem',
-                              display: 'block',
-                              textAlign: 'center',
-                              padding: '2px',
-                            }}
-                            key={index}
-                          >
-                            <div className='card-body form-check slot_card_body'>
-                              <label className='form-check-label' style={{ width: '100%' }}>
-                                <input
-                                  className='form-check-input radio_slot'
-                                  type='radio'
-                                  name='booking-date'
-                                  value={e}
-                                />
-                                <br />
-                                <h6>{e}</h6>
-                              </label>
-                            </div>
-                          </div>
-                        ))}
-                      </Slider>
-                    </div>
-                    <div className='row'>
-                      {filterTime &&
-                        filterTime.map((e, id: number) => {
+                        {slot.map((item, index) => {
                           return (
-                            <button
-                              className='d-flex col-4 col-sm-4 g-0'
-                              key={id}
-                              onClick={handleSelection}
+                            <div
+                              key={index}
+                              className={
+                                'col-3 p-2 m-3 fw-bold dateCard ' +
+                                (activeDate === item ? 'active' : 'times')
+                              }
                             >
-                              <label>
-                                {e.start_time} - {e.end_time}
-                                <input type='radio' value={e.id} name='time' />
-                              </label>
-                            </button>
+                              <DateCard date={item} setActiveDate={setActiveDate} />
+                            </div>
                           )
                         })}
+                      </Slider>
                     </div>
                   </Container>
                 </Modal.Body>
+                <Modal.Footer>
+                  <div>
+                    <p className='align-text-center m-0'>Select Time</p>
+                    <Row className='d-flex justify-content-center'>
+                      {slotTime.map((item, index) => {
+                        return (
+                          <Col
+                            key={index}
+                            className={
+                              'col-3 p-2 m-3 fw-bold ' + (activeTime === item ? 'active' : 'times')
+                            }
+                          >
+                            <TimeCard time={item} setActiveTime={setActiveTime} />
+                          </Col>
+                        )
+                      })}
+                    </Row>
+                  </div>
+                </Modal.Footer>
               </Modal>
             </Row>
           </Col>
