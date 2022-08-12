@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<div
+  className="container-fluid"
+>
+  <div
+    className="brand-header row"
+    style={
+      Object {
+        "backgroundImage": "url(/static/brandPageImage/bg-brand.png)",
+      }
+    }
+  >
+    <div
+      className="d-flex justify-content-center align-self-center align-item-center col"
+    >
+      <h1
+        className="text-white"
+      >
+         
+        <br />
+      </h1>
+    </div>
+    <div
+      className="d-flex justify-content-end col"
+    >
+      <img
+        className=""
+        width="48%"
+      />
+    </div>
+  </div>
+</div>
+`;

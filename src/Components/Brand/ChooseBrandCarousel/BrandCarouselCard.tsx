@@ -13,7 +13,7 @@ const BrandCarouselCard: React.FunctionComponent<IBrandCarouselCardProps> = (dat
     <>
       <div>
         <div className='image-containers'>
-          <img src={data.data.image} className='image-cbs' alt={data.data.brandName} />
+          <img src={data.data?.image} className='image-cbs' alt={data.data?.brandName} />
         </div>
       </div>
     </>
