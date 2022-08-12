@@ -63,8 +63,15 @@ const ProductDetails: React.FunctionComponent = () => {
         })
       }
     })
+    const cart = JSON.parse(localStorage.getItem('Cart') as string)
+    // console.log(cart)
+
+    setCartItem(cart)
   }, [])
 
+  useEffect(() => {
+    localStorage.setItem('Cart', JSON.stringify(cartItem))
+  }, [cartItem.length])
   return (
     <>
       <section className='bg-grey pb-5'>

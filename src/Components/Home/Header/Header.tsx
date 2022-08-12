@@ -316,6 +316,3 @@ const Header: React.FunctionComponent = () => {
 }
 
 export default Header
-// function settimer(arg0: number) {
-//   throw new Error('Function not implemented.')
-// }
