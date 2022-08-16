@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import TimeCard from './TimeCard'
 import DateCard from './DateCart'
-import { BiArrowBack } from 'react-icons/bi';
+import { BiArrowBack } from 'react-icons/bi'
 // import moment from 'moment'
 // import timeSlotData from '../../../Data/Timeslot.data.json'
 
@@ -282,7 +282,9 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                 backdrop='static'
               >
                 <Modal.Header className='appoinmentModal'>
-                <button className='book_modal_back' onClick={handleClose3}><BiArrowBack className='closeButton'/></button>
+                  <button className='book_modal_back' onClick={handleClose3}>
+                    <BiArrowBack className='closeButton' />
+                  </button>
                   <Modal.Title id='example-custom-modal-styling-title'>
                     Schedule Appointment
                   </Modal.Title>

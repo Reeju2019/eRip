@@ -6,13 +6,10 @@ test('choose brand carousel', () => {
   render(<ChooseBrandCarousel />)
 })
 
-
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
     const component = renderer.create(<ChooseBrandCarousel />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
-    
-  });
+  })
 })
-

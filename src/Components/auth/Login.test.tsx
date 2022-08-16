@@ -10,9 +10,8 @@ test('auth login', () => {
 
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
-    const component = renderer.create(<Login/>)
+    const component = renderer.create(<Login />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
-    
-  });
+  })
 })
