@@ -11,6 +11,8 @@ const Getfix: React.FunctionComponent = () => {
     nevigate(`/${product}`, { state: { id: 1, product: product } })
   }
 
+  localStorage.setItem('Cart', JSON.stringify([]))
+
   return (
     <>
       <Container fluid className='Get-fix'>
