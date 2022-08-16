@@ -22,13 +22,6 @@ interface ICartPreview {
     | undefined
 }
 
-interface FilterTimeSlot {
-  id: number
-  start_time_hour: number
-  start_time: string
-  end_time: string
-}
-
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
   const [show3, setShow3] = useState(false)
