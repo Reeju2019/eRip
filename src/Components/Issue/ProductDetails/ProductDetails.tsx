@@ -4,7 +4,6 @@ import './ProductDetails.css'
 import ProductData from '../../../Data/Product.mock.json'
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
-
 import CartPreview from './CartPreview'
 
 interface SingleService {
@@ -88,14 +87,17 @@ const ProductDetails: React.FunctionComponent = () => {
                 </div>
               </Row>
               <Row>
-                <p className='m-0 mx-2 fs-5'>Select your Repair Services</p>
+                <p className='m-0 mx-2 fs-5'>
+                  <b>Select your Repair Services</b>
+                </p>
               </Row>
+              <hr />
               <Row>
                 <div className='d-flex flex-wrap'>
                   {modelData?.service?.map((item, key) => {
                     return (
-                      <div key={key} className='col-6 mb-2 mt-0'>
-                        <hr />
+                      <div key={key} className='col-6 mb-2 mt-0 hr'>
+                        {/* <hr /> */}
                         <RepairServiceCard
                           service={item}
                           cartItem={cartItem}
