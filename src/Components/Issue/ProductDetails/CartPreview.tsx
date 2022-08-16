@@ -5,9 +5,9 @@ import { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import TimeCard from './TimeCard'
 import DateCard from './DateCart'
-import { BiArrowBack } from 'react-icons/bi';
+import { BiArrowBack } from 'react-icons/bi'
 // import moment from 'moment'
-// import timeSlotData from '../../../Data/Timeslot.data.json'
+import timeSlotData from '../../../Data/Timeslot.data.json'
 
 interface ICartPreview {
   cartItem:
@@ -39,7 +39,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const [slotTime, setSlotTime] = useState<string[]>([])
   const [activeTime, setActiveTime] = useState('')
   const [activeDate, setActiveDate] = useState<string[]>([])
-  console.log(activeDate, activeTime)
+  const [todaySlotFlag, setTodaySlotFlag] = useState(true)
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
@@ -98,34 +98,43 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
           i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
         ])
       }
+      // setSlotTime(AvailableSlotList)
       // console.log(AvailableSlotList)
       return AvailableSlotList
     }
     const time = () => {
-      const times = []
-      const startHours = 9
-      const endHours = 9 + 2
-      for (let i = 0; i < 6; i++) {
-        let sHours = startHours + i * 2
-        let eHours = endHours + i * 2
-        const startAmpm = sHours > 11 ? 'PM' : 'AM'
-        if (sHours > 12) {
-          sHours -= 12
+      const currentTimestamp = new Date()
+      const times: any = []
+      const startHours = currentTimestamp.getHours() + 1
+      if (todaySlotFlag) {
+        timeSlotData.timeSlot.map((slot) => {
+          if (slot.start_time_hour > startHours) {
+            times.push(slot.start_time + '-' + slot.end_time)
+          }
+        })
+        setTodaySlotFlag(false)
+      } else {
+        if (activeDate[2] === 'Today') {
+          timeSlotData.timeSlot.map((slot) => {
+            if (slot.start_time_hour > startHours) {
+              times.push(slot.start_time + '-' + slot.end_time)
+            }
+            console.log(slot)
+          })
+        } else {
+          timeSlotData.timeSlot.map((slot) => {
+            times.push(slot.start_time + '-' + slot.end_time)
+          })
         }
-        const endAmpm = eHours > 11 ? 'PM' : 'AM'
-        if (eHours > 12) {
-          eHours -= 12
-        }
-        const strTime =
-          sHours.toString() + ' ' + startAmpm + '-' + eHours.toString() + ' ' + endAmpm
-        times.push(strTime)
       }
       return times
     }
+    console.log(time())
+
     time()
     setSlot(Slot())
     setSlotTime(time())
-  }, [])
+  }, [activeDate])
 
   const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
     <button
@@ -282,7 +291,9 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                 backdrop='static'
               >
                 <Modal.Header className='appoinmentModal'>
-                <button className='book_modal_back' onClick={handleClose3}><BiArrowBack className='closeButton'/></button>
+                  <button className='book_modal_back' onClick={handleClose3}>
+                    <BiArrowBack className='closeButton' />
+                  </button>
                   <Modal.Title id='example-custom-modal-styling-title'>
                     Schedule Appointment
                   </Modal.Title>
