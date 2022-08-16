@@ -5,13 +5,14 @@ import { useEffect, useState } from 'react'
 import Slider from 'react-slick'
 import TimeCard from './TimeCard'
 import DateCard from './DateCart'
-import { BiArrowBack } from 'react-icons/bi';
+import { BiArrowBack } from 'react-icons/bi'
 // import moment from 'moment'
 // import timeSlotData from '../../../Data/Timeslot.data.json'
 
 interface ICartPreview {
   cartItem:
     | {
+        model?: string
         serviceImage: string
         service_name: string
         price: number
@@ -39,7 +40,6 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const [slotTime, setSlotTime] = useState<string[]>([])
   const [activeTime, setActiveTime] = useState('')
   const [activeDate, setActiveDate] = useState<string[]>([])
-  console.log(activeDate, activeTime)
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
@@ -282,7 +282,9 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                 backdrop='static'
               >
                 <Modal.Header className='appoinmentModal'>
-                <button className='book_modal_back' onClick={handleClose3}><BiArrowBack className='closeButton'/></button>
+                  <button className='book_modal_back' onClick={handleClose3}>
+                    <BiArrowBack className='closeButton' />
+                  </button>
                   <Modal.Title id='example-custom-modal-styling-title'>
                     Schedule Appointment
                   </Modal.Title>

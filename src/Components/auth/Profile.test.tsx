@@ -7,10 +7,9 @@ test('auth profile', () => {
 })
 
 describe('App rendering specification', () => {
-    it('SnapShot testing', () => {
-      const component = renderer.create(<Profile/>)
-      const tree = component.toJSON()
-      expect(tree).toMatchSnapshot()
-      
-    });
+  it('SnapShot testing', () => {
+    const component = renderer.create(<Profile />)
+    const tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
   })
+})

@@ -7,6 +7,7 @@ import { useParams } from 'react-router-dom'
 import CartPreview from './CartPreview'
 
 interface SingleService {
+  model?: string
   serviceImage: string
   service_name: string
   price: number
@@ -21,6 +22,7 @@ interface Service {
   model_name: string
   image: string
   service: {
+    model?: string
     serviceImage: string
     service_name: string
     price: number
@@ -63,7 +65,6 @@ const ProductDetails: React.FunctionComponent = () => {
       }
     })
     const cart = JSON.parse(localStorage.getItem('Cart') as string)
-    // console.log(cart)
 
     setCartItem(cart)
   }, [])

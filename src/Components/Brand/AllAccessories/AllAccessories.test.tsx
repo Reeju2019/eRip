@@ -12,6 +12,5 @@ describe('App rendering specification', () => {
     const component = renderer.create(<AllAccessories />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
-    
-  });
+  })
 })

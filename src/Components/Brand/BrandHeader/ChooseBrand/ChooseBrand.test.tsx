@@ -16,9 +16,8 @@ jest.mock('react-router-dom', () => ({
 
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
-    const component = renderer.create(<ChooseBrand/>)
+    const component = renderer.create(<ChooseBrand />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
-    
-  });
+  })
 })

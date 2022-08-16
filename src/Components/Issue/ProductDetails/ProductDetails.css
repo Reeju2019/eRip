@@ -8,7 +8,7 @@
   display: block;
   margin: auto;
 }
-.hr:not(:last-child){
+.hr:not(:last-child) {
   border-bottom: 1px solid #dedede;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -119,25 +119,24 @@
   background-color: blue !important;
   color: white !important;
 }
-.dateCard{
+.dateCard {
   width: 85% !important;
 }
-.modal-header{
+.modal-header {
   display: block !important;
   text-align: center !important;
 }
 
-.book_modal_back{
+.book_modal_back {
   float: left;
   border: none !important;
   background-color: transparent;
 }
-.closeButton{
+.closeButton {
   width: 30px;
-height: 30px;
-color: gray;
+  height: 30px;
+  color: gray;
 }
-
 
 .appoinmentModal {
   background-color: #f5f6fa;

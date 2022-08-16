@@ -8,7 +8,7 @@ import data from '../../../Data/const.data.json'
 import userData from '../../../Data/User.data.json'
 
 const User = () => {
-  const SlickArrowLeft = ({ currentSlide, ...props }:any) => (
+  const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
     <button
       {...props}
       className={'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')}
@@ -19,7 +19,7 @@ const User = () => {
       Previous
     </button>
   )
-  const SlickArrowRight = ({ currentSlide, slideCount, ...props }:any) => (
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }: any) => (
     <button
       {...props}
       className={
@@ -53,11 +53,11 @@ const User = () => {
     infinite: false,
     initialSlide: 0,
     mobileFirst: false,
-    nextArrow: <SlickArrowRight/>,
+    nextArrow: <SlickArrowRight />,
     pauseOnDotsHover: false,
     pauseOnFocus: true,
     pauseOnHover: true,
-    prevArrow: <SlickArrowLeft/>,
+    prevArrow: <SlickArrowLeft />,
     respondTo: 'window',
     speed: 500,
     responsive: [
