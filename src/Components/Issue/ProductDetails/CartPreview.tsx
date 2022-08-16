@@ -104,8 +104,8 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     }
     const time = () => {
       const currentTimestamp = new Date()
-      const times: any = []
-      const startHours = currentTimestamp.getHours() + 1
+      const times: any = []  
+      const startHours = currentTimestamp.getHours()
       if (todaySlotFlag) {
         timeSlotData.timeSlot.map((slot) => {
           if (slot.start_time_hour > startHours) {
