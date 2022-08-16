@@ -6,7 +6,6 @@ import Slider from 'react-slick'
 import TimeCard from './TimeCard'
 import DateCard from './DateCart'
 import { BiArrowBack } from 'react-icons/bi'
-// import moment from 'moment'
 import timeSlotData from '../../../Data/Timeslot.data.json'
 
 interface ICartPreview {
@@ -23,12 +22,12 @@ interface ICartPreview {
     | undefined
 }
 
-// interface FilterTimeSlot {
-//   id: number
-//   start_time_hour: number
-//   start_time: string
-//   end_time: string
-// }
+interface FilterTimeSlot {
+  id: number
+  start_time_hour: number
+  start_time: string
+  end_time: string
+}
 
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
@@ -98,13 +97,11 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
           i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
         ])
       }
-      // setSlotTime(AvailableSlotList)
-      // console.log(AvailableSlotList)
       return AvailableSlotList
     }
     const time = () => {
       const currentTimestamp = new Date()
-      const times: any = []  
+      const times: any = []
       const startHours = currentTimestamp.getHours()
       if (todaySlotFlag) {
         timeSlotData.timeSlot.map((slot) => {
@@ -119,7 +116,6 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             if (slot.start_time_hour > startHours) {
               times.push(slot.start_time + '-' + slot.end_time)
             }
-            console.log(slot)
           })
         } else {
           timeSlotData.timeSlot.map((slot) => {
