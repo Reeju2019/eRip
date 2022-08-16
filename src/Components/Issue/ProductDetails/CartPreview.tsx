@@ -11,6 +11,7 @@ import DateCard from './DateCart'
 interface ICartPreview {
   cartItem:
     | {
+        model?: string
         serviceImage: string
         service_name: string
         price: number
@@ -38,7 +39,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const [slotTime, setSlotTime] = useState<string[]>([])
   const [activeTime, setActiveTime] = useState('')
   const [activeDate, setActiveDate] = useState<string[]>([])
-  console.log(activeDate, activeTime)
+  // console.log(activeDate, activeTime)
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0

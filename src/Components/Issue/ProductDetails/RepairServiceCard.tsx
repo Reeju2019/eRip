@@ -1,8 +1,9 @@
 import * as React from 'react'
-import { Col, Row } from 'react-bootstrap'
+import { Button, Col, Modal, Row } from 'react-bootstrap'
 import IssueData from '../../../Data/IssuePage.mock.json'
 
 interface SingleService {
+  model?: string
   serviceImage: string
   service_name: string
   price: number
@@ -14,6 +15,7 @@ interface SingleService {
 
 interface IRepairServiceCardProps {
   service: {
+    model?: string
     serviceImage: string
     service_name: string
     price: number
@@ -29,31 +31,56 @@ interface IRepairServiceCardProps {
 const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (props) => {
   const { service, cartItem, setCartItem } = props
   const [add, setAdd] = React.useState(false)
+  const [show, setShow] = React.useState(false)
+  const handleClose = () => {
+    setShow(false)
+    setCartItem([service])
+    localStorage.setItem('Cart', JSON.stringify([service]))
+  }
+  const handleCancel = () => {
+    setShow(false)
+  }
+
+  React.useEffect(() => {
+    const localModel = JSON.parse(localStorage.getItem('Model') as string)
+    service.model = localModel
+  }, [])
 
   const offPrice = (price: number, off: number) => {
     const offer = price - (price * off) / 100
     return Math.floor(offer)
   }
   const btnClickAdd = () => {
-    setAdd(!add)
-    setCartItem([...cartItem, service])
+    if (cartItem.length > 0 && cartItem[0].model !== service.model) {
+      // alert('you cannot add')
+      setShow(true)
+    } else {
+      setAdd(!add)
+      setCartItem([...cartItem, service])
+    }
   }
   const btnClickRemove = () => {
-    const isExist = cartItem.find((i) => i.service_name === service.service_name)
-    let filterArr: SingleService[]
-    if (isExist) {
-      filterArr = cartItem.filter((i) => i.service_name !== service.service_name)
-      setCartItem(filterArr)
+    const filterArr = []
+    for (let i = 0; i < cartItem.length; i++) {
+      if (
+        cartItem[i].model === service.model &&
+        cartItem[i].service_name === service.service_name
+      ) {
+        continue
+      }
+      filterArr.push(cartItem[i])
     }
+    setCartItem(filterArr)
+
     setAdd(!add)
   }
   React.useEffect(() => {
     cartItem.map((item) => {
-      if (item.service_name === service.service_name) {
+      if (item.service_name === service.service_name && item.model === service.model) {
         setAdd(true)
       }
     })
-  })
+  }, [service, cartItem])
 
   return (
     <>
@@ -95,6 +122,31 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
               </button>
             )}
           </div>
+          {
+            <Modal
+              show={show}
+              onHide={handleClose}
+              animation={false}
+              backdrop='static'
+              keyboard={false}
+            >
+              <Modal.Header>
+                <Modal.Title>
+                  <div className='p-3 text-center m-2'>
+                    Some other device issue is already added in cart
+                  </div>
+                </Modal.Title>
+              </Modal.Header>
+              <Modal.Footer className='justify-content-center'>
+                <Button variant='secondary' onClick={handleCancel}>
+                  Cancel
+                </Button>
+                <Button variant='primary' onClick={handleClose}>
+                  Clear Cart
+                </Button>
+              </Modal.Footer>
+            </Modal>
+          }
         </Col>
       </Row>
       <div className='knowMore'>

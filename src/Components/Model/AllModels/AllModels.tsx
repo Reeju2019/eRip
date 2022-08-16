@@ -37,7 +37,7 @@ const AllModels: React.FunctionComponent = () => {
         })
       }
     })
-    localStorage.setItem('Cart', JSON.stringify([]))
+    // localStorage.setItem('Cart', JSON.stringify([]))
   }, [])
 
   return (
