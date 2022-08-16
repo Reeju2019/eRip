@@ -52,7 +52,6 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
   }
   const btnClickAdd = () => {
     if (cartItem.length > 0 && cartItem[0].model !== service.model) {
-      // alert('you cannot add')
       setShow(true)
     } else {
       setAdd(!add)
