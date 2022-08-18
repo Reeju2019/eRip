@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div
+  className="carousel-container-1 g-0 container-fluid"
+  style={
+    Object {
+      "backgroundImage": "url(static/image/carousel-bg-1.png)",
+    }
+  }
+>
+  <div
+    className="row carousel-content p-0 m-0 g-0"
+  >
+    <div
+      className="carousel slide"
+      data-bs-ride="true"
+      id="carouselExampleIndicators"
+    >
+      <div
+        className="carousel slide"
+        onKeyDown={[Function]}
+        onMouseOut={[Function]}
+        onMouseOver={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+      >
+        <div
+          className="carousel-indicators"
+        >
+          <button
+            aria-current={true}
+            aria-label="Slide 1"
+            className="active"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+          <button
+            aria-current={false}
+            aria-label="Slide 2"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+          <button
+            aria-current={false}
+            aria-label="Slide 3"
+            data-bs-target=""
+            onClick={[Function]}
+            type="button"
+          />
+        </div>
+        <div
+          className="carousel-inner"
+        >
+          <div
+            className="active carousel-item"
+            style={
+              Object {
+                "backgroundImage": "url(static/image/carousel-bg-1.png)",
+              }
+            }
+          >
+            <div
+              className="d-flex flex-row"
+            >
+              <div
+                className="w-100 d-flex justify-content-center align-item-center align-self-center"
+              >
+                <h2
+                  className="txt col-8 justify-content-start text-white fs-2"
+                >
+                  Repair & Maintainence
+                  <br />
+                  Instant Doorstep Services On Demand
+                </h2>
+              </div>
+              <img
+                alt="First slide"
+                className="d-flex caro-img justify-content-center"
+                src="/static/image/carousel-img-1.png"
+              />
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+            style={
+              Object {
+                "backgroundImage": "url(static/image/carousel-bg-1.png)",
+              }
+            }
+          >
+            <div
+              className="d-flex flex-row"
+            >
+              <div
+                className="w-100 d-flex justify-content-center align-item-center align-self-center"
+              >
+                <h2
+                  className="txt col-8 justify-content-start text-white fs-2"
+                >
+                  Top Trained Experts
+                   
+                  <br />
+                  at Your Doorstep Right Away!
+                </h2>
+              </div>
+              <img
+                alt="First slide"
+                className="d-flex caro-img justify-content-center"
+                src="/static/image/carousel-img-2.png"
+              />
+            </div>
+          </div>
+          <div
+            className="carousel-item"
+            style={
+              Object {
+                "backgroundImage": "url(static/image/carousel-bg-1.png)",
+              }
+            }
+          >
+            <div
+              className="d-flex flex-row"
+            >
+              <div
+                className="w-100 d-flex justify-content-center align-item-center align-self-center"
+              >
+                <h2
+                  className="txt col-8 justify-content-start text-white fs-2"
+                >
+                  Easy Fix
+                   
+                  <br />
+                  Superior Service Quality Parts
+                </h2>
+              </div>
+              <img
+                alt="First slide"
+                className="d-flex caro-img justify-content-center"
+                src="/static/image/carousel-img-3.png"
+              />
+            </div>
+          </div>
+        </div>
+        <a
+          className="carousel-control-prev"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-prev-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Previous
+          </span>
+        </a>
+        <a
+          className="carousel-control-next"
+          href="#"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span
+            aria-hidden="true"
+            className="carousel-control-next-icon"
+          />
+          <span
+            className="visually-hidden"
+          >
+            Next
+          </span>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

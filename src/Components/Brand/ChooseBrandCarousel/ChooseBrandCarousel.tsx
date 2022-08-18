@@ -2,7 +2,6 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css'
 import 'slick-carousel/slick/slick-theme.css'
-import { BsArrowRightShort, BsArrowLeftShort } from 'react-icons/bs'
 import { MobileBrand } from '../../../Data/MobileBrand'
 import BrandCarouselCard from './BrandCarouselCard'
 import './ChooseBrandCarousel.css'
@@ -10,21 +9,64 @@ import { Col, Container, Row } from 'react-bootstrap'
 import BrandPageData from './../../../Data/BrandPage.mock.json'
 
 const ChooseBrandCarousel: React.FunctionComponent = () => {
+  const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
+    <button
+      {...props}
+      className={'slick-prev slick-arrow' + (currentSlide === 0 ? ' slick-disabled' : '')}
+      aria-hidden='true'
+      aria-disabled={currentSlide === 0 ? true : false}
+      type='button'
+    >
+      Previous
+    </button>
+  )
+  const SlickArrowRight = ({ currentSlide, slideCount, ...props }: any) => (
+    <button
+      {...props}
+      className={
+        'slick-next slick-arrow' + (currentSlide === slideCount - 1 ? ' slick-disabled' : '')
+      }
+      aria-hidden='true'
+      aria-disabled={currentSlide === slideCount - 1 ? true : false}
+      type='button'
+    >
+      Next
+    </button>
+  )
+
   const settings = {
+    accessibility: true,
+    adaptiveHeight: false,
+    arrows: true,
+    autoplay: false,
+    autoplaySpeed: 3000,
+    centerMode: false,
+    centerPadding: '50px',
+    cssEase: 'ease',
     dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 7,
-    slidesToScroll: 1,
-    prevArrow: <BsArrowLeftShort />,
-    nextArrow: <BsArrowRightShort />,
+    dotsClass: 'slick-dots',
+    draggable: true,
+    easing: 'linear',
+    edgeFriction: 0.15,
+    fade: false,
+    focusOnSelect: false,
+    focusOnChange: false,
+    infinite: false,
     initialSlide: 0,
+    mobileFirst: false,
+    nextArrow: <SlickArrowRight />,
+    pauseOnDotsHover: false,
+    pauseOnFocus: true,
+    pauseOnHover: true,
+    prevArrow: <SlickArrowLeft />,
+    respondTo: 'window',
+    speed: 500,
     responsive: [
       {
         breakpoint: 1024,
         settings: {
-          slidesToShow: 7,
-          slidesToScroll: 1,
+          slidesToShow: 3,
+          slidesToScroll: 3,
           infinite: true,
           dots: true,
         },
@@ -32,19 +74,36 @@ const ChooseBrandCarousel: React.FunctionComponent = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 6,
-          slidesToScroll: 1,
-          initialSlide: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
         },
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 1,
           slidesToScroll: 1,
         },
       },
     ],
+    rows: 1,
+    rtl: false,
+    slide: '',
+    slidesPerRow: 1,
+    slidesToScroll: 1,
+    slidesToShow: 4,
+    swipe: true,
+    swipeToSlide: false,
+    touchMove: true,
+    touchThreshold: 5,
+    useCSS: true,
+    useTransform: true,
+    variableWidth: false,
+    vertical: false,
+    verticalSwiping: false,
+    waitForAnimate: true,
+    zIndex: 1000,
   }
   return (
     <>

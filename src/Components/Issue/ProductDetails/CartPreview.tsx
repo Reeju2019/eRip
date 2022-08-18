@@ -6,8 +6,7 @@ import Slider from 'react-slick'
 import TimeCard from './TimeCard'
 import DateCard from './DateCart'
 import { BiArrowBack } from 'react-icons/bi'
-// import moment from 'moment'
-// import timeSlotData from '../../../Data/Timeslot.data.json'
+import timeSlotData from '../../../Data/Timeslot.data.json'
 
 interface ICartPreview {
   cartItem:
@@ -24,13 +23,6 @@ interface ICartPreview {
     | undefined
 }
 
-// interface FilterTimeSlot {
-//   id: number
-//   start_time_hour: number
-//   start_time: string
-//   end_time: string
-// }
-
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const cartItem = props
   const [show3, setShow3] = useState(false)
@@ -40,6 +32,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const [slotTime, setSlotTime] = useState<string[]>([])
   const [activeTime, setActiveTime] = useState('')
   const [activeDate, setActiveDate] = useState<string[]>([])
+  const [todaySlotFlag, setTodaySlotFlag] = useState(true)
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
@@ -98,34 +91,40 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
           i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
         ])
       }
-      // console.log(AvailableSlotList)
       return AvailableSlotList
     }
     const time = () => {
-      const times = []
-      const startHours = 9
-      const endHours = 9 + 2
-      for (let i = 0; i < 6; i++) {
-        let sHours = startHours + i * 2
-        let eHours = endHours + i * 2
-        const startAmpm = sHours > 11 ? 'PM' : 'AM'
-        if (sHours > 12) {
-          sHours -= 12
+      const currentTimestamp = new Date()
+      const times: any = []
+      const startHours = currentTimestamp.getHours()
+      if (todaySlotFlag) {
+        timeSlotData.timeSlot.map((slot) => {
+          if (slot.start_time_hour > startHours) {
+            times.push(slot.start_time + '-' + slot.end_time)
+          }
+        })
+        setTodaySlotFlag(false)
+      } else {
+        if (activeDate[2] === 'Today') {
+          timeSlotData.timeSlot.map((slot) => {
+            if (slot.start_time_hour > startHours) {
+              times.push(slot.start_time + '-' + slot.end_time)
+            }
+          })
+        } else {
+          timeSlotData.timeSlot.map((slot) => {
+            times.push(slot.start_time + '-' + slot.end_time)
+          })
         }
-        const endAmpm = eHours > 11 ? 'PM' : 'AM'
-        if (eHours > 12) {
-          eHours -= 12
-        }
-        const strTime =
-          sHours.toString() + ' ' + startAmpm + '-' + eHours.toString() + ' ' + endAmpm
-        times.push(strTime)
       }
       return times
     }
+    console.log(time())
+
     time()
     setSlot(Slot())
     setSlotTime(time())
-  }, [])
+  }, [activeDate])
 
   const SlickArrowLeft = ({ currentSlide, ...props }: any) => (
     <button

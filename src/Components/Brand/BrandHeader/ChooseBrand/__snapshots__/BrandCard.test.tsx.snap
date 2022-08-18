@@ -6,7 +6,9 @@ exports[`App rendering specification SnapShot testing 1`] = `
   onClick={[Function]}
 >
   <img
+    alt=""
     className="brand-img"
+    src=""
   />
 </div>
 `;

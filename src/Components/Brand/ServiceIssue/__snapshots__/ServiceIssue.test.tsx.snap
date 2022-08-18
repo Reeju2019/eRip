@@ -18,7 +18,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
         >
           <h3>
             <strong>
-              Choose A Brand
+              Service Issues
             </strong>
           </h3>
         </div>
@@ -28,37 +28,26 @@ exports[`App rendering specification SnapShot testing 1`] = `
       className="row d-flex justify-content-center pb-4"
     >
       <div
-        className="col-11 service-content"
+        className="col-8 service-content"
       >
         <div
           className="slick-slider slick-initialized"
           dir="ltr"
         >
-          <svg
+          <button
             className="slick-arrow slick-prev"
-            currentSlide={0}
             data-role="none"
-            fill="currentColor"
-            height="1em"
             onClick={[Function]}
-            slideCount={14}
-            stroke="currentColor"
-            strokeWidth="0"
             style={
               Object {
-                "color": undefined,
                 "display": "block",
               }
             }
-            viewBox="0 0 16 16"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            type="button"
           >
-            <path
-              d="M12 8a.5.5 0 0 1-.5.5H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H11.5a.5.5 0 0 1 .5.5z"
-              fillRule="evenodd"
-            />
-          </svg>
+             
+            Previous
+          </button>
           <div
             className="slick-list"
             onClick={[Function]}
@@ -92,43 +81,6 @@ exports[`App rendering specification SnapShot testing 1`] = `
               <div
                 aria-hidden={true}
                 className="slick-slide slick-cloned"
-                data-index={-7}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "width": 0,
-                  }
-                }
-                tabIndex="-1"
-              >
-                <div>
-                  <div
-                    className="carousel-item"
-                    style={
-                      Object {
-                        "display": "inline-block",
-                        "width": "100%",
-                      }
-                    }
-                    tabIndex={-1}
-                  >
-                    <div>
-                      <div
-                        className="image-containers"
-                      >
-                        <img
-                          alt="nokia"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Nokia.png"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={true}
-                className="slick-slide slick-cloned"
                 data-index={-6}
                 onClick={[Function]}
                 style={
@@ -149,16 +101,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="motorola"
-                          className="image-cbs"
-                          src="static/Mobile_Services/MOtorola.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -186,16 +149,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="google"
-                          className="image-cbs"
-                          src="static/Mobile_Services/google.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -223,16 +197,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="honor"
-                          className="image-cbs"
-                          src="static/Mobile_Services/honor.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -260,16 +245,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="huawei"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Huawei.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -297,16 +293,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="poco"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Poco.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -334,16 +341,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="others"
-                          className="image-cbs"
-                          src="static/Mobile_Services/others.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Camera
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -372,16 +390,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="apple"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Apple.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Body Housing"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Body Housing
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -410,16 +439,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="onePlus"
-                          className="image-cbs"
-                          src="static/Mobile_Services/One-plus.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Diagnosis"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Diagnosis
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -448,16 +488,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="samsung"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Samsung.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Other issues"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Other issues
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -486,16 +537,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="mi"
-                          className="image-cbs"
-                          src="static/Mobile_Services/MI.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Touch & Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Touch & Glass
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -524,16 +586,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="vivo"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Vivo.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="OEM Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        OEM Screen
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -562,23 +635,34 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="oppo"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Oppo.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Compatible Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Compatible Screen
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
-                aria-hidden={false}
-                className="slick-slide slick-active"
+                aria-hidden={true}
+                className="slick-slide"
                 data-index={6}
                 onClick={[Function]}
                 style={
@@ -600,16 +684,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="realme"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Realme.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -638,16 +733,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="nokia"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Nokia.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -676,16 +782,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="motorola"
-                          className="image-cbs"
-                          src="static/Mobile_Services/MOtorola.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -714,16 +831,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="google"
-                          className="image-cbs"
-                          src="static/Mobile_Services/google.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -752,16 +880,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="honor"
-                          className="image-cbs"
-                          src="static/Mobile_Services/honor.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -790,28 +929,38 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="huawei"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Huawei.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Camera
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 aria-hidden={true}
-                className="slick-slide"
+                className="slick-slide slick-cloned"
                 data-index={12}
                 onClick={[Function]}
                 style={
                   Object {
-                    "outline": "none",
                     "width": 0,
                   }
                 }
@@ -828,28 +977,38 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="poco"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Poco.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Body Housing"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Body Housing
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
               <div
                 aria-hidden={true}
-                className="slick-slide"
+                className="slick-slide slick-cloned"
                 data-index={13}
                 onClick={[Function]}
                 style={
                   Object {
-                    "outline": "none",
                     "width": 0,
                   }
                 }
@@ -866,16 +1025,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="others"
-                          className="image-cbs"
-                          src="static/Mobile_Services/others.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Diagnosis"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Diagnosis
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -903,16 +1073,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="apple"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Apple.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Other issues"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Other issues
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -940,16 +1121,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="onePlus"
-                          className="image-cbs"
-                          src="static/Mobile_Services/One-plus.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Touch & Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Touch & Glass
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -977,16 +1169,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="samsung"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Samsung.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="OEM Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        OEM Screen
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1014,16 +1217,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="mi"
-                          className="image-cbs"
-                          src="static/Mobile_Services/MI.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Compatible Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Compatible Screen
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1051,16 +1265,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="vivo"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Vivo.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1088,16 +1313,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="oppo"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Oppo.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1125,16 +1361,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="realme"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Realme.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1162,16 +1409,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="nokia"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Nokia.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1199,16 +1457,27 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="motorola"
-                          className="image-cbs"
-                          src="static/Mobile_Services/MOtorola.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
                       </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -1236,222 +1505,48 @@ exports[`App rendering specification SnapShot testing 1`] = `
                     }
                     tabIndex={-1}
                   >
-                    <div>
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
                       <div
-                        className="image-containers"
+                        className="p-2 bg-white "
                       >
-                        <img
-                          alt="google"
-                          className="image-cbs"
-                          src="static/Mobile_Services/google.png"
-                        />
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
                       </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={true}
-                className="slick-slide slick-cloned"
-                data-index={24}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "width": 0,
-                  }
-                }
-                tabIndex="-1"
-              >
-                <div>
-                  <div
-                    className="carousel-item"
-                    style={
-                      Object {
-                        "display": "inline-block",
-                        "width": "100%",
-                      }
-                    }
-                    tabIndex={-1}
-                  >
-                    <div>
-                      <div
-                        className="image-containers"
+                      <p
+                        className="service-para"
                       >
-                        <img
-                          alt="honor"
-                          className="image-cbs"
-                          src="static/Mobile_Services/honor.png"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={true}
-                className="slick-slide slick-cloned"
-                data-index={25}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "width": 0,
-                  }
-                }
-                tabIndex="-1"
-              >
-                <div>
-                  <div
-                    className="carousel-item"
-                    style={
-                      Object {
-                        "display": "inline-block",
-                        "width": "100%",
-                      }
-                    }
-                    tabIndex={-1}
-                  >
-                    <div>
-                      <div
-                        className="image-containers"
-                      >
-                        <img
-                          alt="huawei"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Huawei.png"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={true}
-                className="slick-slide slick-cloned"
-                data-index={26}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "width": 0,
-                  }
-                }
-                tabIndex="-1"
-              >
-                <div>
-                  <div
-                    className="carousel-item"
-                    style={
-                      Object {
-                        "display": "inline-block",
-                        "width": "100%",
-                      }
-                    }
-                    tabIndex={-1}
-                  >
-                    <div>
-                      <div
-                        className="image-containers"
-                      >
-                        <img
-                          alt="poco"
-                          className="image-cbs"
-                          src="static/Mobile_Services/Poco.png"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div
-                aria-hidden={true}
-                className="slick-slide slick-cloned"
-                data-index={27}
-                onClick={[Function]}
-                style={
-                  Object {
-                    "width": 0,
-                  }
-                }
-                tabIndex="-1"
-              >
-                <div>
-                  <div
-                    className="carousel-item"
-                    style={
-                      Object {
-                        "display": "inline-block",
-                        "width": "100%",
-                      }
-                    }
-                    tabIndex={-1}
-                  >
-                    <div>
-                      <div
-                        className="image-containers"
-                      >
-                        <img
-                          alt="others"
-                          className="image-cbs"
-                          src="static/Mobile_Services/others.png"
-                        />
-                      </div>
+                        Back Camera
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <svg
+          <button
             className="slick-arrow slick-next"
-            currentSlide={0}
             data-role="none"
-            fill="currentColor"
-            height="1em"
             onClick={[Function]}
-            slideCount={14}
-            stroke="currentColor"
-            strokeWidth="0"
             style={
               Object {
-                "color": undefined,
                 "display": "block",
               }
             }
-            viewBox="0 0 16 16"
-            width="1em"
-            xmlns="http://www.w3.org/2000/svg"
+            type="button"
           >
-            <path
-              d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-              fillRule="evenodd"
-            />
-          </svg>
+             
+            Next
+          </button>
         </div>
-      </div>
-    </div>
-  </div>
-  <div
-    className="pb-5 container"
-  >
-    <div
-      className="m-3 row"
-    >
-      <p
-        className="d-flex justify-content-center fs-6"
-      >
-        Get your Tablet Fixed by ERIP Experts in Bangalore
-      </p>
-    </div>
-    <div
-      className="row"
-    >
-      <div
-        className="col-11 caro-div col"
-      >
-        <p
-          className="caro-para"
-        >
-          ERIP is a reputed service repair brand in Bangalore. We house a team of technicians who have undergone training for years in technical repair skills.ERIP ensures that your Tablet is fixed with 100% genuine spare parts and provides a QR code for  customers to scan and view its authenticity along with up to 6 months warranty on the spare parts.Experience superior navigation and seamless booking on our website, where it takes less than two minutes to book an appointment.With our unwavering commitment to repair your Tablet issues,we have surpassed our competitors in the  Tablet repair service industry in Bangalore.
-        </p>
       </div>
     </div>
   </div>

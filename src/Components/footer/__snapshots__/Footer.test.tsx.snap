@@ -1,0 +1,75 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<section
+  className="footer"
+>
+  <div
+    className="container-fluid g-0 footer-container"
+    style={
+      Object {
+        "backgroundColor": "#24252a",
+        "display": "flex",
+        "paddingBottom": "50px",
+        "paddingTop": "50px",
+      }
+    }
+  >
+    <div
+      className="first-footer "
+    >
+      <img
+        alt="white-logo"
+        className="erip-logo"
+        src="/assets/erip-logo-white.png"
+      />
+      <p
+        className="footer-text"
+      >
+        © Erip 2021 - 2021, All Rights Reserved
+      </p>
+      <i
+        className="fa-brands fa-twitter"
+      />
+      <i
+        className="facebook fab fa-facebook-square"
+      />
+      <i
+        className="Instagram fab fa-instagram"
+      />
+      <i
+        className="youtube fab fa-youtube"
+      />
+      <i
+        className="fa-brands fa-linkedin"
+      />
+      <i
+        className="printerest fab fa-pinterest-p"
+      />
+    </div>
+    <div
+      className="col-6"
+    >
+      <ul
+        className="second-footer"
+      >
+        <li>
+          About Us
+        </li>
+        <li>
+          Contact Us
+        </li>
+        <li>
+          Terms of use
+        </li>
+        <li>
+          Customers Support
+        </li>
+        <li>
+          Privacy Policy
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+`;

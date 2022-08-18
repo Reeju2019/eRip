@@ -1,0 +1,1056 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<section
+  className="news-update"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <h4
+        className="news_heading"
+      >
+        News & Updates
+      </h4>
+      <div
+        className="slick-slider slick-initialized"
+        dir="ltr"
+      >
+        <div
+          className="slick-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={null}
+          onMouseMove={null}
+          onMouseUp={[Function]}
+          onTouchCancel={null}
+          onTouchEnd={[Function]}
+          onTouchMove={null}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/10.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/media.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={-1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/10.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/media.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/laptop.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/10.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/media.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={6}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={7}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/10.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={8}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/media.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={9}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/laptop.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={10}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={11}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/10.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={12}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/media.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide slick-cloned"
+              data-index={13}
+              onClick={[Function]}
+              style={
+                Object {
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/news/wa.jpg"
+                    />
+                  </div>
+                  <div
+                    className="card-body news_card_body"
+                  >
+                    <h4
+                      className="card-title news_title"
+                    >
+                      7 Reasons For Computer Lagging And How To Fix Them
+                    </h4>
+                    <a
+                      className="news_more"
+                      href="/"
+                      onClick={[Function]}
+                    >
+                      Know More
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <ul
+          className="slick-dots"
+          onMouseEnter={null}
+          onMouseLeave={null}
+          onMouseOver={null}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+        >
+          <li
+            className="slick-active"
+          >
+            <button
+              onClick={[Function]}
+            >
+              1
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              2
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              3
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              4
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              5
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              6
+            </button>
+          </li>
+          <li
+            className=""
+          >
+            <button
+              onClick={[Function]}
+            >
+              7
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+`;

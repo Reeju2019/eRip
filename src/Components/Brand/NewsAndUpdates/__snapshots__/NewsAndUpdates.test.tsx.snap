@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<section
+  className="pb-5"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h3
+        className="mt-5 d-flex justify-content-center mb-3"
+      >
+        News & Updates
+      </h3>
+    </div>
+    <div
+      className="row"
+    >
+      <div>
+        <div
+          className="mx-3 pb-3"
+        >
+          <div>
+            <img
+              alt=""
+              src="static/brandPageImage/img-news.png"
+            />
+          </div>
+          <h2
+            className="fs-4 my-2"
+          >
+            Quick & Eficent
+          </h2>
+          <p
+            className="newsPara text-muted"
+          >
+            Lorem ipsum dolor sitali aliouiopsioi conseciu tetur uiyio adipiscing elitisyio sediuys dosuius eiusmod tempouisakiop siosuipil sincididuntis ut labore etios dio doloresio magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <p
+            className="knowmore"
+          >
+            Know More
+          </p>
+        </div>
+        <div
+          className="mx-3 pb-3"
+        >
+          <div>
+            <img
+              alt=""
+              src="static/brandPageImage/img-news.png"
+            />
+          </div>
+          <h2
+            className="fs-4 my-2"
+          >
+            Quick & Eficent
+          </h2>
+          <p
+            className="newsPara text-muted"
+          >
+            Lorem ipsum dolor sitali aliouiopsioi conseciu tetur uiyio adipiscing elitisyio sediuys dosuius eiusmod tempouisakiop siosuipil sincididuntis ut labore etios dio doloresio magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <p
+            className="knowmore"
+          >
+            Know More
+          </p>
+        </div>
+        <div
+          className="mx-3 pb-3"
+        >
+          <div>
+            <img
+              alt=""
+              src="static/brandPageImage/img-news.png"
+            />
+          </div>
+          <h2
+            className="fs-4 my-2"
+          >
+            Quick & Eficent
+          </h2>
+          <p
+            className="newsPara text-muted"
+          >
+            Lorem ipsum dolor sitali aliouiopsioi conseciu tetur uiyio adipiscing elitisyio sediuys dosuius eiusmod tempouisakiop siosuipil sincididuntis ut labore etios dio doloresio magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <p
+            className="knowmore"
+          >
+            Know More
+          </p>
+        </div>
+        <div
+          className="mx-3 pb-3"
+        >
+          <div>
+            <img
+              alt=""
+              src="static/brandPageImage/img-news.png"
+            />
+          </div>
+          <h2
+            className="fs-4 my-2"
+          >
+            Quick & Eficent
+          </h2>
+          <p
+            className="newsPara text-muted"
+          >
+            Lorem ipsum dolor sitali aliouiopsioi conseciu tetur uiyio adipiscing elitisyio sediuys dosuius eiusmod tempouisakiop siosuipil sincididuntis ut labore etios dio doloresio magna aliqua. Ut enim ad minim veniam, quis nostrud
+          </p>
+          <p
+            className="knowmore"
+          >
+            Know More
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

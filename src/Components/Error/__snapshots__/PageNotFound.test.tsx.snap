@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div
+  className="p-5 cont container-fluid"
+>
+  <div
+    className="notFoundCard"
+  >
+    <div
+      className="cardInner"
+    >
+      <div
+        className="d-flex justify-content-between"
+      >
+        <div
+          className="fs-1"
+        >
+          <div>
+            OOPS!
+          </div>
+          <div>
+            Page Not Found
+          </div>
+          <div>
+            🥺
+          </div>
+        </div>
+        <div>
+          <img
+            alt=""
+            className="errorImg"
+            src="/static/errorPage/giff.gif"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="d-flex justify-content-center m-4"
+    >
+      <button
+        className="notFoundBtn"
+        onClick={[Function]}
+        type="button"
+      >
+        Go to Home?
+      </button>
+    </div>
+  </div>
+</div>
+`;

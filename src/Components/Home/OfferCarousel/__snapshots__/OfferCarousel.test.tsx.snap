@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div>
+  <img
+    className="d-block h-100 w-auto"
+  />
+</div>
+`;

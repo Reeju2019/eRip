@@ -1,0 +1,663 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<section
+  className="service-issue"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className="center-title mb-0"
+        >
+          <h3>
+            <strong>
+              Choose A Brand
+            </strong>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row d-flex justify-content-center pb-4"
+    >
+      <div
+        className="col-11 service-content"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            aria-disabled={true}
+            aria-hidden="true"
+            className="slick-prev slick-arrow slick-disabled"
+            data-role="none"
+            onClick={null}
+            slideCount={14}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="apple"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Apple.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="onePlus"
+                          className="image-cbs"
+                          src="static/Mobile_Services/One-plus.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="samsung"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Samsung.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="mi"
+                          className="image-cbs"
+                          src="static/Mobile_Services/MI.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="vivo"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Vivo.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="oppo"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Oppo.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="realme"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Realme.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="nokia"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Nokia.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="motorola"
+                          className="image-cbs"
+                          src="static/Mobile_Services/MOtorola.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={9}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="google"
+                          className="image-cbs"
+                          src="static/Mobile_Services/google.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={10}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="honor"
+                          className="image-cbs"
+                          src="static/Mobile_Services/honor.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={11}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="huawei"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Huawei.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={12}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="poco"
+                          className="image-cbs"
+                          src="static/Mobile_Services/Poco.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={13}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <div
+                        className="image-containers"
+                      >
+                        <img
+                          alt="others"
+                          className="image-cbs"
+                          src="static/Mobile_Services/others.png"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-disabled={false}
+            aria-hidden="true"
+            className="slick-next slick-arrow"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    className="pb-5 container"
+  >
+    <div
+      className="m-3 row"
+    >
+      <p
+        className="d-flex justify-content-center fs-6"
+      >
+        Get your Tablet Fixed by ERIP Experts in Bangalore
+      </p>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-11 caro-div col"
+      >
+        <p
+          className="caro-para"
+        >
+          ERIP is a reputed service repair brand in Bangalore. We house a team of technicians who have undergone training for years in technical repair skills.ERIP ensures that your Tablet is fixed with 100% genuine spare parts and provides a QR code for  customers to scan and view its authenticity along with up to 6 months warranty on the spare parts.Experience superior navigation and seamless booking on our website, where it takes less than two minutes to book an appointment.With our unwavering commitment to repair your Tablet issues,we have surpassed our competitors in the  Tablet repair service industry in Bangalore.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+`;

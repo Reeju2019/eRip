@@ -1,0 +1,437 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div
+  className="device_section"
+>
+  <div
+    className="container"
+  >
+    <div>
+      <div>
+        <h4>
+           
+          Devices
+           
+        </h4>
+        <p>
+          Servicing, Hardware & Software Repair
+        </p>
+      </div>
+      <div
+        className="slick-slider slick-initialized"
+        dir="ltr"
+      >
+        <button
+          aria-disabled={true}
+          aria-hidden="true"
+          className="slick-prev slick-arrow slick-disabled"
+          data-role="none"
+          onClick={null}
+          slideCount={7}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+          type="button"
+        >
+          Previous
+        </button>
+        <div
+          className="slick-list"
+          onClick={[Function]}
+          onKeyDown={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={null}
+          onMouseMove={null}
+          onMouseUp={[Function]}
+          onTouchCancel={null}
+          onTouchEnd={[Function]}
+          onTouchMove={null}
+          onTouchStart={[Function]}
+          style={Object {}}
+        >
+          <div
+            className="slick-track"
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseOver={[Function]}
+            style={
+              Object {
+                "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                "WebkitTransition": "",
+                "msTransform": "translateX(0px)",
+                "opacity": 1,
+                "transform": "translate3d(0px, 0px, 0px)",
+                "transition": "",
+              }
+            }
+          >
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active slick-current"
+              data-index={0}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/AC.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      AC
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={1}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/Chimney.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      Chimney
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={2}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/Laptop.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      Laptop
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={false}
+              className="slick-slide slick-active"
+              data-index={3}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/Mobile.png"
+                    />
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "red",
+                          "color": "white",
+                          "marginLeft": "7.5%",
+                          "marginTop": "-40px",
+                          "padding": "5px",
+                          "position": "absolute",
+                          "width": "85%",
+                        }
+                      }
+                    >
+                      COMING SOON
+                    </div>
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      Mobile
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={4}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/Tablet.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      Tablet
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={5}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/geyser.png"
+                    />
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      Geyser
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              aria-hidden={true}
+              className="slick-slide"
+              data-index={6}
+              onClick={[Function]}
+              style={
+                Object {
+                  "outline": "none",
+                  "width": 0,
+                }
+              }
+              tabIndex="-1"
+            >
+              <div>
+                <div
+                  className="card device_card"
+                  style={
+                    Object {
+                      "display": "inline-block",
+                      "width": "100%",
+                    }
+                  }
+                  tabIndex={-1}
+                >
+                  <div
+                    className="img_card"
+                  >
+                    <img
+                      alt="..."
+                      className="card-img-top"
+                      src="assets/device/AC.png"
+                    />
+                    <div
+                      style={
+                        Object {
+                          "backgroundColor": "red",
+                          "color": "white",
+                          "marginLeft": "7.5%",
+                          "marginTop": "-40px",
+                          "padding": "5px",
+                          "position": "absolute",
+                          "width": "85%",
+                        }
+                      }
+                    >
+                      COMING SOON
+                    </div>
+                  </div>
+                  <div
+                    className="card-body device_card_body"
+                  >
+                    <p
+                      className="card-text device_text"
+                    >
+                      AC
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          aria-disabled={false}
+          aria-hidden="true"
+          className="slick-next slick-arrow"
+          data-role="none"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "block",
+            }
+          }
+          type="button"
+        >
+          Next
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

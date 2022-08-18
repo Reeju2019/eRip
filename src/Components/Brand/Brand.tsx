@@ -23,9 +23,9 @@ const Brand: React.FunctionComponent = () => {
   const paramData = useParams()
 
   useEffect(() => {
-    localStorage.setItem('deviceId', JSON.stringify(paramData.deviceId))
+    localStorage.setItem('deviceId', JSON.stringify(paramData?.deviceId))
     AllProductData.device.map((deviceItem) => {
-      deviceItem.device_name === paramData.deviceId ? setFound(true) : null
+      deviceItem?.device_name === paramData?.deviceId ? setFound(true) : null
     })
 
     !found ? setLoading(false) : null
