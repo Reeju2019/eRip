@@ -19,9 +19,4 @@ describe('App rendering specification', () => {
     render(<ChooseBrandOffer />)
     ReactDOM.unmountComponentAtNode(div)
   })
-  it('SnapShot testing', () => {
-    const component = renderer.create(<ChooseBrandOffer />)
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
 })

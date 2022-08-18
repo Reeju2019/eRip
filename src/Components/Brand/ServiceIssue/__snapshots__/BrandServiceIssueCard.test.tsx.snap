@@ -11,7 +11,9 @@ exports[`App rendering specification SnapShot testing 1`] = `
       className="service-img"
     >
       <img
+        alt=""
         className="images d-flex justify-content-center"
+        src=""
       />
     </div>
   </div>

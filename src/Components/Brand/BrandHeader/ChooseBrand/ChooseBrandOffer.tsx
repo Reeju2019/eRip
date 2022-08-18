@@ -1,3 +1,4 @@
+import React from 'react'
 import './ChooseBrand.css'
 
 const ChooseBrandOffer: React.FunctionComponent = () => {

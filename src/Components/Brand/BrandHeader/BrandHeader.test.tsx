@@ -18,11 +18,6 @@ describe('App rendering specification', () => {
     render(<BrandHeader />)
     ReactDOM.unmountComponentAtNode(div)
   })
+  
 })
-describe('App rendering specification', () => {
-  it('SnapShot testing', () => {
-    const component = renderer.create(<BrandHeader />)
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
-})
+

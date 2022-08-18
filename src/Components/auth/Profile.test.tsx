@@ -19,9 +19,4 @@ describe('App rendering specification', () => {
       render(<Profile />)
       ReactDOM.unmountComponentAtNode(div)
     })
-  it('SnapShot testing', () => {
-    const component = renderer.create(<Profile />)
-    const tree = component.toJSON()
-    expect(tree).toMatchSnapshot()
-  })
 })
