@@ -8,6 +8,7 @@ test('auth profile', () => {
 })
 
 describe('App rendering specification', () => {
+<<<<<<< HEAD
     it('SnapShot testing', () => {
       const component = renderer.create(<Profile/>)
       const tree = component.toJSON()
@@ -19,4 +20,11 @@ describe('App rendering specification', () => {
       render(<Profile />)
       ReactDOM.unmountComponentAtNode(div)
     })
+=======
+  it('SnapShot testing', () => {
+    const component = renderer.create(<Profile />)
+    const tree = component.toJSON()
+    expect(tree).toMatchSnapshot()
+>>>>>>> cb5880a93c98ef130e6353a40a30f7c7065eaaff
   })
+})

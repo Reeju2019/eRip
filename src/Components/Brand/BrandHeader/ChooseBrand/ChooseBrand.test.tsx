@@ -17,14 +17,17 @@ jest.mock('react-router-dom', () => ({
 
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
-    const component = renderer.create(<ChooseBrand/>)
+    const component = renderer.create(<ChooseBrand />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
+<<<<<<< HEAD
     
   })
   it('render without crashing', () => {
     const div = document.createElement('div')
     render(<ChooseBrand />)
     ReactDOM.unmountComponentAtNode(div)
+=======
+>>>>>>> cb5880a93c98ef130e6353a40a30f7c7065eaaff
   })
 })

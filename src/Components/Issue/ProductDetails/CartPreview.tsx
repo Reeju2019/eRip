@@ -11,6 +11,7 @@ import timeSlotData from '../../../Data/Timeslot.data.json'
 interface ICartPreview {
   cartItem:
     | {
+        model?: string
         serviceImage: string
         service_name: string
         price: number
