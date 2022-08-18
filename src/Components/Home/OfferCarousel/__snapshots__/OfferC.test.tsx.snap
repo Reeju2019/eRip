@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+Array [
+  <section
+    className="Offer-Carousel m-5"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row carousel-content-1"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            aria-disabled={true}
+            aria-hidden="true"
+            className="slick-prev slick-arrow slick-disabled"
+            data-role="none"
+            onClick={null}
+            slideCount={9}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer1.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer1.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer2.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer3.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer3.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer4.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer4.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer5.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer5.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer6.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer6.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer7.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer7.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer8.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer8.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer9.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer9.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-disabled={false}
+            aria-hidden="true"
+            className="slick-next slick-arrow"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="vaccinated"
+    style={
+      Object {
+        "backgroundImage": "url(/static/image/bg-fleet.png)",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="caro-2 d-flex"
+        >
+          <div
+            className="text-vaccinated d-flex justify-content-start col-8"
+          >
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="vaccinated-para d-flex justify-content-start m-0"
+              >
+                #WeCare
+              </p>
+              <h1
+                className="vaccinated-heading "
+              >
+                <strong
+                  className="d-flex justify-content-start"
+                >
+                  Our Fleet is
+                </strong>
+                <strong
+                  className="d-flex justify-content-start"
+                >
+                  Fully Vaccinated!
+                </strong>
+              </h1>
+            </div>
+          </div>
+          <div
+            className="pre_img"
+          >
+            <img
+              alt="vaccine img"
+              className="d-flex justify-content-end col-4 vaccinated-img"
+              src="/static/Offer_carousel/img-fleet.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="works"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="text-center mt-5"
+          >
+            <strong>
+              How it Works
+            </strong>
+          </h4>
+        </div>
+      </div>
+      <div
+        className="row side-gap work-row d-flex "
+      >
+        <div
+          className="first-work d-flex justify-content-center col-5 g-0"
+        >
+          <img
+            alt=""
+            className="works-img-pick"
+            src="static/image/pick.png"
+          />
+          <div
+            className="work-text"
+          >
+            <h4
+              className="work-heading"
+            >
+              Pick Your Product
+            </h4>
+            <p
+              className="work-para"
+            >
+              Visit our website, choose the product that needs
+               
+              <br />
+               
+              fixing, get a quote and Yay! There we are, right at
+              <br />
+               
+               your doorstep.
+            </p>
+          </div>
+        </div>
+        <div
+          className="middle-border col-2 g-0"
+        >
+          <hr
+            className="hr-mid-blue"
+          />
+        </div>
+        <div
+          className="second-work d-flex justify-content-center col-5 g-0"
+        >
+          <img
+            alt=""
+            className="works-img-service"
+            src="static/image/Service.png"
+          />
+          <div
+            className="work-test-1"
+          >
+            <h4
+              className="work-heading"
+            >
+              Service at your Convenience
+            </h4>
+            <p
+              className="work-para"
+            >
+              Once we have diagnosed the issue, we fix your
+               
+              <br />
+               
+              product, and deliver it to your doorstep – At your
+               
+              <br />
+              Convenience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+]
+`;

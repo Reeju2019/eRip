@@ -224,14 +224,11 @@ const Header: React.FunctionComponent = () => {
                   onHide={handleClose1}
                   style={{ marginTop: '80px' }}
                 >
-                  <Modal.Header closeButton>
-                    <Modal.Title>
-                      Enter Your Mobile Number
-                      <br />
-                      <span>We will send you an OTP on this No.</span>
-                    </Modal.Title>
+                  <Modal.Header closeButton style={{ border: 'none' }}>
+                    <Modal.Title>Enter Your Mobile Number</Modal.Title>
                   </Modal.Header>
                   <Modal.Body>
+                    <p>We will send you an OTP on this No.</p>
                     <div className='input-group mb-3'>
                       <div className='input-group-prepend'>
                         <div className='input-group-text'>+91</div>

@@ -1,6 +1,7 @@
 import { render, screen } from '@testing-library/react'
 import Login from './Login'
 import renderer from 'react-test-renderer'
+import ReactDOM from 'react-dom'
 
 test('auth login', () => {
   render(<Login />)
@@ -14,5 +15,10 @@ describe('App rendering specification', () => {
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
     
-  });
+  })
+  it('render without crashing', () => {
+    const div = document.createElement('div')
+    render(<Login />)
+    ReactDOM.unmountComponentAtNode(div)
+  })
 })

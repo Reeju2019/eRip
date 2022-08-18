@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div
+  style={
+    Object {
+      "backgroundColor": "red",
+      "color": "white",
+      "marginLeft": "7.5%",
+      "marginTop": "-40px",
+      "padding": "5px",
+      "position": "absolute",
+      "width": "85%",
+    }
+  }
+>
+  COMING SOON
+</div>
+`;

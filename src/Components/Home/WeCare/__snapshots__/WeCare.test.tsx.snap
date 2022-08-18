@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<section
+  className="vaccinated"
+  style={
+    Object {
+      "backgroundImage": "url(/static/image/bg-fleet.png)",
+    }
+  }
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="caro-2 d-flex"
+      >
+        <div
+          className="text-vaccinated d-flex justify-content-start col-8"
+        >
+          <div
+            className="d-flex flex-column"
+          >
+            <p
+              className="vaccinated-para d-flex justify-content-start m-0"
+            >
+              #WeCare
+            </p>
+            <h1
+              className="vaccinated-heading "
+            >
+              <strong
+                className="d-flex justify-content-start"
+              >
+                Our Fleet is
+              </strong>
+              <strong
+                className="d-flex justify-content-start"
+              >
+                Fully Vaccinated!
+              </strong>
+            </h1>
+          </div>
+        </div>
+        <div
+          className="pre_img"
+        >
+          <img
+            alt="vaccine img"
+            className="d-flex justify-content-end col-4 vaccinated-img"
+            src="/static/Offer_carousel/img-fleet.png"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

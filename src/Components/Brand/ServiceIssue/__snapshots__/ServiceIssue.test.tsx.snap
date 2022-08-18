@@ -1,0 +1,1554 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<section
+  className="service-issue"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className="center-title mb-0"
+        >
+          <h3>
+            <strong>
+              Service Issues
+            </strong>
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row d-flex justify-content-center pb-4"
+    >
+      <div
+        className="col-8 service-content"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            className="slick-arrow slick-prev"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+             
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Camera
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Body Housing"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Body Housing
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Diagnosis"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Diagnosis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Other issues"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Other issues
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Touch & Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Touch & Glass
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="OEM Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        OEM Screen
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Compatible Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Compatible Screen
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={9}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={10}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={11}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Camera
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={12}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Body Housing"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Body Housing
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={13}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Diagnosis"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Diagnosis
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={14}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Other issues"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service2.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Other issues
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={15}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Touch & Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service1.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Touch & Glass
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={16}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="OEM Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        OEM Screen
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={17}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Compatible Screen"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service3.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Compatible Screen
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={18}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Battery"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service4.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Battery
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={19}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Glass"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service5.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Glass
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={20}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Charging"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service6.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Charging
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={21}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Mic"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service7.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Mic
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={22}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Ear Speaker"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service8.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Ear Speaker
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={23}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="d-flex flex-column m-2"
+                    >
+                      <div
+                        className="p-2 bg-white "
+                      >
+                        <div
+                          className="service-img"
+                        >
+                          <img
+                            alt="Back Camera"
+                            className="images d-flex justify-content-center"
+                            src="static/Mobile_Services/service9.svg"
+                          />
+                        </div>
+                      </div>
+                      <p
+                        className="service-para"
+                      >
+                        Back Camera
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            className="slick-arrow slick-next"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+             
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

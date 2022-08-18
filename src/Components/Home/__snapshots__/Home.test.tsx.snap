@@ -1,0 +1,3582 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+Array [
+  <div
+    className=" py-1 m-0 header-comp container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="Navbar row"
+      >
+        <div
+          className="col-1 align-item-center align-self-center col"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="logo"
+              className="col-2 Logo align-self-center"
+              src="/static/image/logo_erip.png"
+            />
+          </a>
+        </div>
+        <div
+          className="modal-search d-flex col-6 col"
+        >
+          <button
+            className="btn modal-btn rounded-0 bg-transparent text-muted fw-bold btn btn-primary"
+            data-target="#myModal"
+            data-toggle="modal"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <i
+              className="fas fa-map-marker-alt"
+            />
+            Bengaluru
+            <i
+              className="fa-solid fa-caret-down"
+            />
+          </button>
+          <div
+            className="search_btn d-flex input-group"
+          >
+            <div
+              className="align-self-center m-3"
+            >
+              <i
+                className="fas fa-search"
+              />
+            </div>
+            <input
+              aria-describedby="search-addon"
+              aria-label="Search"
+              className="form-control rounded-0 border-0 form-control"
+              id="search-border"
+              placeholder="Search for a services"
+              type="search"
+            />
+          </div>
+        </div>
+        <div
+          className="col-5 align-self-center col"
+        >
+          <div
+            className="modal-search d-flex justify-content-end align-self-center nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="text-muted fw-bold nav-link"
+              data-rr-ui-event-key="/"
+              disabled={false}
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+            <a
+              className="text-muted fw-bold nav-link"
+              data-rr-ui-event-key="/contact"
+              disabled={false}
+              href="/contact"
+              onClick={[Function]}
+            >
+              Contact Us
+            </a>
+            <a
+              className="d-flex flex-row text-muted fw-bold nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <i
+                className="fa-regular fa-user"
+              />
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="carousel-container-1 g-0 container-fluid"
+    style={
+      Object {
+        "backgroundImage": "url(static/image/carousel-bg-1.png)",
+      }
+    }
+  >
+    <div
+      className="row carousel-content p-0 m-0 g-0"
+    >
+      <div
+        className="carousel slide"
+        data-bs-ride="true"
+        id="carouselExampleIndicators"
+      >
+        <div
+          className="carousel slide"
+          onKeyDown={[Function]}
+          onMouseOut={[Function]}
+          onMouseOver={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+        >
+          <div
+            className="carousel-indicators"
+          >
+            <button
+              aria-current={true}
+              aria-label="Slide 1"
+              className="active"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 2"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+            <button
+              aria-current={false}
+              aria-label="Slide 3"
+              data-bs-target=""
+              onClick={[Function]}
+              type="button"
+            />
+          </div>
+          <div
+            className="carousel-inner"
+          >
+            <div
+              className="active carousel-item"
+              style={
+                Object {
+                  "backgroundImage": "url(static/image/carousel-bg-1.png)",
+                }
+              }
+            >
+              <div
+                className="d-flex flex-row"
+              >
+                <div
+                  className="w-100 d-flex justify-content-center align-item-center align-self-center"
+                >
+                  <h2
+                    className="txt col-8 justify-content-start text-white fs-2"
+                  >
+                    Repair & Maintainence
+                    <br />
+                    Instant Doorstep Services On Demand
+                  </h2>
+                </div>
+                <img
+                  alt="First slide"
+                  className="d-flex caro-img justify-content-center"
+                  src="/static/image/carousel-img-1.png"
+                />
+              </div>
+            </div>
+            <div
+              className="carousel-item"
+              style={
+                Object {
+                  "backgroundImage": "url(static/image/carousel-bg-1.png)",
+                }
+              }
+            >
+              <div
+                className="d-flex flex-row"
+              >
+                <div
+                  className="w-100 d-flex justify-content-center align-item-center align-self-center"
+                >
+                  <h2
+                    className="txt col-8 justify-content-start text-white fs-2"
+                  >
+                    Top Trained Experts
+                     
+                    <br />
+                    at Your Doorstep Right Away!
+                  </h2>
+                </div>
+                <img
+                  alt="First slide"
+                  className="d-flex caro-img justify-content-center"
+                  src="/static/image/carousel-img-2.png"
+                />
+              </div>
+            </div>
+            <div
+              className="carousel-item"
+              style={
+                Object {
+                  "backgroundImage": "url(static/image/carousel-bg-1.png)",
+                }
+              }
+            >
+              <div
+                className="d-flex flex-row"
+              >
+                <div
+                  className="w-100 d-flex justify-content-center align-item-center align-self-center"
+                >
+                  <h2
+                    className="txt col-8 justify-content-start text-white fs-2"
+                  >
+                    Easy Fix
+                     
+                    <br />
+                    Superior Service Quality Parts
+                  </h2>
+                </div>
+                <img
+                  alt="First slide"
+                  className="d-flex caro-img justify-content-center"
+                  src="/static/image/carousel-img-3.png"
+                />
+              </div>
+            </div>
+          </div>
+          <a
+            className="carousel-control-prev"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-prev-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Previous
+            </span>
+          </a>
+          <a
+            className="carousel-control-next"
+            href="#"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-next-icon"
+            />
+            <span
+              className="visually-hidden"
+            >
+              Next
+            </span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="Get-fix container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="center-title d-flex flex-column"
+          >
+            <h4>
+              <strong>
+                Get Your Fix!
+              </strong>
+            </h4>
+            <p
+              className="fix-text"
+            >
+              Servicing, Repair & Installations made easy
+            </p>
+          </div>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <ul
+            className="service"
+          >
+            <li
+              className="middle-all"
+              onClick={[Function]}
+            >
+              <img
+                alt="Mobile"
+                className=" Fix-img"
+                src="/static/get-fix/Mobile.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Mobile
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+              onClick={[Function]}
+            >
+              <img
+                alt="Tablet"
+                className=" Fix-img"
+                src="/static/get-fix/Tablet.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Tablet
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+              onClick={[Function]}
+            >
+              <img
+                alt="Laptop"
+                className=" Fix-img"
+                src="/static/get-fix/Laptop.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Laptop
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+              onClick={[Function]}
+            >
+              <img
+                alt="Smart Watch"
+                className=" Fix-img"
+                src="/static/get-fix/smart-watch.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Smart Watch
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Air Conditioner"
+                className=" Fix-img"
+                src="/static/get-fix/Air-condition.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Air
+                  <br />
+                  Conditioner
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Washing Machine"
+                className=" Fix-img"
+                src="/static/get-fix/Washing-Machine.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Washing 
+                  <br />
+                   Machine
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Refrigerator"
+                className=" Fix-img"
+                src="/static/get-fix/Fridge.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Refrigerator
+                </strong>
+              </p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <div
+            className="service-1"
+          >
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Water Filter"
+                className=" Fix-img1"
+                src="/static/get-fix/water-filter.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Water Purifier
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Television"
+                className=" Fix-img"
+                src="/static/get-fix/Television.png"
+              />
+              <p
+                className="text-center small-font mt-4"
+              >
+                <strong>
+                  Television
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Chimni"
+                className=" Fix-img"
+                src="/static/get-fix/chimni.png"
+              />
+              <p
+                className="text-center small-font mt-4 csoon"
+              >
+                <strong>
+                  Coming soon
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Plug"
+                className=" Fix-img"
+                src="/static/get-fix/Plug.png"
+              />
+              <p
+                className="text-center small-font mt-4 csoon"
+              >
+                <strong>
+                  Coming soon
+                </strong>
+              </p>
+            </li>
+            <li
+              className="middle-all"
+            >
+              <img
+                alt="Microwave"
+                className=" Fix-img"
+                src="/static/get-fix/Microwave.png"
+              />
+              <p
+                className="text-center small-font mt-4 csoon"
+              >
+                <strong>
+                  Coming soon
+                </strong>
+              </p>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <section
+    className="Offer-Carousel m-5"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row carousel-content-1"
+      >
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            aria-disabled={true}
+            aria-hidden="true"
+            className="slick-prev slick-arrow slick-disabled"
+            data-role="none"
+            onClick={null}
+            slideCount={9}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer1.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer1.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer2.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer2.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer3.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer3.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer4.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer4.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer5.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer5.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer6.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer6.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer7.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer7.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer8.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer8.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="carousel-item"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div>
+                      <img
+                        alt="static/Offer_carousel/Offer9.png"
+                        className="d-block h-100 w-auto"
+                        src="static/Offer_carousel/Offer9.png"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-disabled={false}
+            aria-hidden="true"
+            className="slick-next slick-arrow"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="vaccinated"
+    style={
+      Object {
+        "backgroundImage": "url(/static/image/bg-fleet.png)",
+      }
+    }
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="caro-2 d-flex"
+        >
+          <div
+            className="text-vaccinated d-flex justify-content-start col-8"
+          >
+            <div
+              className="d-flex flex-column"
+            >
+              <p
+                className="vaccinated-para d-flex justify-content-start m-0"
+              >
+                #WeCare
+              </p>
+              <h1
+                className="vaccinated-heading "
+              >
+                <strong
+                  className="d-flex justify-content-start"
+                >
+                  Our Fleet is
+                </strong>
+                <strong
+                  className="d-flex justify-content-start"
+                >
+                  Fully Vaccinated!
+                </strong>
+              </h1>
+            </div>
+          </div>
+          <div
+            className="pre_img"
+          >
+            <img
+              alt="vaccine img"
+              className="d-flex justify-content-end col-4 vaccinated-img"
+              src="/static/Offer_carousel/img-fleet.png"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="works"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="row"
+      >
+        <div
+          className="col-12"
+        >
+          <h4
+            className="text-center mt-5"
+          >
+            <strong>
+              How it Works
+            </strong>
+          </h4>
+        </div>
+      </div>
+      <div
+        className="row side-gap work-row d-flex "
+      >
+        <div
+          className="first-work d-flex justify-content-center col-5 g-0"
+        >
+          <img
+            alt=""
+            className="works-img-pick"
+            src="static/image/pick.png"
+          />
+          <div
+            className="work-text"
+          >
+            <h4
+              className="work-heading"
+            >
+              Pick Your Product
+            </h4>
+            <p
+              className="work-para"
+            >
+              Visit our website, choose the product that needs
+               
+              <br />
+               
+              fixing, get a quote and Yay! There we are, right at
+              <br />
+               
+               your doorstep.
+            </p>
+          </div>
+        </div>
+        <div
+          className="middle-border col-2 g-0"
+        >
+          <hr
+            className="hr-mid-blue"
+          />
+        </div>
+        <div
+          className="second-work d-flex justify-content-center col-5 g-0"
+        >
+          <img
+            alt=""
+            className="works-img-service"
+            src="static/image/Service.png"
+          />
+          <div
+            className="work-test-1"
+          >
+            <h4
+              className="work-heading"
+            >
+              Service at your Convenience
+            </h4>
+            <p
+              className="work-para"
+            >
+              Once we have diagnosed the issue, we fix your
+               
+              <br />
+               
+              product, and deliver it to your doorstep – At your
+               
+              <br />
+              Convenience.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <div
+    className="device_section"
+  >
+    <div
+      className="container"
+    >
+      <div>
+        <div>
+          <h4>
+             
+            Devices
+             
+          </h4>
+          <p>
+            Servicing, Hardware & Software Repair
+          </p>
+        </div>
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            aria-disabled={true}
+            aria-hidden="true"
+            className="slick-prev slick-arrow slick-disabled"
+            data-role="none"
+            onClick={null}
+            slideCount={7}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/AC.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        AC
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/Chimney.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        Chimney
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/Laptop.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        Laptop
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/Mobile.png"
+                      />
+                      <div
+                        style={
+                          Object {
+                            "backgroundColor": "red",
+                            "color": "white",
+                            "marginLeft": "7.5%",
+                            "marginTop": "-40px",
+                            "padding": "5px",
+                            "position": "absolute",
+                            "width": "85%",
+                          }
+                        }
+                      >
+                        COMING SOON
+                      </div>
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        Mobile
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/Tablet.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        Tablet
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/geyser.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        Geyser
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/device/AC.png"
+                      />
+                      <div
+                        style={
+                          Object {
+                            "backgroundColor": "red",
+                            "color": "white",
+                            "marginLeft": "7.5%",
+                            "marginTop": "-40px",
+                            "padding": "5px",
+                            "position": "absolute",
+                            "width": "85%",
+                          }
+                        }
+                      >
+                        COMING SOON
+                      </div>
+                    </div>
+                    <div
+                      className="card-body device_card_body"
+                    >
+                      <p
+                        className="card-text device_text"
+                      >
+                        AC
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-disabled={false}
+            aria-hidden="true"
+            className="slick-next slick-arrow"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <div
+      className="container"
+    >
+      <section
+        className="why-us"
+      >
+        <div
+          className="container-fluid"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-12"
+            >
+              <div
+                className="center-title"
+              >
+                <h4>
+                  <strong>
+                    Why Us
+                  </strong>
+                </h4>
+              </div>
+            </div>
+          </div>
+          <div
+            className="row side-gap-1 why-us-row"
+          >
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row1.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row2.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row1.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row2.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row1.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+            <div
+              className="whyus-work d-flex col-6 col-sm-6 g-0"
+            >
+              <img
+                alt=""
+                className="row-1-img"
+                src="assets/whyus/row2.png"
+              />
+              <div
+                className="why-text"
+              >
+                <h4
+                  className="work-heading"
+                >
+                  Easy to Book Services
+                </h4>
+                <p
+                  className="work-para"
+                >
+                   Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>,
+  <div>
+    <section
+      className="offers"
+    >
+      <div
+        className="container-fluid offer-container"
+      >
+        <div
+          className="row offer-2 d-flex justify-content-between"
+        >
+          <div
+            className="col-7 col-sm-7"
+          >
+            <h1
+              className="offer-text"
+            >
+              <strong>
+                Browse All
+                 
+                <br />
+                 
+                Available Offers
+              </strong>
+            </h1>
+          </div>
+          <div
+            className="offer-img col-4 col-sm-4 d-flex justify-content-end"
+          >
+            <img
+              alt=""
+              className="image"
+              src="assets/img-offers.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <div
+    className="user_section"
+  >
+    <div
+      className="container"
+    >
+      <div>
+        <h4
+          className="user_heading d-flex justify-content-center"
+        >
+          What Our Users Say
+        </h4>
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <button
+            aria-disabled={true}
+            aria-hidden="true"
+            className="slick-prev slick-arrow slick-disabled"
+            data-role="none"
+            onClick={null}
+            slideCount={9}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Previous
+          </button>
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card user_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card user_img"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="/assets/user/asset1.png"
+                      />
+                      <p
+                        className="user_card_text"
+                      >
+                        My Whirlpool double-door refrigerator had a recurring water leakage problem and even after multiple repairs it wasn't fixed properly. This issue finally had a confirmed resolution with ERIP and it‚Äôs been 2 years there has been no more water leakage problems. 
+                      </p>
+                      <div
+                        className="d-flex"
+                      >
+                        <img
+                          alt=""
+                          className="user_dp"
+                          src="/assets/user/carousel-img-1.png"
+                        />
+                        <div
+                          className="user_id"
+                        >
+                          <p
+                            className="card-text user_text"
+                          >
+                            Roshan Meher
+                          </p>
+                          <p
+                            className="user_company"
+                          >
+                            <i>
+                              -
+                              Voltas
+                            </i>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            aria-disabled={false}
+            aria-hidden="true"
+            className="slick-next slick-arrow"
+            data-role="none"
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+            type="button"
+          >
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div>
+    <section
+      className="vaccinated"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="caro-2 d-flex"
+          >
+            <div
+              className="text-vaccinated justify-content-start col-8"
+            >
+              <h4
+                className="vaccinated-para"
+              >
+                #WeCare
+              </h4>
+              <h1
+                className="vaccinated-heading"
+              >
+                <strong>
+                  Our Fleet is
+                   
+                  <br />
+                  Fully Vaccinated!
+                </strong>
+              </h1>
+            </div>
+            <img
+              alt=""
+              className="justify-content-end col-4 vaccinated-img"
+              src="assets/img-fleet.png"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>,
+  <section
+    className="news-update"
+  >
+    <div
+      className="container"
+    >
+      <div>
+        <h4
+          className="news_heading"
+        >
+          News & Updates
+        </h4>
+        <div
+          className="slick-slider slick-initialized"
+          dir="ltr"
+        >
+          <div
+            className="slick-list"
+            onClick={[Function]}
+            onKeyDown={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={null}
+            onMouseMove={null}
+            onMouseUp={[Function]}
+            onTouchCancel={null}
+            onTouchEnd={[Function]}
+            onTouchMove={null}
+            onTouchStart={[Function]}
+            style={Object {}}
+          >
+            <div
+              className="slick-track"
+              onMouseEnter={[Function]}
+              onMouseLeave={[Function]}
+              onMouseOver={[Function]}
+              style={
+                Object {
+                  "WebkitTransform": "translate3d(0px, 0px, 0px)",
+                  "WebkitTransition": "",
+                  "msTransform": "translateX(0px)",
+                  "opacity": 1,
+                  "transform": "translate3d(0px, 0px, 0px)",
+                  "transition": "",
+                }
+              }
+            >
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/10.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/media.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={-1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active slick-current"
+                data-index={0}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/10.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={1}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/media.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={2}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/laptop.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={false}
+                className="slick-slide slick-active"
+                data-index={3}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={4}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/10.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={5}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/media.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide"
+                data-index={6}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "outline": "none",
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={7}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/10.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={8}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/media.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={9}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/laptop.png"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={10}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={11}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/10.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={12}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/media.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                aria-hidden={true}
+                className="slick-slide slick-cloned"
+                data-index={13}
+                onClick={[Function]}
+                style={
+                  Object {
+                    "width": 0,
+                  }
+                }
+                tabIndex="-1"
+              >
+                <div>
+                  <div
+                    className="card device_card"
+                    style={
+                      Object {
+                        "display": "inline-block",
+                        "width": "100%",
+                      }
+                    }
+                    tabIndex={-1}
+                  >
+                    <div
+                      className="img_card"
+                    >
+                      <img
+                        alt="..."
+                        className="card-img-top"
+                        src="assets/news/wa.jpg"
+                      />
+                    </div>
+                    <div
+                      className="card-body news_card_body"
+                    >
+                      <h4
+                        className="card-title news_title"
+                      >
+                        7 Reasons For Computer Lagging And How To Fix Them
+                      </h4>
+                      <a
+                        className="news_more"
+                        href="/"
+                        onClick={[Function]}
+                      >
+                        Know More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ul
+            className="slick-dots"
+            onMouseEnter={null}
+            onMouseLeave={null}
+            onMouseOver={null}
+            style={
+              Object {
+                "display": "block",
+              }
+            }
+          >
+            <li
+              className="slick-active"
+            >
+              <button
+                onClick={[Function]}
+              >
+                1
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                2
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                3
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                4
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                5
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                6
+              </button>
+            </li>
+            <li
+              className=""
+            >
+              <button
+                onClick={[Function]}
+              >
+                7
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>,
+  <section
+    className="footer"
+  >
+    <div
+      className="container-fluid g-0 footer-container"
+      style={
+        Object {
+          "backgroundColor": "#24252a",
+          "display": "flex",
+          "paddingBottom": "50px",
+          "paddingTop": "50px",
+        }
+      }
+    >
+      <div
+        className="first-footer "
+      >
+        <img
+          alt="white-logo"
+          className="erip-logo"
+          src="/assets/erip-logo-white.png"
+        />
+        <p
+          className="footer-text"
+        >
+          © Erip 2021 - 2021, All Rights Reserved
+        </p>
+        <i
+          className="fa-brands fa-twitter"
+        />
+        <i
+          className="facebook fab fa-facebook-square"
+        />
+        <i
+          className="Instagram fab fa-instagram"
+        />
+        <i
+          className="youtube fab fa-youtube"
+        />
+        <i
+          className="fa-brands fa-linkedin"
+        />
+        <i
+          className="printerest fab fa-pinterest-p"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <ul
+          className="second-footer"
+        >
+          <li>
+            About Us
+          </li>
+          <li>
+            Contact Us
+          </li>
+          <li>
+            Terms of use
+          </li>
+          <li>
+            Customers Support
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>,
+]
+`;

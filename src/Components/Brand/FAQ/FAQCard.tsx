@@ -16,7 +16,7 @@ const FAQCard: React.FunctionComponent<IFAQCardProps> = (faq) => {
     <>
       <div className='d-flex flex-column m-1'>
         <div className='d-flex flex-row justify-content-between'>
-          <h3 className='fs-6'>{faq.faq.question}</h3>
+          <h3 className='fs-6'>{faq?.faq?.question}</h3>
           <button
             className='bg-transparent border-0'
             onClick={() => setOpen(!open)}
@@ -32,10 +32,10 @@ const FAQCard: React.FunctionComponent<IFAQCardProps> = (faq) => {
         </div>
         <Collapse in={open}>
           <div id='example-collapse-text' className='paragraph'>
-            {faq.faq.answer}
+            {faq?.faq?.answer}
           </div>
         </Collapse>
-        {faq.faq.line && (
+        {faq?.faq?.line && (
           <div className='col-12'>
             <hr className='mt-10' />
           </div>

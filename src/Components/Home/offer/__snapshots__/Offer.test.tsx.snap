@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div>
+  <section
+    className="offers"
+  >
+    <div
+      className="container-fluid offer-container"
+    >
+      <div
+        className="row offer-2 d-flex justify-content-between"
+      >
+        <div
+          className="col-7 col-sm-7"
+        >
+          <h1
+            className="offer-text"
+          >
+            <strong>
+              Browse All
+               
+              <br />
+               
+              Available Offers
+            </strong>
+          </h1>
+        </div>
+        <div
+          className="offer-img col-4 col-sm-4 d-flex justify-content-end"
+        >
+          <img
+            alt=""
+            className="image"
+            src="assets/img-offers.png"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+`;

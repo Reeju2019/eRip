@@ -15,13 +15,13 @@ const BrandServiceIssueCard: React.FunctionComponent<IBrandServiceIssueCardProps
         <div className='p-2 bg-white '>
           <div className='service-img'>
             <img
-              src={data.image}
+              src={data?.image}
               className='images d-flex justify-content-center'
-              alt={data.problem}
+              alt={data?.problem}
             />
           </div>
         </div>
-        <p className='service-para'>{data.problem}</p>
+        <p className='service-para'>{data?.problem}</p>
       </div>
     </>
   )

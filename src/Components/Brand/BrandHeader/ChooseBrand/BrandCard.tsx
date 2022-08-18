@@ -11,22 +11,22 @@ interface IBrandCard {
 const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
   const nevigate = useNavigate()
   let otherCheck = false
-  if (brand.brand?.brandName === 'others') {
+  if (brand?.brand?.brandName === 'others') {
     otherCheck = true
   }
   const device: string = localStorage.getItem('deviceId') as string
   const brandClick = () => {
-    localStorage.setItem('brandId', JSON.stringify(brand.brand.brandName))
+    localStorage.setItem('brandId', JSON.stringify(brand?.brand?.brandName))
 
     const deviceId = JSON.parse(device)
 
-    nevigate(`/${deviceId}/${brand.brand.brandName}`)
+    nevigate(`/${deviceId}/${brand?.brand?.brandName}`)
   }
 
   return (
     <>
       <div onClick={brandClick} className={'apple brand-width ' + (otherCheck ? 'other-img' : '')}>
-        <img src={brand.brand?.image} alt={brand.brand?.brandName} className='brand-img' />
+        <img src={brand?.brand?.image} alt={brand?.brand?.brandName} className='brand-img' />
       </div>
     </>
   )

@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div
+  className="Get-fix container-fluid"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className="center-title d-flex flex-column"
+        >
+          <h4>
+            <strong>
+              Get Your Fix!
+            </strong>
+          </h4>
+          <p
+            className="fix-text"
+          >
+            Servicing, Repair & Installations made easy
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <ul
+          className="service"
+        >
+          <li
+            className="middle-all"
+            onClick={[Function]}
+          >
+            <img
+              alt="Mobile"
+              className=" Fix-img"
+              src="/static/get-fix/Mobile.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Mobile
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+            onClick={[Function]}
+          >
+            <img
+              alt="Tablet"
+              className=" Fix-img"
+              src="/static/get-fix/Tablet.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Tablet
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+            onClick={[Function]}
+          >
+            <img
+              alt="Laptop"
+              className=" Fix-img"
+              src="/static/get-fix/Laptop.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Laptop
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+            onClick={[Function]}
+          >
+            <img
+              alt="Smart Watch"
+              className=" Fix-img"
+              src="/static/get-fix/smart-watch.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Smart Watch
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Air Conditioner"
+              className=" Fix-img"
+              src="/static/get-fix/Air-condition.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Air
+                <br />
+                Conditioner
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Washing Machine"
+              className=" Fix-img"
+              src="/static/get-fix/Washing-Machine.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Washing 
+                <br />
+                 Machine
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Refrigerator"
+              className=" Fix-img"
+              src="/static/get-fix/Fridge.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Refrigerator
+              </strong>
+            </p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12"
+      >
+        <div
+          className="service-1"
+        >
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Water Filter"
+              className=" Fix-img1"
+              src="/static/get-fix/water-filter.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Water Purifier
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Television"
+              className=" Fix-img"
+              src="/static/get-fix/Television.png"
+            />
+            <p
+              className="text-center small-font mt-4"
+            >
+              <strong>
+                Television
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Chimni"
+              className=" Fix-img"
+              src="/static/get-fix/chimni.png"
+            />
+            <p
+              className="text-center small-font mt-4 csoon"
+            >
+              <strong>
+                Coming soon
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Plug"
+              className=" Fix-img"
+              src="/static/get-fix/Plug.png"
+            />
+            <p
+              className="text-center small-font mt-4 csoon"
+            >
+              <strong>
+                Coming soon
+              </strong>
+            </p>
+          </li>
+          <li
+            className="middle-all"
+          >
+            <img
+              alt="Microwave"
+              className=" Fix-img"
+              src="/static/get-fix/Microwave.png"
+            />
+            <p
+              className="text-center small-font mt-4 csoon"
+            >
+              <strong>
+                Coming soon
+              </strong>
+            </p>
+          </li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

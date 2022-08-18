@@ -2,6 +2,7 @@ import React from 'react'
 import { render, screen } from '@testing-library/react'
 import ChooseBrand from './ChooseBrand'
 import renderer from 'react-test-renderer'
+import ReactDOM from 'react-dom'
 
 test('choose brand', () => {
   render(<ChooseBrand />)
@@ -20,5 +21,10 @@ describe('App rendering specification', () => {
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
     
-  });
+  })
+  it('render without crashing', () => {
+    const div = document.createElement('div')
+    render(<ChooseBrand />)
+    ReactDOM.unmountComponentAtNode(div)
+  })
 })

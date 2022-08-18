@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<div
+  className="bg-grey container-fluid"
+>
+  <div
+    className="row"
+  >
+    <h3
+      className="d-flex justify-content-center p-5 text-muted"
+    >
+      F.A.Qs
+    </h3>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-10 m-auto bg-white p-4 col"
+    >
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              Do you offer onsite repair?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Yes. We do. Our onsite technicians will come to your doorstep and repair your mobile phone within 30 minutes. This service is offered for issues with screen, battery, mic/speaker charging, camera, and the like.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              How does your pickup and delivery service work?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Our device pickup and delivery service is centred on issues that need more than 30 minutes of reparation. Issues like glass replacement, damage due to water or complex software issues require pickup and delivery services. Additionally, the timely pickup and delivery service is free of cost.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What is the average repair service cost?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            The price of our repair services varies as per different brands, the models, nature of the issue and spare parts used. We will share the approx price with you once you confirmed the issue.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What is the mode of payment used on this platform?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            We accept payments via card, cash, or UPI transfers.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              Is there a warranty period for mobile repair service in Bengalore?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            We offer up to 18 months warranty for all the mobile services that you choose.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What kind of spare parts does ERIP use?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            ERIP has adopted a strict policy by which we use 100% genuine ERIP-certified spare parts for our mobile repair services. Most of our spare parts are imported to increase the effectiveness of our services and the functioning of the devices.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

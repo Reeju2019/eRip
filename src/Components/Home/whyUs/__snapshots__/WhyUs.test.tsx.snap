@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pnf rendering specification SnapShot testing 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <section
+      className="why-us"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12"
+          >
+            <div
+              className="center-title"
+            >
+              <h4>
+                <strong>
+                  Why Us
+                </strong>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row side-gap-1 why-us-row"
+        >
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row1.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row2.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row1.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row2.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row1.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="assets/whyus/row2.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Easy to Book Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                 Our user interface is easy to navigate offering seamless experience to the customers. We offer premium services with free pick-up and delivery. Quality has always been our mid name! .
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;
