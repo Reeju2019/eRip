@@ -5,3 +5,9 @@ exports[`App rendering specification SnapShot testing 1`] = `
   <h1 />
 </div>
 `;
+
+exports[`App rendering specification SnapShot testing 2`] = `
+<div>
+  <h1 />
+</div>
+`;
