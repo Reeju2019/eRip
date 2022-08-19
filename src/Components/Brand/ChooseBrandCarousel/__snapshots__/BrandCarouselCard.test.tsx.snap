@@ -6,7 +6,9 @@ exports[`App rendering specification SnapShot testing 1`] = `
     className="image-containers"
   >
     <img
+      alt=""
       className="image-cbs"
+      src=""
     />
   </div>
 </div>

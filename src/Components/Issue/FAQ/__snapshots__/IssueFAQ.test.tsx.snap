@@ -1,0 +1,252 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<div
+  className="bg-grey pb-5 container-fluid"
+>
+  <div
+    className="row"
+  >
+    <h3
+      className="d-flex justify-content-center p-5 text-muted"
+    >
+      F.A.Qs
+    </h3>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-10 m-auto bg-white p-4 col"
+    >
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What happens after I choose a brand and service?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            The process is simple. On selecting the brand and your issue, we send you the quote or quote available on our website. Thereafter, a technician will be allocated to you and will reach your doorstep on time.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What is the doorstep service?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Issues like screen replacement, mic and speaker issues, battery issues, camera issues, and charging malfunctions can be solved within 30 minutes. Our expert will reach your doorstep and do the needful right there in your presence.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              Which issue cover pick-up and delivery service?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Services that require more than 30-minute doorstep fixes, that are repaired and delivered within 24 hours include water damage, glass replacements, network issues, body replacements and others. Our technician will collect the device from your doorstep and deliver the same post-restoration.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              How do I claim my warrenty?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Write to the support page or go to my booking on ERIP website, including the service details you paid for, as well as the job summary provided to you at the time of service. We will reach your doorstep and repair the damaged part.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What kinds of spare parts are used for repair?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            ERIP sources 100% genuine products and to top-up its quality, it is ERIP-Certified. All our parts go through in-house testing before using them to repair your devices.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What is the cost of reapair for your services?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            There is no standard cost of repair. It depends on the brand, model, as well as issue you select. However, services are all economically priced.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

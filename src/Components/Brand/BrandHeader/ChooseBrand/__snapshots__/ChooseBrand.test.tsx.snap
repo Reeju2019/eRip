@@ -148,131 +148,27 @@ Array [
             className="col-12"
           >
             <div
-              className="slick-slider slick-initialized"
+              className="react-multi-carousel-list carousel-container "
+              dir="ltr"
             >
-              <div
-                className="slick-list"
-              >
-                <div
-                  className="slick-track"
-                  onMouseEnter={[Function]}
-                  onMouseLeave={[Function]}
-                  onMouseOver={[Function]}
-                  style={
-                    Object {
-                      "WebkitTransform": "translate3d(0px, 0px, 0px)",
-                      "WebkitTransition": "",
-                      "msTransform": "translateX(0px)",
-                      "opacity": 1,
-                      "transform": "translate3d(0px, 0px, 0px)",
-                      "transition": "",
-                    }
+              <ul
+                className="react-multi-carousel-track "
+                onMouseDown={[Function]}
+                onMouseEnter={[Function]}
+                onMouseLeave={[Function]}
+                onMouseMove={[Function]}
+                onMouseUp={[Function]}
+                onTouchEnd={[Function]}
+                onTouchMove={[Function]}
+                onTouchStart={[Function]}
+                style={
+                  Object {
+                    "overflow": "unset",
+                    "transform": "translate3d(0px,0,0)",
+                    "transition": "none",
                   }
-                >
-                  <div
-                    aria-hidden={false}
-                    className="slick-slide slick-active slick-current"
-                    data-index={0}
-                    onClick={[Function]}
-                    style={
-                      Object {
-                        "outline": "none",
-                        "width": 0,
-                      }
-                    }
-                    tabIndex="-1"
-                  >
-                    <div>
-                      <div
-                        className="offer-img"
-                        style={
-                          Object {
-                            "display": "inline-block",
-                            "width": "100%",
-                          }
-                        }
-                        tabIndex={-1}
-                      >
-                        <div>
-                          <img
-                            alt="static/Mobile_Services/Offer1.png"
-                            className="d-block h-100 w-auto"
-                            src="static/Mobile_Services/Offer1.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    aria-hidden={false}
-                    className="slick-slide slick-active"
-                    data-index={1}
-                    onClick={[Function]}
-                    style={
-                      Object {
-                        "outline": "none",
-                        "width": 0,
-                      }
-                    }
-                    tabIndex="-1"
-                  >
-                    <div>
-                      <div
-                        className="offer-img"
-                        style={
-                          Object {
-                            "display": "inline-block",
-                            "width": "100%",
-                          }
-                        }
-                        tabIndex={-1}
-                      >
-                        <div>
-                          <img
-                            alt="static/Mobile_Services/Offer2.png"
-                            className="d-block h-100 w-auto"
-                            src="static/Mobile_Services/Offer2.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    aria-hidden={false}
-                    className="slick-slide slick-active"
-                    data-index={2}
-                    onClick={[Function]}
-                    style={
-                      Object {
-                        "outline": "none",
-                        "width": 0,
-                      }
-                    }
-                    tabIndex="-1"
-                  >
-                    <div>
-                      <div
-                        className="offer-img"
-                        style={
-                          Object {
-                            "display": "inline-block",
-                            "width": "100%",
-                          }
-                        }
-                        tabIndex={-1}
-                      >
-                        <div>
-                          <img
-                            alt="static/Mobile_Services/Offer3.png"
-                            className="d-block h-100 w-auto"
-                            src="static/Mobile_Services/Offer3.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                }
+              />
             </div>
           </div>
         </div>
