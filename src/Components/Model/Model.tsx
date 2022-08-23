@@ -10,8 +10,10 @@ import ModelData from '../../Data/Product.mock.json'
 import { useParams } from 'react-router-dom'
 import PageNotFound from '../Error/PageNotFound'
 import Loader from '../Error/Loader'
+import tabTitle from '../../tabTitle'
 
 const Model: React.FunctionComponent = () => {
+  tabTitle('eRip: Model')
   const [found, setFound] = useState(false)
   const [loading, setLoading] = useState(true)
   const paramData = useParams()

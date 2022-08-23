@@ -9,7 +9,7 @@ import CartPreview from './CartPreview'
 interface SingleService {
   model?: string
   serviceImage: string
-  service_name: string
+  serviceName: string
   price: number
   off: number
   repairTime: string
@@ -24,7 +24,7 @@ interface Service {
   service: {
     model?: string
     serviceImage: string
-    service_name: string
+    serviceName: string
     price: number
     off: number
     repairTime: string

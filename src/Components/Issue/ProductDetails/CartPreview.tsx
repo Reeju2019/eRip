@@ -13,7 +13,7 @@ interface ICartPreview {
     | {
         model?: string
         serviceImage: string
-        service_name: string
+        serviceName: string
         price: number
         off: number
         repairTime: string
@@ -119,7 +119,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
       }
       return times
     }
-    console.log(time())
+    // console.log(time())
 
     time()
     setSlot(Slot())

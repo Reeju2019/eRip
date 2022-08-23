@@ -5,8 +5,10 @@ import MyProfileData from '../../Data/MyProfile.mock.json'
 import OrderCard from './OrderCard'
 import Footer from '../footer/Footer'
 import Header from '../Home/Header/Header'
+import tabTitle from '../../tabTitle'
 
 const MyProfile: React.FunctionComponent = () => {
+  tabTitle('eRip: Profile')
   const [show, setShow] = useState(true)
   const showClicked = () => {
     setShow(!show)
