@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react'
+import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 import ReactDOM from 'react-dom'
 import Footer from './Footer'

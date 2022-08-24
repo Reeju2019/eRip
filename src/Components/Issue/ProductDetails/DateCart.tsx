@@ -19,7 +19,4 @@ const DateCard: React.FunctionComponent<IDateCardProps> = ({ date, setActiveDate
     </>
   )
 }
-
-
-
 export default DateCard

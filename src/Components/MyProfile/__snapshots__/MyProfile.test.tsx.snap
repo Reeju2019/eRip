@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`my profile rendering specification SnapShot testing 1`] = `
+Array [
+  <div
+    className=" py-1 m-0 header-comp container-fluid"
+  >
+    <div
+      className="container"
+    >
+      <div
+        className="Navbar row"
+      >
+        <div
+          className="col-1 align-item-center align-self-center col"
+        >
+          <a
+            href="/"
+            onClick={[Function]}
+          >
+            <img
+              alt="logo"
+              className="col-2 Logo align-self-center"
+              src="/static/image/logo_erip.png"
+            />
+          </a>
+        </div>
+        <div
+          className="modal-search d-flex col-6 col"
+        >
+          <button
+            className="btn modal-btn rounded-0 bg-transparent text-muted fw-bold btn btn-primary"
+            data-target="#myModal"
+            data-toggle="modal"
+            disabled={false}
+            onClick={[Function]}
+            type="button"
+          >
+            <i
+              className="fas fa-map-marker-alt"
+            />
+            Bengaluru
+            <i
+              className="fa-solid fa-caret-down"
+            />
+          </button>
+          <div
+            className="search_btn d-flex input-group"
+          >
+            <div
+              className="align-self-center m-3"
+            >
+              <i
+                className="fas fa-search"
+              />
+            </div>
+            <input
+              aria-describedby="search-addon"
+              aria-label="Search"
+              className="form-control rounded-0 border-0 form-control"
+              id="search-border"
+              placeholder="Search for a services"
+              type="search"
+            />
+          </div>
+        </div>
+        <div
+          className="col-5 align-self-center col"
+        >
+          <div
+            className="modal-search d-flex justify-content-end align-self-center nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="text-muted fw-bold nav-link"
+              data-rr-ui-event-key="/"
+              disabled={false}
+              href="/"
+              onClick={[Function]}
+            >
+              Home
+            </a>
+            <a
+              className="text-muted fw-bold nav-link"
+              data-rr-ui-event-key="/contact"
+              disabled={false}
+              href="/contact"
+              onClick={[Function]}
+            >
+              Contact Us
+            </a>
+            <a
+              className="d-flex flex-row text-muted fw-bold nav-link"
+              data-rr-ui-event-key={null}
+              href="#"
+              onClick={[Function]}
+              onKeyDown={[Function]}
+              role="button"
+              tabIndex={0}
+            >
+              <i
+                className="fa-regular fa-user"
+              />
+              Login
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="container-fluid"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-9 firstCol col"
+      >
+        <div
+          className="m-3 d-flex justify-content-center  "
+        >
+          <button
+            aria-pressed="true"
+            className="leftButton active"
+            disabled={true}
+            onClick={[Function]}
+          >
+            Ongoing
+          </button>
+          <button
+            className="rightButton "
+            disabled={false}
+            onClick={[Function]}
+          >
+            Compleated
+          </button>
+        </div>
+        <div
+          className="m-1 cardContainer"
+        />
+      </div>
+      <div
+        className="col-3 secondCol col"
+      >
+        <div
+          className="d-flex flex-column justify-content-center m-4"
+        >
+          <div
+            className="profileImg align-self-center m-4"
+          >
+            <img
+              alt="user"
+              className="w-100"
+              src="/static/my_profile/user_prof.png"
+            />
+          </div>
+          <h4
+            className="d-flex justify-content-center"
+          >
+            Alexa
+          </h4>
+          <div
+            className="d-flex flex-row justify-content-center contactNumber"
+          >
+            +91
+            <span
+              className="mx-1"
+            >
+              9876543210
+            </span>
+            <i
+              className="fa-solid fa-pencil"
+            />
+          </div>
+        </div>
+        <div
+          className="m-2"
+        >
+          <div
+            className="d-flex justify-content-between"
+          >
+            <div>
+              Saved Address
+            </div>
+            <div
+              className="update"
+            >
+              Update Address
+            </div>
+          </div>
+          <hr
+            className="my-2"
+          />
+          <div
+            className="d-flex justify-content-between"
+          >
+            <div>
+              Contact Details
+            </div>
+            <div
+              className="update"
+            >
+              Update
+            </div>
+          </div>
+          <hr
+            className="my-2"
+          />
+          <div>
+            Refer a Friend
+          </div>
+          <hr
+            className="my-2"
+          />
+          <div>
+            Get Help
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <section
+    className="footer"
+  >
+    <div
+      className="container-fluid g-0 footer-container"
+      style={
+        Object {
+          "backgroundColor": "#24252a",
+          "display": "flex",
+          "paddingBottom": "50px",
+          "paddingTop": "50px",
+        }
+      }
+    >
+      <div
+        className="first-footer "
+      >
+        <img
+          alt="white-logo"
+          className="erip-logo"
+          src="/assets/erip-logo-white.png"
+        />
+        <p
+          className="footer-text"
+        >
+          © Erip 2021 - 2021, All Rights Reserved
+        </p>
+        <i
+          className="fa-brands fa-twitter"
+        />
+        <i
+          className="facebook fab fa-facebook-square"
+        />
+        <i
+          className="Instagram fab fa-instagram"
+        />
+        <i
+          className="youtube fab fa-youtube"
+        />
+        <i
+          className="fa-brands fa-linkedin"
+        />
+        <i
+          className="printerest fab fa-pinterest-p"
+        />
+      </div>
+      <div
+        className="col-6"
+      >
+        <ul
+          className="second-footer"
+        >
+          <li>
+            About Us
+          </li>
+          <li>
+            Contact Us
+          </li>
+          <li>
+            Terms of use
+          </li>
+          <li>
+            Customers Support
+          </li>
+          <li>
+            Privacy Policy
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>,
+]
+`;

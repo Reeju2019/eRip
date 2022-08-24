@@ -12,7 +12,7 @@
           "model": [
             {
               "id": "iPhone13ProMax",
-              "model_name": "iPhone 13 Pro Max",
+              "modelName": "iPhone 13 Pro Max",
               "image": "/static/iphoneBrand/iphone13ProMax.jpg",
               "service": [
                 {
@@ -100,7 +100,7 @@
             },
             {
               "id": "iPhone13Pro",
-              "model_name": "iPhone 13 Pro",
+              "modelName": "iPhone 13 Pro",
               "image": "/static/iphoneBrand/iphone13Pro.jpg",
               "service": [
                 {
@@ -188,7 +188,7 @@
             },
             {
               "id": "iPhone13Mini",
-              "model_name": "iPhone 13 Mini",
+              "modelName": "iPhone 13 Mini",
               "image": "/static/iphoneBrand/iphone13Mini.jpg",
               "service": [
                 {
@@ -204,7 +204,7 @@
             },
             {
               "id": "iPhone13",
-              "model_name": "iPhone 13",
+              "modelName": "iPhone 13",
               "image": "/static/iphoneBrand/iphone13.jpg",
               "service": [
                 {
@@ -220,7 +220,7 @@
             },
             {
               "id": "iPhone12ProMax",
-              "model_name": "iPhone 12 Pro Max",
+              "modelName": "iPhone 12 Pro Max",
               "image": "/static/iphoneBrand/iphone12ProMax.jpg",
               "service": [
                 {
@@ -236,7 +236,7 @@
             },
             {
               "id": "iPhone12Pro",
-              "model_name": "iPhone 12 Pro",
+              "modelName": "iPhone 12 Pro",
               "image": "/static/iphoneBrand/iphone12Pro.jpg",
               "service": [
                 {
@@ -252,7 +252,7 @@
             },
             {
               "id": "iPhone12Mini",
-              "model_name": "iPhone 12 Mini",
+              "modelName": "iPhone 12 Mini",
               "image": "/static/iphoneBrand/iphone12Mini.jpg",
               "service": [
                 {
@@ -268,7 +268,7 @@
             },
             {
               "id": "iPhone12",
-              "model_name": "iPhone 12",
+              "modelName": "iPhone 12",
               "image": "/static/iphoneBrand/iphone12.jpg",
               "service": [
                 {
@@ -284,7 +284,7 @@
             },
             {
               "id": "iPhone11ProMax",
-              "model_name": "iPhone 11 Pro Max",
+              "modelName": "iPhone 11 Pro Max",
               "image": "/static/iphoneBrand/iphone11ProMax.jpg",
               "service": [
                 {
@@ -300,7 +300,7 @@
             },
             {
               "id": "iPhone11Pro",
-              "model_name": "iPhone 11 Pro",
+              "modelName": "iPhone 11 Pro",
               "image": "/static/iphoneBrand/iphone11Pro.jpg",
               "service": [
                 {
@@ -316,7 +316,7 @@
             },
             {
               "id": "iPhone11",
-              "model_name": "iPhone 11",
+              "modelName": "iPhone 11",
               "image": "/static/iphoneBrand/iphone11.jpg",
               "service": [
                 {
@@ -332,7 +332,7 @@
             },
             {
               "id": "iPhoneX",
-              "model_name": "iPhone X",
+              "modelName": "iPhone X",
               "image": "/static/iphoneBrand/iphoneX.png",
               "service": [
                 {
@@ -348,7 +348,7 @@
             },
             {
               "id": "iPhoneXR",
-              "model_name": "iPhone XR",
+              "modelName": "iPhone XR",
               "image": "/static/iphoneBrand/iphoneXR.png",
               "service": [
                 {
@@ -364,7 +364,7 @@
             },
             {
               "id": "iPhoneXS",
-              "model_name": "iPhone XS",
+              "modelName": "iPhone XS",
               "image": "/static/iphoneBrand/iphoneXS.png",
               "service": [
                 {
@@ -380,7 +380,7 @@
             },
             {
               "id": "iPhoneXSMax",
-              "model_name": "iPhone XS Max",
+              "modelName": "iPhone XS Max",
               "image": "/static/iphoneBrand/iphoneXSMax.png",
               "service": [
                 {
@@ -396,7 +396,7 @@
             },
             {
               "id": "iPhoneSE2020",
-              "model_name": "iPhone SE 2020",
+              "modelName": "iPhone SE 2020",
               "image": "/static/iphoneBrand/iphoneSE2020.jpg",
               "service": [
                 {
@@ -412,7 +412,7 @@
             },
             {
               "id": "iPhone8Plus",
-              "model_name": "iPhone 8 Plus",
+              "modelName": "iPhone 8 Plus",
               "image": "/static/iphoneBrand/iphone8Plus.png",
               "service": [
                 {
@@ -428,7 +428,7 @@
             },
             {
               "id": "iPhone8",
-              "model_name": "iPhone 8",
+              "modelName": "iPhone 8",
               "image": "/static/iphoneBrand/iphone8.png",
               "service": [
                 {
@@ -444,7 +444,7 @@
             },
             {
               "id": "iPhone7",
-              "model_name": "iPhone 7",
+              "modelName": "iPhone 7",
               "image": "/static/iphoneBrand/iphone7.png",
               "service": [
                 {
@@ -460,7 +460,7 @@
             },
             {
               "id": "iPhone7Plus",
-              "model_name": "iPhone 7 Plus",
+              "modelName": "iPhone 7 Plus",
               "image": "/static/iphoneBrand/iphone7Plus.png",
               "service": [
                 {
@@ -476,7 +476,7 @@
             },
             {
               "id": "iPhone6sPlus",
-              "model_name": "iPhone 6s Plus",
+              "modelName": "iPhone 6s Plus",
               "image": "/static/iphoneBrand/iphone6sPlus.png",
               "service": [
                 {
@@ -492,7 +492,7 @@
             },
             {
               "id": "iPhone6s",
-              "model_name": "iPhone 6s",
+              "modelName": "iPhone 6s",
               "image": "/static/iphoneBrand/iphone6s.png",
               "service": [
                 {
@@ -508,7 +508,7 @@
             },
             {
               "id": "iPhone6Plus",
-              "model_name": "iPhone 6 Plus",
+              "modelName": "iPhone 6 Plus",
               "image": "/static/iphoneBrand/iphone6Plus.png",
               "service": [
                 {
@@ -524,7 +524,7 @@
             },
             {
               "id": "iPhone6",
-              "model_name": "iPhone 6",
+              "modelName": "iPhone 6",
               "image": "/static/iphoneBrand/iphone6.png",
               "service": [
                 {
@@ -540,7 +540,7 @@
             },
             {
               "id": "iPhoneSE",
-              "model_name": "iPhone SE",
+              "modelName": "iPhone SE",
               "image": "/static/iphoneBrand/iphoneSE.png",
               "service": [
                 {
@@ -556,7 +556,7 @@
             },
             {
               "id": "iPhone5s",
-              "model_name": "iPhone 5s",
+              "modelName": "iPhone 5s",
               "image": "/static/iphoneBrand/iphone5s.png",
               "service": [
                 {
@@ -572,7 +572,7 @@
             },
             {
               "id": "others",
-              "model_name": "Others",
+              "modelName": "Others",
               "image": "/static/iphoneBrand/others.png",
               "service": [
                 {
@@ -594,7 +594,7 @@
           "model": [
             {
               "id": "onePlus3",
-              "model_name": "Oneplus 3",
+              "modelName": "Oneplus 3",
               "image": "/static/onePlusBrand/onePlus3.png",
               "service": [
                 {
@@ -610,7 +610,7 @@
             },
             {
               "id": "onePlus3t",
-              "model_name": "Oneplus 3T",
+              "modelName": "Oneplus 3T",
               "image": "/static/onePlusBrand/onePlus3t.jpg",
               "service": [
                 {
@@ -626,7 +626,7 @@
             },
             {
               "id": "onePlus5",
-              "model_name": "Oneplus 5",
+              "modelName": "Oneplus 5",
               "image": "/static/onePlusBrand/onePlus5.png",
               "service": [
                 {
@@ -642,7 +642,7 @@
             },
             {
               "id": "onePlus5t",
-              "model_name": "Oneplus 5T",
+              "modelName": "Oneplus 5T",
               "image": "/static/onePlusBrand/onePlus5t.png",
               "service": [
                 {
@@ -672,7 +672,7 @@
           "model": [
             {
               "id": "iPad8thGeneration",
-              "model_name": "iPad 8th Generation",
+              "modelName": "iPad 8th Generation",
               "image": "/static/iphoneBrand/ipad8thGen.png",
               "service": [
                 {
@@ -688,7 +688,7 @@
             },
             {
               "id": "iPadAir3",
-              "model_name": "iPad Air 3",
+              "modelName": "iPad Air 3",
               "image": "/static/iphoneBrand/ipadAir3.png",
               "service": [
                 {
@@ -704,7 +704,7 @@
             },
             {
               "id": "iPadAirMini5",
-              "model_name": "iPad Mini 5",
+              "modelName": "iPad Mini 5",
               "image": "/static/iphoneBrand/ipadMini5.png",
               "service": [
                 {
@@ -726,7 +726,7 @@
           "model": [
             {
               "id": "GalaxyTabSSeries",
-              "model_name": "Galaxy Tab S Series",
+              "modelName": "Galaxy Tab S Series",
               "image": "/static/samsungBrand/galaxyTabSSeries.png",
               "service": [
                 {
@@ -742,7 +742,7 @@
             },
             {
               "id": "GalaxyTabASeries",
-              "model_name": "Galaxy Tab A Series",
+              "modelName": "Galaxy Tab A Series",
               "image": "/static/samsungBrand/galaxyTabASeries.png",
               "service": [
                 {
@@ -758,7 +758,7 @@
             },
             {
               "id": "otherServices",
-              "model_name": "Other Service",
+              "modelName": "Other Service",
               "image": "/static/samsungBrand/otherSeries.png",
               "service": [
                 {

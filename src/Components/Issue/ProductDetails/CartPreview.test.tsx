@@ -3,7 +3,7 @@ import renderer from 'react-test-renderer'
 import ReactDOM from 'react-dom'
 import CartPreview from './CartPreview'
 interface ICartPreview {
-  cartItem:
+  cartitem:
     | {
         model?: string
         serviceImage: string
@@ -17,7 +17,7 @@ interface ICartPreview {
     | undefined
 }
 
-const data : ICartPreview["cartItem"] = [{
+const data : ICartPreview["cartitem"] = [{
         model: "string",
         serviceImage: "string",
         serviceName: "string",
@@ -29,17 +29,17 @@ const data : ICartPreview["cartItem"] = [{
 }]
 
 test('cart preview', () => {
-  render(<CartPreview cartItem={data} />)
+  render(<CartPreview cartitem={data} />)
 })
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
-    const component = renderer.create(<CartPreview cartItem={data}/>)
+    const component = renderer.create(<CartPreview cartitem={data}/>)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
   it('render without crashing', () => {
     const div = document.createElement('div')
-    render(<CartPreview cartItem={data}/>)
+    render(<CartPreview cartitem={data}/>)
     ReactDOM.unmountComponentAtNode(div)
   })
 })

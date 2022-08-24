@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<div
+  className=""
+  onClick={[Function]}
+>
+  <h6>
+    a
+  </h6>
+  <h4>
+    b
+  </h4>
+  <h6>
+    c
+  </h6>
+</div>
+`;

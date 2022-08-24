@@ -9,7 +9,7 @@ import timeSlotData from '../../../Data/Timeslot.data.json'
 import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 interface ICartPreview {
-  cartItem:
+  cartitem:
     | {
         model?: string
         serviceImage: string
@@ -24,7 +24,7 @@ interface ICartPreview {
 }
 
 const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
-  const cartItem = props
+  const cartitem = props
   const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
@@ -36,7 +36,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
 
   const totalDiscount = (allItem: ICartPreview) => {
     let discount = 0
-    allItem.cartItem?.map((item) => {
+    allItem.cartitem?.map((item) => {
       const offer = (item.price * item.off) / 100
       discount += offer
       Math.ceil(offer)
@@ -45,7 +45,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   }
   const totalAmount = (allItem: ICartPreview) => {
     let total = 0
-    allItem.cartItem?.map((item) => {
+    allItem.cartitem?.map((item) => {
       total += item.price
     })
     return total
@@ -152,8 +152,8 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             <h5>{IssueData.constData.cartPreview.heading}</h5>
             <hr />
             <div>
-              {cartItem &&
-                cartItem.cartItem?.map((item, index) => {
+              {cartitem &&
+                cartitem.cartitem?.map((item, index) => {
                   return (
                     <div key={index}>
                       <CartPreviewCard item={item} />
@@ -168,13 +168,13 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                   <span className='text-success'>
                     {' '}
                     (
-                    {Math.floor((totalDiscount(cartItem) * 100) / totalAmount(cartItem))
-                      ? Math.floor((totalDiscount(cartItem) * 100) / totalAmount(cartItem))
+                    {Math.floor((totalDiscount(cartitem) * 100) / totalAmount(cartitem))
+                      ? Math.floor((totalDiscount(cartitem) * 100) / totalAmount(cartitem))
                       : 0}
                   </span>
                   <span className='text-success'>%)</span>
                 </p>
-                <p className='m-0 text-primary'>₹ {totalDiscount(cartItem)}</p>
+                <p className='m-0 text-primary'>₹ {totalDiscount(cartitem)}</p>
               </div>
               <hr className='m-0' />
             </div>
@@ -182,7 +182,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
               <div className='my-3 d-flex flex-row justify-content-between lh-1'>
                 <p className='m-0'>{IssueData.constData.cartPreview.totalAmount}</p>
                 <p className='m-0 text-primary'>
-                  ₹ {totalAmount(cartItem) - totalDiscount(cartItem)}
+                  ₹ {totalAmount(cartitem) - totalDiscount(cartitem)}
                 </p>
               </div>
               <hr className='m-0' />
@@ -279,7 +279,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
             <i className='fa-solid fa-cart-arrow-down' />
           </Col>
           <Col className='col-5 text-center text-muted align-self-center d-flex justify-content-center'>
-            Total: ₹ {totalAmount(cartItem) - totalDiscount(cartItem)}
+            Total: ₹ {totalAmount(cartitem) - totalDiscount(cartitem)}
           </Col>
           <Col className='col-6 text-center'>
             <Row className=' p-2'>

@@ -14,7 +14,6 @@ describe('App rendering specification', () => {
     const component = renderer.create(<Login />)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
-    
   })
   it('render without crashing', () => {
     const div = document.createElement('div')

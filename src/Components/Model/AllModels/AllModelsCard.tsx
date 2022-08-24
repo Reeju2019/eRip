@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 interface IAllModelsCardProps {
   models: {
     id: string
-    model_name: string
+    modelName: string
     image: string
   }
 }
@@ -23,10 +23,10 @@ const AllModelsCard: React.FunctionComponent<IAllModelsCardProps> = ({ models })
     <>
       <div onClick={modelClick} className='modelCard'>
         <div>
-          <img src={models.image} className='modelImg' alt={models.model_name} />
+          <img src={models.image} className='modelImg' alt={models.modelName} />
         </div>
       </div>
-      <p className='modelName'>{models.model_name}</p>
+      <p className='modelName'>{models.modelName}</p>
     </>
   )
 }

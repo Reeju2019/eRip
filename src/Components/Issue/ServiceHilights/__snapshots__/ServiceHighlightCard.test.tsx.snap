@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`service highlight card rendering specification SnapShot testing 1`] = `
+<div
+  className="d-flex flex-row divContainer p-2 my-4"
+>
+  <div>
+    <img
+      alt="itemImg"
+      className="itemImg"
+      src=""
+    />
+  </div>
+  <div
+    className="p-2"
+  >
+    <h6 />
+    <p
+      className="itemPara"
+    />
+  </div>
+</div>
+`;

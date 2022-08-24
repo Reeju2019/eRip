@@ -24,17 +24,17 @@ interface IRepairServiceCardProps {
     warranty: string
     repairType: string
   }
-  cartItem: SingleService[]
-  setCartItem: React.Dispatch<React.SetStateAction<SingleService[]>>
+  cartitem: SingleService[]
+  setcartitem: React.Dispatch<React.SetStateAction<SingleService[]>>
 }
 
 const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (props) => {
-  const { service, cartItem, setCartItem } = props
+  const { service, cartitem, setcartitem } = props
   const [add, setAdd] = React.useState(false)
   const [show, setShow] = React.useState(false)
   const handleClose = () => {
     setShow(false)
-    setCartItem([service])
+    setcartitem([service])
     localStorage.setItem('Cart', JSON.stringify([service]))
   }
   const handleCancel = () => {
@@ -51,60 +51,60 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
     return Math.floor(offer)
   }
   const btnClickAdd = () => {
-    if (cartItem.length > 0 && cartItem[0].model !== service.model) {
+    if (cartitem.length > 0 && cartitem[0].model !== service.model) {
       setShow(true)
     } else {
       setAdd(!add)
-      setCartItem([...cartItem, service])
+      setcartitem([...cartitem, service])
     }
   }
   const btnClickRemove = () => {
     const filterArr = []
-    for (let i = 0; i < cartItem.length; i++) {
+    for (let i = 0; i < cartitem.length; i++) {
       if (
-        cartItem[i].model === service.model &&
-        cartItem[i].serviceName === service.serviceName
+        cartitem[i].model === service.model &&
+        cartitem[i].serviceName === service.serviceName
       ) {
         continue
       }
-      filterArr.push(cartItem[i])
+      filterArr.push(cartitem[i])
     }
-    setCartItem(filterArr)
+    setcartitem(filterArr)
 
     setAdd(!add)
   }
   React.useEffect(() => {
-    cartItem.map((item) => {
+    cartitem.map((item) => {
       if (item.serviceName === service.serviceName && item.model === service.model) {
         setAdd(true)
       }
     })
-  }, [service, cartItem])
+  }, [service, cartitem])
 
   return (
     <>
       <Row className=''>
         <Col className='col-2'>
           <div className=''>
-            <img src={service.serviceImage} alt={service.serviceName} className='servicesImg' />
+            <img src={service?.serviceImage} alt={service?.serviceName} className='servicesImg' />
           </div>
         </Col>
         <Col className='col-7'>
-          <h6 className=''>{service.serviceName}</h6>
+          <h6 className=''>{service?.serviceName}</h6>
           <div className='m-0 lineHeight colorGreen'>
-            <span className='sticThrough'>₹ {service.price}</span>
-            <span className='m-0 '> {service.off}</span>% off
+            <span className='sticThrough'>₹ {service?.price}</span>
+            <span className='m-0 '> {service?.off}</span>% off
           </div>
-          <p className='m-0'>₹ {offPrice(service.price, service.off)}</p>
+          <p className='m-0'>₹ {offPrice(service?.price, service?.off)}</p>
           <div className='serviceParagraph lineHeight'>
             <p className='m-0'>
-              {IssueData.constData.rapairServiceCard.repairTime} {service.repairTime}
+              {IssueData?.constData?.rapairServiceCard?.repairTime} {service?.repairTime}
             </p>
             <p className='m-0'>
-              {IssueData.constData.rapairServiceCard.warrenty} {service.warranty}
+              {IssueData?.constData?.rapairServiceCard?.warrenty} {service?.warranty}
             </p>
             <p className='m-0'>
-              {IssueData.constData.rapairServiceCard.reapairType} {service.repairType}
+              {IssueData?.constData?.rapairServiceCard?.reapairType} {service?.repairType}
             </p>
           </div>
         </Col>

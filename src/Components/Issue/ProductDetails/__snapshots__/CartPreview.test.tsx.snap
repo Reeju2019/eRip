@@ -14,7 +14,30 @@ exports[`App rendering specification SnapShot testing 1`] = `
         Cart Preview
       </h5>
       <hr />
-      <div />
+      <div>
+        <div>
+          <div
+            className="my-3 d-flex flex-row justify-content-between text-muted lh-1"
+          >
+            <p
+              className="m-0"
+            >
+              string
+               - 
+              string
+            </p>
+            <p
+              className="m-0 text-primary"
+            >
+              ₹ 
+              2
+            </p>
+          </div>
+          <hr
+            className="m-0"
+          />
+        </div>
+      </div>
       <div>
         <div
           className="my-3 d-flex flex-row justify-content-between lh-1"
@@ -28,7 +51,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             >
                
               (
-              0
+              50
             </span>
             <span
               className="text-success"
@@ -40,7 +63,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             className="m-0 text-primary"
           >
             ₹ 
-            0
+            1
           </p>
         </div>
         <hr
@@ -60,7 +83,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             className="m-0 text-primary"
           >
             ₹ 
-            0
+            1
           </p>
         </div>
         <hr
@@ -95,7 +118,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
       className="col-5 text-center text-muted align-self-center d-flex justify-content-center col"
     >
       Total: ₹ 
-      0
+      1
     </div>
     <div
       className="col-6 text-center col"
