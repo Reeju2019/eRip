@@ -11,15 +11,12 @@ interface IBrandCard {
 const BrandCard: React.FunctionComponent<IBrandCard> = (brand) => {
   const nevigate = useNavigate()
   let otherCheck = false
-  if (brand?.brand?.brandName === 'others') {
-    otherCheck = true
-  }
+  brand?.brand?.brandName === 'others' ? (otherCheck = true) : (otherCheck = false)
+
   const device: string = localStorage.getItem('deviceId') as string
   const brandClick = () => {
     localStorage.setItem('brandId', JSON.stringify(brand?.brand?.brandName))
-
     const deviceId = JSON.parse(device)
-
     nevigate(`/${deviceId}/${brand?.brand?.brandName}`)
   }
 

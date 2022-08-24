@@ -3,7 +3,9 @@
 exports[`pnf rendering specification SnapShot testing 1`] = `
 <div>
   <img
+    alt="cdf/ded/new"
     className="d-block h-100 w-auto"
+    src="cdf/ded/new"
   />
 </div>
 `;
