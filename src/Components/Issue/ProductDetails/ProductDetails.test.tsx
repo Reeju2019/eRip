@@ -3,7 +3,6 @@ import renderer from 'react-test-renderer'
 import ReactDOM from 'react-dom'
 import ProductDetails from './ProductDetails'
 
-
 test('product details', () => {
   render(<ProductDetails />)
 })

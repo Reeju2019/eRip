@@ -51,7 +51,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             >
                
               (
-              50
+              0
             </span>
             <span
               className="text-success"
@@ -63,7 +63,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             className="m-0 text-primary"
           >
             ₹ 
-            1
+            0
           </p>
         </div>
         <hr
@@ -83,7 +83,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
             className="m-0 text-primary"
           >
             ₹ 
-            1
+            0
           </p>
         </div>
         <hr
@@ -118,7 +118,7 @@ exports[`App rendering specification SnapShot testing 1`] = `
       className="col-5 text-center text-muted align-self-center d-flex justify-content-center col"
     >
       Total: ₹ 
-      1
+      0
     </div>
     <div
       className="col-6 text-center col"

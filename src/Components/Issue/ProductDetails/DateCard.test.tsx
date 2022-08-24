@@ -2,7 +2,6 @@ import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 import ReactDOM from 'react-dom'
 import DateCard from './DateCart'
-// import jest from "jest"
 
 
 const setActiveDate= jest.fn()

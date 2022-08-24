@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom'
 import CartPreview from './CartPreview'
 interface ICartPreview {
   cartitem:
+
     | {
         model?: string
         serviceImage: string
@@ -18,6 +19,7 @@ interface ICartPreview {
 }
 
 const data : ICartPreview["cartitem"] = [{
+
         model: "string",
         serviceImage: "string",
         serviceName: "string",
@@ -34,6 +36,7 @@ test('cart preview', () => {
 describe('App rendering specification', () => {
   it('SnapShot testing', () => {
     const component = renderer.create(<CartPreview cartitem={data}/>)
+
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
