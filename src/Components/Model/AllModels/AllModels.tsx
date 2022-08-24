@@ -7,7 +7,7 @@ import { useParams } from 'react-router-dom'
 
 interface Service {
   serviceImage: string
-  service_name: string
+  serviceName: string
   price: number
   off: number
   repairTime: string

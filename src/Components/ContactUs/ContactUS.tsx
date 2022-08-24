@@ -3,8 +3,10 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import './Contact.css'
 import ContactPageData from '../../Data/ContactPageData.mock.json'
 import Header from '../Home/Header/Header'
+import tabTitle from '../../tabTitle'
 
 const ContactUs: React.FunctionComponent = () => {
+  tabTitle('eRip: Contact us')
   return (
     <>
       <Header />

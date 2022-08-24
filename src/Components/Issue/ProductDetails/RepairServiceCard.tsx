@@ -5,7 +5,7 @@ import IssueData from '../../../Data/IssuePage.mock.json'
 interface SingleService {
   model?: string
   serviceImage: string
-  service_name: string
+  serviceName: string
   price: number
   off: number
   repairTime: string
@@ -17,7 +17,7 @@ interface IRepairServiceCardProps {
   service: {
     model?: string
     serviceImage: string
-    service_name: string
+    serviceName: string
     price: number
     off: number
     repairTime: string
@@ -63,7 +63,7 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
     for (let i = 0; i < cartItem.length; i++) {
       if (
         cartItem[i].model === service.model &&
-        cartItem[i].service_name === service.service_name
+        cartItem[i].serviceName === service.serviceName
       ) {
         continue
       }
@@ -75,7 +75,7 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
   }
   React.useEffect(() => {
     cartItem.map((item) => {
-      if (item.service_name === service.service_name && item.model === service.model) {
+      if (item.serviceName === service.serviceName && item.model === service.model) {
         setAdd(true)
       }
     })
@@ -86,11 +86,11 @@ const RepairServiceCard: React.FunctionComponent<IRepairServiceCardProps> = (pro
       <Row className=''>
         <Col className='col-2'>
           <div className=''>
-            <img src={service.serviceImage} alt={service.service_name} className='servicesImg' />
+            <img src={service.serviceImage} alt={service.serviceName} className='servicesImg' />
           </div>
         </Col>
         <Col className='col-7'>
-          <h6 className=''>{service.service_name}</h6>
+          <h6 className=''>{service.serviceName}</h6>
           <div className='m-0 lineHeight colorGreen'>
             <span className='sticThrough'>₹ {service.price}</span>
             <span className='m-0 '> {service.off}</span>% off

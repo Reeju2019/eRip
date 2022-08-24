@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<section
+  className="bg-grey py-5"
+>
+  <div
+    className="container"
+  >
+    <h3>
+      Device Repair Details
+    </h3>
+    <div>
+      <a
+        className="link-btn"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+        <i
+          className="fa-solid fa-angle-right m-0"
+        />
+      </a>
+      <a
+        className="link-btn text-capitalize"
+        href="/null"
+        onClick={[Function]}
+      >
+         
+        <i
+          className="fa-solid fa-angle-right m-0"
+        />
+      </a>
+      <a
+        className="link-btn text-capitalize"
+        href="/null/null"
+        onClick={[Function]}
+      >
+         
+        <i
+          className="fa-solid fa-angle-right m-0"
+        />
+      </a>
+      <a
+        className="link-btn active-link"
+        href="/"
+        onClick={[Function]}
+      />
+    </div>
+  </div>
+</section>
+`;

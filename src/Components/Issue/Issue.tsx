@@ -12,8 +12,10 @@ import CompleateAcCarousel from './CompleateAcCarousel/CompleateAcCarousel'
 import UserSay from '../Home/userSay/User'
 import IssueFAQ from './FAQ/IssueFAQ'
 import Footer from '../footer/Footer'
+import tabTitle from '../../tabTitle'
 
 const Issue: React.FunctionComponent = () => {
+  tabTitle('eRip: Issue')
   const { deviceId, brandId, modelId } = useParams()
   const [found, setFound] = useState(false)
   const [loading, setLoading] = useState(true)

@@ -1,45 +1,27 @@
 import React from 'react'
-import Slider from 'react-slick'
-import 'slick-carousel/slick/slick.css'
-import 'slick-carousel/slick/slick-theme.css'
 import BrandPageData from '../../../Data/BrandPage.mock.json'
 import BrandServiceIssueCard from './BrandServiceIssueCard'
 import './ServiceIssue.css'
+import Carousel from 'react-multi-carousel'
+import 'react-multi-carousel/lib/styles.css'
 
 const ServiceIssue: React.FunctionComponent = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 6,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 6,
-          slidesToScroll: 1,
-          infinite: true,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 6,
-          slidesToScroll: 1,
-          initialSlide: 1,
-        },
-      },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 5,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+  const responsive = {
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 4,
+      slidesToSlide: 1,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+      slidesToSlide: 1,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 2,
+      slidesToSlide: 1,
+    },
   }
   return (
     <>
@@ -57,7 +39,26 @@ const ServiceIssue: React.FunctionComponent = () => {
 
           <div className='row d-flex justify-content-center pb-4'>
             <div className='col-8 service-content'>
-              <Slider {...settings}>
+              <Carousel
+                swipeable={true}
+                draggable={true}
+                showDots={true}
+                responsive={responsive}
+                ssr={true}
+                infinite={true}
+                autoPlay={false}
+                autoPlaySpeed={1000}
+                keyBoardControl={true}
+                customTransition='all .5'
+                transitionDuration={500}
+                containerClass='carousel-container'
+                removeArrowOnDeviceType={['tablet', 'mobile']}
+                dotListClass='custom-dot-list-style'
+                itemClass='carousel-item-padding-40-px'
+                partialVisible={true}
+                rewindWithAnimation={true}
+                sliderClass='react-multi-carousel-track'
+              >
                 {BrandPageData.brandServiceIssue.map((item, index) => {
                   return (
                     <div key={index} className='carousel-item'>
@@ -65,7 +66,7 @@ const ServiceIssue: React.FunctionComponent = () => {
                     </div>
                   )
                 })}
-              </Slider>
+              </Carousel>
             </div>
           </div>
         </div>

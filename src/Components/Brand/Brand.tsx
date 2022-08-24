@@ -16,8 +16,11 @@ import React, { useEffect, useState } from 'react'
 import AllProductData from '../../Data/Product.mock.json'
 import PageNotFound from '../Error/PageNotFound'
 import Loader from '../Error/Loader'
+import tabTitle from '../../tabTitle'
 
 const Brand: React.FunctionComponent = () => {
+tabTitle('eRip: Brand')
+
   const [found, setFound] = useState(false)
   const [loading, setLoading] = useState(true)
   const paramData = useParams()

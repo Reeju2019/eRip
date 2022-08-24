@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App rendering specification SnapShot testing 1`] = `
+<section
+  className="bg-grey pb-5"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="d-flex justify-content-between row"
+    >
+      <div
+        className="w-100 bg-white m-1 col"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="d-flex flex-row"
+          >
+            <div>
+              <img
+                alt=""
+                className="prodImg"
+              />
+            </div>
+            <h4
+              className="align-self-center fs-5"
+            />
+          </div>
+        </div>
+        <div
+          className="row"
+        >
+          <p
+            className="m-0 mx-2 fs-5"
+          >
+            <b>
+              Select your Repair Services
+            </b>
+          </p>
+        </div>
+        <hr />
+        <div
+          className="row"
+        >
+          <div
+            className="d-flex flex-wrap"
+          />
+        </div>
+      </div>
+      <div
+        className="col-5 m-1 col"
+      >
+        <div
+          className="w-100 mx-1 container-fluid"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="bg-white mt-0 p-5 col"
+            >
+              <h5>
+                Cart Preview
+              </h5>
+              <hr />
+              <div />
+              <div>
+                <div
+                  className="my-3 d-flex flex-row justify-content-between lh-1"
+                >
+                  <p
+                    className="m-0"
+                  >
+                    You Saved
+                    <span
+                      className="text-success"
+                    >
+                       
+                      (
+                      0
+                    </span>
+                    <span
+                      className="text-success"
+                    >
+                      %)
+                    </span>
+                  </p>
+                  <p
+                    className="m-0 text-primary"
+                  >
+                    ₹ 
+                    0
+                  </p>
+                </div>
+                <hr
+                  className="m-0"
+                />
+              </div>
+              <div>
+                <div
+                  className="my-3 d-flex flex-row justify-content-between lh-1"
+                >
+                  <p
+                    className="m-0"
+                  >
+                    Total Amount
+                  </p>
+                  <p
+                    className="m-0 text-primary"
+                  >
+                    ₹ 
+                    0
+                  </p>
+                </div>
+                <hr
+                  className="m-0"
+                />
+              </div>
+              <div
+                className="px-2 mt-5 row"
+              >
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            className="cartFooter row"
+          >
+            <div
+              className="col-1 text-muted m-auto d-flex justify-content-center fs-5 cartFontawesome col"
+            >
+              <i
+                className="fa-solid fa-cart-arrow-down"
+              />
+            </div>
+            <div
+              className="col-5 text-center text-muted align-self-center d-flex justify-content-center col"
+            >
+              Total: ₹ 
+              0
+            </div>
+            <div
+              className="col-6 text-center col"
+            >
+              <div
+                className=" p-2 row"
+              >
+                <button
+                  className="btn btn-primary"
+                  disabled={false}
+                  onClick={[Function]}
+                  type="button"
+                >
+                  Book Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          className="prodRow row"
+        >
+          <div
+            className="bg-white mx-3 mt-4 p-5"
+          >
+            <h5>
+              Check Available Offers
+            </h5>
+            <hr />
+            <div
+              className="offerBorder my-3"
+              onClick={[Function]}
+            >
+              <div
+                className="d-flex flex-row m-2 w-100"
+              >
+                <img
+                  alt="coupon"
+                  src="/static/singleModel/coupon.png"
+                />
+                <h6
+                  className="couponText"
+                >
+                  Book now. Pay after service
+                </h6>
+              </div>
+              <i
+                className="fa-solid fa-angle-right fontAwesome"
+              />
+            </div>
+            <div
+              className="offerBorder my-3"
+              onClick={[Function]}
+            >
+              <div
+                className="d-flex flex-row m-2 w-100"
+              >
+                <img
+                  alt="coupon"
+                  src="/static/singleModel/coupon.png"
+                />
+                <h6
+                  className="couponText"
+                >
+                  Get upto 35% off on your first service
+                </h6>
+              </div>
+              <i
+                className="fa-solid fa-angle-right fontAwesome"
+              />
+            </div>
+            <div
+              className="d-flex flex-row justify-content-between"
+            >
+              <div>
+                <input
+                  className="p-1"
+                  placeholder="Enter Coupon code"
+                  type="text"
+                />
+              </div>
+              <div>
+                <button
+                  className="applyBtn btn btn-primary"
+                  disabled={false}
+                  type="button"
+                >
+                  Apply
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

@@ -3,49 +3,49 @@
   "image": "assets/device/Mobile.png",
   "services": [
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "id": 1,
       "charge": 1300,
       "off": 33,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "id": 2,
       "charge": 3100,
       "off": 33,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "charge": 2500,
       "id": 3,
       "off": 33,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "id": 4,
       "charge": 999,
       "off": 65,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "charge": 299,
       "id": 5,
       "off": 33,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "id": 6,
       "charge": 1099,
       "off": 33,
       "des": "Repair Time: 6 to 24 hrs  Warranty: 6 Months Repair type : Pick & Drop "
     },
     {
-      "service_name": "Touch & Glass",
+      "serviceName": "Touch & Glass",
       "id": 7,
       "charge": 1499,
       "off": 33,
