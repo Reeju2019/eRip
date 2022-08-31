@@ -28,7 +28,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
   const [show3, setShow3] = useState(false)
   const handleClose3 = () => setShow3(false)
   const handleShow3 = () => setShow3(true)
-  const [slot, setSlot] = useState<string[][]>([])
+  const [slot, setSlot] = useState<any[][]>([])
   const [slotTime, setSlotTime] = useState<string[]>([])
   const [activeTime, setActiveTime] = useState('')
   const [activeDate, setActiveDate] = useState<string[]>([])
@@ -50,15 +50,15 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     })
     return total
   }
-  const currentDateString = (i: number, currentDate: number) => {
-    if (currentDate + i === 1 || (i + currentDate > 20 && (i + currentDate) % 10 === 1)) {
-      return String(currentDate + i) + 'st'
-    } else if (currentDate + i === 2 || (i + currentDate > 20 && (i + currentDate) % 10 === 2)) {
-      return String(currentDate + i) + 'nd'
-    } else if (currentDate + i === 3 || (i + currentDate > 20 && (i + currentDate) % 10 === 3)) {
-      return String(currentDate + i) + 'rd'
+  const currentDateString = (currentDate: number) => {
+    if (currentDate === 1 || (currentDate > 20 && currentDate % 10 === 1)) {
+      return String(currentDate) + 'st'
+    } else if (currentDate === 2 || (currentDate > 20 && currentDate % 10 === 2)) {
+      return String(currentDate) + 'nd'
+    } else if (currentDate === 3 || (currentDate > 20 && currentDate % 10 === 3)) {
+      return String(currentDate) + 'rd'
     } else {
-      return String(currentDate + i) + 'th'
+      return String(currentDate) + 'th'
     }
   }
 
@@ -79,15 +79,23 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
         'November',
         'December',
       ]
+      function addDays(theDate: any, day: any) {
+        return new Date(theDate.getTime() + day * 24 * 60 * 60 * 1000)
+      }
       const currentTimestamp = new Date()
       const AvailableSlotList = []
-      for (let i = 0; i < 8; i++) {
-        const currentDay = currentTimestamp.getDay()
-        const currentMonth = currentTimestamp.getMonth()
-        const currentDate = currentTimestamp.getDate()
+      for (let i = 0; i < 15; i++) {
+        // const currentDay = days[currentTimestamp.getDay()]
+        // const currentMonth = currentTimestamp.getMonth()
+        // const currentDate = currentTimestamp.getDate()
+        const currentDate = addDays(currentTimestamp, i).getDate()
+        const currentDay = days[addDays(currentTimestamp, i).getDay()]
+        const currentMonth = addDays(currentTimestamp, i).getMonth()
         AvailableSlotList.push([
-          currentDay + i > 6 ? days[currentDay + i - 7] : days[currentDay + i],
-          currentDateString(i, currentDate),
+          // currentDay + i > 13 ? days[currentDay + i - 14] : days[currentDay + i],
+          currentDay,
+          currentDateString(currentDate),
+          // addDays(new Date(), i).getDate(),
           i > 1 ? months[currentMonth] : i === 0 ? 'Today' : 'Tomorrow',
         ])
       }
@@ -125,6 +133,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
     setSlot(Slot())
     setSlotTime(time())
   }, [activeDate])
+  console.log(slot, 'slot')
 
   const responsive = {
     desktop: {
@@ -217,7 +226,7 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                       <Carousel
                         swipeable={true}
                         draggable={true}
-                        showDots={true}
+                        showDots={false}
                         responsive={responsive}
                         ssr={true}
                         infinite={true}
@@ -251,23 +260,30 @@ const CartPreview: React.FunctionComponent<ICartPreview> = (props) => {
                     </div>
                   </Container>
                 </Modal.Body>
-                <Modal.Footer>
+                <Modal.Footer className='justify-content-center d-block'>
                   <div>
-                    <p className='align-text-center m-0'>Select Time</p>
-                    <Row className='d-flex justify-content-center'>
-                      {slotTime.map((item, index) => {
-                        return (
-                          <Col
-                            key={index}
-                            className={
-                              'col-3 p-2 m-3 fw-bold ' + (activeTime === item ? 'active' : 'times')
-                            }
-                          >
-                            <TimeCard time={item} setActiveTime={setActiveTime} />
-                          </Col>
-                        )
-                      })}
-                    </Row>
+                    {activeDate.length > 0 ? (
+                      <div className='timeCard'>
+                        <p className='align-text-center m-0'>Select Time</p>
+                        <Row className='d-flex justify-content-center'>
+                          {slotTime.map((item, index) => {
+                            return (
+                              <Col
+                                key={index}
+                                className={
+                                  'col-3 p-2 m-3 fw-bold ' +
+                                  (activeTime === item ? 'active' : 'times')
+                                }
+                              >
+                                <TimeCard time={item} setActiveTime={setActiveTime} />
+                              </Col>
+                            )
+                          })}
+                        </Row>
+                      </div>
+                    ) : (
+                      <div></div>
+                    )}
                   </div>
                 </Modal.Footer>
               </Modal>

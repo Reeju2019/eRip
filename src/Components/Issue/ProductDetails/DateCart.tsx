@@ -1,8 +1,8 @@
 import * as React from 'react'
 
 interface IDateCardProps {
-  date: string[]
-  setActiveDate: React.Dispatch<React.SetStateAction<string[]>>
+  date: any[]
+  setActiveDate: React.Dispatch<React.SetStateAction<any[]>>
 }
 
 const DateCard: React.FunctionComponent<IDateCardProps> = ({ date, setActiveDate }) => {
