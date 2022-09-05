@@ -1,21 +1,23 @@
 import { render } from '@testing-library/react'
 import renderer from 'react-test-renderer'
 import ReactDOM from 'react-dom'
-import User from './User'
+import OfferCarouselCard from './OfferCarouselCard'
 
-test('user say', () => {
-  render(<User />)
+const data ="a"
+
+test('offer carousel', () => {
+  render(<OfferCarouselCard data={data}/>)
 })
 
 describe('pnf rendering specification', () => {
   it('SnapShot testing', () => {
-    const component = renderer.create(<User />)
+    const component = renderer.create(<OfferCarouselCard data={data}/>)
     const tree = component.toJSON()
     expect(tree).toMatchSnapshot()
   })
   it('render without crashing', () => {
     const div = document.createElement('div')
-    render(<User />)
+    render(<OfferCarouselCard data={data}/>)
     ReactDOM.unmountComponentAtNode(div)
   })
 })

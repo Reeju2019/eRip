@@ -17,7 +17,7 @@ interface Service {
 
 interface Model {
   id: string
-  model_name: string
+  modelName: string
   image: string
   service: Service[]
 }

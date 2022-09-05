@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model carousel rendering specification SnapShot testing 1`] = `
+<section
+  className="caro"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h4
+        className="d-flex justify-content-center mt-5"
+      >
+        Top Required Models
+      </h4>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="col-12 service-content mb-5"
+      >
+        <div
+          className="react-multi-carousel-list carousel-container "
+          dir="ltr"
+        >
+          <ul
+            className="react-multi-carousel-track react-multi-carousel-track"
+            onMouseDown={[Function]}
+            onMouseEnter={[Function]}
+            onMouseLeave={[Function]}
+            onMouseMove={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            style={
+              Object {
+                "overflow": "unset",
+                "transform": "translate3d(0px,0,0)",
+                "transition": "none",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

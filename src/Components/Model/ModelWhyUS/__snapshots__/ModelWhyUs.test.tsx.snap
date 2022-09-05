@@ -1,0 +1,177 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`model why us rendering specification SnapShot testing 1`] = `
+<div>
+  <div
+    className="container"
+  >
+    <section
+      className="why-us"
+    >
+      <div
+        className="container-fluid"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-12"
+          >
+            <div
+              className="center-title"
+            >
+              <h4>
+                <strong>
+                  Why Us
+                </strong>
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          className="row side-gap-1 why-us-row"
+        >
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/whyus/row1.png"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                A Line-Up of Models to Choose From
+              </h4>
+              <p
+                className="work-para"
+              >
+                Sit back at home and easily request for a repair. Our solutions are inclusive of almost all models of a brand so you don’t have to scout other websites.
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/user/repair-man.svg"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Trusted Professionals
+              </h4>
+              <p
+                className="work-para"
+              >
+                Our verified technicians, trained in handling all high to low-end models will fix and troubleshoot your device in no time ensuring you get back your phone just as new.
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/user/repair-man.svg"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                On-Demand Doorstep Repair Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                Get your mobile fixed on time, any time. We stick to our promise to provide mobile repair services right at your doorstep.
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/user/repair-man.svg"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Favourable and Free Pick Up and Delivery Services
+              </h4>
+              <p
+                className="work-para"
+              >
+                If your mobile faces complex hardware or software issues, this might take longer to fix. Don’t worry! All we do is pick up your mobile from your doorstep, repair it, and deliver it back to your doorstep within our promised time.
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/user/repair-man.svg"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                Top-Drawer Spare Part Quality
+              </h4>
+              <p
+                className="work-para"
+              >
+                Compromising on spare parts is not in our dictionary. We use industry-grade quality spare parts to fix your mobile damages that come with a further warranty period.
+              </p>
+            </div>
+          </div>
+          <div
+            className="whyus-work d-flex col-6 col-sm-6 g-0"
+          >
+            <img
+              alt=""
+              className="row-1-img"
+              src="/assets/user/repair-man.svg"
+            />
+            <div
+              className="why-text"
+            >
+              <h4
+                className="work-heading"
+              >
+                ERIP-certified spare parts
+              </h4>
+              <p
+                className="work-para"
+              >
+                When it comes to maintaining the health of your product, there can never be a substitute for genuine parts. ERIP-certified spare parts meet the criteria of the latest quality standards and maintain the stability of your products for the long run.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</div>
+`;

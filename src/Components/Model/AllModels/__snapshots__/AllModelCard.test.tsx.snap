@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`all model rendering specification SnapShot testing 1`] = `
+Array [
+  <div
+    className="modelCard"
+    onClick={[Function]}
+  >
+    <div>
+      <img
+        alt=""
+        className="modelImg"
+        src=""
+      />
+    </div>
+  </div>,
+  <p
+    className="modelName"
+  />,
+]
+`;

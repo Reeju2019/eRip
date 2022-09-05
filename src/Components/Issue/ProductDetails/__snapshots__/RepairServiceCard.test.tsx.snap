@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`repair service card rendering specification SnapShot testing 1`] = `
+Array [
+  <div
+    className="row"
+  >
+    <div
+      className="col-2 col"
+    >
+      <div
+        className=""
+      >
+        <img
+          alt=""
+          className="servicesImg"
+          src=""
+        />
+      </div>
+    </div>
+    <div
+      className="col-7 col"
+    >
+      <h6
+        className=""
+      />
+      <div
+        className="m-0 lineHeight colorGreen"
+      >
+        <span
+          className="sticThrough"
+        >
+          ₹ 
+          0
+        </span>
+        <span
+          className="m-0 "
+        >
+           
+          0
+        </span>
+        % off
+      </div>
+      <p
+        className="m-0"
+      >
+        ₹ 
+        0
+      </p>
+      <div
+        className="serviceParagraph lineHeight"
+      >
+        <p
+          className="m-0"
+        >
+          Repair Time: 
+           
+        </p>
+        <p
+          className="m-0"
+        >
+          Warranty: 
+           
+        </p>
+        <p
+          className="m-0"
+        >
+          Repair Type: 
+           
+        </p>
+      </div>
+    </div>
+    <div
+      className="col-2  col"
+    >
+      <div
+        className="btnbtn"
+      >
+        <button
+          className="serviceBtn"
+          onClick={[Function]}
+        >
+          Add+
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="knowMore"
+  >
+    <p
+      className="m-0 knowMorePara"
+    >
+      Know More
+    </p>
+  </div>,
+]
+`;

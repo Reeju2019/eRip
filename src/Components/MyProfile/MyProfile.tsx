@@ -24,6 +24,7 @@ const MyProfile: React.FunctionComponent = () => {
                 disabled={show}
                 className={'leftButton ' + (show ? 'active' : '')}
                 onClick={showClicked}
+                aria-pressed="true"
               >
                 {MyProfileData.constData.ongoing}
               </button>

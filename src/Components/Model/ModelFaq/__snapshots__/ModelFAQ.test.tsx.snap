@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Model FAQ rendering specification SnapShot testing 1`] = `
+<div
+  className="bg-grey pb-5 container-fluid"
+>
+  <div
+    className="row"
+  >
+    <h3
+      className="d-flex justify-content-center p-5 text-muted"
+    >
+      F.A.Qs
+    </h3>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-10 m-auto bg-white p-4 col"
+    >
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What are the mobile issues that can be covered by your services in under 30 minuites?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Our doorstep 30 minutes services include issues with screen, battery, mic/speaker charging, camera, network, and the like.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              How does the pickup and delivery service work?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            For more complex issues demanding through diagnosis and repair like glass replacement, damage due to water or software issues, we offer free pickup and delivery of the device at your doorstep.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              Will my issue be resolved positively?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            Our industry-grade technicians work around the clock with great specialization on your mobile issues, so you won’t have to go to a second place for repair service. We not only ensure positive resolution, but also timely delivery.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              What is the mode of payment used on this platform?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            We accept payments via card, cash, or UPI transfers.
+          </div>
+          <div
+            className="col-12"
+          >
+            <hr
+              className="mt-10"
+            />
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          className="d-flex flex-column m-1"
+        >
+          <div
+            className="d-flex flex-row justify-content-between"
+          >
+            <h3
+              className="fs-6"
+            >
+              Is there a warrenty that compliments your services?
+            </h3>
+            <button
+              aria-controls="example-collapse-text"
+              aria-expanded={false}
+              className="bg-transparent border-0"
+              onClick={[Function]}
+            >
+              <i
+                className="fa-solid fa-angle-up"
+              />
+            </button>
+          </div>
+          <div
+            aria-expanded={null}
+            className="paragraph collapse"
+            id="example-collapse-text"
+          >
+            We offer up to 18 months warranty on mobile phone services post-reparation on all the models. The warranty period varies from the nature of damage to the phone model. You need not worry since you’ll be well-informed about such details prior to the service being undertaken.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

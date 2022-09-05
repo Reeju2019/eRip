@@ -17,6 +17,4 @@ describe('App rendering specification', () => {
     render(<ProductDetails />)
     ReactDOM.unmountComponentAtNode(div)
   })
-
-
 })

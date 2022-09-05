@@ -19,7 +19,7 @@ interface SingleService {
 
 interface Service {
   id: string
-  model_name: string
+  modelName: string
   image: string
   service: {
     model?: string
@@ -38,7 +38,7 @@ const ProductDetails: React.FunctionComponent = () => {
   // console.log(deviceId, brandId, modelId)
 
   const [modelData, setModelData] = useState<Service>()
-  const [cartItem, setCartItem] = useState<SingleService[]>([])
+  const [cartitem, setcartitem] = useState<SingleService[]>([])
   const [show1, setShow1] = useState(false)
   const handleClose1 = () => setShow1(false)
   const handleShow1 = () => setShow1(true)
@@ -57,7 +57,7 @@ const ProductDetails: React.FunctionComponent = () => {
             brandItem.model.map((modelItem) => {
               if (modelItem.id === modelId) {
                 setModelData(modelItem)
-                localStorage.setItem('Model', JSON.stringify(modelItem.model_name))
+                localStorage.setItem('Model', JSON.stringify(modelItem.modelName))
               }
             })
           }
@@ -66,15 +66,15 @@ const ProductDetails: React.FunctionComponent = () => {
     })
     const cart = JSON.parse(localStorage.getItem('Cart') as string)
 
-    setCartItem(cart)
+    setcartitem(cart)
   }, [])
 
   useEffect(() => {
-    localStorage.setItem('Cart', JSON.stringify(cartItem))
-  }, [cartItem.length])
+    localStorage.setItem('Cart', JSON.stringify(cartitem))
+  }, [cartitem])
   return (
     <>
-      <section className='bg-grey pb-5'>
+      <section className='bg-grey pb-5' data-testid="custom-element">
         <Container>
           <Row className='d-flex justify-content-between'>
             <Col className='w-100 bg-white m-1'>
@@ -83,7 +83,7 @@ const ProductDetails: React.FunctionComponent = () => {
                   <div>
                     <img src={modelData?.image} className='prodImg' alt='' />
                   </div>
-                  <h4 className='align-self-center fs-5'>{modelData?.model_name}</h4>
+                  <h4 className='align-self-center fs-5'>{modelData?.modelName}</h4>
                 </div>
               </Row>
               <Row>
@@ -100,8 +100,8 @@ const ProductDetails: React.FunctionComponent = () => {
                         {/* <hr /> */}
                         <RepairServiceCard
                           service={item}
-                          cartItem={cartItem}
-                          setCartItem={setCartItem}
+                          cartitem={cartitem}
+                          setcartitem={setcartitem}
                         />
                       </div>
                     )
@@ -111,7 +111,7 @@ const ProductDetails: React.FunctionComponent = () => {
             </Col>
 
             <Col className='col-5 m-1'>
-              <CartPreview cartItem={cartItem} />
+              <CartPreview cartitem={cartitem} />
               <Row className='prodRow'>
                 <div className='bg-white mx-3 mt-4 p-5'>
                   <h5>Check Available Offers</h5>

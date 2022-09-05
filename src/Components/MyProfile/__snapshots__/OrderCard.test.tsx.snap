@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`order card rendering specification SnapShot testing 1`] = `
+<section
+  className="bg-white p-3 orderCard"
+>
+  <div
+    className="d-flex justify-content-between mt-3"
+  >
+    <div
+      className="orderId"
+    >
+      Order ID: #
+      <span />
+    </div>
+    <button
+      className="cancelOrder text-danger"
+    >
+      Cancel Order
+    </button>
+  </div>
+  <div
+    className="d-flex justify-content-between m-3"
+  >
+    <div
+      className="col-4"
+    >
+      <img
+        alt=""
+        className="orderImage"
+        src=""
+      />
+    </div>
+    <div
+      className="col-8"
+    >
+      <div
+        className="d-flex flex-row"
+      >
+        <i
+          className="fa-solid fa-clock align-self-center mx-2"
+        />
+        <span
+          className="fs-5"
+        />
+      </div>
+      <div>
+        <i
+          className="fa-solid fa-laptop-code align-self-center mx-2"
+        />
+        <span
+          className="fs-5"
+        />
+      </div>
+      <div>
+        <i
+          className="fa-solid fa-gears align-self-center mx-2"
+        />
+        <span
+          className="fs-5"
+        />
+      </div>
+    </div>
+  </div>
+  <p />
+  <div
+    className="d-flex flex-row justify-content-between"
+  >
+    <button
+      className="callSupport"
+    >
+      Call Support
+    </button>
+    <button
+      className="viewDetails"
+    >
+      View Details
+    </button>
+  </div>
+</section>
+`;

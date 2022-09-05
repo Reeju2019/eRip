@@ -1,0 +1,179 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`service highlights rendering specification SnapShot testing 1`] = `
+<section
+  className="p-5"
+>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <h4
+        className="d-flex justify-content-center mt-3"
+      >
+        Service Highlights
+      </h4>
+    </div>
+    <div
+      className="row"
+    >
+      <div
+        className="d-flex  flex-wrap justify-content-center"
+      >
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row1.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                Relentless Support
+              </h6>
+              <p
+                className="itemPara"
+              >
+                Our professional service providers work round-the-clock to offer you unmatched repair services.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row2.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                Post-Service Payment
+              </h6>
+              <p
+                className="itemPara"
+              >
+                We allow zero deceptions. Pay for the service after you have received it.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row1.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                Data Privacy
+              </h6>
+              <p
+                className="itemPara"
+              >
+                We offer a seamless repair service with 100% privacy maintenance.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row2.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                Uncompromised Quality
+              </h6>
+              <p
+                className="itemPara"
+              >
+                Experience speedy service with uncompromised quality on repair and spare parts.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row1.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                Single Day Service
+              </h6>
+              <p
+                className="itemPara"
+              >
+                Book a service appointment and receive delivery on the same day.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div
+            className="d-flex flex-row divContainer p-2 my-4"
+          >
+            <div>
+              <img
+                alt="itemImg"
+                className="itemImg"
+                src="/assets/whyus/row2.png"
+              />
+            </div>
+            <div
+              className="p-2"
+            >
+              <h6>
+                ERIP-certified spare parts
+              </h6>
+              <p
+                className="itemPara"
+              >
+                When it comes to maintaining the health of your product, there can never be a substitute for genuine parts. ERIP-certified spare parts meet the criteria of the latest quality standards and maintain the stability of your products for the long run.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+`;

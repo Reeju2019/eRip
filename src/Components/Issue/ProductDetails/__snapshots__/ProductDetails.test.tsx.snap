@@ -3,6 +3,7 @@
 exports[`App rendering specification SnapShot testing 1`] = `
 <section
   className="bg-grey pb-5"
+  data-testid="custom-element"
 >
   <div
     className="container"
